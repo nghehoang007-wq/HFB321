@@ -1,0 +1,51 @@
+,
+        {
+          "id": "nguonphat?",
+          "name": "Tên trận đấu",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "🔥 Hot",
+              "color": "#ff6600",
+              "text_color": "#ffffff"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Tên BLV",
+              "color": "#007bff",
+              "text_color": "#ffffff"
+            }
+          ],
+          "image": {
+            "url": "http://hfb123.netlify.app/thump/nguonphat?.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "nguonphat?_source",
+              "name": "Khán Đài A",
+              "contents": [
+                {
+                  "id": "nguonphat?_content",
+                  "name": "Tên trận đấu",
+                  "streams": [
+                    {
+                      "id": "nguonphat?_stream",
+                      "name": "Tên BLV",
+                      "remote_data": {
+                        "url": "http://hfb123.netlify.app/stream/nguonphat?"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }

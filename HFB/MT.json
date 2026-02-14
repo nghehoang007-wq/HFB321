@@ -1,0 +1,164 @@
+{
+  "id": "HFB",
+  "url": "http://hfb123.netlify.app/MT.json",
+  "name": "HFB",
+  "color": "#37b5e8",
+  "description": " Xem Trực Tiếp Bóng Đá HFB Miễn Phí Nhanh Nhất",
+  "image": {
+    "url": "https://t4.ftcdn.net/jpg/02/11/51/53/360_F_211515361_bnIbyKadClzn3hJT0zCPPuPApcG7k3lC.jpg"
+  },
+  "groups": [
+    {
+      "id": "is_hot",
+      "name": "Tâm điểm",
+      "display": "vertical",
+      "grid_number": 2,
+      "channels": [
+        {
+          "id": "nguonphat1",
+          "name": "Malut United vs Persijap Jepara",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "🔥 Hot",
+              "color": "#ff6600",
+              "text_color": "#ffffff"
+            },
+            {
+              "position": "bottom-left",
+              "text": "URA",
+              "color": "#007bff",
+              "text_color": "#ffffff"
+            }
+          ],
+          "image": {
+            "url": "http://hfb123.netlify.app/thump/nguonphat1.png?v1",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "nguonphat1_source",
+              "name": "Lương Sơn",
+              "contents": [
+                {
+                  "id": "nguonphat1_content",
+                  "name": "Malut United vs Persijap Jepara",
+                  "streams": [
+                    {
+                      "id": "nguonphat1_stream",
+                      "name": "URA",
+                      "remote_data": {
+                        "url": "http://hfb123.netlify.app/stream/nguonphat1.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nguonphat2",
+          "name": "CHONBURI SHARK FC vs Uthai Thani FC",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "🔥 Hot",
+              "color": "#ff6600",
+              "text_color": "#ffffff"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Κ.ΜΙΝΗ",
+              "color": "#007bff",
+              "text_color": "#ffffff"
+            }
+          ],
+          "image": {
+            "url": "http://hfb123.netlify.app/thump/nguonphat2.png?v1",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "nguonphat2_source",
+              "name": "HFB",
+              "contents": [
+                {
+                  "id": "nguonphat2_content",
+                  "name": "CHONBURI SHARK FC vs Uthai Thani FC",
+                  "streams": [
+                    {
+                      "id": "nguonphat2_stream",
+                      "name": "Κ.ΜΙΝΗ",
+                      "remote_data": {
+                        "url": "http://hfb123.netlify.app/stream/nguonphat2.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nguonphat3",
+          "name": "Western Sydney Wanderers W vs Newcastle Jets FC W",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "🔥 Hot",
+              "color": "#ff6600",
+              "text_color": "#ffffff"
+            },
+            {
+              "position": "bottom-left",
+              "text": "chuối to",
+              "color": "#007bff",
+              "text_color": "#ffffff"
+            }
+          ],
+          "image": {
+            "url": "http://hfb123.netlify.app/thump/nguonphat3.png?v1",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "nguonphat3_source",
+              "name": "HFB",
+              "contents": [
+                {
+                  "id": "nguonphat3_content",
+                  "name": "Western Sydney Wanderers W vs Newcastle Jets FC W",
+                  "streams": [
+                    {
+                      "id": "nguonphat3_stream",
+                      "name": "chuối to",
+                      "remote_data": {
+                        "url": "http://hfb123.netlify.app/stream/nguonphat3.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
