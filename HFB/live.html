@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TV Stream</title>
+    <style>
+        body { margin: 0; background: #000; overflow: hidden; }
+        video { 
+            position: absolute; top: 0; left: 0; 
+            width: 100%; height: 100%; background: #000; 
+        }
+    </style>
+</head>
+<body>
+
+    <video id="player" controls autoplay playsinline>
+        <source src="https://hls.cdnok9.com/live/LYQUY/index.m3u8?expire=1891408380&sign=4eb9451ad0178fa8207d583db7d469e3" type="application/x-mpegURL">
+        Trình duyệt TV của bạn quá cũ, không hỗ trợ xem video.
+    </video>
+
+    <script>
+        // Tự động phát lại nếu bị ngắt quãng (dành cho mạng yếu)
+        var v = document.getElementById('player');
+        v.addEventListener('error', function() {
+            setTimeout(function() {
+                v.load();
+                v.play();
+            }, 5000);
+        }, true);
+    </script>
+</body>
+</html>
