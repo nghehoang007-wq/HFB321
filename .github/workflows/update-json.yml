@@ -2,7 +2,6 @@ name: Update IPTV JSON List
 on:
   workflow_dispatch:
   schedule:
-    # Chạy 20 phút 1 lần
     - cron: '*/20 * * * *'
 
 jobs:
@@ -15,15 +14,12 @@ jobs:
 
       - name: Fetch and Convert M3U to JSON
         run: |
-          # 1. Tải file gốc
           curl -s -L "https://raw.githubusercontent.com/minhtan001/IPTV-Auto/refs/heads/playlists/all.m3u" > raw.m3u
           
-          # 2. Tạo script Python xử lý logic
           cat << 'EOF' > convert.py
           import json
           import re
 
-          # Cấu trúc khung JSON cơ bản
           data = {
             "id": "HFB",
             "url": "http://hfb123.netlify.app/MT.json",
@@ -47,7 +43,6 @@ jobs:
             ]
           }
 
-          # Đọc file M3U
           try:
               with open('raw.m3u', 'r', encoding='utf-8') as f:
                   lines = [line.strip() for line in f if line.strip()]
@@ -56,68 +51,46 @@ jobs:
               print("Lỗi đọc file:", e)
 
           channels = []
+          # Thêm bộ đếm để tạo ID duy nhất
+          channel_counter = 1
 
-          # Duyệt từng dòng để tìm trận đấu
           for i in range(len(lines)):
               line = lines[i]
               
-              # Lọc: Chỉ lấy các dòng có chứa Socolive
               if line.startswith('#EXTINF') and 'Socolive' in line:
-                  
-                  # Cắt tại dấu phẩy ĐẦU TIÊN để lấy phần nội dung hiển thị
-                  # Ví dụ: "15h35: [BLV LONG] Melbourne City vs Melbourne Victory"
                   parts = line.split(',', 1)
                   if len(parts) > 1:
                       display_text = parts[1].strip()
                       
-                      # Dùng Regex để bóc tách: Thời gian, BLV, Tên trận
                       match_info = re.match(r'(.*?):\s*\[(.*?)\]\s*(.*)', display_text)
                       
                       if match_info:
-                          time_str = match_info.group(1).strip()  # Lấy "15h35"
-                          blv_name = match_info.group(2).strip()  # Lấy "BLV LONG"
-                          match_name = match_info.group(3).strip() # Lấy "Melbourne City vs ..."
+                          time_str = match_info.group(1).strip()
+                          blv_name = match_info.group(2).strip()
+                          match_name = match_info.group(3).strip()
                       else:
-                          # Fallback nếu tên không đúng chuẩn ngoặc vuông
                           time_str = "Live"
                           blv_name = "BLV Socolive"
                           match_name = display_text
 
-                      # Xử lý URL ở dòng tiếp theo
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
                           raw_url = lines[i+1]
-                          
-                          # Trích xuất số ID từ chuỗi "id=9912050"
                           id_match = re.search(r'id=(\d+)', raw_url)
+                          
                           if id_match:
-                              stream_id = id_match.group(1) # Lấy "9912050"
-                              
-                              # Bơm ID vào công thức URL mới
+                              stream_id = id_match.group(1)
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               
-                              # Tạo cấu trúc cho 1 trận đấu
+                              # SỬ DỤNG BỘ ĐẾM ĐỂ TẠO ID DUY NHẤT
+                              unique_channel_id = f"socolive-{stream_id}-{channel_counter}"
+                              
                               channel_obj = {
-                                "id": f"socolive-{stream_id}",
+                                "id": unique_channel_id,
                                 "name": match_name,
                                 "labels": [
-                                  {
-                                    "position": "bottom-left",
-                                    "text": blv_name,
-                                    "color": "#0066CC",
-                                    "text_color": "#FFFFFF"
-                                  },
-                                  {
-                                    "position": "top-left",
-                                    "text": "● Live",
-                                    "color": "#FF0000",
-                                    "text_color": "#FFFFFF"
-                                  },
-                                  {
-                                    "position": "center",
-                                    "text": time_str,
-                                    "color": "#0066CC",
-                                    "text_color": "#FFFFFF"
-                                  }
+                                  { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
+                                  { "position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF" },
+                                  { "position": "center", "text": time_str, "color": "#0066CC", "text_color": "#FFFFFF" }
                                 ],
                                 "description": f"Socolive • {time_str}",
                                 "image": {
@@ -128,28 +101,25 @@ jobs:
                                 "display": "thumbnail-only",
                                 "sources": [
                                   {
-                                    "id": f"source-{stream_id}",
+                                    "id": f"source-{unique_channel_id}",
                                     "name": "Socolive",
                                     "contents": [
                                       {
-                                        "id": f"content-{stream_id}",
+                                        "id": f"content-{unique_channel_id}",
                                         "name": match_name,
                                         "streams": [
                                           {
-                                            "id": f"stream-{stream_id}",
+                                            "id": f"stream-{unique_channel_id}",
                                             "name": blv_name,
                                             "stream_links": [
                                               {
-                                                "id": f"link-{stream_id}",
+                                                "id": f"link-{unique_channel_id}",
                                                 "name": "HLS",
                                                 "type": "hls",
                                                 "default": True,
                                                 "url": new_stream_url,
                                                 "request_headers": [
-                                                  {
-                                                    "key": "Referer",
-                                                    "value": "https://bunchatv3.com/"
-                                                  }
+                                                  { "key": "Referer", "value": "https://bunchatv3.com/" }
                                                 ]
                                               }
                                             ]
@@ -160,23 +130,20 @@ jobs:
                                   }
                                 ]
                               }
-                              # Thêm trận đấu vào danh sách
                               channels.append(channel_obj)
+                              # Tăng bộ đếm
+                              channel_counter += 1
 
-          # Bơm toàn bộ danh sách trận đấu vào khối groups
           data['groups'][0]['channels'] = channels
 
-          # Xuất ra file JSON mới
           with open('MT.json', 'w', encoding='utf-8') as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
           EOF
           
-          # 3. Chạy script
           python3 convert.py
           
-          # 4. Kiểm tra và đẩy file JSON lên GitHub
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "Auto update JSON playlist from Socolive matches" || echo "No changes to commit"
+          git commit -m "Fix duplicate IDs in JSON" || echo "No changes to commit"
           git push
