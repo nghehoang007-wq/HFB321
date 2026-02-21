@@ -1,5 +1,6 @@
 {
   "id": "buncha",
+  "url": "http://tt.8share.pro/buncha",
   "name": "Bún Chả TV",
   "image": {
     "url": "http://tt.8share.pro/assets/buncha_logo.png"
@@ -8,19 +9,30 @@
     {
       "id": "live",
       "name": "🔴 Live",
+      "display": "horizontal",
+      "grid_number": 2,
       "channels": [
         {
           "id": "bunchar-601203152",
           "name": "Vizela U23 vs Farense U23",
+          "description": "Portuguese U23 League • 00:00",
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png"
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
           },
+          "type": "single",
+          "display": "thumbnail-only",
           "sources": [
             {
               "id": "bunchar-source-601203152",
+              "name": "Bún chả TV",
               "contents": [
                 {
                   "id": "bunchar-content-601203152",
+                  "name": "Vizela U23 vs Farense U23",
                   "streams": [
                     {
                       "id": "bunchar-stream-218654",
@@ -28,7 +40,9 @@
                       "stream_links": [
                         {
                           "id": "bunchar-hls-218654",
+                          "name": "HLS",
                           "type": "hls",
+                          "default": true,
                           "url": "https://live.inplyr.com/room/525090.m3u8",
                           "request_headers": [
                             {
