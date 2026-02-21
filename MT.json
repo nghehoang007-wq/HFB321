@@ -10,9 +10,9 @@
   "groups": [
     {
       "id": "live",
-      "name": "🔴 Live",
-      "display": "horizontal",
-      "grid_number": 2,
+      "name": "🔴 Lịch Phát Sóng",
+      "display": "vertical",
+      "grid_number": 1,
       "channels": [
         {
           "id": "ch-1",
@@ -22,12 +22,6 @@
               "position": "bottom-left",
               "text": "BLV VODKA",
               "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
@@ -46,7 +40,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-1",
@@ -92,12 +86,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00",
               "color": "#0066CC",
@@ -113,7 +101,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-2",
@@ -159,12 +147,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00",
               "color": "#0066CC",
@@ -180,7 +162,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-3",
@@ -226,12 +208,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00",
               "color": "#0066CC",
@@ -247,7 +223,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-4",
@@ -293,12 +269,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00",
               "color": "#0066CC",
@@ -314,7 +284,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-5",
@@ -360,12 +330,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00",
               "color": "#0066CC",
@@ -381,7 +345,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-6",
@@ -427,12 +391,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -448,7 +406,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-7",
@@ -494,12 +452,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -515,7 +467,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-8",
@@ -561,12 +513,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -582,7 +528,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-9",
@@ -628,12 +574,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -649,7 +589,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-10",
@@ -695,12 +635,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -716,7 +650,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-11",
@@ -762,12 +696,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -783,7 +711,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-12",
@@ -829,12 +757,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -850,7 +772,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-13",
@@ -896,12 +818,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -917,7 +833,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-14",
@@ -963,12 +879,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -984,7 +894,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-15",
@@ -1030,12 +940,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -1051,7 +955,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-16",
@@ -1097,12 +1001,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -1118,7 +1016,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-17",
@@ -1164,12 +1062,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -1185,7 +1077,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-18",
@@ -1231,12 +1123,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -1252,7 +1138,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-19",
@@ -1298,12 +1184,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30",
               "color": "#0066CC",
@@ -1319,7 +1199,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-20",
@@ -1365,12 +1245,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1386,7 +1260,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-21",
@@ -1432,12 +1306,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1453,7 +1321,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-22",
@@ -1499,12 +1367,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1520,7 +1382,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-23",
@@ -1566,12 +1428,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1587,7 +1443,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-24",
@@ -1633,12 +1489,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1654,7 +1504,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-25",
@@ -1700,12 +1550,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1721,7 +1565,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-26",
@@ -1767,12 +1611,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1788,7 +1626,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-27",
@@ -1834,12 +1672,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1855,7 +1687,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-28",
@@ -1901,12 +1733,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1922,7 +1748,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-29",
@@ -1968,12 +1794,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -1989,7 +1809,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-30",
@@ -2035,12 +1855,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2056,7 +1870,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-31",
@@ -2102,12 +1916,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2123,7 +1931,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-32",
@@ -2169,12 +1977,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2190,7 +1992,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-33",
@@ -2236,12 +2038,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2257,7 +2053,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-34",
@@ -2303,12 +2099,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2324,7 +2114,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-35",
@@ -2370,12 +2160,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2391,7 +2175,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-36",
@@ -2437,12 +2221,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2458,7 +2236,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-37",
@@ -2504,12 +2282,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h00",
               "color": "#0066CC",
@@ -2525,7 +2297,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-38",
@@ -2571,12 +2343,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2592,7 +2358,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-39",
@@ -2638,12 +2404,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2659,7 +2419,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-40",
@@ -2705,12 +2465,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2726,7 +2480,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-41",
@@ -2772,12 +2526,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2793,7 +2541,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-42",
@@ -2839,12 +2587,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2860,7 +2602,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-43",
@@ -2906,12 +2648,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15",
               "color": "#0066CC",
@@ -2927,7 +2663,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-44",
@@ -2973,12 +2709,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "23h00-21/02",
               "color": "#0066CC",
@@ -2994,7 +2724,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-45",
@@ -3040,12 +2770,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "23h00-21/02",
               "color": "#0066CC",
@@ -3061,7 +2785,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-46",
@@ -3107,12 +2831,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "23h00-21/02",
               "color": "#0066CC",
@@ -3128,7 +2846,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-47",
@@ -3174,12 +2892,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "23h00-21/02",
               "color": "#0066CC",
@@ -3195,7 +2907,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-48",
@@ -3241,12 +2953,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3262,7 +2968,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-49",
@@ -3308,12 +3014,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3329,7 +3029,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-50",
@@ -3375,12 +3075,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3396,7 +3090,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-51",
@@ -3442,12 +3136,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3463,7 +3151,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-52",
@@ -3509,12 +3197,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3530,7 +3212,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-53",
@@ -3576,12 +3258,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3597,7 +3273,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-54",
@@ -3643,12 +3319,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h00-22/02",
               "color": "#0066CC",
@@ -3664,7 +3334,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-55",
@@ -3710,12 +3380,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -3731,7 +3395,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-56",
@@ -3777,12 +3441,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -3798,7 +3456,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-57",
@@ -3844,12 +3502,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -3865,7 +3517,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-58",
@@ -3911,12 +3563,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -3932,7 +3578,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-59",
@@ -3978,12 +3624,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -3999,7 +3639,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-60",
@@ -4045,12 +3685,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4066,7 +3700,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-61",
@@ -4112,12 +3746,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4133,7 +3761,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-62",
@@ -4179,12 +3807,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4200,7 +3822,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-63",
@@ -4246,12 +3868,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4267,7 +3883,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-64",
@@ -4313,12 +3929,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4334,7 +3944,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-65",
@@ -4380,12 +3990,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4401,7 +4005,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-66",
@@ -4447,12 +4051,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4468,7 +4066,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-67",
@@ -4514,12 +4112,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4535,7 +4127,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-68",
@@ -4581,12 +4173,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4602,7 +4188,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-69",
@@ -4648,12 +4234,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4669,7 +4249,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-70",
@@ -4715,12 +4295,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4736,7 +4310,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-71",
@@ -4782,12 +4356,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4803,7 +4371,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-72",
@@ -4849,12 +4417,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h30-22/02",
               "color": "#0066CC",
@@ -4870,7 +4432,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-73",
@@ -4916,12 +4478,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "00h45-22/02",
               "color": "#0066CC",
@@ -4937,7 +4493,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-74",
@@ -4983,12 +4539,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "01h00-22/02",
               "color": "#0066CC",
@@ -5004,7 +4554,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-75",
@@ -5050,12 +4600,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "01h00-22/02",
               "color": "#0066CC",
@@ -5071,7 +4615,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-76",
@@ -5117,12 +4661,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "01h00-22/02",
               "color": "#0066CC",
@@ -5138,7 +4676,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-77",
@@ -5184,12 +4722,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "02h00-22/02",
               "color": "#0066CC",
@@ -5205,7 +4737,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-78",
@@ -5251,12 +4783,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "02h00-22/02",
               "color": "#0066CC",
@@ -5272,7 +4798,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-79",
@@ -5318,12 +4844,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "02h00-22/02",
               "color": "#0066CC",
@@ -5339,7 +4859,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-80",
@@ -5385,12 +4905,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "02h45-22/02",
               "color": "#0066CC",
@@ -5406,7 +4920,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-81",
@@ -5452,12 +4966,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "02h45-22/02",
               "color": "#0066CC",
@@ -5473,7 +4981,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-82",
@@ -5519,12 +5027,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5540,7 +5042,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-83",
@@ -5586,12 +5088,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5607,7 +5103,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-84",
@@ -5653,12 +5149,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5674,7 +5164,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-85",
@@ -5720,12 +5210,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5741,7 +5225,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-86",
@@ -5787,12 +5271,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5808,7 +5286,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-87",
@@ -5854,12 +5332,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5875,7 +5347,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-88",
@@ -5921,12 +5393,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -5942,7 +5408,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-89",
@@ -5988,12 +5454,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6009,7 +5469,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-90",
@@ -6055,12 +5515,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6076,7 +5530,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-91",
@@ -6122,12 +5576,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6143,7 +5591,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-92",
@@ -6189,12 +5637,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6210,7 +5652,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-93",
@@ -6256,12 +5698,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6277,7 +5713,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-94",
@@ -6323,12 +5759,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h00-22/02",
               "color": "#0066CC",
@@ -6344,7 +5774,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-95",
@@ -6390,12 +5820,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6411,7 +5835,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-96",
@@ -6457,12 +5881,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6478,7 +5896,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-97",
@@ -6524,12 +5942,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6545,7 +5957,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-98",
@@ -6591,12 +6003,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6612,7 +6018,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-99",
@@ -6658,12 +6064,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6679,7 +6079,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-100",
@@ -6725,12 +6125,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h05-22/02",
               "color": "#0066CC",
@@ -6746,7 +6140,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-101",
@@ -6792,12 +6186,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "03h30-22/02",
               "color": "#0066CC",
@@ -6813,7 +6201,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-102",
@@ -6859,12 +6247,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "04h45-22/02",
               "color": "#0066CC",
@@ -6880,7 +6262,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-103",
@@ -6926,12 +6308,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "05h00-22/02",
               "color": "#0066CC",
@@ -6947,7 +6323,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-104",
@@ -6993,12 +6369,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "05h00-22/02",
               "color": "#0066CC",
@@ -7014,7 +6384,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-105",
@@ -7060,12 +6430,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "05h15-22/02",
               "color": "#0066CC",
@@ -7081,7 +6445,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-106",
@@ -7127,12 +6491,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "06h00-22/02",
               "color": "#0066CC",
@@ -7148,7 +6506,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-107",
@@ -7194,12 +6552,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "06h00-22/02",
               "color": "#0066CC",
@@ -7215,7 +6567,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-108",
@@ -7261,12 +6613,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "06h00-22/02",
               "color": "#0066CC",
@@ -7282,7 +6628,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-109",
@@ -7328,12 +6674,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "06h00-22/02",
               "color": "#0066CC",
@@ -7349,7 +6689,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-110",
@@ -7395,12 +6735,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h00-22/02",
               "color": "#0066CC",
@@ -7416,7 +6750,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-111",
@@ -7462,12 +6796,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h00-22/02",
               "color": "#0066CC",
@@ -7483,7 +6811,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-112",
@@ -7529,12 +6857,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h30-22/02",
               "color": "#0066CC",
@@ -7550,7 +6872,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-113",
@@ -7596,12 +6918,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h30-22/02",
               "color": "#0066CC",
@@ -7617,7 +6933,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-114",
@@ -7663,12 +6979,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h30-22/02",
               "color": "#0066CC",
@@ -7684,7 +6994,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-115",
@@ -7730,12 +7040,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "07h30-22/02",
               "color": "#0066CC",
@@ -7751,7 +7055,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-116",
@@ -7797,12 +7101,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -7818,7 +7116,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-117",
@@ -7864,12 +7162,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -7885,7 +7177,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-118",
@@ -7931,12 +7223,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -7952,7 +7238,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-119",
@@ -7998,12 +7284,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -8019,7 +7299,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-120",
@@ -8065,12 +7345,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -8086,7 +7360,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-121",
@@ -8132,12 +7406,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -8153,7 +7421,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-122",
@@ -8199,12 +7467,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -8220,7 +7482,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-123",
@@ -8266,12 +7528,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h00-22/02",
               "color": "#0066CC",
@@ -8287,7 +7543,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-124",
@@ -8333,12 +7589,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h30-22/02",
               "color": "#0066CC",
@@ -8354,7 +7604,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-125",
@@ -8400,12 +7650,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h30-22/02",
               "color": "#0066CC",
@@ -8421,7 +7665,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-126",
@@ -8467,12 +7711,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h30-22/02",
               "color": "#0066CC",
@@ -8488,7 +7726,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-127",
@@ -8534,12 +7772,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "08h30-22/02",
               "color": "#0066CC",
@@ -8555,7 +7787,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-128",
@@ -8601,12 +7833,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8622,7 +7848,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-129",
@@ -8668,12 +7894,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8689,7 +7909,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-130",
@@ -8735,12 +7955,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8756,7 +7970,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-131",
@@ -8802,12 +8016,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8823,7 +8031,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-132",
@@ -8869,12 +8077,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8890,7 +8092,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-133",
@@ -8936,12 +8138,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "09h30-22/02",
               "color": "#0066CC",
@@ -8957,7 +8153,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-134",
@@ -9003,12 +8199,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h05-22/02",
               "color": "#0066CC",
@@ -9024,7 +8214,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-135",
@@ -9070,12 +8260,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h05-22/02",
               "color": "#0066CC",
@@ -9091,7 +8275,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-136",
@@ -9137,12 +8321,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h05-22/02",
               "color": "#0066CC",
@@ -9158,7 +8336,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-137",
@@ -9204,12 +8382,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h05-22/02",
               "color": "#0066CC",
@@ -9225,7 +8397,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-138",
@@ -9271,12 +8443,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9292,7 +8458,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-139",
@@ -9338,12 +8504,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9359,7 +8519,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-140",
@@ -9405,12 +8565,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9426,7 +8580,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-141",
@@ -9472,12 +8626,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9493,7 +8641,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-142",
@@ -9539,12 +8687,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9560,7 +8702,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-143",
@@ -9606,12 +8748,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9627,7 +8763,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-144",
@@ -9673,12 +8809,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9694,7 +8824,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-145",
@@ -9740,12 +8870,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "10h30-22/02",
               "color": "#0066CC",
@@ -9761,7 +8885,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-146",
@@ -9807,12 +8931,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -9828,7 +8946,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-147",
@@ -9874,12 +8992,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -9895,7 +9007,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-148",
@@ -9941,12 +9053,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -9962,7 +9068,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-149",
@@ -10008,12 +9114,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10029,7 +9129,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-150",
@@ -10075,12 +9175,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10096,7 +9190,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-151",
@@ -10142,12 +9236,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10163,7 +9251,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-152",
@@ -10209,12 +9297,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10230,7 +9312,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-153",
@@ -10276,12 +9358,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10297,7 +9373,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-154",
@@ -10343,12 +9419,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10364,7 +9434,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-155",
@@ -10410,12 +9480,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10431,7 +9495,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-156",
@@ -10477,12 +9541,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10498,7 +9556,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-157",
@@ -10544,12 +9602,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10565,7 +9617,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-158",
@@ -10611,12 +9663,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10632,7 +9678,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-159",
@@ -10678,12 +9724,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h00-22/02",
               "color": "#0066CC",
@@ -10699,7 +9739,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-160",
@@ -10745,12 +9785,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h10-22/02",
               "color": "#0066CC",
@@ -10766,7 +9800,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-161",
@@ -10812,12 +9846,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h10-22/02",
               "color": "#0066CC",
@@ -10833,7 +9861,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-162",
@@ -10879,12 +9907,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h10-22/02",
               "color": "#0066CC",
@@ -10900,7 +9922,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-163",
@@ -10946,12 +9968,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "12h10-22/02",
               "color": "#0066CC",
@@ -10967,7 +9983,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-164",
@@ -11013,12 +10029,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11034,7 +10044,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-165",
@@ -11080,12 +10090,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11101,7 +10105,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-166",
@@ -11147,12 +10151,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11168,7 +10166,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-167",
@@ -11214,12 +10212,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11235,7 +10227,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-168",
@@ -11281,12 +10273,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11302,7 +10288,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-169",
@@ -11348,12 +10334,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11369,7 +10349,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-170",
@@ -11415,12 +10395,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11436,7 +10410,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-171",
@@ -11482,12 +10456,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11503,7 +10471,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-172",
@@ -11549,12 +10517,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11570,7 +10532,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-173",
@@ -11616,12 +10578,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "13h00-22/02",
               "color": "#0066CC",
@@ -11637,7 +10593,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-174",
@@ -11683,12 +10639,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -11704,7 +10654,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-175",
@@ -11750,12 +10700,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -11771,7 +10715,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-176",
@@ -11817,12 +10761,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -11838,7 +10776,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-177",
@@ -11884,12 +10822,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -11905,7 +10837,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-178",
@@ -11951,12 +10883,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -11972,7 +10898,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-179",
@@ -12018,12 +10944,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -12039,7 +10959,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-180",
@@ -12085,12 +11005,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -12106,7 +11020,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-181",
@@ -12152,12 +11066,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "14h00-22/02",
               "color": "#0066CC",
@@ -12173,7 +11081,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-182",
@@ -12219,12 +11127,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "15h45-22/02",
               "color": "#0066CC",
@@ -12240,7 +11142,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-183",
@@ -12286,12 +11188,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "15h45-22/02",
               "color": "#0066CC",
@@ -12307,7 +11203,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-184",
@@ -12353,12 +11249,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h00-22/02",
               "color": "#0066CC",
@@ -12374,7 +11264,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-185",
@@ -12420,12 +11310,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h00-22/02",
               "color": "#0066CC",
@@ -12441,7 +11325,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-186",
@@ -12487,12 +11371,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h00-22/02",
               "color": "#0066CC",
@@ -12508,7 +11386,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-187",
@@ -12554,12 +11432,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h00-22/02",
               "color": "#0066CC",
@@ -12575,7 +11447,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-188",
@@ -12621,12 +11493,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h00-22/02",
               "color": "#0066CC",
@@ -12642,7 +11508,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-189",
@@ -12688,12 +11554,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h30-22/02",
               "color": "#0066CC",
@@ -12709,7 +11569,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-190",
@@ -12755,12 +11615,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h30-22/02",
               "color": "#0066CC",
@@ -12776,7 +11630,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-191",
@@ -12822,12 +11676,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h30-22/02",
               "color": "#0066CC",
@@ -12843,7 +11691,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-192",
@@ -12889,12 +11737,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "17h30-22/02",
               "color": "#0066CC",
@@ -12910,7 +11752,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-193",
@@ -12956,12 +11798,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h00-22/02",
               "color": "#0066CC",
@@ -12977,7 +11813,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-194",
@@ -13023,12 +11859,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h00-22/02",
               "color": "#0066CC",
@@ -13044,7 +11874,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-195",
@@ -13090,12 +11920,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h15-22/02",
               "color": "#0066CC",
@@ -13111,7 +11935,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-196",
@@ -13157,12 +11981,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h15-22/02",
               "color": "#0066CC",
@@ -13178,7 +11996,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-197",
@@ -13224,12 +12042,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h15-22/02",
               "color": "#0066CC",
@@ -13245,7 +12057,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-198",
@@ -13291,12 +12103,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h15-22/02",
               "color": "#0066CC",
@@ -13312,7 +12118,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-199",
@@ -13358,12 +12164,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13379,7 +12179,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-200",
@@ -13425,12 +12225,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13446,7 +12240,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-201",
@@ -13492,12 +12286,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13513,7 +12301,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-202",
@@ -13559,12 +12347,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13580,7 +12362,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-203",
@@ -13626,12 +12408,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13647,7 +12423,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-204",
@@ -13693,12 +12469,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "18h30-22/02",
               "color": "#0066CC",
@@ -13714,7 +12484,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-205",
@@ -13760,12 +12530,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h00-22/02",
               "color": "#0066CC",
@@ -13781,7 +12545,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-206",
@@ -13827,12 +12591,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h00-22/02",
               "color": "#0066CC",
@@ -13848,7 +12606,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-207",
@@ -13894,12 +12652,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h00-22/02",
               "color": "#0066CC",
@@ -13915,7 +12667,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-208",
@@ -13961,12 +12713,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h00-22/02",
               "color": "#0066CC",
@@ -13982,7 +12728,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-209",
@@ -14028,12 +12774,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14049,7 +12789,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-210",
@@ -14095,12 +12835,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14116,7 +12850,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-211",
@@ -14162,12 +12896,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14183,7 +12911,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-212",
@@ -14229,12 +12957,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14250,7 +12972,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-213",
@@ -14296,12 +13018,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14317,7 +13033,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-214",
@@ -14363,12 +13079,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "19h30-22/02",
               "color": "#0066CC",
@@ -14384,7 +13094,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-215",
@@ -14430,12 +13140,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14451,7 +13155,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-216",
@@ -14497,12 +13201,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14518,7 +13216,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-217",
@@ -14564,12 +13262,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14585,7 +13277,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-218",
@@ -14631,12 +13323,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14652,7 +13338,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-219",
@@ -14698,12 +13384,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14719,7 +13399,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-220",
@@ -14765,12 +13445,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14786,7 +13460,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-221",
@@ -14832,12 +13506,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "20h00-22/02",
               "color": "#0066CC",
@@ -14853,7 +13521,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-222",
@@ -14899,12 +13567,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -14920,7 +13582,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-223",
@@ -14966,12 +13628,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -14987,7 +13643,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-224",
@@ -15033,12 +13689,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15054,7 +13704,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-225",
@@ -15100,12 +13750,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15121,7 +13765,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-226",
@@ -15167,12 +13811,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15188,7 +13826,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-227",
@@ -15234,12 +13872,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15255,7 +13887,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-228",
@@ -15301,12 +13933,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15322,7 +13948,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-229",
@@ -15368,12 +13994,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15389,7 +14009,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-230",
@@ -15435,12 +14055,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15456,7 +14070,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-231",
@@ -15502,12 +14116,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15523,7 +14131,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-232",
@@ -15569,12 +14177,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15590,7 +14192,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-233",
@@ -15636,12 +14238,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15657,7 +14253,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-234",
@@ -15703,12 +14299,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15724,7 +14314,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-235",
@@ -15770,12 +14360,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15791,7 +14375,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-236",
@@ -15837,12 +14421,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15858,7 +14436,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-237",
@@ -15904,12 +14482,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15925,7 +14497,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-238",
@@ -15971,12 +14543,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -15992,7 +14558,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-239",
@@ -16038,12 +14604,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16059,7 +14619,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-240",
@@ -16105,12 +14665,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16126,7 +14680,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-241",
@@ -16172,12 +14726,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16193,7 +14741,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-242",
@@ -16239,12 +14787,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16260,7 +14802,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-243",
@@ -16306,12 +14848,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16327,7 +14863,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-244",
@@ -16373,12 +14909,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16394,7 +14924,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-245",
@@ -16440,12 +14970,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16461,7 +14985,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-246",
@@ -16507,12 +15031,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16528,7 +15046,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-247",
@@ -16574,12 +15092,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h00-22/02",
               "color": "#0066CC",
@@ -16595,7 +15107,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-248",
@@ -16641,12 +15153,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30-22/02",
               "color": "#0066CC",
@@ -16662,7 +15168,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-249",
@@ -16708,12 +15214,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30-22/02",
               "color": "#0066CC",
@@ -16729,7 +15229,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-250",
@@ -16775,12 +15275,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30-22/02",
               "color": "#0066CC",
@@ -16796,7 +15290,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-251",
@@ -16842,12 +15336,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "21h30-22/02",
               "color": "#0066CC",
@@ -16863,7 +15351,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-252",
@@ -16909,12 +15397,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -16930,7 +15412,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-253",
@@ -16976,12 +15458,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -16997,7 +15473,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-254",
@@ -17043,12 +15519,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -17064,7 +15534,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-255",
@@ -17110,12 +15580,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -17131,7 +15595,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-256",
@@ -17177,12 +15641,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -17198,7 +15656,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-257",
@@ -17244,12 +15702,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h15-22/02",
               "color": "#0066CC",
@@ -17265,7 +15717,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-258",
@@ -17311,12 +15763,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h45-22/02",
               "color": "#0066CC",
@@ -17332,7 +15778,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-259",
@@ -17378,12 +15824,6 @@
               "text_color": "#FFFFFF"
             },
             {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "center",
               "text": "22h45-22/02",
               "color": "#0066CC",
@@ -17399,7 +15839,7 @@
             "shape": "square"
           },
           "type": "single",
-          "display": "thumbnail-only",
+          "display": "text-below",
           "sources": [
             {
               "id": "src-260",
