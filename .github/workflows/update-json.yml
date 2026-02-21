@@ -20,7 +20,7 @@ jobs:
           import json
           import re
 
-          # Hàm tự động ngắt dòng nếu tên đội quá dài (trên 12 ký tự)
+          # Hàm tự động ngắt dòng thông minh (mặc định 12 ký tự/dòng)
           def wrap_text(text, max_len=12):
               words = text.split()
               lines = []
@@ -34,10 +34,10 @@ jobs:
                       curr_line = word + " "
               if curr_line:
                   lines.append(curr_line.strip())
-              # Chèn ký tự \n để JSON xuống dòng
+              # Thêm \n để xuống dòng, Monplayer sẽ tự động căn giữa (center align)
               return "\n".join(lines)
 
-          # Hàm lấy thời gian để sắp xếp
+          # Hàm lấy thời gian để sắp xếp lịch phát sóng
           def get_sort_key(t_str):
               m = re.search(r'(\d{1,2})[hH:](\d{2})(?:-(\d{1,2})/(\d{1,2}))?', t_str)
               if m:
@@ -53,7 +53,7 @@ jobs:
             "url": "http://hfb123.netlify.app/MT.json",
             "name": "HFB",
             "color": "#1cb57a",
-            "description": "HFB - Trang web phát sóng bóng đá trực tuyến miễn phí.",
+            "description": "HFB - Trang web phát sóng bóng đá trực tuyến.",
             "image": {
               "url": "https://t4.ftcdn.net/jpg/02/11/51/53/360_F_211515361_bnIbyKadClzn3hJT0zCPPuPApcG7k3lC.jpg"
             },
@@ -109,13 +109,6 @@ jobs:
                           blv_name = "BLV Socolive"
                           raw_match_name = display_text
 
-                      # Tách tên 2 đội từ chữ "vs"
-                      if " vs " in raw_match_name:
-                          team1, team2 = raw_match_name.split(" vs ", 1)
-                      else:
-                          team1 = raw_match_name
-                          team2 = ""
-
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
                           raw_url = lines[i+1]
                           id_match = re.search(r'id=(\d+)', raw_url)
@@ -125,17 +118,25 @@ jobs:
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               unique_match_name = f"{raw_match_name} ({blv_name})"
                               
-                              # Gắn nhãn đối xứng
+                              # Gắn nhãn mặc định: Giờ (Giữa) và Tên BLV (Dưới Trái)
                               labels_list = [
                                   { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
                                   { "position": "center", "text": time_str, "color": "#FF0000", "text_color": "#FFFFFF" }
                               ]
                               
-                              # Nếu tách được 2 đội, gắn vào 2 bên Trái - Phải
-                              if team1:
-                                  labels_list.append({ "position": "left", "text": wrap_text(team1.strip()), "color": "transparent", "text_color": "#FFFFFF", "text_align": "center" })
-                              if team2:
-                                  labels_list.append({ "position": "right", "text": wrap_text(team2.strip()), "color": "transparent", "text_color": "#FFFFFF", "text_align": "center" })
+                              # Bóc tách 2 đội từ chữ "vs" (không phân biệt chữ hoa/thường)
+                              teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
+                              if len(teams) == 2:
+                                  team1 = teams[0].strip()
+                                  team2 = teams[1].strip()
+                                  
+                                  # CHUẨN HÓA VỊ TRÍ: Dùng center-left và center-right
+                                  # Dùng màu #80000000 (Đen trong suốt 50%) để chữ không bị chìm vào nền ảnh
+                                  labels_list.append({ "position": "center-left", "text": wrap_text(team1), "color": "#80000000", "text_color": "#FFFFFF" })
+                                  labels_list.append({ "position": "center-right", "text": wrap_text(team2), "color": "#80000000", "text_color": "#FFFFFF" })
+                              else:
+                                  # Nếu không có chữ vs, hiển thị toàn bộ tên lên góc trên trái
+                                  labels_list.append({ "position": "top-left", "text": wrap_text(raw_match_name, 20), "color": "#80000000", "text_color": "#FFFFFF" })
 
                               # Cấu trúc 1 trận đấu
                               channel_obj = {
@@ -144,11 +145,11 @@ jobs:
                                 "labels": labels_list,
                                 "description": f"Socolive • {time_str}",
                                 "image": {
-                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
+                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat.png",
                                   "height": 480, "width": 640, "display": "cover", "shape": "square"
                                 },
                                 "type": "single",
-                                "display": "thumbnail-only", # KHÔNG IN TÊN BÊN DƯỚI NỮA
+                                "display": "thumbnail-only", # Đã đưa về ảnh Thumbnail tinh gọn
                                 "sources": [
                                   {
                                     "id": f"src-{uid}",
@@ -181,7 +182,6 @@ jobs:
                                 ]
                               }
                               
-                              # Khóa thời gian
                               sort_key = get_sort_key(time_str)
                               channels_with_sort_key.append((sort_key, channel_obj))
                               uid += 1
@@ -201,5 +201,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Add symmetrical team names, multiline center, 2 cols" || echo "No changes to commit"
+          git commit -m "UI: Add symmetric multiline labels with Hex colors" || echo "No changes to commit"
           git push
