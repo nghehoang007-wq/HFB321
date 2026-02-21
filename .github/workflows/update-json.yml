@@ -20,7 +20,24 @@ jobs:
           import json
           import re
 
-          # Hàm thông minh để bóc tách và sắp xếp thời gian
+          # Hàm tự động ngắt dòng nếu tên đội quá dài (trên 12 ký tự)
+          def wrap_text(text, max_len=12):
+              words = text.split()
+              lines = []
+              curr_line = ""
+              for word in words:
+                  if len(curr_line) + len(word) <= max_len:
+                      curr_line += word + " "
+                  else:
+                      if curr_line:
+                          lines.append(curr_line.strip())
+                      curr_line = word + " "
+              if curr_line:
+                  lines.append(curr_line.strip())
+              # Chèn ký tự \n để JSON xuống dòng
+              return "\n".join(lines)
+
+          # Hàm lấy thời gian để sắp xếp
           def get_sort_key(t_str):
               m = re.search(r'(\d{1,2})[hH:](\d{2})(?:-(\d{1,2})/(\d{1,2}))?', t_str)
               if m:
@@ -45,7 +62,7 @@ jobs:
                 "id": "live",
                 "name": "🔴 Lịch Phát Sóng",
                 "display": "vertical",
-                "grid_number": 2, # ĐÃ SỬA THÀNH 2: TẠO LƯỚI 2 CỘT MỖI HÀNG
+                "grid_number": 2,
                 "channels": []
               }
             ],
@@ -80,16 +97,24 @@ jobs:
                   if len(parts) > 1:
                       display_text = parts[1].strip()
                       
+                      # Tách Giờ, BLV, Tên Trận
                       match_info = re.match(r'(.*?):\s*\[(.*?)\]\s*(.*)', display_text)
                       
                       if match_info:
                           time_str = match_info.group(1).strip()
                           blv_name = match_info.group(2).strip()
-                          match_name = match_info.group(3).strip()
+                          raw_match_name = match_info.group(3).strip()
                       else:
                           time_str = "00h00"
                           blv_name = "BLV Socolive"
-                          match_name = display_text
+                          raw_match_name = display_text
+
+                      # Tách tên 2 đội từ chữ "vs"
+                      if " vs " in raw_match_name:
+                          team1, team2 = raw_match_name.split(" vs ", 1)
+                      else:
+                          team1 = raw_match_name
+                          team2 = ""
 
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
                           raw_url = lines[i+1]
@@ -98,24 +123,32 @@ jobs:
                           if id_match:
                               stream_id = id_match.group(1)
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
-                              unique_match_name = f"{match_name} ({blv_name})"
+                              unique_match_name = f"{raw_match_name} ({blv_name})"
                               
+                              # Gắn nhãn đối xứng
+                              labels_list = [
+                                  { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
+                                  { "position": "center", "text": time_str, "color": "#FF0000", "text_color": "#FFFFFF" }
+                              ]
+                              
+                              # Nếu tách được 2 đội, gắn vào 2 bên Trái - Phải
+                              if team1:
+                                  labels_list.append({ "position": "left", "text": wrap_text(team1.strip()), "color": "transparent", "text_color": "#FFFFFF", "text_align": "center" })
+                              if team2:
+                                  labels_list.append({ "position": "right", "text": wrap_text(team2.strip()), "color": "transparent", "text_color": "#FFFFFF", "text_align": "center" })
+
                               # Cấu trúc 1 trận đấu
                               channel_obj = {
                                 "id": f"ch-{uid}",
                                 "name": unique_match_name,
-                                "labels": [
-                                  # ĐÃ XÓA MÁC "LIVE" GIẢ THEO YÊU CẦU
-                                  { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
-                                  { "position": "center", "text": time_str, "color": "#0066CC", "text_color": "#FFFFFF" }
-                                ],
-                                "description": f"Socolive",
+                                "labels": labels_list,
+                                "description": f"Socolive • {time_str}",
                                 "image": {
                                   "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
                                   "height": 480, "width": 640, "display": "cover", "shape": "square"
                                 },
                                 "type": "single",
-                                "display": "text-below", # TÊN HIỂN THỊ BÊN DƯỚI ẢNH
+                                "display": "thumbnail-only", # KHÔNG IN TÊN BÊN DƯỚI NỮA
                                 "sources": [
                                   {
                                     "id": f"src-{uid}",
@@ -148,14 +181,15 @@ jobs:
                                 ]
                               }
                               
+                              # Khóa thời gian
                               sort_key = get_sort_key(time_str)
                               channels_with_sort_key.append((sort_key, channel_obj))
                               uid += 1
 
-          # Sắp xếp theo thời gian
+          # Sắp xếp các luồng theo giờ
           channels_with_sort_key.sort(key=lambda x: x[0])
           
-          # Đưa vào cục JSON
+          # Đưa kết quả vào JSON
           data['groups'][0]['channels'] = [item[1] for item in channels_with_sort_key]
 
           with open('MT.json', 'w', encoding='utf-8') as f:
@@ -167,5 +201,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Vertical layout 2 cols, text below, no fake live tag" || echo "No changes to commit"
+          git commit -m "UI: Add symmetrical team names, multiline center, 2 cols" || echo "No changes to commit"
           git push
