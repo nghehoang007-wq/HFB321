@@ -22,16 +22,14 @@ jobs:
 
           # Hàm thông minh để bóc tách và sắp xếp thời gian
           def get_sort_key(t_str):
-              # Lọc ra giờ, phút, và ngày/tháng (nếu có)
               m = re.search(r'(\d{1,2})[hH:](\d{2})(?:-(\d{1,2})/(\d{1,2}))?', t_str)
               if m:
                   hour = int(m.group(1))
                   minute = int(m.group(2))
                   day = int(m.group(3)) if m.group(3) else 0
                   month = int(m.group(4)) if m.group(4) else 0
-                  # Trả về bộ số để Python tự động ưu tiên xếp hạng
                   return (month, day, hour, minute)
-              return (99, 99, 99, 99) # Bỏ xuống đáy nếu không bắt được giờ
+              return (99, 99, 99, 99) 
 
           data = {
             "id": "HFB",
@@ -47,7 +45,7 @@ jobs:
                 "id": "live",
                 "name": "🔴 Lịch Phát Sóng",
                 "display": "vertical",
-                "grid_number": 1,
+                "grid_number": 2, # ĐÃ SỬA THÀNH 2: TẠO LƯỚI 2 CỘT MỖI HÀNG
                 "channels": []
               }
             ],
@@ -107,16 +105,17 @@ jobs:
                                 "id": f"ch-{uid}",
                                 "name": unique_match_name,
                                 "labels": [
+                                  # ĐÃ XÓA MÁC "LIVE" GIẢ THEO YÊU CẦU
                                   { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
                                   { "position": "center", "text": time_str, "color": "#0066CC", "text_color": "#FFFFFF" }
                                 ],
-                                "description": f"Socolive • {time_str}",
+                                "description": f"Socolive",
                                 "image": {
                                   "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
                                   "height": 480, "width": 640, "display": "cover", "shape": "square"
                                 },
                                 "type": "single",
-                                "display": "text-below",
+                                "display": "text-below", # TÊN HIỂN THỊ BÊN DƯỚI ẢNH
                                 "sources": [
                                   {
                                     "id": f"src-{uid}",
@@ -149,15 +148,14 @@ jobs:
                                 ]
                               }
                               
-                              # Sinh khóa sắp xếp thời gian và thêm vào danh sách chờ
                               sort_key = get_sort_key(time_str)
                               channels_with_sort_key.append((sort_key, channel_obj))
                               uid += 1
 
-          # Thực thi lệnh sắp xếp tự động dựa trên khóa thời gian
+          # Sắp xếp theo thời gian
           channels_with_sort_key.sort(key=lambda x: x[0])
           
-          # Đẩy danh sách đã sắp xếp gọn gàng vào cục JSON
+          # Đưa vào cục JSON
           data['groups'][0]['channels'] = [item[1] for item in channels_with_sort_key]
 
           with open('MT.json', 'w', encoding='utf-8') as f:
@@ -169,5 +167,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI Upgrades: Vertical scroll, sorting by time, text-below" || echo "No changes to commit"
+          git commit -m "UI: Vertical layout 2 cols, text below, no fake live tag" || echo "No changes to commit"
           git push
