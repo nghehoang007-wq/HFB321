@@ -19,9 +19,15 @@ jobs:
           cat << 'EOF' > convert.py
           import json
           import re
+          from datetime import datetime, timedelta, timezone
 
-          # Hàm tự động ngắt dòng thông minh (mặc định 12 ký tự/dòng)
-          def wrap_text(text, max_len=12):
+          # Lấy ngày hiện tại theo giờ Việt Nam (UTC+7)
+          tz_vn = timezone(timedelta(hours=7))
+          now_vn = datetime.now(tz_vn)
+          today_str = now_vn.strftime("%d/%m")
+
+          # Hàm tự động ngắt dòng thông minh (Siết lại 8 ký tự/dòng để ảnh gọn hơn)
+          def wrap_text(text, max_len=8):
               words = text.split()
               lines = []
               curr_line = ""
@@ -34,38 +40,18 @@ jobs:
                       curr_line = word + " "
               if curr_line:
                   lines.append(curr_line.strip())
-              # Thêm \n để xuống dòng, Monplayer sẽ tự động căn giữa (center align)
               return "\n".join(lines)
-
-          # Hàm lấy thời gian để sắp xếp lịch phát sóng
-          def get_sort_key(t_str):
-              m = re.search(r'(\d{1,2})[hH:](\d{2})(?:-(\d{1,2})/(\d{1,2}))?', t_str)
-              if m:
-                  hour = int(m.group(1))
-                  minute = int(m.group(2))
-                  day = int(m.group(3)) if m.group(3) else 0
-                  month = int(m.group(4)) if m.group(4) else 0
-                  return (month, day, hour, minute)
-              return (99, 99, 99, 99) 
 
           data = {
             "id": "HFB",
             "url": "http://hfb123.netlify.app/MT.json",
             "name": "HFB",
             "color": "#1cb57a",
-            "description": "HFB - Trang web phát sóng bóng đá trực tuyến.",
+            "description": "HFB - Trang web phát sóng bóng đá trực tuyến miễn phí.",
             "image": {
               "url": "https://t4.ftcdn.net/jpg/02/11/51/53/360_F_211515361_bnIbyKadClzn3hJT0zCPPuPApcG7k3lC.jpg"
             },
-            "groups": [
-              {
-                "id": "live",
-                "name": "🔴 Lịch Phát Sóng",
-                "display": "vertical",
-                "grid_number": 2,
-                "channels": []
-              }
-            ],
+            "groups": [],
             "sorts": [],
             "notice": {
               "id": "notice",
@@ -86,7 +72,8 @@ jobs:
           except Exception as e:
               lines = []
 
-          channels_with_sort_key = []
+          # Dictionary lưu trữ các trận đấu theo từng ngày
+          date_groups = {}
           uid = 1
 
           for i in range(len(lines)):
@@ -97,17 +84,39 @@ jobs:
                   if len(parts) > 1:
                       display_text = parts[1].strip()
                       
-                      # Tách Giờ, BLV, Tên Trận
                       match_info = re.match(r'(.*?):\s*\[(.*?)\]\s*(.*)', display_text)
                       
                       if match_info:
-                          time_str = match_info.group(1).strip()
+                          time_str_full = match_info.group(1).strip()
                           blv_name = match_info.group(2).strip()
                           raw_match_name = match_info.group(3).strip()
                       else:
-                          time_str = "00h00"
+                          time_str_full = "00h00"
                           blv_name = "BLV Socolive"
                           raw_match_name = display_text
+
+                      # Tách Giờ và Ngày riêng biệt
+                      m_time = re.search(r'(\d{1,2}[hH:]\d{2})(?:-(.*?))?$', time_str_full)
+                      if m_time:
+                          time_only = m_time.group(1).replace(":", "h")
+                          date_only = m_time.group(2).strip() if m_time.group(2) else today_str
+                      else:
+                          time_only = "00h00"
+                          date_only = today_str
+                          
+                      # Chuẩn hóa định dạng ngày (VD: 22/2 -> 22/02) để dễ sort
+                      d_parts = date_only.split('/')
+                      if len(d_parts) == 2:
+                          date_only = f"{int(d_parts[0]):02d}/{int(d_parts[1]):02d}"
+
+                      # Tách tên 2 đội từ chữ "vs"
+                      teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
+                      if len(teams) == 2:
+                          team1 = teams[0].strip()
+                          team2 = teams[1].strip()
+                      else:
+                          team1 = raw_match_name
+                          team2 = ""
 
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
                           raw_url = lines[i+1]
@@ -118,38 +127,30 @@ jobs:
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               unique_match_name = f"{raw_match_name} ({blv_name})"
                               
-                              # Gắn nhãn mặc định: Giờ (Giữa) và Tên BLV (Dưới Trái)
+                              # Bố trí Nhãn (Label): Giờ đưa xuống đáy (bottom-center)
                               labels_list = [
                                   { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
-                                  { "position": "center", "text": time_str, "color": "#FF0000", "text_color": "#FFFFFF" }
+                                  { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
                               ]
                               
-                              # Bóc tách 2 đội từ chữ "vs" (không phân biệt chữ hoa/thường)
-                              teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
-                              if len(teams) == 2:
-                                  team1 = teams[0].strip()
-                                  team2 = teams[1].strip()
-                                  
-                                  # CHUẨN HÓA VỊ TRÍ: Dùng center-left và center-right
-                                  # Dùng màu #80000000 (Đen trong suốt 50%) để chữ không bị chìm vào nền ảnh
+                              # Ép khuôn Team 1 & 2 lên đối xứng 2 bên sườn
+                              if team1:
                                   labels_list.append({ "position": "center-left", "text": wrap_text(team1), "color": "#80000000", "text_color": "#FFFFFF" })
+                              if team2:
                                   labels_list.append({ "position": "center-right", "text": wrap_text(team2), "color": "#80000000", "text_color": "#FFFFFF" })
-                              else:
-                                  # Nếu không có chữ vs, hiển thị toàn bộ tên lên góc trên trái
-                                  labels_list.append({ "position": "top-left", "text": wrap_text(raw_match_name, 20), "color": "#80000000", "text_color": "#FFFFFF" })
 
                               # Cấu trúc 1 trận đấu
                               channel_obj = {
                                 "id": f"ch-{uid}",
                                 "name": unique_match_name,
                                 "labels": labels_list,
-                                "description": f"Socolive • {time_str}",
+                                "description": f"Socolive • {time_only} • {date_only}",
                                 "image": {
-                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat.png",
+                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
                                   "height": 480, "width": 640, "display": "cover", "shape": "square"
                                 },
                                 "type": "single",
-                                "display": "thumbnail-only", # Đã đưa về ảnh Thumbnail tinh gọn
+                                "display": "thumbnail-only",
                                 "sources": [
                                   {
                                     "id": f"src-{uid}",
@@ -182,15 +183,42 @@ jobs:
                                 ]
                               }
                               
-                              sort_key = get_sort_key(time_str)
-                              channels_with_sort_key.append((sort_key, channel_obj))
+                              # Bóc lấy Giờ và Phút để xếp thứ tự bên trong 1 ngày
+                              hour, minute = 99, 99
+                              m_hm = re.search(r'(\d{1,2})[hH](\d{2})', time_only)
+                              if m_hm:
+                                  hour = int(m_hm.group(1))
+                                  minute = int(m_hm.group(2))
+                              
+                              if date_only not in date_groups:
+                                  date_groups[date_only] = []
+                              
+                              date_groups[date_only].append(((hour, minute), channel_obj))
                               uid += 1
 
-          # Sắp xếp các luồng theo giờ
-          channels_with_sort_key.sort(key=lambda x: x[0])
-          
-          # Đưa kết quả vào JSON
-          data['groups'][0]['channels'] = [item[1] for item in channels_with_sort_key]
+          # Hàm để Sắp xếp các Group (Các Ngày) theo thứ tự
+          def date_sort_key(d_str):
+              parts = d_str.split('/')
+              if len(parts) == 2:
+                  return (int(parts[1]), int(parts[0]))
+              return (99, 99)
+
+          sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
+
+          # Duyệt qua từng Ngày và tạo Group tương ứng
+          for d in sorted_dates:
+              group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
+              
+              # Xếp thứ tự các trận đấu theo giờ trong ngày hôm đó
+              sorted_channels = sorted(date_groups[d], key=lambda x: x[0])
+              
+              data['groups'].append({
+                  "id": f"group-{d.replace('/', '')}",
+                  "name": group_name,
+                  "display": "vertical",
+                  "grid_number": 2,
+                  "channels": [ch[1] for ch in sorted_channels]
+              })
 
           with open('MT.json', 'w', encoding='utf-8') as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
@@ -201,5 +229,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Add symmetric multiline labels with Hex colors" || echo "No changes to commit"
+          git commit -m "UI: Group by Date, Move Time to bottom, Auto-wrap teams" || echo "No changes to commit"
           git push
