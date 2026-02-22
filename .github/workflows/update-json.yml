@@ -21,26 +21,66 @@ jobs:
           import re
           from datetime import datetime, timedelta, timezone
 
-          # Lấy ngày hiện tại theo giờ Việt Nam (UTC+7)
+          # Lấy ngày hiện tại
           tz_vn = timezone(timedelta(hours=7))
           now_vn = datetime.now(tz_vn)
           today_str = now_vn.strftime("%d/%m")
 
-          # Hàm tự động ngắt dòng thông minh (Siết lại 8 ký tự/dòng để ảnh gọn hơn)
-          def wrap_text(text, max_len=8):
-              words = text.split()
-              lines = []
-              curr_line = ""
-              for word in words:
-                  if len(curr_line) + len(word) <= max_len:
-                      curr_line += word + " "
-                  else:
-                      if curr_line:
-                          lines.append(curr_line.strip())
-                      curr_line = word + " "
-              if curr_line:
-                  lines.append(curr_line.strip())
-              return "\n".join(lines)
+          # Hàm Tự Động Viết Tắt Tên Đội Bóng Thông Minh
+          def shorten_name(name):
+              name = name.strip()
+              
+              # 1. Các đội bóng nổi tiếng có tên dài
+              known = {
+                  "Manchester United": "Man Utd",
+                  "Manchester City": "Man City",
+                  "Paris Saint Germain": "PSG",
+                  "Wolverhampton Wanderers": "Wolves",
+                  "Wolverhampton": "Wolves",
+                  "Borussia Dortmund": "Dortmund",
+                  "Borussia Monchengladbach": "M'gladbach",
+                  "Nottingham Forest": "N. Forest",
+                  "Bayer 04 Leverkusen": "Leverkusen",
+                  "Eintracht Frankfurt": "E. Frankfurt",
+                  "Sporting Kansas City": "Sporting KC",
+                  "Club Deportivo Guadalajara": "Guadalajara",
+                  "Preah Khan Reach Svay Rieng FC": "Svay Rieng",
+                  "Crystal Palace": "C. Palace",
+                  "Aston Villa": "A. Villa",
+                  "Sheffield Wednesday": "Sheff Wed",
+                  "Sheffield United": "Sheff Utd",
+                  "Los Angeles FC": "LAFC",
+                  "Inter Miami CF": "Inter Miami"
+              }
+              
+              for k, v in known.items():
+                  if k.lower() in name.lower():
+                      return v
+
+              # 2. Xóa các hậu tố/tiền tố thừa
+              words_to_remove = ["FC", "CF", "SC", "AFC", "Club"]
+              words = name.split()
+              if len(words) > 1:
+                  words = [w for w in words if w not in words_to_remove]
+              
+              res = " ".join(words)
+              
+              # 3. Viết tắt chữ cái đầu nếu tên vẫn dài (VD: "Mito Hollyhock" -> "M. Hollyhock")
+              if len(res) > 13 and len(words) >= 2:
+                  res = f"{words[0][0]}. " + " ".join(words[1:])
+                  
+              # 4. Nếu vẫn còn quá dài, cắt gọt tối đa
+              if len(res) > 14:
+                  res = res[:12] + ".."
+                  
+              return res
+
+          # Hàm xử lý sắp xếp thời gian
+          def get_sort_key(t_str):
+              m = re.search(r'(\d{1,2})[hH:](\d{2})', t_str)
+              if m:
+                  return (int(m.group(1)), int(m.group(2)))
+              return (99, 99)
 
           data = {
             "id": "HFB",
@@ -72,7 +112,6 @@ jobs:
           except Exception as e:
               lines = []
 
-          # Dictionary lưu trữ các trận đấu theo từng ngày
           date_groups = {}
           uid = 1
 
@@ -95,7 +134,7 @@ jobs:
                           blv_name = "BLV Socolive"
                           raw_match_name = display_text
 
-                      # Tách Giờ và Ngày riêng biệt
+                      # Tách Giờ và Ngày
                       m_time = re.search(r'(\d{1,2}[hH:]\d{2})(?:-(.*?))?$', time_str_full)
                       if m_time:
                           time_only = m_time.group(1).replace(":", "h")
@@ -104,18 +143,17 @@ jobs:
                           time_only = "00h00"
                           date_only = today_str
                           
-                      # Chuẩn hóa định dạng ngày (VD: 22/2 -> 22/02) để dễ sort
                       d_parts = date_only.split('/')
                       if len(d_parts) == 2:
                           date_only = f"{int(d_parts[0]):02d}/{int(d_parts[1]):02d}"
 
-                      # Tách tên 2 đội từ chữ "vs"
+                      # Tách 2 đội và Áp dụng hàm VIẾT TẮT
                       teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
                       if len(teams) == 2:
-                          team1 = teams[0].strip()
-                          team2 = teams[1].strip()
+                          team1 = shorten_name(teams[0])
+                          team2 = shorten_name(teams[1])
                       else:
-                          team1 = raw_match_name
+                          team1 = shorten_name(raw_match_name)
                           team2 = ""
 
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
@@ -127,26 +165,25 @@ jobs:
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               unique_match_name = f"{raw_match_name} ({blv_name})"
                               
-                              # Bố trí Nhãn (Label): Giờ đưa xuống đáy (bottom-center)
+                              # Labels hiển thị trên ảnh
                               labels_list = [
-                                  { "position": "bottom-left", "text": blv_name, "color": "#0066CC", "text_color": "#FFFFFF" },
-                                  { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
+                                  { "position": "bottom-left", "text": blv_name, "color": "#80000000", "text_color": "#FFD700" }, # Tên BLV màu Vàng nền mờ
+                                  { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" } # Giờ ở đáy màu Đỏ
                               ]
                               
-                              # Ép khuôn Team 1 & 2 lên đối xứng 2 bên sườn
+                              # Dán tên 2 đội ngắn gọn sang 2 bên
                               if team1:
-                                  labels_list.append({ "position": "center-left", "text": wrap_text(team1), "color": "#80000000", "text_color": "#FFFFFF" })
+                                  labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
                               if team2:
-                                  labels_list.append({ "position": "center-right", "text": wrap_text(team2), "color": "#80000000", "text_color": "#FFFFFF" })
+                                  labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
-                              # Cấu trúc 1 trận đấu
                               channel_obj = {
                                 "id": f"ch-{uid}",
                                 "name": unique_match_name,
                                 "labels": labels_list,
-                                "description": f"Socolive • {time_only} • {date_only}",
+                                "description": f"Socolive • {time_only}",
                                 "image": {
-                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
+                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat.png",
                                   "height": 480, "width": 640, "display": "cover", "shape": "square"
                                 },
                                 "type": "single",
@@ -183,20 +220,13 @@ jobs:
                                 ]
                               }
                               
-                              # Bóc lấy Giờ và Phút để xếp thứ tự bên trong 1 ngày
-                              hour, minute = 99, 99
-                              m_hm = re.search(r'(\d{1,2})[hH](\d{2})', time_only)
-                              if m_hm:
-                                  hour = int(m_hm.group(1))
-                                  minute = int(m_hm.group(2))
-                              
+                              sort_key = get_sort_key(time_only)
                               if date_only not in date_groups:
                                   date_groups[date_only] = []
                               
-                              date_groups[date_only].append(((hour, minute), channel_obj))
+                              date_groups[date_only].append((sort_key, channel_obj))
                               uid += 1
 
-          # Hàm để Sắp xếp các Group (Các Ngày) theo thứ tự
           def date_sort_key(d_str):
               parts = d_str.split('/')
               if len(parts) == 2:
@@ -205,11 +235,8 @@ jobs:
 
           sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
 
-          # Duyệt qua từng Ngày và tạo Group tương ứng
           for d in sorted_dates:
               group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
-              
-              # Xếp thứ tự các trận đấu theo giờ trong ngày hôm đó
               sorted_channels = sorted(date_groups[d], key=lambda x: x[0])
               
               data['groups'].append({
@@ -229,5 +256,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Group by Date, Move Time to bottom, Auto-wrap teams" || echo "No changes to commit"
+          git commit -m "UI: Smart team name abbreviation and layout fix" || echo "No changes to commit"
           git push
