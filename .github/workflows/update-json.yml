@@ -144,11 +144,10 @@ jobs:
                           if id_match:
                               stream_id = id_match.group(1)
                               
-                              # ----- TẠO 2 CÔNG THỨC LINK -----
                               primary_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               backup_url = f"https://pull.niues.live/live/stream-{stream_id}_lhd.m3u8"
                               
-                              # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận
+                              # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận gốc
                               match_key = f"{time_only}-{raw_match_name}"
                               
                               if date_only not in date_groups:
@@ -156,13 +155,17 @@ jobs:
                               
                               # NẾU TRẬN NÀY CHƯA CÓ TRONG DANH SÁCH -> TẠO KHUNG MỚI
                               if match_key not in date_groups[date_only]:
+                                  
+                                  # CHỈ CÒN NHÃN THỜI GIAN VÀ TÊN 2 ĐỘI
                                   labels_list = [
-                                      { "position": "bottom-left", "text": "🎙️ Tùy chọn BLV", "color": "#80000000", "text_color": "#FFD700" },
                                       { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
                                   ]
                                   
+                                  # Nạp Đội 1 vào trước (nằm dưới)
                                   if team1:
                                       labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
+                                      
+                                  # Nạp Đội 2 vào sau cùng -> Sẽ đè lên Đội 1 nếu quá dài
                                   if team2:
                                       labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
@@ -189,7 +192,7 @@ jobs:
                                               {
                                                 "id": f"strm-{match_uid}",
                                                 "name": "Danh sách luồng", 
-                                                "stream_links": [] # Khởi tạo mảng link rỗng
+                                                "stream_links": []
                                               }
                                             ]
                                           }
@@ -203,18 +206,15 @@ jobs:
                                   }
                                   match_uid += 1
                               
-                              # ÉP 2 LUỒNG VÀO MẢNG STREAM_LINKS
+                              # ĐẨY LINK M3U8 VÀO TRẬN ĐẤU (Bao gồm link Chính và Dự phòng)
                               target_stream_links = date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"][0]["stream_links"]
-                              
-                              # Check xem đây có phải luồng đầu tiên của trận này không
                               is_first_blv = len(target_stream_links) == 0
                               
-                              # 1. Bơm Luồng Chính
                               primary_link_obj = {
                                   "id": f"lnk-{stream_uid}-main",
                                   "name": f"{blv_name} (Chính)",
                                   "type": "hls",
-                                  "default": is_first_blv, # Chỉ luồng chính của BLV đầu tiên mới auto play
+                                  "default": is_first_blv, 
                                   "url": primary_url,
                                   "request_headers": [
                                       { "key": "Referer", "value": "https://bunchatv3.com/" }
@@ -222,12 +222,11 @@ jobs:
                               }
                               target_stream_links.append(primary_link_obj)
                               
-                              # 2. Bơm Luồng Dự Phòng
                               backup_link_obj = {
                                   "id": f"lnk-{stream_uid}-backup",
                                   "name": f"{blv_name} (Dự phòng)",
                                   "type": "hls",
-                                  "default": False, # Luồng dự phòng không bao giờ auto play
+                                  "default": False, 
                                   "url": backup_url,
                                   "request_headers": [
                                       { "key": "Referer", "value": "https://bunchatv3.com/" }
@@ -246,7 +245,7 @@ jobs:
 
           sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
 
-          # Tạo JSON Final
+          # Khởi tạo dữ liệu JSON Final
           for d in sorted_dates:
               group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
               
@@ -269,5 +268,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "Feature: Add backup streaming server (Niues) for fallback" || echo "No changes to commit"
+          git commit -m "UI: Remove BLV names from thumbnail, stack right team over left team" || echo "No changes to commit"
           git push
