@@ -259,7 +259,7 @@ jobs:
                   "channels": [item["channel"] for item in sorted_matches]
               })
 
-          with open('HFB/MT.json', 'w', encoding='utf-8') as f:
+          with open('MT.json', 'w', encoding='utf-8') as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
           EOF
           
