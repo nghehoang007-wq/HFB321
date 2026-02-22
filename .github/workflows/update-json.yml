@@ -21,7 +21,7 @@ jobs:
           import re
           from datetime import datetime, timedelta, timezone
 
-          # Lấy ngày hiện tại để đánh dấu "Hôm nay"
+          # Lấy ngày hiện tại
           tz_vn = timezone(timedelta(hours=7))
           now_vn = datetime.now(tz_vn)
           today_str = now_vn.strftime("%d/%m")
@@ -151,10 +151,10 @@ jobs:
                               if date_only not in date_groups:
                                   date_groups[date_only] = {}
                               
-                              # NẾU TRẬN ĐẤU CHƯA ĐƯỢC TẠO THẺ THÌ TẠO MỚI
+                              # NẾU TRẬN NÀY CHƯA CÓ TRONG DANH SÁCH -> TẠO KHUNG MỚI
                               if match_key not in date_groups[date_only]:
                                   labels_list = [
-                                      { "position": "bottom-left", "text": "🎙️ Chọn BLV", "color": "#80000000", "text_color": "#FFD700" },
+                                      { "position": "bottom-left", "text": blv_name, "color": "#80000000", "text_color": "#FFD700" },
                                       { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
                                   ]
                                   
@@ -164,12 +164,12 @@ jobs:
                                       labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
                                   channel_obj = {
-                                    "id": f"match-{match_uid}",
+                                    "id": f"ch-{match_uid}",
                                     "name": raw_match_name,
                                     "labels": labels_list,
                                     "description": f"Socolive • {time_only}",
                                     "image": {
-                                      "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
+                                      "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat.png",
                                       "height": 480, "width": 640, "display": "cover", "shape": "square"
                                     },
                                     "type": "single",
@@ -182,7 +182,13 @@ jobs:
                                           {
                                             "id": f"cnt-{match_uid}",
                                             "name": raw_match_name,
-                                            "streams": [] # Bắt đầu với mảng luồng rỗng
+                                            "streams": [
+                                              {
+                                                "id": f"strm-{match_uid}",
+                                                "name": "Luồng Phát", # Chỉ cần 1 stream duy nhất
+                                                "stream_links": [] # Khởi tạo mảng link rỗng
+                                              }
+                                            ]
                                           }
                                         ]
                                       }
@@ -194,28 +200,25 @@ jobs:
                                   }
                                   match_uid += 1
                               
-                              # BƠM LUỒNG BLV VÀO TRẬN ĐẤU ĐÃ TẠO
-                              # Luồng đầu tiên được nạp sẽ là mặc định (default: True)
-                              is_default = len(date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"]) == 0
+                              # ÉP LUỒNG MỚI VÀO MẢNG STREAM_LINKS CỦA TRẬN ĐẤU ĐÓ
+                              # Tham chiếu trực tiếp tới mảng stream_links
+                              target_stream_links = date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"][0]["stream_links"]
                               
-                              stream_obj = {
-                                  "id": f"strm-{stream_uid}",
-                                  "name": blv_name, # Tên BLV hiển thị trong menu đổi nguồn
-                                  "stream_links": [
-                                      {
-                                          "id": f"lnk-{stream_uid}",
-                                          "name": "HLS",
-                                          "type": "hls",
-                                          "default": is_default,
-                                          "url": new_stream_url,
-                                          "request_headers": [
-                                              { "key": "Referer", "value": "https://bunchatv3.com/" }
-                                          ]
-                                      }
+                              # Luồng đầu tiên được đẩy vào sẽ làm mặc định
+                              is_default = len(target_stream_links) == 0
+                              
+                              link_obj = {
+                                  "id": f"lnk-{stream_uid}",
+                                  "name": blv_name, # Tên link sẽ mang tên BLV (như chức năng chọn Sub/Resolution)
+                                  "type": "hls",
+                                  "default": is_default,
+                                  "url": new_stream_url,
+                                  "request_headers": [
+                                      { "key": "Referer", "value": "https://bunchatv3.com/" }
                                   ]
                               }
                               
-                              date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"].append(stream_obj)
+                              target_stream_links.append(link_obj)
                               stream_uid += 1
 
           # Sắp xếp Group Ngày
@@ -251,5 +254,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "Feature: Group multiple BLV streams into single Match channel" || echo "No changes to commit"
+          git commit -m "Feature: Group multiple BLVs into stream_links as fallback" || echo "No changes to commit"
           git push
