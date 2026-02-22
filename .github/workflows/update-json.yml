@@ -21,61 +21,39 @@ jobs:
           import re
           from datetime import datetime, timedelta, timezone
 
-          # Lấy ngày hiện tại
+          # Lấy ngày hiện tại để đánh dấu "Hôm nay"
           tz_vn = timezone(timedelta(hours=7))
           now_vn = datetime.now(tz_vn)
           today_str = now_vn.strftime("%d/%m")
 
-          # Hàm Tự Động Viết Tắt Tên Đội Bóng Thông Minh
+          # Hàm Tự Động Viết Tắt Tên Đội Bóng
           def shorten_name(name):
               name = name.strip()
-              
-              # 1. Các đội bóng nổi tiếng có tên dài
               known = {
-                  "Manchester United": "Man Utd",
-                  "Manchester City": "Man City",
-                  "Paris Saint Germain": "PSG",
-                  "Wolverhampton Wanderers": "Wolves",
-                  "Wolverhampton": "Wolves",
-                  "Borussia Dortmund": "Dortmund",
-                  "Borussia Monchengladbach": "M'gladbach",
-                  "Nottingham Forest": "N. Forest",
-                  "Bayer 04 Leverkusen": "Leverkusen",
-                  "Eintracht Frankfurt": "E. Frankfurt",
-                  "Sporting Kansas City": "Sporting KC",
-                  "Club Deportivo Guadalajara": "Guadalajara",
-                  "Preah Khan Reach Svay Rieng FC": "Svay Rieng",
-                  "Crystal Palace": "C. Palace",
-                  "Aston Villa": "A. Villa",
-                  "Sheffield Wednesday": "Sheff Wed",
-                  "Sheffield United": "Sheff Utd",
-                  "Los Angeles FC": "LAFC",
-                  "Inter Miami CF": "Inter Miami"
+                  "Manchester United": "Man Utd", "Manchester City": "Man City", "Paris Saint Germain": "PSG",
+                  "Wolverhampton Wanderers": "Wolves", "Wolverhampton": "Wolves", "Borussia Dortmund": "Dortmund",
+                  "Borussia Monchengladbach": "M'gladbach", "Nottingham Forest": "N. Forest", "Bayer 04 Leverkusen": "Leverkusen",
+                  "Eintracht Frankfurt": "E. Frankfurt", "Sporting Kansas City": "Sporting KC", "Club Deportivo Guadalajara": "Guadalajara",
+                  "Preah Khan Reach Svay Rieng FC": "Svay Rieng", "Crystal Palace": "C. Palace", "Aston Villa": "A. Villa",
+                  "Sheffield Wednesday": "Sheff Wed", "Sheffield United": "Sheff Utd", "Los Angeles FC": "LAFC", "Inter Miami CF": "Inter Miami"
               }
-              
               for k, v in known.items():
                   if k.lower() in name.lower():
                       return v
 
-              # 2. Xóa các hậu tố/tiền tố thừa
               words_to_remove = ["FC", "CF", "SC", "AFC", "Club"]
               words = name.split()
               if len(words) > 1:
                   words = [w for w in words if w not in words_to_remove]
-              
               res = " ".join(words)
               
-              # 3. Viết tắt chữ cái đầu nếu tên vẫn dài (VD: "Mito Hollyhock" -> "M. Hollyhock")
               if len(res) > 13 and len(words) >= 2:
                   res = f"{words[0][0]}. " + " ".join(words[1:])
-                  
-              # 4. Nếu vẫn còn quá dài, cắt gọt tối đa
               if len(res) > 14:
                   res = res[:12] + ".."
-                  
               return res
 
-          # Hàm xử lý sắp xếp thời gian
+          # Hàm lấy thời gian để sắp xếp
           def get_sort_key(t_str):
               m = re.search(r'(\d{1,2})[hH:](\d{2})', t_str)
               if m:
@@ -112,8 +90,10 @@ jobs:
           except Exception as e:
               lines = []
 
+          # Dictionary lưu trữ các trận đấu theo từng Ngày -> Tên Trận
           date_groups = {}
-          uid = 1
+          match_uid = 1
+          stream_uid = 1
 
           for i in range(len(lines)):
               line = lines[i]
@@ -123,6 +103,7 @@ jobs:
                   if len(parts) > 1:
                       display_text = parts[1].strip()
                       
+                      # Tách Giờ, BLV, Tên Trận
                       match_info = re.match(r'(.*?):\s*\[(.*?)\]\s*(.*)', display_text)
                       
                       if match_info:
@@ -147,7 +128,7 @@ jobs:
                       if len(d_parts) == 2:
                           date_only = f"{int(d_parts[0]):02d}/{int(d_parts[1]):02d}"
 
-                      # Tách 2 đội và Áp dụng hàm VIẾT TẮT
+                      # Tách 2 đội
                       teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
                       if len(teams) == 2:
                           team1 = shorten_name(teams[0])
@@ -163,70 +144,81 @@ jobs:
                           if id_match:
                               stream_id = id_match.group(1)
                               new_stream_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
-                              unique_match_name = f"{raw_match_name} ({blv_name})"
                               
-                              # Labels hiển thị trên ảnh
-                              labels_list = [
-                                  { "position": "bottom-left", "text": blv_name, "color": "#80000000", "text_color": "#FFD700" }, # Tên BLV màu Vàng nền mờ
-                                  { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" } # Giờ ở đáy màu Đỏ
-                              ]
+                              # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận
+                              match_key = f"{time_only}-{raw_match_name}"
                               
-                              # Dán tên 2 đội ngắn gọn sang 2 bên
-                              if team1:
-                                  labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
-                              if team2:
-                                  labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
+                              if date_only not in date_groups:
+                                  date_groups[date_only] = {}
+                              
+                              # NẾU TRẬN ĐẤU CHƯA ĐƯỢC TẠO THẺ THÌ TẠO MỚI
+                              if match_key not in date_groups[date_only]:
+                                  labels_list = [
+                                      { "position": "bottom-left", "text": "🎙️ Chọn BLV", "color": "#80000000", "text_color": "#FFD700" },
+                                      { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
+                                  ]
+                                  
+                                  if team1:
+                                      labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
+                                  if team2:
+                                      labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
-                              channel_obj = {
-                                "id": f"ch-{uid}",
-                                "name": unique_match_name,
-                                "labels": labels_list,
-                                "description": f"Socolive • {time_only}",
-                                "image": {
-                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat.png",
-                                  "height": 480, "width": 640, "display": "cover", "shape": "square"
-                                },
-                                "type": "single",
-                                "display": "thumbnail-only",
-                                "sources": [
-                                  {
-                                    "id": f"src-{uid}",
-                                    "name": "Socolive",
-                                    "contents": [
+                                  channel_obj = {
+                                    "id": f"match-{match_uid}",
+                                    "name": raw_match_name,
+                                    "labels": labels_list,
+                                    "description": f"Socolive • {time_only}",
+                                    "image": {
+                                      "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat1.png",
+                                      "height": 480, "width": 640, "display": "cover", "shape": "square"
+                                    },
+                                    "type": "single",
+                                    "display": "thumbnail-only",
+                                    "sources": [
                                       {
-                                        "id": f"cnt-{uid}",
-                                        "name": unique_match_name,
-                                        "streams": [
+                                        "id": f"src-{match_uid}",
+                                        "name": "Socolive",
+                                        "contents": [
                                           {
-                                            "id": f"strm-{uid}",
-                                            "name": blv_name,
-                                            "stream_links": [
-                                              {
-                                                "id": f"lnk-{uid}",
-                                                "name": "HLS",
-                                                "type": "hls",
-                                                "default": True,
-                                                "url": new_stream_url,
-                                                "request_headers": [
-                                                  { "key": "Referer", "value": "https://bunchatv3.com/" }
-                                                ]
-                                              }
-                                            ]
+                                            "id": f"cnt-{match_uid}",
+                                            "name": raw_match_name,
+                                            "streams": [] # Bắt đầu với mảng luồng rỗng
                                           }
                                         ]
                                       }
                                     ]
                                   }
-                                ]
+                                  date_groups[date_only][match_key] = {
+                                      "sort_key": get_sort_key(time_only),
+                                      "channel": channel_obj
+                                  }
+                                  match_uid += 1
+                              
+                              # BƠM LUỒNG BLV VÀO TRẬN ĐẤU ĐÃ TẠO
+                              # Luồng đầu tiên được nạp sẽ là mặc định (default: True)
+                              is_default = len(date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"]) == 0
+                              
+                              stream_obj = {
+                                  "id": f"strm-{stream_uid}",
+                                  "name": blv_name, # Tên BLV hiển thị trong menu đổi nguồn
+                                  "stream_links": [
+                                      {
+                                          "id": f"lnk-{stream_uid}",
+                                          "name": "HLS",
+                                          "type": "hls",
+                                          "default": is_default,
+                                          "url": new_stream_url,
+                                          "request_headers": [
+                                              { "key": "Referer", "value": "https://bunchatv3.com/" }
+                                          ]
+                                      }
+                                  ]
                               }
                               
-                              sort_key = get_sort_key(time_only)
-                              if date_only not in date_groups:
-                                  date_groups[date_only] = []
-                              
-                              date_groups[date_only].append((sort_key, channel_obj))
-                              uid += 1
+                              date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"].append(stream_obj)
+                              stream_uid += 1
 
+          # Sắp xếp Group Ngày
           def date_sort_key(d_str):
               parts = d_str.split('/')
               if len(parts) == 2:
@@ -235,16 +227,19 @@ jobs:
 
           sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
 
+          # Tạo JSON Final
           for d in sorted_dates:
               group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
-              sorted_channels = sorted(date_groups[d], key=lambda x: x[0])
+              
+              # Sắp xếp các trận đấu trong ngày theo thời gian
+              sorted_matches = sorted(date_groups[d].values(), key=lambda x: x["sort_key"])
               
               data['groups'].append({
                   "id": f"group-{d.replace('/', '')}",
                   "name": group_name,
                   "display": "vertical",
                   "grid_number": 2,
-                  "channels": [ch[1] for ch in sorted_channels]
+                  "channels": [item["channel"] for item in sorted_matches]
               })
 
           with open('MT.json', 'w', encoding='utf-8') as f:
@@ -256,5 +251,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Smart team name abbreviation and layout fix" || echo "No changes to commit"
+          git commit -m "Feature: Group multiple BLV streams into single Match channel" || echo "No changes to commit"
           git push
