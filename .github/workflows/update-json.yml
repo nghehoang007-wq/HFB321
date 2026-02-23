@@ -139,89 +139,96 @@ jobs:
 
                       if i + 1 < len(lines) and lines[i+1].startswith('http'):
                           raw_url = lines[i+1]
-                          id_match = re.search(r'id=(\d+)', raw_url)
                           
+                          # 1. SỬ DỤNG TRỰC TIẾP LINK TỪ M3U LÀM LUỒNG CHÍNH
+                          primary_url = raw_url
+                          
+                          # 2. TÌM ID (DÃY SỐ) TRONG LINK ĐỂ TẠO LUỒNG DỰ PHÒNG NIUES
+                          id_match = re.search(r'(\d{5,8})', raw_url)
                           if id_match:
                               stream_id = id_match.group(1)
-                              
-                              primary_url = f"https://live.inplyr.com/room/{stream_id}.m3u8"
                               backup_url = f"https://pull.niues.live/live/stream-{stream_id}_lhd.m3u8"
+                          else:
+                              backup_url = ""
+                          
+                          # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận gốc
+                          match_key = f"{time_only}-{raw_match_name}"
+                          
+                          if date_only not in date_groups:
+                              date_groups[date_only] = {}
+                          
+                          # NẾU TRẬN NÀY CHƯA CÓ TRONG DANH SÁCH -> TẠO KHUNG MỚI
+                          if match_key not in date_groups[date_only]:
                               
-                              # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận gốc
-                              match_key = f"{time_only}-{raw_match_name}"
+                              # CHỈ CÒN NHÃN THỜI GIAN VÀ TÊN 2 ĐỘI
+                              labels_list = [
+                                  { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
+                              ]
                               
-                              if date_only not in date_groups:
-                                  date_groups[date_only] = {}
-                              
-                              # NẾU TRẬN NÀY CHƯA CÓ TRONG DANH SÁCH -> TẠO KHUNG MỚI
-                              if match_key not in date_groups[date_only]:
+                              # Nạp Đội 1 vào trước (nằm dưới)
+                              if team1:
+                                  labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
                                   
-                                  # CHỈ CÒN NHÃN THỜI GIAN VÀ TÊN 2 ĐỘI
-                                  labels_list = [
-                                      { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
-                                  ]
-                                  
-                                  # Nạp Đội 1 vào trước (nằm dưới)
-                                  if team1:
-                                      labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
-                                      
-                                  # Nạp Đội 2 vào sau cùng -> Sẽ đè lên Đội 1 nếu quá dài
-                                  if team2:
-                                      labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
+                              # Nạp Đội 2 vào sau cùng -> Sẽ đè lên Đội 1 nếu quá dài
+                              if team2:
+                                  labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
-                                  channel_obj = {
-                                    "id": f"ch-{match_uid}",
-                                    "name": raw_match_name,
-                                    "labels": labels_list,
-                                    "description": f"Socolive • {time_only}",
-                                    "image": {
-                                      "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
-                                      "height": 360, "width": 640, "display": "cover", "shape": "square"
-                                    },
-                                    "type": "single",
-                                    "display": "thumbnail-only",
-                                    "sources": [
+                              channel_obj = {
+                                "id": f"ch-{match_uid}",
+                                "name": raw_match_name,
+                                "labels": labels_list,
+                                "description": f"Socolive • {time_only}",
+                                "image": {
+                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+                                  "height": 360, "width": 640, "display": "cover", "shape": "square"
+                                },
+                                "type": "single",
+                                "display": "thumbnail-only",
+                                "sources": [
+                                  {
+                                    "id": f"src-{match_uid}",
+                                    "name": "Socolive",
+                                    "contents": [
                                       {
-                                        "id": f"src-{match_uid}",
-                                        "name": "Socolive",
-                                        "contents": [
+                                        "id": f"cnt-{match_uid}",
+                                        "name": raw_match_name,
+                                        "streams": [
                                           {
-                                            "id": f"cnt-{match_uid}",
-                                            "name": raw_match_name,
-                                            "streams": [
-                                              {
-                                                "id": f"strm-{match_uid}",
-                                                "name": "Danh sách luồng", 
-                                                "stream_links": []
-                                              }
-                                            ]
+                                            "id": f"strm-{match_uid}",
+                                            "name": "Danh sách luồng", 
+                                            "stream_links": []
                                           }
                                         ]
                                       }
                                     ]
                                   }
-                                  date_groups[date_only][match_key] = {
-                                      "sort_key": get_sort_key(time_only),
-                                      "channel": channel_obj
-                                  }
-                                  match_uid += 1
-                              
-                              # ĐẨY LINK M3U8 VÀO TRẬN ĐẤU (Bao gồm link Chính và Dự phòng)
-                              target_stream_links = date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"][0]["stream_links"]
-                              is_first_blv = len(target_stream_links) == 0
-                              
-                              primary_link_obj = {
-                                  "id": f"lnk-{stream_uid}-main",
-                                  "name": f"{blv_name} (Chính)",
-                                  "type": "hls",
-                                  "default": is_first_blv, 
-                                  "url": primary_url,
-                                  "request_headers": [
-                                      { "key": "Referer", "value": "https://bunchatv3.com/" }
-                                  ]
+                                ]
                               }
-                              target_stream_links.append(primary_link_obj)
-                              
+                              date_groups[date_only][match_key] = {
+                                  "sort_key": get_sort_key(time_only),
+                                  "channel": channel_obj
+                              }
+                              match_uid += 1
+                          
+                          # ĐẨY LINK M3U8 VÀO TRẬN ĐẤU (Bao gồm link Chính và Dự phòng)
+                          target_stream_links = date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"][0]["stream_links"]
+                          is_first_blv = len(target_stream_links) == 0
+                          
+                          # Đẩy luồng chính (Lấy từ file M3U)
+                          primary_link_obj = {
+                              "id": f"lnk-{stream_uid}-main",
+                              "name": f"{blv_name} (Chính)",
+                              "type": "hls",
+                              "default": is_first_blv, 
+                              "url": primary_url,
+                              "request_headers": [
+                                  { "key": "Referer", "value": "https://bunchatv3.com/" }
+                              ]
+                          }
+                          target_stream_links.append(primary_link_obj)
+                          
+                          # Đẩy luồng dự phòng (Nếu lấy được ID)
+                          if backup_url:
                               backup_link_obj = {
                                   "id": f"lnk-{stream_uid}-backup",
                                   "name": f"{blv_name} (Dự phòng)",
@@ -233,8 +240,8 @@ jobs:
                                   ]
                               }
                               target_stream_links.append(backup_link_obj)
-                              
-                              stream_uid += 1
+                          
+                          stream_uid += 1
 
           # Sắp xếp Group Ngày
           def date_sort_key(d_str):
@@ -268,5 +275,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add MT.json
-          git commit -m "UI: Remove BLV names from thumbnail, stack right team over left team" || echo "No changes to commit"
+          git commit -m "UI: Use raw M3U link as primary, generate fallback automatically" || echo "No changes to commit"
           git push
