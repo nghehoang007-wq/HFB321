@@ -14,7 +14,7 @@ jobs:
 
       - name: Fetch and Convert M3U to JSON
         run: |
-          curl -s -L "https://raw.githubusercontent.com/minhtan001/IPTV-Auto/refs/heads/playlists/all.m3u" > raw.m3u
+          curl -s -L "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/refs/heads/main/all.m3u" > raw.m3u
           
           cat << 'EOF' > convert.py
           import json
