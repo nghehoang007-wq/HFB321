@@ -2,7 +2,7 @@ name: Auto Scrape Socolive to M3U
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *' # Cứ 15 phút chạy 1 lần
+    - cron: '*/30 * * * *' # Cứ 15 phút chạy 1 lần
 
 jobs:
   build:
