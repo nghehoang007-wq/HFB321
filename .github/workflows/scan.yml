@@ -1,0 +1,118 @@
+name: Auto Scrape Socolive to M3U
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *' # Cứ 15 phút chạy 1 lần
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: pip install cloudscraper
+
+      - name: Run Nuxt Scraper
+        run: |
+          cat << 'EOF' > scraper.py
+          import cloudscraper
+          import json
+          import re
+          from datetime import datetime, timedelta, timezone
+
+          TARGET_URL = "https://xembong20.com/lich-truc-tiep"
+
+          # ========================================================
+          # CẤU HÌNH ĐƯỜNG DẪN M3U GIỐNG HỆT LINK CŨ CỦA BẠN
+          # Hệ thống cũ của bạn dùng đường dẫn gì? Hãy khai báo ở đây:
+          # ========================================================
+          
+          # Ví dụ nếu link cũ là: https://bunchatv3.com/room/player?id=511367
+          # URL_PREFIX = "https://bunchatv3.com/room/player?id="
+          # URL_SUFFIX = ""
+          
+          # Ví dụ nếu link cũ là: https://live.inplyr.com/room/511367.m3u8
+          URL_PREFIX = "https://live.inplyr.com/room/"
+          URL_SUFFIX = ".m3u8"
+          
+          # (Bạn có thể sửa lại 2 dòng trên để khớp 100% với hệ thống cũ)
+
+          scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+          
+          try:
+              print(f"Đang cào dữ liệu từ: {TARGET_URL}")
+              html = scraper.get(TARGET_URL, timeout=15).text
+              
+              # Dò tìm mảng dữ liệu Nuxt.js
+              match = re.search(r'<script type="application/json" data-nuxt-data="nuxt-app"[^>]*>(.*?)</script>', html, re.DOTALL)
+              
+              if not match:
+                  raise Exception("Không tìm thấy dữ liệu Nuxt trong mã nguồn HTML.")
+                  
+              nuxt_data = json.loads(match.group(1))
+              m3u_lines = ["#EXTM3U"]
+              tz_vn = timezone(timedelta(hours=7))
+              count = 0
+              
+              # Dò quét mảng dữ liệu
+              for item in nuxt_data:
+                  if isinstance(item, dict) and "hostName" in item and "guestName" in item and "matchTime" in item and "anchors" in item:
+                      try:
+                          # Lấy Tên đội và Giờ
+                          host_name = nuxt_data[item["hostName"]]
+                          guest_name = nuxt_data[item["guestName"]]
+                          match_time_unix = nuxt_data[item["matchTime"]]
+                          
+                          # Ép thời gian về đúng format cũ (Ví dụ: 22h00-23/02)
+                          # Giúp tool Monplayer của bạn nhận diện ngày tháng chuẩn xác
+                          dt = datetime.fromtimestamp(match_time_unix, tz_vn)
+                          time_str = dt.strftime("%Hh%M-%d/%m")
+                          match_name = f"{host_name} vs {guest_name}"
+                          
+                          # Lấy danh sách BLV
+                          anchors_ptr = item["anchors"]
+                          anchors_list = nuxt_data[anchors_ptr]
+                          
+                          for anc_ptr in anchors_list:
+                              anc_obj = nuxt_data[anc_ptr]
+                              
+                              if isinstance(anc_obj, dict) and "nickName" in anc_obj and "roomNum" in anc_obj:
+                                  blv_name = nuxt_data[anc_obj["nickName"]]
+                                  room_num = nuxt_data[anc_obj["roomNum"]]
+                                  
+                                  # TẠO TEXT CHUẨN #EXTINF CŨ
+                                  display_text = f"Socolive {time_str}: [{blv_name}] {match_name}"
+                                  m3u_lines.append(f'#EXTINF:-1 group-title="Socolive",{display_text}')
+                                  
+                                  # TẠO LINK CHUẨN CŨ
+                                  stream_url = f"{URL_PREFIX}{room_num}{URL_SUFFIX}"
+                                  m3u_lines.append(stream_url)
+                                  
+                                  count += 1
+                      except Exception as e:
+                          # Bỏ qua nếu có lỗi tham chiếu ở một trận bất kỳ
+                          continue
+
+              with open('all.m3u', 'w', encoding='utf-8') as f:
+                  f.write("\n".join(m3u_lines))
+                  
+              print(f"✅ Quét thành công! Đã tạo ra {count} luồng phát chuẩn chỉ.")
+
+          except Exception as e:
+              print(f"❌ Lỗi: {e}")
+              with open('all.m3u', 'w', encoding='utf-8') as f:
+                  f.write("#EXTM3U\n")
+          EOF
+          
+          python3 scraper.py
+
+      - name: Commit and Push M3U
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add all.m3u
+          git commit -m "Auto Update Socolive M3U" || echo "No changes"
+          git push
