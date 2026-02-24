@@ -6684,32 +6684,6 @@
                         },
                         {
                           "id": "lnk-164-main",
-                          "name": "BLV PIRLO (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/351530.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-164-backup",
-                          "name": "BLV PIRLO (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-351530_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-165-main",
                           "name": "BLV TOMMY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6722,7 +6696,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-165-backup",
+                          "id": "lnk-164-backup",
                           "name": "BLV TOMMY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6735,7 +6709,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-166-main",
+                          "id": "lnk-165-main",
                           "name": "BLV ĐỐM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6748,11 +6722,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-166-backup",
+                          "id": "lnk-165-backup",
                           "name": "BLV ĐỐM (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-9912110_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-166-main",
+                          "name": "BLV MESSI (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/494201.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-166-backup",
+                          "name": "BLV MESSI (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-494201_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7872,32 +7872,6 @@
                         },
                         {
                           "id": "lnk-191-main",
-                          "name": "BLV MESSI (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/494201.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-191-backup",
-                          "name": "BLV MESSI (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-494201_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-192-main",
                           "name": "BLV VODKA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7910,7 +7884,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-192-backup",
+                          "id": "lnk-191-backup",
                           "name": "BLV VODKA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7923,7 +7897,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-193-main",
+                          "id": "lnk-192-main",
                           "name": "VƯƠNG ANH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7936,7 +7910,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-193-backup",
+                          "id": "lnk-192-backup",
                           "name": "VƯƠNG ANH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7949,7 +7923,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-194-main",
+                          "id": "lnk-193-main",
                           "name": "LOGAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7962,11 +7936,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-194-backup",
+                          "id": "lnk-193-backup",
                           "name": "LOGAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-552832_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-194-main",
+                          "name": "BLV PIRLO (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/351530.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-194-backup",
+                          "name": "BLV PIRLO (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-351530_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
