@@ -13,7 +13,6 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        # Đổi vũ khí: Dùng curl_cffi siêu mạnh để xuyên thủng Cloudflare
         run: pip install curl_cffi beautifulsoup4
 
       - name: Run ChuoiChien Scraper
@@ -35,42 +34,55 @@ jobs:
 
           try:
               print(f"Đang cào dữ liệu từ: {TARGET_URL}")
-              
-              # Dùng impersonate="chrome110" để ngụy trang thành người dùng Chrome thật
               response = requests.get(TARGET_URL, impersonate="chrome110", timeout=30)
               html = response.text
               
-              # Bộ phận kiểm tra: Xem có bị Cloudflare tóm cổ không
               if len(html) < 2000 or "Just a moment" in html or "Cloudflare" in html:
-                  print("⚠️ CẢNH BÁO: Đã bị Cloudflare hoặc hệ thống chống Bot chặn lại!")
-                  print("Mã HTML trả về (500 ký tự đầu):", html[:500])
+                  print("⚠️ Bị Cloudflare chặn!")
               
               soup = BeautifulSoup(html, 'html.parser')
               m3u_lines = ["#EXTM3U"]
               count = 0
               
-              matches = soup.select('a[href*="/live/"]')
+              # TÌM TẤT CẢ LINK CÓ CHỨA CHỮ /live/ VÀ MÃ SỐ TRẬN
+              matches = soup.find_all('a', href=re.compile(r'/live/\d+'))
+              print(f"🔍 Tìm thấy {len(matches)} khối trận đấu. Bắt đầu bóc tách...")
               
               for match in matches:
+                  match_link = match.get('href', 'Không rõ link')
                   try:
-                      team_divs = match.select('div.font-bold.text-white')
-                      if len(team_divs) < 2:
+                      # 1. BÓC TÊN ĐỘI QUA THẺ ẢNH LOGO (Tuyệt đối không trượt)
+                      imgs = match.find_all('img')
+                      # Lọc lấy ảnh có tên, và loại trừ ảnh của ông BLV
+                      team_names = [img.get('alt', '').strip() for img in imgs if img.get('alt') and img.get('alt') != 'BLV Avatar']
+                      
+                      if len(team_names) < 2:
+                          print(f"⏭️ Bỏ qua (Thiếu logo 2 đội): {match_link}")
                           continue
-                      team1 = team_divs[0].get_text(strip=True)
-                      team2 = team_divs[1].get_text(strip=True)
+                          
+                      team1, team2 = team_names[0], team_names[1]
                       match_name = f"{team1} vs {team2}"
 
-                      time_span = match.select_one('span.text-green-300')
-                      time_str = time_span.get_text(strip=True).replace(' ', '-').replace(':', 'h') if time_span else "00:00"
-
-                      blv_span = match.select_one('span.blv-info')
+                      # 2. BÓC TÊN BLV
+                      blv_span = match.find('span', class_=re.compile(r'blv-info'))
                       if not blv_span:
-                          continue 
+                          print(f"⏭️ Bỏ qua (Chưa phân công BLV): {match_name}")
+                          continue
                           
                       blv_name = blv_span.get_text(strip=True)
                       if not blv_name:
+                          print(f"⏭️ Bỏ qua (Tên BLV rỗng): {match_name}")
                           continue
 
+                      # 3. BÓC GIỜ ĐÁ BẰNG REGEX XUYÊN THỦNG VĂN BẢN
+                      match_text = match.get_text(separator=' ')
+                      time_match = re.search(r'(\d{2}:\d{2})\s+(\d{2}/\d{2})', match_text)
+                      if time_match:
+                          time_str = f"{time_match.group(1).replace(':', 'h')}-{time_match.group(2)}"
+                      else:
+                          time_str = "00:00"
+
+                      # 4. ÉP LINK VÀ LƯU
                       stream_id = generate_stream_id(blv_name)
                       stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
 
@@ -78,17 +90,19 @@ jobs:
                       m3u_lines.append(f'#EXTINF:-1 group-title="ChuoiChien",{display_text}')
                       m3u_lines.append(stream_url)
                       count += 1
+                      print(f"✅ Hốt thành công: {match_name} -> ID: {stream_id}")
                       
                   except Exception as ex:
+                      print(f"❌ Lỗi kẹt mạng tại trận {match_link}: {ex}")
                       continue
 
               with open('chuoichientv.m3u', 'w', encoding='utf-8') as f:
                   f.write("\n".join(m3u_lines))
                   
-              print(f"✅ Quét thành công! Cào được {count} luồng phát từ Chuối Chiên TV.")
+              print(f"🎉 TỔNG KẾT: Đã đóng gói thành công {count} luồng phát!")
 
           except Exception as e:
-              print(f"❌ Lỗi: {e}")
+              print(f"❌ Lỗi hệ thống: {e}")
               with open('chuoichientv.m3u', 'w', encoding='utf-8') as f:
                   f.write("#EXTM3U\n")
           EOF
@@ -100,5 +114,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add chuoichientv.m3u
-          git commit -m "Auto Scrape ChuoiChien TV using curl_cffi" || echo "No changes"
+          git commit -m "Auto Scrape ChuoiChien TV Bulletproof" || echo "No changes"
           git push
