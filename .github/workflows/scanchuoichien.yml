@@ -1,0 +1,102 @@
+name: Generate M3U from ChuoiChien
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: pip install cloudscraper beautifulsoup4
+
+      - name: Run ChuoiChien Scraper
+        run: |
+          cat << 'EOF' > scraper.py
+          import cloudscraper
+          from bs4 import BeautifulSoup
+          import re
+          import unicodedata
+
+          TARGET_URL = "https://live16.chuoichientv.com/lich-thi-dau"
+          URL_PREFIX = "https://gckc0525.edgemaxcdn.org/live/"
+          URL_SUFFIX = ".flv"
+
+          # HÀM CHUYỂN ĐỔI TRỰC TIẾP TỪ HTML (Không lập trình trước)
+          def generate_stream_id(blv_name):
+              # 1. Xóa khoảng trắng 2 đầu và in thường
+              name = blv_name.strip().lower()
+              # 2. Xóa dấu tiếng Việt
+              no_accent = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('utf-8')
+              # 3. Xóa sạch khoảng trắng và các ký tự đặc biệt (chỉ giữ lại a-z và số)
+              stream_id = re.sub(r'[^a-z0-9]', '', no_accent)
+              return stream_id
+
+          scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
+          
+          try:
+              print(f"Đang cào dữ liệu từ: {TARGET_URL}")
+              html = scraper.get(TARGET_URL, timeout=15).text
+              soup = BeautifulSoup(html, 'html.parser')
+              
+              m3u_lines = ["#EXTM3U"]
+              count = 0
+              
+              matches = soup.find_all('a', href=re.compile(r'/live/\d+/'))
+              
+              for match in matches:
+                  try:
+                      team_divs = match.find_all('div', class_=re.compile(r'font-bold text-white'))
+                      if len(team_divs) < 2:
+                          continue
+                      team1 = team_divs[0].text.strip()
+                      team2 = team_divs[1].text.strip()
+                      match_name = f"{team1} vs {team2}"
+
+                      time_span = match.find('span', text=re.compile(r'\d{2}:\d{2}\s\d{2}/\d{2}'))
+                      time_str = time_span.text.strip().replace(' ', '-') if time_span else "00:00"
+                      time_str = time_str.replace(':', 'h') 
+
+                      blv_span = match.find('span', class_='blv-info')
+                      if blv_span:
+                          blv_name = blv_span.text.strip()
+                      else:
+                          continue 
+
+                      # Gọi hàm chuyển đổi trực tiếp
+                      stream_id = generate_stream_id(blv_name)
+                      stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
+
+                      display_text = f"ChuoiChien {time_str}: [{blv_name}] {match_name}"
+                      m3u_lines.append(f'#EXTINF:-1 group-title="ChuoiChien",{display_text}')
+                      m3u_lines.append(stream_url)
+                      count += 1
+                      
+                  except Exception as ex:
+                      continue
+
+              with open('chuoichientv.m3u', 'w', encoding='utf-8') as f:
+                  f.write("\n".join(m3u_lines))
+                  
+              print(f"✅ Quét thành công! Cào được {count} luồng phát từ Chuối Chiên TV.")
+
+          except Exception as e:
+              print(f"❌ Lỗi: {e}")
+              with open('chuoichientv.m3u', 'w', encoding='utf-8') as f:
+                  f.write("#EXTM3U\n")
+          EOF
+          
+          python3 scraper.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add chuoichientv.m3u
+          git commit -m "Auto Scrape ChuoiChien TV dynamically" || echo "No changes"
+          git push
