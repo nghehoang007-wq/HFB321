@@ -1,207 +1,284 @@
-name: Generate JSON from ChuoiChien
+name: Update IPTV JSON List
 on:
   workflow_dispatch:
   schedule:
     - cron: '*/20 * * * *'
 
 jobs:
-  build:
+  generate-json:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: pip install curl_cffi
-
-      - name: Run ChuoiChien JSON Factory
+      - name: Fetch and Convert M3U to JSON
         run: |
-          # Dọn dẹp thư mục cũ để không lưu file rác của trận đã hết giờ
-          rm -rf stream
-          mkdir stream
+          curl -s -L "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/refs/heads/main/all.m3u" > raw.m3u
           
-          cat << 'EOF' > scraper.py
-          import os
+          cat << 'EOF' > convert.py
           import json
           import re
-          from datetime import datetime
-          from curl_cffi import requests
-          import unicodedata
+          from datetime import datetime, timedelta, timezone
 
-          # ================= CẤU HÌNH =================
-          API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
-          
-          # Đường dẫn trỏ tới thư mục file con
-          BASE_REMOTE_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/" 
+          # Lấy ngày hiện tại
+          tz_vn = timezone(timedelta(hours=7))
+          now_vn = datetime.now(tz_vn)
+          today_str = now_vn.strftime("%d/%m")
+          current_year = now_vn.strftime("%Y")
 
-          HEADERS = {
-              "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
-              "Origin": "https://live16.chuoichientv.com",
-              "Referer": "https://live16.chuoichientv.com/",
-              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          # Hàm Tự Động Viết Tắt Tên Đội Bóng
+          def shorten_name(name):
+              name = name.strip()
+              known = {
+                  "Manchester United": "Man Utd", "Manchester City": "Man City", "Paris Saint Germain": "PSG",
+                  "Wolverhampton Wanderers": "Wolves", "Wolverhampton": "Wolves", "Borussia Dortmund": "Dortmund",
+                  "Borussia Monchengladbach": "M'gladbach", "Nottingham Forest": "N. Forest", "Bayer 04 Leverkusen": "Leverkusen",
+                  "Eintracht Frankfurt": "E. Frankfurt", "Sporting Kansas City": "Sporting KC", "Club Deportivo Guadalajara": "Guadalajara",
+                  "Preah Khan Reach Svay Rieng FC": "Svay Rieng", "Crystal Palace": "C. Palace", "Aston Villa": "A. Villa",
+                  "Sheffield Wednesday": "Sheff Wed", "Sheffield United": "Sheff Utd", "Los Angeles FC": "LAFC", "Inter Miami CF": "Inter Miami"
+              }
+              for k, v in known.items():
+                  if k.lower() in name.lower():
+                      return v
+
+              words_to_remove = ["FC", "CF", "SC", "AFC", "Club"]
+              words = name.split()
+              if len(words) > 1:
+                  words = [w for w in words if w not in words_to_remove]
+              res = " ".join(words)
+              
+              if len(res) > 13 and len(words) >= 2:
+                  res = f"{words[0][0]}. " + " ".join(words[1:])
+              if len(res) > 14:
+                  res = res[:12] + ".."
+              return res
+
+          # Hàm lấy thời gian để sắp xếp
+          def get_sort_key(t_str):
+              m = re.search(r'(\d{1,2})[hH:](\d{2})', t_str)
+              if m:
+                  return (int(m.group(1)), int(m.group(2)))
+              return (99, 99)
+
+          # KHUNG JSON KHỞI TẠO (Đã bỏ sạch các nhóm kênh liên kết ngoài)
+          data = {
+            "id": "HFB",
+            "url": "http://hfb123.netlify.app/MT.json",
+            "name": "HFB",
+            "color": "#1cb57a",
+            "description": "HFB - Trang web phát sóng bóng đá trực tuyến miễn phí.",
+            "image": {
+              "url": "https://t4.ftcdn.net/jpg/02/11/51/53/360_F_211515361_bnIbyKadClzn3hJT0zCPPuPApcG7k3lC.jpg"
+            },
+            "groups": [],
+            "sorts": [],
+            "notice": {
+              "id": "notice",
+              "link": "",
+              "icon": "",
+              "closeable": True
+            },
+            "option": {
+              "save_history": False,
+              "save_search_history": False,
+              "save_wishlist": False
+            }
           }
 
           try:
-              print("Tiến hành nổ máy sản xuất JSON...")
-              response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
-              data = response.json()
-              matches = data.get('matches', [])
+              with open('raw.m3u', 'r', encoding='utf-8') as f:
+                  lines = [line.strip() for line in f if line.strip()]
+          except Exception as e:
+              lines = []
 
-              # 1. KHỞI TẠO BỘ KHUNG MASTER JSON
-              master_json = {
-                  "id": "chuoichien",
-                  "url": "https://nghehoang007-wq.github.io/HFB321/chuoichientv.json",
-                  "name": "Chuối Chiên TV",
-                  "color": "#003A17",
-                  "description": "Xem bóng đá trực tuyến HD không quảng cáo tại Chuối Chiên TV.",
-                  "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png"},
-                  "groups": [
-                      {
-                          "id": "live",
-                          "name": "🔴 Trực tiếp",
-                          "display": "vertical",
-                          "channels": []
-                      },
-                      {
-                          "id": "related",
-                          "name": "Chán ư, vậy xem cái này cho vui ^^",
-                          "display": "horizontal",
-                          "grid_number": 1,
-                          "groups": [
-                              {"id": "thapcamtv", "name": "ThapcamTV", "display": "text-below", "image": {"url": "https://thapcamiptv.com/10cam-logo-app-light.jpg", "height": 100, "width": 100, "display": "cover"}, "remote_data": {"url": "monplayer://monplayer.org?link=https%3A%2F%2Ftctv.pro&type=provider", "external": True}},
-                              {"id": "vebotv", "name": "VeboTV", "display": "text-below", "image": {"url": "https://vebo.thethaoiptv.com/vebo-icon.png", "height": 100, "width": 100, "display": "cover"}, "remote_data": {"url": "monplayer://monplayer.org?link=https%3A%2F%2Fvbtv.pro&type=provider", "external": True}}
-                          ]
-                      }
-                  ],
-                  "notice": {"id": "notice", "link": "https://t.me/xemgicungshare", "icon": "https://tt.8share.pro/assets/telegram_sp.png", "closeable": True},
-                  "option": {"save_history": False, "save_search_history": False, "save_wishlist": False}
-              }
+          # Dictionary lưu trữ các trận đấu theo từng Ngày -> Tên Trận
+          date_groups = {}
+          match_uid = 1
+          stream_uid = 1
+
+          for i in range(len(lines)):
+              line = lines[i]
               
-              count = 0
-              for match in matches:
-                  try:
-                      match_id = match.get('_id', str(count))
-                      home = match.get('home', {}).get('name') or match.get('homeTeam', {}).get('name') or "Home"
-                      away = match.get('away', {}).get('name') or match.get('awayTeam', {}).get('name') or "Away"
-                      match_name = match.get('name') or f"{home} vs {away}"
+              if line.startswith('#EXTINF') and 'Socolive' in line:
+                  parts = line.split(',', 1)
+                  if len(parts) > 1:
+                      display_text = parts[1].strip()
                       
-                      # Tỷ số
-                      score_str = "- "
-                      home_score = match.get('home', {}).get('score')
-                      away_score = match.get('away', {}).get('score')
-                      if home_score is not None and away_score is not None:
-                          score_str = f"{home_score} - {away_score}"
-
-                      # Thời gian
-                      time_str = "00:00"
-                      timestamp = match.get('timestamp') or match.get('matchTime') or match.get('time')
-                      if timestamp:
-                          if isinstance(timestamp, (int, float)):
-                              if timestamp > 1e11: timestamp /= 1000
-                              dt = datetime.fromtimestamp(timestamp)
-                              time_str = dt.strftime("%d/%m/%Y %H:%M")
-                          elif isinstance(timestamp, str):
-                              time_str = timestamp[:16].replace('T', ' ')
-
-                      blvs = match.get('blvs', [])
-                      if not blvs: continue
-                      blv = blvs[0]
-                      blv_name = blv.get('name', 'BLV Chuối')
+                      # Tách Giờ, BLV, Tên Trận
+                      match_info = re.match(r'(.*?):\s*\[(.*?)\]\s*(.*)', display_text)
                       
-                      # Xử lý Streams (Luồng phát)
-                      streams = blv.get('streams', [])
-                      if not streams: continue
+                      if match_info:
+                          time_str_full = match_info.group(1).strip()
+                          blv_name = match_info.group(2).strip()
+                          raw_match_name = match_info.group(3).strip()
+                      else:
+                          time_str_full = "00h00"
+                          blv_name = "BLV Socolive"
+                          raw_match_name = display_text
 
-                      # 2. CHẾ TẠO FILE JSON CON CHO TỪNG TRẬN
-                      child_json = {"stream_links": []}
-                      master_streams = []
-                      
-                      for idx, stream in enumerate(streams):
-                          stream_label = stream.get('label', f"HD{idx+1}")
-                          stream_url = stream.get('url')
-                          if not stream_url: continue
+                      # Tách Giờ và Ngày
+                      m_time = re.search(r'(\d{1,2}[hH:]\d{2})(?:-(.*?))?$', time_str_full)
+                      if m_time:
+                          time_only = m_time.group(1).replace(":", "h")
+                          date_only = m_time.group(2).strip() if m_time.group(2) else today_str
+                      else:
+                          time_only = "00h00"
+                          date_only = today_str
                           
-                          stream_name = f"{blv_name} - {stream_label}"
+                      d_parts = date_only.split('/')
+                      if len(d_parts) == 2:
+                          date_only = f"{int(d_parts[0]):02d}/{int(d_parts[1]):02d}"
+
+                      # Tách 2 đội
+                      teams = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
+                      if len(teams) == 2:
+                          team1 = shorten_name(teams[0])
+                          team2 = shorten_name(teams[1])
+                      else:
+                          team1 = shorten_name(raw_match_name)
+                          team2 = ""
+
+                      if i + 1 < len(lines) and lines[i+1].startswith('http'):
+                          raw_url = lines[i+1]
                           
-                          # Nạp cấu trúc lách luật vào file con
-                          child_json["stream_links"].append({
-                              "id": str(idx + 1),
-                              "name": stream_name,
-                              "type": "hls" if "m3u8" in stream_url else "flv",
-                              "default": True if idx == 0 else False,
-                              "url": stream_url,
-                              "request_headers": [{"key": "Referer", "value": "https://api.chuoichientv.com/"}]
-                          })
+                          # 1. SỬ DỤNG TRỰC TIẾP LINK TỪ M3U LÀM LUỒNG CHÍNH
+                          primary_url = raw_url
                           
-                          # Cấy đường link trỏ tới file con vào Master JSON
-                          remote_url = f"{BASE_REMOTE_URL}{match_id}.json"
-                          master_streams.append({
-                              "id": f"{match_id}_{idx}",
-                              "name": stream_name,
-                              "remote_data": {"url": remote_url}
-                          })
+                          # 2. TÌM ID (DÃY SỐ) TRONG LINK ĐỂ TẠO LUỒNG DỰ PHÒNG NIUES
+                          id_match = re.search(r'(\d{5,8})', raw_url)
+                          if id_match:
+                              stream_id = id_match.group(1)
+                              backup_url = f"https://pull.niues.live/live/stream-{stream_id}_lhd.m3u8"
+                          else:
+                              backup_url = ""
+                          
+                          # Khóa gom nhóm: 1 trận được định danh bởi Ngày + Giờ + Tên Trận gốc
+                          match_key = f"{time_only}-{raw_match_name}"
+                          
+                          if date_only not in date_groups:
+                              date_groups[date_only] = {}
+                          
+                          # NẾU TRẬN NÀY CHƯA CÓ TRONG DANH SÁCH -> TẠO KHUNG MỚI
+                          if match_key not in date_groups[date_only]:
+                              
+                              # ======== CẬP NHẬT GIAO DIỆN KIỂU CHUỐI CHIÊN ========
+                              labels_list = [
+                                  # Bỏ label "Live" theo yêu cầu
+                                  # Đẩy tên BLV xuống góc dưới bên trái (Nền xanh dương)
+                                  { "position": "bottom-left", "text": blv_name, "color": "#007BFF", "text_color": "#FFFFFF" },
+                                  # Đẩy giờ thi đấu ra vị trí trung tâm (Nền xanh lá)
+                                  { "position": "center", "text": time_only, "color": "#28A745", "text_color": "#FFFFFF" }
+                              ]
+                              
+                              # Nạp chữ nổi Tên 2 đội (để đè lên ảnh tĩnh cho dễ nhìn)
+                              if team1:
+                                  labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
+                              if team2:
+                                  labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
 
-                      if not master_streams: continue # Tránh add những trận không có luồng hợp lệ
-
-                      # Ghi file con ra thư mục stream/
-                      with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
-                          json.dump(child_json, f, ensure_ascii=False, indent=2)
-
-                      # 3. NHÚNG DỮ LIỆU VÀO MASTER JSON
-                      match_entry = {
-                          "id": match_id,
-                          "name": match_name,
-                          "labels": [
-                              {"position": "top-right", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
-                              {"position": "bottom-left", "text": blv_name, "color": "#007BFF", "text_color": "#FFFFFF"},
-                              {"position": "center", "text": score_str, "color": "#28A745", "text_color": "#FFFFFF"}
-                          ],
-                          "description": f"{match_name} - {time_str}",
-                          "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
-                          "type": "single",
-                          "display": "thumbnail-only",
-                          "sources": [
-                              {
-                                  "id": f"chuoichien-source-{match_id}",
-                                  "name": "Chuối Chiên TV",
-                                  "contents": [
+                              channel_obj = {
+                                "id": f"ch-{match_uid}",
+                                "name": raw_match_name,
+                                "labels": labels_list,
+                                # Định dạng dòng description y hệt Chuối Chiên (Ví dụ: MU vs MC - 13/02/2026 17h45)
+                                "description": f"{raw_match_name} - {date_only}/{current_year} {time_only}",
+                                "image": {
+                                  "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+                                  "height": 480, "width": 640, "display": "cover", "shape": "square"
+                                },
+                                "type": "single",
+                                "display": "thumbnail-only",
+                                "sources": [
+                                  {
+                                    "id": f"src-{match_uid}",
+                                    "name": "Socolive",
+                                    "contents": [
                                       {
-                                          "id": f"chuoichien-content-{match_id}",
-                                          "name": match_name,
-                                          "streams": master_streams
+                                        "id": f"cnt-{match_uid}",
+                                        "name": raw_match_name,
+                                        "streams": [
+                                          {
+                                            "id": f"strm-{match_uid}",
+                                            "name": "Danh sách luồng", 
+                                            "stream_links": []
+                                          }
+                                        ]
                                       }
+                                    ]
+                                  }
+                                ]
+                              }
+                              date_groups[date_only][match_key] = {
+                                  "sort_key": get_sort_key(time_only),
+                                  "channel": channel_obj
+                              }
+                              match_uid += 1
+                          
+                          # ĐẨY LINK M3U8 VÀO TRẬN ĐẤU (Bao gồm link Chính và Dự phòng)
+                          target_stream_links = date_groups[date_only][match_key]["channel"]["sources"][0]["contents"][0]["streams"][0]["stream_links"]
+                          is_first_blv = len(target_stream_links) == 0
+                          
+                          # Đẩy luồng chính (Lấy từ file M3U)
+                          primary_link_obj = {
+                              "id": f"lnk-{stream_uid}-main",
+                              "name": f"{blv_name} (Chính)",
+                              "type": "hls",
+                              "default": is_first_blv, 
+                              "url": primary_url,
+                              "request_headers": [
+                                  { "key": "Referer", "value": "https://bunchatv3.com/" }
+                              ]
+                          }
+                          target_stream_links.append(primary_link_obj)
+                          
+                          # Đẩy luồng dự phòng (Nếu lấy được ID)
+                          if backup_url:
+                              backup_link_obj = {
+                                  "id": f"lnk-{stream_uid}-backup",
+                                  "name": f"{blv_name} (Dự phòng)",
+                                  "type": "hls",
+                                  "default": False, 
+                                  "url": backup_url,
+                                  "request_headers": [
+                                      { "key": "Referer", "value": "https://bunchatv3.com/" }
                                   ]
                               }
-                          ]
-                      }
-                      master_json["groups"][0]["channels"].append(match_entry)
-                      count += 1
-                      
-                  except Exception as ex:
-                      print(f"Lỗi xuất JSON 1 trận: {ex}")
-                      continue
+                              target_stream_links.append(backup_link_obj)
+                          
+                          stream_uid += 1
 
-              # Lưu file Master chốt hạ
-              with open('chuoichientv.json', 'w', encoding='utf-8') as f:
-                  json.dump(master_json, f, ensure_ascii=False, indent=2)
-                  
-              print(f"🎉 HOÀN TẤT: Tạo thành công 1 file Master và {count} file JSON con lách luật!")
+          # Sắp xếp Group Ngày
+          def date_sort_key(d_str):
+              parts = d_str.split('/')
+              if len(parts) == 2:
+                  return (int(parts[1]), int(parts[0]))
+              return (99, 99)
 
-          except Exception as e:
-              print(f"❌ Lỗi hệ thống: {e}")
+          sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
+
+          # Khởi tạo dữ liệu JSON Final
+          for d in sorted_dates:
+              group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
+              
+              sorted_matches = sorted(date_groups[d].values(), key=lambda x: x["sort_key"])
+              
+              data['groups'].append({
+                  "id": f"group-{d.replace('/', '')}",
+                  "name": group_name,
+                  "display": "vertical",
+                  "grid_number": 2,
+                  "channels": [item["channel"] for item in sorted_matches]
+              })
+
+          with open('MT.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
           EOF
           
-          python3 scraper.py
-
-      - name: Commit and Push
-        run: |
+          python3 convert.py
+          
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Cập nhật index git để nhận diện cả việc xóa và thêm mới
-          git add -A stream/
-          git add chuoichientv.json
-          
-          git commit -m "Auto Build Remote-Control JSON Factory" || echo "No changes"
+          git add MT.json
+          git commit -m "UI: Cập nhật giao diện theo chuẩn Chuối Chiên (Không nhãn Live/Kênh phụ)" || echo "No changes to commit"
           git push
