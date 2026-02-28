@@ -27,12 +27,12 @@ jobs:
           import re
           from datetime import datetime
           from curl_cffi import requests
+          import unicodedata
 
           # ================= CẤU HÌNH =================
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
           
-          # Đường dẫn trỏ tới thư mục file con. Đã setup chuẩn theo Github của bác.
-          # Nếu bác dùng domain ngoài, hãy đổi thành: "https://tt.8share.pro/chuoichien/stream/"
+          # Đường dẫn trỏ tới thư mục file con
           BASE_REMOTE_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/" 
 
           HEADERS = {
@@ -82,9 +82,9 @@ jobs:
               for match in matches:
                   try:
                       match_id = match.get('_id', str(count))
-                      home = match.get('home', {}).get('name') or "Home"
-                      away = match.get('away', {}).get('name') or "Away"
-                      match_name = f"{home} vs {away}"
+                      home = match.get('home', {}).get('name') or match.get('homeTeam', {}).get('name') or "Home"
+                      away = match.get('away', {}).get('name') or match.get('awayTeam', {}).get('name') or "Away"
+                      match_name = match.get('name') or f"{home} vs {away}"
                       
                       # Tỷ số
                       score_str = "- "
@@ -93,19 +93,23 @@ jobs:
                       if home_score is not None and away_score is not None:
                           score_str = f"{home_score} - {away_score}"
 
-                      # Thời gian (Đổi về dạng 13/02/2026 17:45)
+                      # Thời gian
                       time_str = "00:00"
-                      timestamp = match.get('timestamp') or match.get('matchTime')
+                      timestamp = match.get('timestamp') or match.get('matchTime') or match.get('time')
                       if timestamp:
                           if isinstance(timestamp, (int, float)):
                               if timestamp > 1e11: timestamp /= 1000
                               dt = datetime.fromtimestamp(timestamp)
                               time_str = dt.strftime("%d/%m/%Y %H:%M")
+                          elif isinstance(timestamp, str):
+                              time_str = timestamp[:16].replace('T', ' ')
 
                       blvs = match.get('blvs', [])
                       if not blvs: continue
                       blv = blvs[0]
                       blv_name = blv.get('name', 'BLV Chuối')
+                      
+                      # Xử lý Streams (Luồng phát)
                       streams = blv.get('streams', [])
                       if not streams: continue
 
@@ -114,15 +118,17 @@ jobs:
                       master_streams = []
                       
                       for idx, stream in enumerate(streams):
-                          stream_label = stream.get('label', f"Luồng {idx+1}")
+                          stream_label = stream.get('label', f"HD{idx+1}")
                           stream_url = stream.get('url')
+                          if not stream_url: continue
+                          
                           stream_name = f"{blv_name} - {stream_label}"
                           
                           # Nạp cấu trúc lách luật vào file con
                           child_json["stream_links"].append({
                               "id": str(idx + 1),
                               "name": stream_name,
-                              "type": "hls",
+                              "type": "hls" if "m3u8" in stream_url else "flv",
                               "default": True if idx == 0 else False,
                               "url": stream_url,
                               "request_headers": [{"key": "Referer", "value": "https://api.chuoichientv.com/"}]
@@ -135,6 +141,8 @@ jobs:
                               "name": stream_name,
                               "remote_data": {"url": remote_url}
                           })
+
+                      if not master_streams: continue # Tránh add những trận không có luồng hợp lệ
 
                       # Ghi file con ra thư mục stream/
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
@@ -150,7 +158,7 @@ jobs:
                               {"position": "center", "text": score_str, "color": "#28A745", "text_color": "#FFFFFF"}
                           ],
                           "description": f"{match_name} - {time_str}",
-                          "image": {"url": match.get('home', {}).get('logo', 'https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png'), "height": 480, "width": 640, "display": "cover", "shape": "square"},
+                          "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
                           "type": "single",
                           "display": "thumbnail-only",
                           "sources": [
@@ -190,7 +198,10 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # Quan trọng: Add cả file master và toàn bộ thư mục stream chứa file con
-          git add chuoichientv.json stream/
+          
+          # Cập nhật index git để nhận diện cả việc xóa và thêm mới
+          git add -A stream/
+          git add chuoichientv.json
+          
           git commit -m "Auto Build Remote-Control JSON Factory" || echo "No changes"
           git push
