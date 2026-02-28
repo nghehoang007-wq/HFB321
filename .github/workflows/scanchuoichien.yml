@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        run: pip install curl_cffi
+        run: pip install curl_cffi python-dateutil
 
       - name: Run ChuoiChien JSON Factory
         run: |
@@ -24,8 +24,9 @@ jobs:
           import os
           import json
           import re
-          from datetime import datetime, timedelta, timezone
+          from datetime import datetime, timezone, timedelta
           from curl_cffi import requests
+          from dateutil import parser
 
           # ================= CẤU HÌNH API =================
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
@@ -48,7 +49,7 @@ jobs:
               return name[:12] + ".." if len(name) > 13 else name
 
           try:
-              print("Đang cấy ghép dữ liệu từ X-Ray JSON...")
+              print("Đang khởi động quy trình bóc tách API...")
               response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
               data = response.json()
               matches = data.get('matches', [])
@@ -59,45 +60,51 @@ jobs:
                   "name": "Chuối Chiên TV",
                   "color": "#003A17",
                   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
-                  "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png?v1"},
+                  "image": {"url": "https://nghehoang007-wq.github.io/HFB321/HFB/Thump/chuoichien.png?v1"},
                   "groups": [{"id": "live", "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN", "display": "vertical", "grid_number": 2, "channels": []}],
                   "notice": {"id": "notice", "link": "https://t.me/xemgicungshare", "icon": "https://tt.8share.pro/assets/telegram_sp.png", "closeable": True},
                   "option": {"save_history": False, "save_search_history": False, "save_wishlist": False}
               }
               
+              count = 0
               for match in matches:
                   try:
                       match_id = match.get('_id')
-                      
-                      # TỌA ĐỘ CHUẨN TỪ X-RAY
-                      home_data = match.get('teams', {}).get('home', {})
-                      away_data = match.get('teams', {}).get('away', {})
+                      teams_data = match.get('teams', {})
+                      home_data = teams_data.get('home', {})
+                      away_data = teams_data.get('away', {})
                       
                       team1_full = home_data.get('name', 'Home')
                       team2_full = away_data.get('name', 'Away')
                       team1_short = shorten_name(team1_full)
                       team2_short = shorten_name(team2_full)
 
-                      # Xử lý thời gian
+                      # XỬ LÝ THỜI GIAN THÔNG MINH (Dùng dateutil.parser)
                       match_time_raw = match.get('matchTime', '')
                       time_display = "00h00"
                       if match_time_raw:
-                          dt = datetime.strptime(match_time_raw, "%Y-%m-%dT%H:%M:%0.000Z").replace(tzinfo=timezone.utc).astimezone(tz_vn)
-                          time_display = dt.strftime("%Hh%M")
+                          try:
+                              dt = parser.parse(match_time_raw).astimezone(tz_vn)
+                              time_display = dt.strftime("%Hh%M")
+                          except:
+                              pass
 
-                      blvs = match.get('blvs', [])
-                      if not blvs: continue
-                      blv = blvs[0]
+                      blvs_list = match.get('blvs', [])
+                      if not blvs_list: continue
+                      
+                      blv = blvs_list[0]
                       blv_name = blv.get('name', 'Chuối')
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- TẠO FILE JSON CON (REFERER LÁCH LUẬT) --
+                      # -- TẠO FILE JSON CON --
                       child_json = {"stream_links": []}
                       master_streams = []
                       for idx, s in enumerate(streams):
                           s_url = s.get('url')
                           s_name = f"{blv_name} - {s.get('label', 'HD')}"
+                          if not s_url: continue
+                          
                           child_json["stream_links"].append({
                               "id": str(idx+1), "name": s_name, "type": "hls" if "m3u8" in s_url else "flv",
                               "url": s_url, "default": idx==0,
@@ -105,10 +112,12 @@ jobs:
                           })
                           master_streams.append({"id": f"{match_id}_{idx}", "name": s_name, "remote_data": {"url": f"{BASE_REMOTE_URL}{match_id}.json"}})
 
+                      if not master_streams: continue
+
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
                           json.dump(child_json, f, ensure_ascii=False, indent=2)
 
-                      # -- GIAO DIỆN SẠCH 16:9 + LỒNG LOGO --
+                      # -- GIAO DIỆN 16:9 + LABELS --
                       labels = [
                           {"position": "bottom-center", "text": time_display, "color": "#FF0000", "text_color": "#FFFFFF"},
                           {"position": "center-left", "text": team1_short, "color": "#80000000", "text_color": "#FFFFFF"},
@@ -118,18 +127,24 @@ jobs:
                       ]
 
                       master_json["groups"][0]["channels"].append({
-                          "id": match_id, "name": f"{team1_full} vs {team2_full}",
+                          "id": match_id, 
+                          "name": f"{team1_full} vs {team2_full}",
                           "labels": labels,
                           "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png", "height": 360, "width": 640, "display": "cover"},
-                          "type": "single", "display": "thumbnail-only",
+                          "type": "single", 
+                          "display": "thumbnail-only",
                           "sources": [{"id": f"src-{match_id}", "name": "Chuối Chiên", "contents": [{"id": f"c-{match_id}", "name": f"{team1_full} vs {team2_full}", "streams": master_streams}]}]
                       })
-                  except: continue
+                      count += 1
+                  except Exception as e:
+                      print(f"Bỏ qua 1 trận do lỗi: {e}")
+                      continue
 
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
-              print("🎉 THÀNH CÔNG RỰC RỠ!")
-          except Exception as e: print(f"Lỗi: {e}")
+              print(f"🎉 THÀNH CÔNG! Đã nạp {count} trận đấu vào danh sách.")
+          except Exception as e: 
+              print(f"Lỗi tổng thể: {e}")
           EOF
           python3 scraper.py
 
@@ -139,5 +154,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A stream/
           git add chuoichientv.json
-          git commit -m "UI 16:9 + Logo Teams + Correct API Path" || echo "No changes"
+          git commit -m "Fix: Robust Time Parsing & Clean UI" || echo "No changes"
           git push
