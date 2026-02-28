@@ -20,24 +20,15 @@ jobs:
           cat << 'EOF' > scraper.py
           from curl_cffi import requests
           import json
-          import re
-          import unicodedata
           from datetime import datetime
+          import unicodedata
+          import re
 
-          # API Lấy 100 trận có BLV
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
-          URL_PREFIX = "https://gckc0525.edgemaxcdn.org/live/"
-          URL_SUFFIX = ".flv"
-
-          def generate_stream_id(blv_name):
-              name = str(blv_name).strip().lower()
-              no_accent = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('utf-8')
-              return re.sub(r'[^a-z0-9]', '', no_accent)
 
           try:
               print(f"Đang đâm thẳng vào API: {API_URL}")
               
-              # TRANG BỊ THẺ TOKEN VIP TỪ ẢNH CỦA BÁC
               headers = {
                   "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
                   "Origin": "https://live16.chuoichientv.com",
@@ -46,76 +37,70 @@ jobs:
               }
 
               response = requests.get(API_URL, headers=headers, impersonate="chrome110", timeout=30)
-              
-              if response.status_code != 200:
-                  print(f"⚠️ API báo lỗi: {response.status_code}")
-              
               data = response.json()
               
-              # Dò tìm danh sách trận đấu
-              matches = data.get('data', [])
-              if not matches and isinstance(data, list):
-                  matches = data
-
-              if not matches:
-                  print("⚠️ API kết nối thành công nhưng không có trận nào hoặc cấu trúc JSON khác dự kiến.")
-                  print("Nội dung API trả về:", str(data)[:500])
-              else:
-                  print(f"🔍 MỞ KHÓA THÀNH CÔNG! Bắt được {len(matches)} trận đấu từ API.")
-                  # IN RA CẤU TRÚC JSON CỦA TRẬN ĐẦU TIÊN ĐỂ LÀM MANH MỐI
-                  print("--- CẤU TRÚC MẪU 1 TRẬN ĐẤU ---")
-                  print(json.dumps(matches[0], indent=2, ensure_ascii=False)[:1000])
-                  print("--------------------------------")
+              # LẤY ĐÚNG TÊN BIẾN TỪ LOG CỦA BÁC
+              matches = data.get('matches', [])
 
               m3u_lines = ["#EXTM3U"]
               count = 0
               
               for match in matches:
                   try:
-                      # CỐ GẮNG BÓC TÁCH THEO CÁC BIẾN PHỔ BIẾN
-                      home = match.get('homeTeam', {}).get('name') or match.get('home', {}).get('name') or match.get('team1') or "Home"
-                      away = match.get('awayTeam', {}).get('name') or match.get('away', {}).get('name') or match.get('team2') or "Away"
-                      match_name = f"{home} vs {away}"
+                      # 1. Lấy tên 2 đội (xử lý mọi trường hợp web đổi tên biến)
+                      home = match.get('home', {}).get('name') or match.get('homeTeam', {}).get('name') or "Home"
+                      away = match.get('away', {}).get('name') or match.get('awayTeam', {}).get('name') or "Away"
+                      match_name = match.get('name') or f"{home} vs {away}"
 
-                      # Tên BLV
-                      blv_name = ""
-                      commentators = match.get('commentators') or match.get('blvs')
-                      if isinstance(commentators, list) and len(commentators) > 0:
-                          blv = commentators[0]
-                          blv_name = blv.get('name') if isinstance(blv, dict) else str(blv)
-                      else:
-                          blv_name = match.get('commentator_name') or match.get('blv') or ""
-
-                      if not blv_name:
-                          continue # Bỏ qua nếu không có BLV
-
-                      # Thời gian
+                      # 2. Lấy giờ đá
                       time_str = "00h00"
-                      timestamp = match.get('timestamp') or match.get('startTime') or match.get('start_time')
+                      timestamp = match.get('timestamp') or match.get('matchTime') or match.get('time')
                       if timestamp:
                           if isinstance(timestamp, (int, float)):
-                              if timestamp > 1e11: timestamp /= 1000 # Đổi millisecond ra second
+                              if timestamp > 1e11: timestamp /= 1000
                               dt = datetime.fromtimestamp(timestamp)
                               time_str = dt.strftime("%Hh%M-%d/%m")
                           elif isinstance(timestamp, str):
                               time_str = timestamp[:16].replace('T', ' ').replace(':', 'h')
 
-                      # Tạo Link
-                      stream_id = generate_stream_id(blv_name)
-                      stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
+                      # 3. Lấy thông tin BLV và Link M3U8
+                      blvs = match.get('blvs', [])
+                      if not blvs:
+                          continue # Trận nào chưa gán BLV thì bỏ qua
+                          
+                      blv = blvs[0] # Lấy ông BLV đầu tiên
+                      blv_name = blv.get('name', 'BLV Chuối')
 
+                      # KỲ TÍCH: Lấy trực tiếp link M3U8 HD1 siêu xịn từ API
+                      streams = blv.get('streams', [])
+                      if streams:
+                          # Lấy url của luồng đầu tiên (thường là HD1)
+                          stream_url = streams[0].get('url')
+                      else:
+                          # Phương án dự phòng nếu API ẩn link stream (tự chế link cũ)
+                          username = str(blv.get('username', '')).strip().lower()
+                          if not username:
+                              no_accent = unicodedata.normalize('NFKD', blv_name).encode('ASCII', 'ignore').decode('utf-8')
+                              username = re.sub(r'[^a-z0-9]', '', no_accent.lower())
+                          stream_url = f"https://gckc0525.edgemaxcdn.org/live/{username}.flv"
+
+                      if not stream_url:
+                          continue
+
+                      # 4. Xuất file
                       display_text = f"ChuoiChien {time_str}: [{blv_name}] {match_name}"
                       m3u_lines.append(f'#EXTINF:-1 group-title="ChuoiChien",{display_text}')
                       m3u_lines.append(stream_url)
                       count += 1
                       
                   except Exception as ex:
+                      print(f"Lỗi phân tích 1 trận: {ex}")
                       continue
 
               with open('chuoichientv.m3u', 'w', encoding='utf-8') as f:
                   f.write("\n".join(m3u_lines))
                   
-              print(f"🎉 TỔNG KẾT: Cào API siêu tốc thành công {count} luồng phát!")
+              print(f"🎉 TỔNG KẾT: RÚT THÀNH CÔNG TẬN GỐC {count} LUỒNG PHÁT CHUỐI CHIÊN TV!")
 
           except Exception as e:
               print(f"❌ Lỗi hệ thống: {e}")
@@ -130,5 +115,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add chuoichientv.m3u
-          git commit -m "Auto Scrape ChuoiChien TV via API using Token" || echo "No changes"
+          git commit -m "Auto Scrape ChuoiChien TV via API JSON - Full Unlocked" || echo "No changes"
           git push
