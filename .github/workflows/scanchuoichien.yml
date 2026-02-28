@@ -17,7 +17,6 @@ jobs:
 
       - name: Run ChuoiChien JSON Factory
         run: |
-          # Dọn dẹp thư mục cũ để không lưu file rác của trận đã hết giờ
           rm -rf stream
           mkdir stream
           
@@ -40,10 +39,8 @@ jobs:
               "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
           }
 
-          # ================= CÁC HÀM XỬ LÝ GIAO DIỆN (TỪ MÃ CŨ) =================
+          # ================= HÀM XỬ LÝ GIAO DIỆN =================
           tz_vn = timezone(timedelta(hours=7))
-          now_vn = datetime.now(tz_vn)
-          today_str = now_vn.strftime("%d/%m")
 
           def shorten_name(name):
               name = name.strip()
@@ -70,24 +67,14 @@ jobs:
                   res = res[:12] + ".."
               return res
 
-          def get_sort_key(t_str):
-              m = re.search(r'(\d{1,2})[hH:](\d{2})', t_str)
-              if m: return (int(m.group(1)), int(m.group(2)))
-              return (99, 99)
-
-          def date_sort_key(d_str):
-              parts = d_str.split('/')
-              if len(parts) == 2: return (int(parts[1]), int(parts[0]))
-              return (99, 99)
-
-          # ================= TIẾN HÀNH CÀO VÀ XÂY DỰNG JSON =================
+          # ================= CÀO VÀ XÂY DỰNG JSON =================
           try:
-              print("Bắt đầu cào API Chuối Chiên và dựng giao diện...")
+              print("Bắt đầu cào API Chuối Chiên và dựng giao diện Tối Giản...")
               response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
               data = response.json()
               matches = data.get('matches', [])
 
-              # Khởi tạo Master JSON (Đã xóa bỏ nhóm 'Related/Chán ư')
+              # 1. KHỞI TẠO BỘ KHUNG MASTER JSON (Đã xóa Related Channels)
               master_json = {
                   "id": "chuoichien",
                   "url": "https://nghehoang007-wq.github.io/HFB321/chuoichientv.json",
@@ -95,45 +82,53 @@ jobs:
                   "color": "#003A17",
                   "description": "Xem bóng đá trực tuyến HD không quảng cáo tại Chuối Chiên TV.",
                   "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png"},
-                  "groups": [],
+                  "groups": [
+                      {
+                          "id": "live",
+                          "name": "🔴 Trực tiếp (Chuối Chiên)",
+                          "display": "vertical",
+                          "grid_number": 2, # Đưa grid_number vào đây để Player chia 2 cột đẹp hơn
+                          "channels": []
+                      }
+                  ],
                   "sorts": [],
                   "notice": {"id": "notice", "link": "https://t.me/xemgicungshare", "icon": "https://tt.8share.pro/assets/telegram_sp.png", "closeable": True},
                   "option": {"save_history": False, "save_search_history": False, "save_wishlist": False}
               }
               
-              date_groups = {}
               count = 0
-
               for match in matches:
                   try:
                       match_id = match.get('_id', str(count))
-                      home_full = match.get('home', {}).get('name') or match.get('homeTeam', {}).get('name') or ""
-                      away_full = match.get('away', {}).get('name') or match.get('awayTeam', {}).get('name') or ""
+                      
+                      # Tên đội
+                      home_obj = match.get('home', {}) or match.get('homeTeam', {})
+                      away_obj = match.get('away', {}) or match.get('awayTeam', {})
+                      home_full = home_obj.get('name', 'Home')
+                      away_full = away_obj.get('name', 'Away')
+                      
                       raw_match_name = match.get('name') or f"{home_full} vs {away_full}"
                       
-                      # Ép tên rút gọn
-                      team1 = shorten_name(home_full) if home_full else ""
-                      team2 = shorten_name(away_full) if away_full else ""
-                      if not team1 and not team2:
-                          team_parts = re.split(r'(?i)\s+vs\s+', raw_match_name, maxsplit=1)
-                          if len(team_parts) == 2:
-                              team1, team2 = shorten_name(team_parts[0]), shorten_name(team_parts[1])
-                          else:
-                              team1 = shorten_name(raw_match_name)
+                      team1 = shorten_name(home_full)
+                      team2 = shorten_name(away_full)
 
-                      # Xử lý thời gian (Lấy ra time_only và date_only)
+                      # Lấy Logo của 2 đội (Nếu web có gửi về)
+                      home_logo = home_obj.get('logo', '')
+                      away_logo = away_obj.get('logo', '')
+
+                      # Giờ đá
                       time_only = "00h00"
-                      date_only = today_str
                       timestamp = match.get('timestamp') or match.get('matchTime') or match.get('time')
                       if timestamp:
                           if isinstance(timestamp, (int, float)):
                               if timestamp > 1e11: timestamp /= 1000
-                              # Ép chuẩn múi giờ VN
                               dt = datetime.fromtimestamp(timestamp, tz=timezone.utc).astimezone(tz_vn)
                               time_only = dt.strftime("%Hh%M")
-                              date_only = dt.strftime("%d/%m")
+                          elif isinstance(timestamp, str):
+                              m = re.search(r'(\d{2}:\d{2})', timestamp)
+                              if m: time_only = m.group(1).replace(':', 'h')
 
-                      # Lấy BLV và Luồng
+                      # BLV và Luồng
                       blvs = match.get('blvs', [])
                       if not blvs: continue
                       blv = blvs[0]
@@ -141,7 +136,7 @@ jobs:
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- SẢN XUẤT FILE JSON CON (REMOTE CONTROL) --
+                      # 2. SẢN XUẤT FILE JSON CON (LÁCH LUẬT)
                       child_json = {"stream_links": []}
                       master_streams = []
                       
@@ -151,7 +146,6 @@ jobs:
                           if not stream_url: continue
                           
                           stream_name = f"{blv_name} - {stream_label}"
-                          
                           child_json["stream_links"].append({
                               "id": str(idx + 1),
                               "name": stream_name,
@@ -173,12 +167,18 @@ jobs:
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
                           json.dump(child_json, f, ensure_ascii=False, indent=2)
 
-                      # -- DỰNG UI CHO CHANNEL (KHÔNG CÓ LABEL LIVE) --
+                      # 3. DỰNG GIAO DIỆN KÊNH TRONG MASTER JSON (Không Label Live, Cố định 16:9)
                       labels_list = [
                           { "position": "bottom-center", "text": time_only, "color": "#FF0000", "text_color": "#FFFFFF" }
                       ]
+                      
+                      # Ép tên 2 đội ra 2 bên
                       if team1: labels_list.append({ "position": "center-left", "text": team1, "color": "#80000000", "text_color": "#FFFFFF" })
                       if team2: labels_list.append({ "position": "center-right", "text": team2, "color": "#80000000", "text_color": "#FFFFFF" })
+                      
+                      # Tùy chọn nâng cao: Thử chèn thẳng ảnh Logo vào mảng labels (Nếu Player hỗ trợ)
+                      # if home_logo: labels_list.append({"position": "top-left", "text": "", "image": home_logo})
+                      # if away_logo: labels_list.append({"position": "top-right", "text": "", "image": away_logo})
 
                       channel_obj = {
                           "id": match_id,
@@ -206,39 +206,18 @@ jobs:
                           ]
                       }
 
-                      # Đưa vào nhóm theo ngày
-                      match_key = f"{time_only}-{raw_match_name}"
-                      if date_only not in date_groups:
-                          date_groups[date_only] = {}
-                      
-                      date_groups[date_only][match_key] = {
-                          "sort_key": get_sort_key(time_only),
-                          "channel": channel_obj
-                      }
+                      master_json["groups"][0]["channels"].append(channel_obj)
                       count += 1
                       
                   except Exception as ex:
                       print(f"Lỗi xuất JSON 1 trận: {ex}")
                       continue
 
-              # -- LẮP RÁP CÁC NHÓM VÀO MASTER JSON --
-              sorted_dates = sorted(date_groups.keys(), key=date_sort_key)
-              for d in sorted_dates:
-                  group_name = f"🔴 Hôm nay ({d})" if d == today_str else f"🔴 Ngày {d}"
-                  sorted_matches = sorted(date_groups[d].values(), key=lambda x: x["sort_key"])
-                  
-                  master_json['groups'].append({
-                      "id": f"group-{d.replace('/', '')}",
-                      "name": group_name,
-                      "display": "vertical",
-                      "grid_number": 2,
-                      "channels": [item["channel"] for item in sorted_matches]
-                  })
-
+              # LƯU FILE MASTER
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
                   
-              print(f"🎉 HOÀN TẤT: Tạo thành công {count} trận với UI tùy chỉnh!")
+              print(f"🎉 HOÀN TẤT: Tạo thành công {count} trận với UI Tối giản (16:9)!")
 
           except Exception as e:
               print(f"❌ Lỗi hệ thống: {e}")
@@ -252,5 +231,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add -A stream/
           git add chuoichientv.json
-          git commit -m "Auto Build Remote-Control JSON Factory with Custom UI" || echo "No changes"
+          git commit -m "Auto Build Remote-Control JSON Factory - UI 16:9 Clean" || echo "No changes"
           git push
