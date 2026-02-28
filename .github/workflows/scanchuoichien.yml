@@ -13,12 +13,13 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        run: pip install cloudscraper beautifulsoup4
+        # Đổi vũ khí: Dùng curl_cffi siêu mạnh để xuyên thủng Cloudflare
+        run: pip install curl_cffi beautifulsoup4
 
       - name: Run ChuoiChien Scraper
         run: |
           cat << 'EOF' > scraper.py
-          import cloudscraper
+          from curl_cffi import requests
           from bs4 import BeautifulSoup
           import re
           import unicodedata
@@ -30,25 +31,28 @@ jobs:
           def generate_stream_id(blv_name):
               name = blv_name.strip().lower()
               no_accent = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('utf-8')
-              stream_id = re.sub(r'[^a-z0-9]', '', no_accent)
-              return stream_id
+              return re.sub(r'[^a-z0-9]', '', no_accent)
 
-          scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
-          
           try:
               print(f"Đang cào dữ liệu từ: {TARGET_URL}")
-              html = scraper.get(TARGET_URL, timeout=15).text
-              soup = BeautifulSoup(html, 'html.parser')
               
+              # Dùng impersonate="chrome110" để ngụy trang thành người dùng Chrome thật
+              response = requests.get(TARGET_URL, impersonate="chrome110", timeout=30)
+              html = response.text
+              
+              # Bộ phận kiểm tra: Xem có bị Cloudflare tóm cổ không
+              if len(html) < 2000 or "Just a moment" in html or "Cloudflare" in html:
+                  print("⚠️ CẢNH BÁO: Đã bị Cloudflare hoặc hệ thống chống Bot chặn lại!")
+                  print("Mã HTML trả về (500 ký tự đầu):", html[:500])
+              
+              soup = BeautifulSoup(html, 'html.parser')
               m3u_lines = ["#EXTM3U"]
               count = 0
               
-              # DÙNG CSS SELECTOR ĐỂ TÌM LINK TRẬN ĐẤU (Tuyệt đối không trượt)
               matches = soup.select('a[href*="/live/"]')
               
               for match in matches:
                   try:
-                      # 1. Bóc Tên Đội Bóng (Lấy các thẻ div có chứa 2 class là font-bold VÀ text-white)
                       team_divs = match.select('div.font-bold.text-white')
                       if len(team_divs) < 2:
                           continue
@@ -56,27 +60,20 @@ jobs:
                       team2 = team_divs[1].get_text(strip=True)
                       match_name = f"{team1} vs {team2}"
 
-                      # 2. Bóc Thời Gian
                       time_span = match.select_one('span.text-green-300')
-                      if time_span:
-                          time_str = time_span.get_text(strip=True).replace(' ', '-').replace(':', 'h')
-                      else:
-                          time_str = "00:00"
+                      time_str = time_span.get_text(strip=True).replace(' ', '-').replace(':', 'h') if time_span else "00:00"
 
-                      # 3. Bóc Tên BLV
                       blv_span = match.select_one('span.blv-info')
                       if not blv_span:
                           continue 
                           
                       blv_name = blv_span.get_text(strip=True)
-                      if not blv_name:  # Bỏ qua nếu trận này có khối HTML nhưng chưa điền tên BLV
+                      if not blv_name:
                           continue
 
-                      # 4. Sinh ID
                       stream_id = generate_stream_id(blv_name)
                       stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
 
-                      # 5. Ghi vào M3U
                       display_text = f"ChuoiChien {time_str}: [{blv_name}] {match_name}"
                       m3u_lines.append(f'#EXTINF:-1 group-title="ChuoiChien",{display_text}')
                       m3u_lines.append(stream_url)
@@ -103,5 +100,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add chuoichientv.m3u
-          git commit -m "Auto Scrape ChuoiChien TV using CSS Selectors" || echo "No changes"
+          git commit -m "Auto Scrape ChuoiChien TV using curl_cffi" || echo "No changes"
           git push
