@@ -13,10 +13,18 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
+        # Cài Pillow để xử lý ảnh, dateutil xử lý giờ, và fontconfig để quản lý font
         run: pip install curl_cffi python-dateutil Pillow
+
+      - name: Setup Unicode Font
+        # Tải Font Arial Unicode về để vẽ chữ Tiếng Việt có dấu lên ảnh
+        run: |
+          mkdir -p .fonts
+          curl -L -o .fonts/arial.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo%5Bwght%5D.ttf"
 
       - name: Run ChuoiChien JSON Factory
         run: |
+          # Dọn sạch và tạo mới 2 thư mục
           rm -rf stream thumbs
           mkdir stream thumbs
           
@@ -25,7 +33,7 @@ jobs:
           import json
           import re
           import io
-          from PIL import Image
+          from PIL import Image, ImageDraw, ImageFont
           from datetime import datetime, timezone, timedelta
           from curl_cffi import requests
           from dateutil import parser
@@ -34,6 +42,7 @@ jobs:
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
           BASE_REMOTE_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/" 
           BASE_THUMB_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/"
+          FONT_PATH = ".fonts/arial.ttf"
 
           HEADERS = {
               "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
@@ -49,11 +58,24 @@ jobs:
               known = {"Manchester United": "Man Utd", "Manchester City": "Man City", "Barcelona": "Barca", "Villarreal": "Villarr"}
               for k, v in known.items():
                   if k.lower() in name.lower(): return v
-              return name[:12] + ".." if len(name) > 13 else name
+              # Giữ tên dài hơn một chút vì không sợ Player cắt chữ nữa
+              return name[:15] + ".." if len(name) > 16 else name
+
+          # Hàm vẽ chữ có viền đen để nổi bật trên mọi nền ảnh
+          def draw_text_with_outline(draw_obj, text, position, font, text_color, outline_color, anchor="mm"):
+              x, y = position
+              # Vẽ viền 4 hướng
+              draw_obj.text((x-2, y-2), text, font=font, fill=outline_color, anchor=anchor)
+              draw_obj.text((x+2, y-2), text, font=font, fill=outline_color, anchor=anchor)
+              draw_obj.text((x-2, y+2), text, font=font, fill=outline_color, anchor=anchor)
+              draw_obj.text((x+2, y+2), text, font=font, fill=outline_color, anchor=anchor)
+              # Vẽ chữ chính
+              draw_obj.text(position, text, font=font, fill=text_color, anchor=anchor)
 
           try:
-              print("Đang khởi động quy trình bóc tách API & Xưởng tạo ảnh...")
+              print("Đang khởi động xưởng in Thumbnail chuyên nghiệp...")
               
+              # TẢI ẢNH NỀN
               base_bg_url = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
               try:
                   bg_res = requests.get(base_bg_url, timeout=10)
@@ -61,6 +83,14 @@ jobs:
                   base_bg = base_bg.resize((640, 360))
               except:
                   base_bg = Image.new('RGBA', (640, 360), (0, 0, 0, 255))
+
+              # LOAD FONT (Cỡ 32 cho tên đội, 28 cho giờ)
+              try:
+                  team_font = ImageFont.truetype(FONT_PATH, 32)
+                  time_font = ImageFont.truetype(FONT_PATH, 28)
+              except:
+                  team_font = ImageFont.load_default()
+                  time_font = ImageFont.load_default()
 
               response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
               data = response.json()
@@ -93,6 +123,7 @@ jobs:
                       home_logo = home_data.get('logo', '')
                       away_logo = away_data.get('logo', '')
 
+                      # XỬ LÝ THỜI GIAN
                       match_time_raw = match.get('matchTime', '')
                       time_display = "00h00"
                       if match_time_raw:
@@ -108,35 +139,41 @@ jobs:
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- XƯỞNG PHOTOSHOP (ĐÃ CÂN CHỈNH LẠI TỌA ĐỘ LOGO) --
+                      # -- XƯỞNG PHOTOSHOP CHUYÊN NGHIỆP: VẼ TẤT CẢ VÀO ẢNH --
                       thumb_url = base_bg_url 
                       try:
                           bg_copy = base_bg.copy()
-                          has_new_logo = False
+                          draw = ImageDraw.Draw(bg_copy)
+                          has_custom_thumb = False
                           
-                          # Kích thước ảnh nền: Rộng 640px, Cao 360px
-                          # Trục dọc giữa là Y=180 (Nơi chữ center sẽ nằm)
-                          
+                          # 1. Vẽ Tên Đội bóng (An toàn ở trục center Y=180)
+                          # Đội nhà dạt sang trái 1/4 (X=160), Đội khách dạt sang phải 3/4 (X=480)
+                          draw_text_with_outline(draw, team1_short, (160, 180), team_font, (255, 255, 255, 255), (0, 0, 0, 255))
+                          draw_text_with_outline(draw, team2_short, (480, 180), team_font, (255, 255, 255, 255), (0, 0, 0, 255))
+                          draw_text_with_outline(draw, "VS", (320, 180), team_font, (255, 255, 0, 255), (0, 0, 0, 255)) # Chữ VS màu vàng
+
+                          # 2. Vẽ Giờ đá (Ở dưới cùng giữa X=320, Y=320)
+                          draw_text_with_outline(draw, time_display, (320, 320), time_font, (255, 0, 0, 255), (0, 0, 0, 255)) # Giờ màu đỏ
+
+                          # 3. Vẽ Logo (Thu nhỏ lại 90x90, đẩy lên cao tít Y=30)
+                          # Bố cục dọc: [LOGO Y=30] -> [TRỐNG] -> [TÊN ĐỘI Y=180]. Đảm bảo KHÔNG bao giờ đè!
                           if home_logo:
                               h_res = requests.get(home_logo, timeout=5)
                               if h_res.status_code == 200:
                                   h_img = Image.open(io.BytesIO(h_res.content)).convert("RGBA")
-                                  # Thu nhỏ Logo lại còn 100x100
-                                  h_img = h_img.resize((100, 100))
-                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề trái (X=110)
-                                  bg_copy.paste(h_img, (110, 40), h_img)
-                                  has_new_logo = True
+                                  h_img = h_img.resize((90, 90))
+                                  bg_copy.paste(h_img, (115, 30), h_img) # Căn chỉnh X để Logo nằm trên Tên đội
+                                  has_custom_thumb = True
                                   
                           if away_logo:
                               a_res = requests.get(away_logo, timeout=5)
                               if a_res.status_code == 200:
                                   a_img = Image.open(io.BytesIO(a_res.content)).convert("RGBA")
-                                  a_img = a_img.resize((100, 100))
-                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề phải (X=430)
-                                  bg_copy.paste(a_img, (430, 40), a_img)
-                                  has_new_logo = True
+                                  a_img = a_img.resize((90, 90))
+                                  bg_copy.paste(a_img, (435, 30), a_img) # Căn chỉnh X để Logo nằm trên Tên đội
+                                  has_custom_thumb = True
                                   
-                          if has_new_logo:
+                          if has_custom_thumb or time_display != "00h00":
                               thumb_path = f"thumbs/{match_id}.png"
                               bg_copy.save(thumb_path, "PNG")
                               thumb_url = f"{BASE_THUMB_URL}{match_id}.png"
@@ -162,18 +199,12 @@ jobs:
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
                           json.dump(child_json, f, ensure_ascii=False, indent=2)
 
-                      # -- GIAO DIỆN KÊNH --
-                      labels = [
-                          {"position": "bottom-center", "text": time_display, "color": "#FF0000", "text_color": "#FFFFFF"},
-                          # Chữ nằm ở trục center sẽ rơi vào khoảng Y=180, cực kỳ trống trải và an toàn!
-                          {"position": "center-left", "text": team1_short, "color": "#80000000", "text_color": "#FFFFFF"},
-                          {"position": "center-right", "text": team2_short, "color": "#80000000", "text_color": "#FFFFFF"}
-                      ]
-
+                      # -- GIAO DIỆN MASTER JSON (XÓA BỎ LABELS, CHỈ DÙNG ẢNH PHOTOSHOP) --
+                      # Do chữ và hình đã in vào ảnh, chúng ta không cần ghim nhãn JSON nữa.
                       master_json["groups"][0]["channels"].append({
                           "id": match_id, 
                           "name": f"{team1_full} vs {team2_full}",
-                          "labels": labels,
+                          "labels": [], # Mảng nhãn rỗng tuyệt đối!
                           "image": {"url": thumb_url, "height": 360, "width": 640, "display": "cover"},
                           "type": "single", 
                           "display": "thumbnail-only",
@@ -186,7 +217,7 @@ jobs:
 
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
-              print(f"🎉 THÀNH CÔNG! Nạp {count} trận và tạo xong Thumbnail Logo đẩy lên cao.")
+              print(f"🎉 THÀNH CÔNG RỰC RỠ! In xong Thumbnail cho {count} trận.")
           except Exception as e: 
               print(f"Lỗi tổng thể: {e}")
           EOF
@@ -196,8 +227,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A stream/
-          git add -A thumbs/
-          git add chuoichientv.json
-          git commit -m "Reposition Logos to Top-Half for Text Clearance" || echo "No changes"
+          git add -A stream/ thumbs/ chuoichientv.json
+          git commit -m "UI: Complete Image-Injected Thumbnails (logos + text), removed JSON labels" || echo "No changes"
           git push
