@@ -13,12 +13,10 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        # Tích hợp thêm Pillow - "Photoshop" của Python
         run: pip install curl_cffi python-dateutil Pillow
 
       - name: Run ChuoiChien JSON Factory
         run: |
-          # Dọn sạch và tạo mới 2 thư mục: chứa link lách luật và chứa ảnh xịn
           rm -rf stream thumbs
           mkdir stream thumbs
           
@@ -56,14 +54,13 @@ jobs:
           try:
               print("Đang khởi động quy trình bóc tách API & Xưởng tạo ảnh...")
               
-              # TẢI ẢNH NỀN CHUẨN 1 LẦN DUY NHẤT
               base_bg_url = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
               try:
                   bg_res = requests.get(base_bg_url, timeout=10)
                   base_bg = Image.open(io.BytesIO(bg_res.content)).convert("RGBA")
                   base_bg = base_bg.resize((640, 360))
               except:
-                  base_bg = Image.new('RGBA', (640, 360), (0, 0, 0, 255)) # Nền đen dự phòng
+                  base_bg = Image.new('RGBA', (640, 360), (0, 0, 0, 255))
 
               response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
               data = response.json()
@@ -96,7 +93,6 @@ jobs:
                       home_logo = home_data.get('logo', '')
                       away_logo = away_data.get('logo', '')
 
-                      # XỬ LÝ THỜI GIAN
                       match_time_raw = match.get('matchTime', '')
                       time_display = "00h00"
                       if match_time_raw:
@@ -112,28 +108,32 @@ jobs:
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- SẢN XUẤT ẢNH THUMBNAIL (LỒNG LOGO) --
-                      thumb_url = base_bg_url # Mặc định nếu lỗi
+                      # -- XƯỞNG PHOTOSHOP (ĐÃ CÂN CHỈNH LẠI TỌA ĐỘ LOGO) --
+                      thumb_url = base_bg_url 
                       try:
                           bg_copy = base_bg.copy()
                           has_new_logo = False
+                          
+                          # Kích thước ảnh nền: Rộng 640px, Cao 360px
+                          # Trục dọc giữa là Y=180 (Nơi chữ center sẽ nằm)
                           
                           if home_logo:
                               h_res = requests.get(home_logo, timeout=5)
                               if h_res.status_code == 200:
                                   h_img = Image.open(io.BytesIO(h_res.content)).convert("RGBA")
-                                  h_img = h_img.resize((120, 120))
-                                  # Dán logo bên trái
-                                  bg_copy.paste(h_img, (100, 100), h_img)
+                                  # Thu nhỏ Logo lại còn 100x100
+                                  h_img = h_img.resize((100, 100))
+                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề trái (X=110)
+                                  bg_copy.paste(h_img, (110, 40), h_img)
                                   has_new_logo = True
                                   
                           if away_logo:
                               a_res = requests.get(away_logo, timeout=5)
                               if a_res.status_code == 200:
                                   a_img = Image.open(io.BytesIO(a_res.content)).convert("RGBA")
-                                  a_img = a_img.resize((120, 120))
-                                  # Dán logo bên phải
-                                  bg_copy.paste(a_img, (420, 100), a_img)
+                                  a_img = a_img.resize((100, 100))
+                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề phải (X=430)
+                                  bg_copy.paste(a_img, (430, 40), a_img)
                                   has_new_logo = True
                                   
                           if has_new_logo:
@@ -165,6 +165,7 @@ jobs:
                       # -- GIAO DIỆN KÊNH --
                       labels = [
                           {"position": "bottom-center", "text": time_display, "color": "#FF0000", "text_color": "#FFFFFF"},
+                          # Chữ nằm ở trục center sẽ rơi vào khoảng Y=180, cực kỳ trống trải và an toàn!
                           {"position": "center-left", "text": team1_short, "color": "#80000000", "text_color": "#FFFFFF"},
                           {"position": "center-right", "text": team2_short, "color": "#80000000", "text_color": "#FFFFFF"}
                       ]
@@ -185,7 +186,7 @@ jobs:
 
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
-              print(f"🎉 THÀNH CÔNG! Nạp {count} trận và tạo xong Thumbnail Logo lồng.")
+              print(f"🎉 THÀNH CÔNG! Nạp {count} trận và tạo xong Thumbnail Logo đẩy lên cao.")
           except Exception as e: 
               print(f"Lỗi tổng thể: {e}")
           EOF
@@ -195,11 +196,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Đẩy thêm cả thư mục thumbs chứa ảnh đã được "Photoshop"
           git add -A stream/
           git add -A thumbs/
           git add chuoichientv.json
-          
-          git commit -m "Auto Photoshop Logos & Robust Fix" || echo "No changes"
+          git commit -m "Reposition Logos to Top-Half for Text Clearance" || echo "No changes"
           git push
