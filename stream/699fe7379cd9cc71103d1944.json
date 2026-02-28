@@ -1,0 +1,82 @@
+{
+  "stream_links": [
+    {
+      "id": "1",
+      "name": "Chuối Nướng - HD1",
+      "type": "hls",
+      "default": true,
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoinuong/playlist.m3u8",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chuối Nướng - HD2",
+      "type": "hls",
+      "default": false,
+      "url": "https://cyber.chuoichien.tv/chuoinuong/index.m3u8",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Chuối Nướng - HD3",
+      "type": "hls",
+      "default": false,
+      "url": "https://gckc0525.edgemaxcdn.org/live/chuoinuong.flv",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Chuối Nướng - HD4",
+      "type": "hls",
+      "default": false,
+      "url": "https://cyber.chuoichien.tv/chuoinuong.flv",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chuối Nướng - SD1",
+      "type": "hls",
+      "default": false,
+      "url": "https://stream.chuoichien.tv/chuoinuong/index.m3u8",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Chuối Nướng - SD2",
+      "type": "hls",
+      "default": false,
+      "url": "https://stream.chuoichien.tv/chuoinuong.flv",
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    }
+  ]
+}

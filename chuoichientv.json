@@ -1,0 +1,1328 @@
+{
+  "id": "chuoichien",
+  "url": "https://tt.8share.pro/chuoichien",
+  "name": "Chuối Chiên TV",
+  "color": "#003A17",
+  "description": "Xem bóng đá trực tuyến HD không quảng cáo tại Chuối Chiên TV.",
+  "image": {
+    "url": "https://tt.8share.pro/assets/chuoichien_logo.png"
+  },
+  "groups": [
+    {
+      "id": "live",
+      "name": "🔴 Trực tiếp",
+      "display": "vertical",
+      "channels": [
+        {
+          "id": "699fe7379cd9cc71103d1946",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Vàng",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1946",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1946",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1946_0",
+                      "name": "Chuối Vàng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1946_1",
+                      "name": "Chuối Vàng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1946_2",
+                      "name": "Chuối Vàng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1946_3",
+                      "name": "Chuối Vàng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1946_4",
+                      "name": "Chuối Vàng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1946_5",
+                      "name": "Chuối Vàng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1946.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1948",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Đô",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1948",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1948",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1948_0",
+                      "name": "Chuối Đô - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1948_1",
+                      "name": "Chuối Đô - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1948_2",
+                      "name": "Chuối Đô - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1948_3",
+                      "name": "Chuối Đô - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1948_4",
+                      "name": "Chuối Đô - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1948_5",
+                      "name": "Chuối Đô - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1948.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d194a",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối To",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d194a",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d194a",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d194a_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194a_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194a_2",
+                      "name": "Chuối To - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194a_3",
+                      "name": "Chuối To - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194a_4",
+                      "name": "Chuối To - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194a_5",
+                      "name": "Chuối To - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194a.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d195a",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Tây",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d195a",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d195a",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d195a_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195a_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195a_2",
+                      "name": "Chuối Tây - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195a_3",
+                      "name": "Chuối Tây - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195a_4",
+                      "name": "Chuối Tây - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195a_5",
+                      "name": "Chuối Tây - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195a.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1944",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Nướng",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1944",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1944",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1944_0",
+                      "name": "Chuối Nướng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_1",
+                      "name": "Chuối Nướng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_2",
+                      "name": "Chuối Nướng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_3",
+                      "name": "Chuối Nướng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_4",
+                      "name": "Chuối Nướng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_5",
+                      "name": "Chuối Nướng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1947",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Zeman",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1947",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1947",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1947_0",
+                      "name": "Zeman - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_1",
+                      "name": "Zeman - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_2",
+                      "name": "Zeman - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_3",
+                      "name": "Zeman - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_4",
+                      "name": "Zeman - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_5",
+                      "name": "Zeman - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1954",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Chồn",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1954",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1954",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1954_0",
+                      "name": "Chuối Chồn - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_1",
+                      "name": "Chuối Chồn - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_2",
+                      "name": "Chuối Chồn - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_3",
+                      "name": "Chuối Chồn - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_4",
+                      "name": "Chuối Chồn - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_5",
+                      "name": "Chuối Chồn - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1962",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Đô",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1962",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1962",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1962_0",
+                      "name": "Chuối Đô - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_1",
+                      "name": "Chuối Đô - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_2",
+                      "name": "Chuối Đô - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_3",
+                      "name": "Chuối Đô - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_4",
+                      "name": "Chuối Đô - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_5",
+                      "name": "Chuối Đô - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1943",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Vàng",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d1943",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d1943",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1943_0",
+                      "name": "Chuối Vàng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_1",
+                      "name": "Chuối Vàng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_2",
+                      "name": "Chuối Vàng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_3",
+                      "name": "Chuối Vàng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_4",
+                      "name": "Chuối Vàng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_5",
+                      "name": "Chuối Vàng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d195d",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Tây",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d195d",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d195d",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d195d_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_2",
+                      "name": "Chuối Tây - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_3",
+                      "name": "Chuối Tây - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_4",
+                      "name": "Chuối Tây - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_5",
+                      "name": "Chuối Tây - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d194f",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối To",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe7379cd9cc71103d194f",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe7379cd9cc71103d194f",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d194f_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_2",
+                      "name": "Chuối To - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_3",
+                      "name": "Chuối To - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_4",
+                      "name": "Chuối To - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_5",
+                      "name": "Chuối To - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe85e9cd9cc71103d65df",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Chồn",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-699fe85e9cd9cc71103d65df",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-699fe85e9cd9cc71103d65df",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_0",
+                      "name": "Chuối Chồn - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_1",
+                      "name": "Chuối Chồn - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_2",
+                      "name": "Chuối Chồn - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_3",
+                      "name": "Chuối Chồn - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_4",
+                      "name": "Chuối Chồn - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_5",
+                      "name": "Chuối Chồn - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69a1ed608e37f298dd0dd7a8",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Chuối Nướng",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-69a1ed608e37f298dd0dd7a8",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-69a1ed608e37f298dd0dd7a8",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_0",
+                      "name": "Chuối Nướng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_1",
+                      "name": "Chuối Nướng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_2",
+                      "name": "Chuối Nướng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_3",
+                      "name": "Chuối Nướng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_4",
+                      "name": "Chuối Nướng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed608e37f298dd0dd7a8_5",
+                      "name": "Chuối Nướng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed608e37f298dd0dd7a8.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69a1ed7b2e398244dc6f355f",
+          "name": "Home vs Away",
+          "labels": [
+            {
+              "position": "top-right",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "Zeman",
+              "color": "#007BFF",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "- ",
+              "color": "#28A745",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Home vs Away - 00:00",
+          "image": {
+            "url": "https://tt.8share.pro/images/cache/match-default.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "chuoichien-source-69a1ed7b2e398244dc6f355f",
+              "name": "Chuối Chiên TV",
+              "contents": [
+                {
+                  "id": "chuoichien-content-69a1ed7b2e398244dc6f355f",
+                  "name": "Home vs Away",
+                  "streams": [
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_0",
+                      "name": "Zeman - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_1",
+                      "name": "Zeman - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_2",
+                      "name": "Zeman - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_3",
+                      "name": "Zeman - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_4",
+                      "name": "Zeman - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    },
+                    {
+                      "id": "69a1ed7b2e398244dc6f355f_5",
+                      "name": "Zeman - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a1ed7b2e398244dc6f355f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "related",
+      "name": "Chán ư, vậy xem cái này cho vui ^^",
+      "display": "horizontal",
+      "grid_number": 1,
+      "groups": [
+        {
+          "id": "thapcamtv",
+          "name": "ThapcamTV",
+          "display": "text-below",
+          "image": {
+            "url": "https://thapcamiptv.com/10cam-logo-app-light.jpg",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Ftctv.pro&type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "vebotv",
+          "name": "VeboTV",
+          "display": "text-below",
+          "image": {
+            "url": "https://vebo.thethaoiptv.com/vebo-icon.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvbtv.pro&type=provider",
+            "external": true
+          }
+        }
+      ]
+    }
+  ],
+  "notice": {
+    "id": "notice",
+    "link": "https://t.me/xemgicungshare",
+    "icon": "https://tt.8share.pro/assets/telegram_sp.png",
+    "closeable": true
+  },
+  "option": {
+    "save_history": false,
+    "save_search_history": false,
+    "save_wishlist": false
+  }
+}
