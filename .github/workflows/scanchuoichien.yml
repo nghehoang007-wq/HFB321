@@ -51,11 +51,11 @@ jobs:
               # 1. KHỞI TẠO BỘ KHUNG MASTER JSON
               master_json = {
                   "id": "chuoichien",
-                  "url": "https://tt.8share.pro/chuoichien",
+                  "url": "https://nghehoang007-wq.github.io/HFB321/chuoichientv.json",
                   "name": "Chuối Chiên TV",
                   "color": "#003A17",
                   "description": "Xem bóng đá trực tuyến HD không quảng cáo tại Chuối Chiên TV.",
-                  "image": {"url": "https://tt.8share.pro/assets/chuoichien_logo.png"},
+                  "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png"},
                   "groups": [
                       {
                           "id": "live",
@@ -150,7 +150,7 @@ jobs:
                               {"position": "center", "text": score_str, "color": "#28A745", "text_color": "#FFFFFF"}
                           ],
                           "description": f"{match_name} - {time_str}",
-                          "image": {"url": match.get('home', {}).get('logo', 'https://tt.8share.pro/images/cache/match-default.png'), "height": 480, "width": 640, "display": "cover", "shape": "square"},
+                          "image": {"url": match.get('home', {}).get('logo', 'https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png'), "height": 480, "width": 640, "display": "cover", "shape": "square"},
                           "type": "single",
                           "display": "thumbnail-only",
                           "sources": [
