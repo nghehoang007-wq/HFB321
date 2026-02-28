@@ -5,7 +5,7 @@
   "color": "#003A17",
   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
   "image": {
-    "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png?v1"
+    "url": "https://nghehoang007-wq.github.io/HFB321/HFB/Thump/chuoichien.png?v1"
   },
   "groups": [
     {
@@ -13,7 +13,792 @@
       "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN",
       "display": "vertical",
       "grid_number": 2,
-      "channels": []
+      "channels": [
+        {
+          "id": "699fe7379cd9cc71103d1944",
+          "name": "Verona vs Napoli",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Verona",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Napoli",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125604_2bbdecdf.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125601_1ca3923a.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d1944",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d1944",
+                  "name": "Verona vs Napoli",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1944_0",
+                      "name": "Chuối Nướng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_1",
+                      "name": "Chuối Nướng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_2",
+                      "name": "Chuối Nướng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_3",
+                      "name": "Chuối Nướng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_4",
+                      "name": "Chuối Nướng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1944_5",
+                      "name": "Chuối Nướng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1944.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1947",
+          "name": "Leeds vs Manchester City",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Leeds",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Man City",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_130851_9f58f9f7.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125550_090f6609.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d1947",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d1947",
+                  "name": "Leeds vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1947_0",
+                      "name": "Zeman - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_1",
+                      "name": "Zeman - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_2",
+                      "name": "Zeman - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_3",
+                      "name": "Zeman - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_4",
+                      "name": "Zeman - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1947_5",
+                      "name": "Zeman - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1947.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1954",
+          "name": "Borussia Dortmund vs Bayern München",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Borussia Dor..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Bayern Münch..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125555_332e69fe.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125553_909d7704.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d1954",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d1954",
+                  "name": "Borussia Dortmund vs Bayern München",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1954_0",
+                      "name": "Chuối Chồn - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_1",
+                      "name": "Chuối Chồn - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_2",
+                      "name": "Chuối Chồn - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_3",
+                      "name": "Chuối Chồn - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_4",
+                      "name": "Chuối Chồn - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1954_5",
+                      "name": "Chuối Chồn - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1954.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1962",
+          "name": "Al-Fayha vs Al-Nassr",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Al-Fayha",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Al-Nassr",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_134005_86951109.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_133413_57842973.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d1962",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d1962",
+                  "name": "Al-Fayha vs Al-Nassr",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1962_0",
+                      "name": "Chuối Đô - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_1",
+                      "name": "Chuối Đô - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_2",
+                      "name": "Chuối Đô - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_3",
+                      "name": "Chuối Đô - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_4",
+                      "name": "Chuối Đô - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1962_5",
+                      "name": "Chuối Đô - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1962.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d1943",
+          "name": "Inter vs Genoa",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Inter",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Genoa",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125605_14c915ad.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125601_0fe8ee77.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d1943",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d1943",
+                  "name": "Inter vs Genoa",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d1943_0",
+                      "name": "Chuối Vàng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_1",
+                      "name": "Chuối Vàng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_2",
+                      "name": "Chuối Vàng - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_3",
+                      "name": "Chuối Vàng - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_4",
+                      "name": "Chuối Vàng - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d1943_5",
+                      "name": "Chuối Vàng - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d1943.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d195d",
+          "name": "Oviedo vs Atletico Madrid",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Oviedo",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Atletico Mad..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_133419_840a57b5.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125622_72c24d7d.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d195d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d195d",
+                  "name": "Oviedo vs Atletico Madrid",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d195d_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_2",
+                      "name": "Chuối Tây - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_3",
+                      "name": "Chuối Tây - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_4",
+                      "name": "Chuối Tây - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d195d_5",
+                      "name": "Chuối Tây - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d195d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe7379cd9cc71103d194f",
+          "name": "LE Havre vs Paris Saint Germain",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h05",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "LE Havre",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Paris Saint ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125518_84b3457e.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_125513_ca6329d9.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe7379cd9cc71103d194f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe7379cd9cc71103d194f",
+                  "name": "LE Havre vs Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "699fe7379cd9cc71103d194f_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_2",
+                      "name": "Chuối To - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_3",
+                      "name": "Chuối To - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_4",
+                      "name": "Chuối To - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    },
+                    {
+                      "id": "699fe7379cd9cc71103d194f_5",
+                      "name": "Chuối To - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe7379cd9cc71103d194f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "699fe85e9cd9cc71103d65df",
+          "name": "Houston Dynamo vs Los Angeles FC",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "08h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Houston Dyna..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "Los Angeles ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_131602_a260dca9.png"
+            },
+            {
+              "position": "top-right",
+              "text": "",
+              "image": "https://media.chuoichientv.com/media/uploads/20250623_131610_3c117687.png"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-699fe85e9cd9cc71103d65df",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-699fe85e9cd9cc71103d65df",
+                  "name": "Houston Dynamo vs Los Angeles FC",
+                  "streams": [
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_0",
+                      "name": "Chuối Chồn - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_1",
+                      "name": "Chuối Chồn - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_2",
+                      "name": "Chuối Chồn - HD3",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_3",
+                      "name": "Chuối Chồn - HD4",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_4",
+                      "name": "Chuối Chồn - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    },
+                    {
+                      "id": "699fe85e9cd9cc71103d65df_5",
+                      "name": "Chuối Chồn - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/699fe85e9cd9cc71103d65df.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "notice": {
