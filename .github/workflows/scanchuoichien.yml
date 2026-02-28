@@ -24,7 +24,7 @@ jobs:
           import unicodedata
           from datetime import datetime
 
-          # Dùng đường link tuyệt hảo mà bác vừa tìm được (Lấy tối đa 100 trận có BLV)
+          # API Lấy 100 trận có BLV
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
           URL_PREFIX = "https://gckc0525.edgemaxcdn.org/live/"
           URL_SUFFIX = ".flv"
@@ -36,14 +36,23 @@ jobs:
 
           try:
               print(f"Đang đâm thẳng vào API: {API_URL}")
-              response = requests.get(API_URL, impersonate="chrome110", timeout=30)
+              
+              # TRANG BỊ THẺ TOKEN VIP TỪ ẢNH CỦA BÁC
+              headers = {
+                  "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
+                  "Origin": "https://live16.chuoichientv.com",
+                  "Referer": "https://live16.chuoichientv.com/",
+                  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+              }
+
+              response = requests.get(API_URL, headers=headers, impersonate="chrome110", timeout=30)
               
               if response.status_code != 200:
                   print(f"⚠️ API báo lỗi: {response.status_code}")
               
               data = response.json()
               
-              # Dò tìm danh sách trận đấu (Thường nằm trong biến 'data' hoặc 'items')
+              # Dò tìm danh sách trận đấu
               matches = data.get('data', [])
               if not matches and isinstance(data, list):
                   matches = data
@@ -52,8 +61,8 @@ jobs:
                   print("⚠️ API kết nối thành công nhưng không có trận nào hoặc cấu trúc JSON khác dự kiến.")
                   print("Nội dung API trả về:", str(data)[:500])
               else:
-                  print(f"🔍 Bắt được {len(matches)} trận đấu từ API. Đang phân tích JSON...")
-                  # IN RA CẤU TRÚC JSON CỦA TRẬN ĐẦU TIÊN ĐỂ LÀM MANH MỐI (PHÒNG HỜ)
+                  print(f"🔍 MỞ KHÓA THÀNH CÔNG! Bắt được {len(matches)} trận đấu từ API.")
+                  # IN RA CẤU TRÚC JSON CỦA TRẬN ĐẦU TIÊN ĐỂ LÀM MANH MỐI
                   print("--- CẤU TRÚC MẪU 1 TRẬN ĐẤU ---")
                   print(json.dumps(matches[0], indent=2, ensure_ascii=False)[:1000])
                   print("--------------------------------")
@@ -63,12 +72,12 @@ jobs:
               
               for match in matches:
                   try:
-                      # Dò tìm tên đội (Đoán các biến phổ biến)
+                      # CỐ GẮNG BÓC TÁCH THEO CÁC BIẾN PHỔ BIẾN
                       home = match.get('homeTeam', {}).get('name') or match.get('home', {}).get('name') or match.get('team1') or "Home"
                       away = match.get('awayTeam', {}).get('name') or match.get('away', {}).get('name') or match.get('team2') or "Away"
                       match_name = f"{home} vs {away}"
 
-                      # Dò tìm tên BLV
+                      # Tên BLV
                       blv_name = ""
                       commentators = match.get('commentators') or match.get('blvs')
                       if isinstance(commentators, list) and len(commentators) > 0:
@@ -80,19 +89,18 @@ jobs:
                       if not blv_name:
                           continue # Bỏ qua nếu không có BLV
 
-                      # Dò tìm thời gian
+                      # Thời gian
                       time_str = "00h00"
                       timestamp = match.get('timestamp') or match.get('startTime') or match.get('start_time')
                       if timestamp:
-                          # Chuyển đổi Unix time (nếu là số)
                           if isinstance(timestamp, (int, float)):
                               if timestamp > 1e11: timestamp /= 1000 # Đổi millisecond ra second
                               dt = datetime.fromtimestamp(timestamp)
                               time_str = dt.strftime("%Hh%M-%d/%m")
                           elif isinstance(timestamp, str):
-                              time_str = timestamp[:16].replace('T', ' ').replace(':', 'h') # Chữa cháy nếu là chuỗi ISO
+                              time_str = timestamp[:16].replace('T', ' ').replace(':', 'h')
 
-                      # Tạo Link và Lưu
+                      # Tạo Link
                       stream_id = generate_stream_id(blv_name)
                       stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
 
@@ -122,5 +130,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add chuoichientv.m3u
-          git commit -m "Auto Scrape ChuoiChien TV via API" || echo "No changes"
+          git commit -m "Auto Scrape ChuoiChien TV via API using Token" || echo "No changes"
           git push
