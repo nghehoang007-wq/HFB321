@@ -27,13 +27,9 @@ jobs:
           URL_PREFIX = "https://gckc0525.edgemaxcdn.org/live/"
           URL_SUFFIX = ".flv"
 
-          # HÀM CHUYỂN ĐỔI TRỰC TIẾP TỪ HTML (Không lập trình trước)
           def generate_stream_id(blv_name):
-              # 1. Xóa khoảng trắng 2 đầu và in thường
               name = blv_name.strip().lower()
-              # 2. Xóa dấu tiếng Việt
               no_accent = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('utf-8')
-              # 3. Xóa sạch khoảng trắng và các ký tự đặc biệt (chỉ giữ lại a-z và số)
               stream_id = re.sub(r'[^a-z0-9]', '', no_accent)
               return stream_id
 
@@ -47,31 +43,40 @@ jobs:
               m3u_lines = ["#EXTM3U"]
               count = 0
               
-              matches = soup.find_all('a', href=re.compile(r'/live/\d+/'))
+              # DÙNG CSS SELECTOR ĐỂ TÌM LINK TRẬN ĐẤU (Tuyệt đối không trượt)
+              matches = soup.select('a[href*="/live/"]')
               
               for match in matches:
                   try:
-                      team_divs = match.find_all('div', class_=re.compile(r'font-bold text-white'))
+                      # 1. Bóc Tên Đội Bóng (Lấy các thẻ div có chứa 2 class là font-bold VÀ text-white)
+                      team_divs = match.select('div.font-bold.text-white')
                       if len(team_divs) < 2:
                           continue
-                      team1 = team_divs[0].text.strip()
-                      team2 = team_divs[1].text.strip()
+                      team1 = team_divs[0].get_text(strip=True)
+                      team2 = team_divs[1].get_text(strip=True)
                       match_name = f"{team1} vs {team2}"
 
-                      time_span = match.find('span', text=re.compile(r'\d{2}:\d{2}\s\d{2}/\d{2}'))
-                      time_str = time_span.text.strip().replace(' ', '-') if time_span else "00:00"
-                      time_str = time_str.replace(':', 'h') 
-
-                      blv_span = match.find('span', class_='blv-info')
-                      if blv_span:
-                          blv_name = blv_span.text.strip()
+                      # 2. Bóc Thời Gian
+                      time_span = match.select_one('span.text-green-300')
+                      if time_span:
+                          time_str = time_span.get_text(strip=True).replace(' ', '-').replace(':', 'h')
                       else:
-                          continue 
+                          time_str = "00:00"
 
-                      # Gọi hàm chuyển đổi trực tiếp
+                      # 3. Bóc Tên BLV
+                      blv_span = match.select_one('span.blv-info')
+                      if not blv_span:
+                          continue 
+                          
+                      blv_name = blv_span.get_text(strip=True)
+                      if not blv_name:  # Bỏ qua nếu trận này có khối HTML nhưng chưa điền tên BLV
+                          continue
+
+                      # 4. Sinh ID
                       stream_id = generate_stream_id(blv_name)
                       stream_url = f"{URL_PREFIX}{stream_id}{URL_SUFFIX}"
 
+                      # 5. Ghi vào M3U
                       display_text = f"ChuoiChien {time_str}: [{blv_name}] {match_name}"
                       m3u_lines.append(f'#EXTINF:-1 group-title="ChuoiChien",{display_text}')
                       m3u_lines.append(stream_url)
@@ -98,5 +103,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add chuoichientv.m3u
-          git commit -m "Auto Scrape ChuoiChien TV dynamically" || echo "No changes"
+          git commit -m "Auto Scrape ChuoiChien TV using CSS Selectors" || echo "No changes"
           git push
