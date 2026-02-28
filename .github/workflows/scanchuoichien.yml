@@ -13,18 +13,10 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install Dependencies
-        # Cài Pillow để xử lý ảnh, dateutil xử lý giờ, và fontconfig để quản lý font
         run: pip install curl_cffi python-dateutil Pillow
-
-      - name: Setup Unicode Font
-        # Tải Font Arial Unicode về để vẽ chữ Tiếng Việt có dấu lên ảnh
-        run: |
-          mkdir -p .fonts
-          curl -L -o .fonts/arial.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/Arimo%5Bwght%5D.ttf"
 
       - name: Run ChuoiChien JSON Factory
         run: |
-          # Dọn sạch và tạo mới 2 thư mục
           rm -rf stream thumbs
           mkdir stream thumbs
           
@@ -33,7 +25,7 @@ jobs:
           import json
           import re
           import io
-          from PIL import Image, ImageDraw, ImageFont
+          from PIL import Image
           from datetime import datetime, timezone, timedelta
           from curl_cffi import requests
           from dateutil import parser
@@ -42,7 +34,6 @@ jobs:
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
           BASE_REMOTE_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/" 
           BASE_THUMB_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/"
-          FONT_PATH = ".fonts/arial.ttf"
 
           HEADERS = {
               "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
@@ -60,21 +51,9 @@ jobs:
                   if k.lower() in name.lower(): return v
               return name[:12] + ".." if len(name) > 13 else name
 
-          # Hàm vẽ chữ có viền đen để nổi bật trên mọi nền ảnh
-          def draw_text_with_outline(draw_obj, text, position, font, text_color, outline_color, anchor="mm"):
-              x, y = position
-              # Vẽ viền 4 hướng
-              draw_obj.text((x-2, y-2), text, font=font, fill=outline_color, anchor=anchor)
-              draw_obj.text((x+2, y-2), text, font=font, fill=outline_color, anchor=anchor)
-              draw_obj.text((x-2, y+2), text, font=font, fill=outline_color, anchor=anchor)
-              draw_obj.text((x+2, y+2), text, font=font, fill=outline_color, anchor=anchor)
-              # Vẽ chữ chính
-              draw_obj.text(position, text, font=font, fill=text_color, anchor=anchor)
-
           try:
-              print("Đang khởi động xưởng in Thumbnail chuyên nghiệp...")
+              print("Đang khởi động quy trình bóc tách API & Xưởng tạo ảnh...")
               
-              # TẢI ẢNH NỀN
               base_bg_url = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
               try:
                   bg_res = requests.get(base_bg_url, timeout=10)
@@ -82,16 +61,6 @@ jobs:
                   base_bg = base_bg.resize((640, 360))
               except:
                   base_bg = Image.new('RGBA', (640, 360), (0, 0, 0, 255))
-
-              # LOAD FONT (Cỡ 48 cho tên đội, 28 cho giờ, 64 cho VS)
-              try:
-                  team_font = ImageFont.truetype(FONT_PATH, 48) # To hơn 32
-                  time_font = ImageFont.truetype(FONT_PATH, 28)
-                  vs_font = ImageFont.truetype(FONT_PATH, 64)
-              except:
-                  team_font = ImageFont.load_default()
-                  time_font = ImageFont.load_default()
-                  vs_font = ImageFont.load_default()
 
               response = requests.get(API_URL, headers=HEADERS, impersonate="chrome110", timeout=30)
               data = response.json()
@@ -103,7 +72,7 @@ jobs:
                   "name": "Chuối Chiên TV",
                   "color": "#003A17",
                   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
-                  "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png?v1"},
+                  "image": {"url": "https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/616798132_837736625898942_6926473979861361436_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Z6CXRwgTFn8Q7kNvwF-Svp8&_nc_oc=Adl8bSYZaT51msTbE0n_zgDSMTNA1_WgGIf_8wmFhFd_ql1qVSqxingf-OpM32ywK_o&_nc_zt=23&_nc_ht=scontent.fhan14-2.fna&_nc_gid=To0o9HmHhAIOkqnd4cTYKQ&_nc_ss=8&oh=00_Afs2wsTDkdhTalw3AGj_UTR01x1mbGY22gUJXqbZL6vrcA&oe=69A8D9D1"},
                   "groups": [{"id": "live", "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN", "display": "vertical", "grid_number": 2, "channels": []}],
                   "notice": {"id": "notice", "link": "https://t.me/xemgicungshare", "icon": "https://tt.8share.pro/assets/telegram_sp.png", "closeable": True},
                   "option": {"save_history": False, "save_search_history": False, "save_wishlist": False}
@@ -121,10 +90,9 @@ jobs:
                       team2_full = away_data.get('name', 'Away')
                       team1_short = shorten_name(team1_full)
                       team2_short = shorten_name(team2_full)
-                      home_logo_url = home_data.get('logo', '')
-                      away_logo_url = away_data.get('logo', '')
+                      home_logo = home_data.get('logo', '')
+                      away_logo = away_data.get('logo', '')
 
-                      # XỬ LÝ THỜI GIAN
                       match_time_raw = match.get('matchTime', '')
                       time_display = "00h00"
                       if match_time_raw:
@@ -140,65 +108,38 @@ jobs:
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- XƯỞNG PHOTOSHOP CHUYÊN NGHIỆP: VẼ TẤT CẢ VÀO ẢNH --
-                      # Do che bằng hộp văn bản mới, nên bước che sân cỏ là không cần thiết,
-                      # tôi chỉ cần dán hộp văn bản mới đè lên.
-                      thumb_url = f"{BASE_REMOTE_URL}HFB/Thump/nguonphat5.png" # Mặc định
-
+                      # -- XƯỞNG PHOTOSHOP (ĐÃ CÂN CHỈNH LẠI TỌA ĐỘ LOGO) --
+                      thumb_url = base_bg_url 
                       try:
-                          # Re-create background sạch 640x360
-                          # Hoặc cheat bằng cách dán hộp văn bản đè. Tốt hơn là *re-create* background sạch.
-                          # Do che bằng hộp văn bản mới, nên bước che sân cỏ là không cần thiết.
-
-                          # Tải image_1.png làm nền. Thu hẹp xuống 640x360.
                           bg_copy = base_bg.copy()
-                          draw = ImageDraw.Draw(bg_copy)
-                          has_custom_thumb = False
+                          has_new_logo = False
                           
-                          # Bố cục trục dọc mới: LOGO (thấp hơn) -> TÊN ĐỘI (thấp hơn, to hơn, dưới logo) -> GIỜ ĐÁ
-                          #
-
                           # Kích thước ảnh nền: Rộng 640px, Cao 360px
-                          # Trục dọc giữa là Y=180.
-
-                          # 1. Thu nhỏ và dán LOGO xuống thấp hơn (ví dụ Y=220)
-                          if home_logo_url:
-                              h_res = requests.get(home_logo_url, timeout=5)
+                          # Trục dọc giữa là Y=180 (Nơi chữ center sẽ nằm)
+                          
+                          if home_logo:
+                              h_res = requests.get(home_logo, timeout=5)
                               if h_res.status_code == 200:
                                   h_img = Image.open(io.BytesIO(h_res.content)).convert("RGBA")
-                                  h_img = h_img.resize((100, 100)) # 100x100
-                                  # Dán logo bên trái, Y=220
-                                  bg_copy.paste(h_img, (110, 220), h_img)
-                                  has_custom_thumb = True
+                                  # Thu nhỏ Logo lại còn 100x100
+                                  h_img = h_img.resize((100, 100))
+                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề trái (X=110)
+                                  bg_copy.paste(h_img, (110, 40), h_img)
+                                  has_new_logo = True
                                   
-                          if away_logo_url:
-                              a_res = requests.get(away_logo_url, timeout=5)
+                          if away_logo:
+                              a_res = requests.get(away_logo, timeout=5)
                               if a_res.status_code == 200:
                                   a_img = Image.open(io.BytesIO(a_res.content)).convert("RGBA")
-                                  a_img = a_img.resize((100, 100)) # 100x100
-                                  # Dán logo bên phải, Y=220
-                                  bg_copy.paste(a_img, (430, 220), a_img)
-                                  has_custom_thumb = True
-
-                          # 2. Vẽ TÊN ĐỘI (to hơn, thấp hơn, dưới logo - ví dụ Y=300)
-                          # Đội nhà dạt sang trái 1/4 (X=160), Đội khách dạt sang phải 3/4 (X=480)
-                          # Phông chữ cỡ 48
-                          draw_text_with_outline(draw, team1_short, (160, 300), team_font, (255, 255, 255, 255), (0, 0, 0, 255))
-                          draw_text_with_outline(draw, team2_short, (480, 300), team_font, (255, 255, 255, 255), (0, 0, 0, 255))
-
-                          # 3. Vẽ VS ( center-center, to hơn, màu vàng)
-                          # Phông chữ cỡ 64
-                          draw_text_with_outline(draw, "VS", (320, 180), vs_font, (255, 255, 0, 255), (0, 0, 0, 255))
-
-                          # 4. Vẽ Giờ đá (bottom-center, màu đỏ)
-                          # Phông chữ cỡ 28
-                          draw_text_with_outline(draw, time_display, (320, 320), time_font, (255, 0, 0, 255), (0, 0, 0, 255))
-
-                          if has_custom_thumb:
+                                  a_img = a_img.resize((100, 100))
+                                  # Đẩy lên cao tít (Y=40), lùi vào sát tâm lề phải (X=430)
+                                  bg_copy.paste(a_img, (430, 40), a_img)
+                                  has_new_logo = True
+                                  
+                          if has_new_logo:
                               thumb_path = f"thumbs/{match_id}.png"
                               bg_copy.save(thumb_path, "PNG")
                               thumb_url = f"{BASE_THUMB_URL}{match_id}.png"
-                              
                       except Exception as e:
                           print(f"Lỗi tạo ảnh trận {match_id}: {e}")
 
@@ -221,12 +162,18 @@ jobs:
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
                           json.dump(child_json, f, ensure_ascii=False, indent=2)
 
-                      # -- GIAO DIỆN MASTER JSON (XÓA BỎ LABELS, CHỈ DÙNG ẢNH PHOTOSHOP) --
-                      # Đảm bảo `groups.channels` là `[]` và `grid_number` là 2.
+                      # -- GIAO DIỆN KÊNH --
+                      labels = [
+                          {"position": "bottom-center", "text": time_display, "color": "#FF0000", "text_color": "#FFFFFF"},
+                          # Chữ nằm ở trục center sẽ rơi vào khoảng Y=180, cực kỳ trống trải và an toàn!
+                          {"position": "center-left", "text": team1_short, "color": "#80000000", "text_color": "#FFFFFF"},
+                          {"position": "center-right", "text": team2_short, "color": "#80000000", "text_color": "#FFFFFF"}
+                      ]
+
                       master_json["groups"][0]["channels"].append({
                           "id": match_id, 
                           "name": f"{team1_full} vs {team2_full}",
-                          "labels": [], # Mảng nhãn rỗng tuyệt đối!
+                          "labels": labels,
                           "image": {"url": thumb_url, "height": 360, "width": 640, "display": "cover"},
                           "type": "single", 
                           "display": "thumbnail-only",
@@ -239,7 +186,7 @@ jobs:
 
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
-              print(f"🎉 THÀNH CÔNG RỰC RỠ! In xong Thumbnail cho {count} trận.")
+              print(f"🎉 THÀNH CÔNG! Nạp {count} trận và tạo xong Thumbnail Logo đẩy lên cao.")
           except Exception as e: 
               print(f"Lỗi tổng thể: {e}")
           EOF
@@ -249,6 +196,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add -A stream/ thumbs/ chuoichientv.json
-          git commit -m "UI: Professional Vertical Layout (Logos Top, Large Team Names Bottom, Time Center), cheold background clean" || echo "No changes"
+          git add -A stream/
+          git add -A thumbs/
+          git add chuoichientv.json
+          git commit -m "Reposition Logos to Top-Half for Text Clearance" || echo "No changes"
           git push
