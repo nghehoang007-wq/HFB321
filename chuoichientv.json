@@ -15,94 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69a456bc9cd9cc71109136ba",
-          "name": "Sporting CP vs FC Porto",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sporting CP",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FC Porto",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69a456bc9cd9cc71109136ba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69a456bc9cd9cc71109136ba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69a456bc9cd9cc71109136ba",
-                  "name": "Sporting CP vs FC Porto",
-                  "streams": [
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_0",
-                      "name": "Chuối Chồn - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_1",
-                      "name": "Chuối Chồn - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_2",
-                      "name": "Chuối Chồn - HD3",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_3",
-                      "name": "Chuối Chồn - HD4",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_4",
-                      "name": "Chuối Chồn - SD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136ba_5",
-                      "name": "Chuối Chồn - SD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136ba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69a456bc9cd9cc71109136b2",
           "name": "Bermuda W vs Costa Rica W",
           "labels": [
@@ -1779,12 +1691,13 @@
   ],
   "notice": {
     "id": "notice",
-    "link": "https://t.me/",
+    "link": "https://t.me",
     "icon": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png",
     "closeable": true
   },
+  "cache_time": 5,
   "option": {
-    "save_history": false,
+    "save_history": true,
     "save_search_history": false,
     "save_wishlist": false
   }
