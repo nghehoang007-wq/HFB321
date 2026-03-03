@@ -77,8 +77,13 @@ jobs:
                   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
                   "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png"},
                   "groups": [{"id": "live", "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN", "display": "vertical", "grid_number": 2, "channels": []}],
-                  "notice": {"id": "notice", "link": "https://t.me/", "icon": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png", "closeable": True},
-                  "option": {"save_history": False, "save_search_history": False, "save_wishlist": False}
+                  "notice": {"id": "notice", "link": "https://t.me", "icon": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png", "closeable": True},
+                  "cache_time": 5, # THÊM DÒNG NÀY: Ép MonPlayer lưu cache trang chủ trong 5 phút để thoát ra là có ngay
+                  "option": {
+                      "save_history": True, # ĐỔI THÀNH TRUE: Để App nhớ đường quay về
+                      "save_search_history": False, 
+                      "save_wishlist": False
+                  }
               }
               
               count = 0
