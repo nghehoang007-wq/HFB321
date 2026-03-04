@@ -1,6 +1,6 @@
 {
   "id": "chuoichienhfb",
-  "url": "https://nghehoang007-wq.github.io/HFB321/chuoichientv.json",
+  "url": "https://hfbtv.vercel.app/chuoichientv.json",
   "name": "Chuối Chiên TV",
   "color": "#003A17",
   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
@@ -14,94 +14,6 @@
       "display": "vertical",
       "grid_number": 2,
       "channels": [
-        {
-          "id": "69a456bc9cd9cc71109136b2",
-          "name": "Bermuda W vs Costa Rica W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bermuda W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Costa Rica W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69a456bc9cd9cc71109136b2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69a456bc9cd9cc71109136b2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69a456bc9cd9cc71109136b2",
-                  "name": "Bermuda W vs Costa Rica W",
-                  "streams": [
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_0",
-                      "name": "Zeman - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_1",
-                      "name": "Zeman - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_2",
-                      "name": "Zeman - HD3",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_3",
-                      "name": "Zeman - HD4",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_4",
-                      "name": "Zeman - SD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    },
-                    {
-                      "id": "69a456bc9cd9cc71109136b2_5",
-                      "name": "Zeman - SD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69a456bc9cd9cc71109136b2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "id": "69a457339cd9cc7110917110",
           "name": "Pachuca vs Necaxa",
