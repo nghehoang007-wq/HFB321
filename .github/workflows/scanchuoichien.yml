@@ -34,12 +34,8 @@ jobs:
 
           # ================= CẤU HÌNH API =================
           API_URL = "https://api.chuoichientv.com/v1/matches?page=1&limit=100&sport=&type=blv"
-          
-          # ĐIỀN TÊN MIỀN VERCEL CỦA BÁC VÀO ĐÂY (Chống nghẽn mạng Github)
-          VERCEL_DOMAIN = "https://hfb321.vercel.app" 
-          
-          BASE_REMOTE_URL = f"{VERCEL_DOMAIN}/stream/" 
-          BASE_THUMB_URL = f"{VERCEL_DOMAIN}/thumbs/"
+          BASE_REMOTE_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/" 
+          BASE_THUMB_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/"
 
           HEADERS = {
               "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJndWVzdElkIjoiZTM0Zjk3ZmQtNWMxMC00MGEzLWE1OGYtZDE3MmQwMmIxNDZjIiwidHlwZSI6Imd1ZXN0IiwiaXAiOiIxNjIuMTU5Ljk4LjIyMCIsInVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzEuMC4wLjAgU2FmYXJpLzUzNy4zNiIsIm5hbWUiOiJCw7puIMSQ4buPIDQ1MyIsInRpbWVzdGFtcCI6MTc3MjI5MTc4NzEwNCwiaWF0IjoxNzcyMjkxNzg3LCJleHAiOjE4MDM4Mjc3ODd9.iHhwdQaDRcrjyRfCVGCbSZb6dFj-EuzJblTD1wmttV0",
@@ -75,16 +71,16 @@ jobs:
 
               master_json = {
                   "id": "chuoichienhfb",
-                  "url": f"{VERCEL_DOMAIN}/chuoichientv.json",
+                  "url": "https://nghehoang007-wq.github.io/HFB321/chuoichientv.json",
                   "name": "Chuối Chiên TV",
                   "color": "#003A17",
                   "description": "Cập nhật trực tiếp từ Chuối Chiên TV",
                   "image": {"url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png"},
                   "groups": [{"id": "live", "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN", "display": "vertical", "grid_number": 2, "channels": []}],
-                  "notice": {"id": "notice", "link": "https://t.me/xemgicungshare", "icon": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png", "closeable": True},
-                  "cache_time": 5, 
+                  "notice": {"id": "notice", "link": "https://t.me", "icon": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/chuoichien.png", "closeable": True},
+                  "cache_time": 5, # THÊM DÒNG NÀY: Ép MonPlayer lưu cache trang chủ trong 5 phút để thoát ra là có ngay
                   "option": {
-                      "save_history": True, # ĐÃ KHÓA TRUE: Chống treo App khi ấn Back
+                      "save_history": True, # ĐỔI THÀNH TRUE: Để App nhớ đường quay về
                       "save_search_history": False, 
                       "save_wishlist": False
                   }
@@ -121,8 +117,8 @@ jobs:
                       streams = blv.get('streams', [])
                       if not streams: continue
 
-                      # -- SẢN XUẤT ẢNH THUMBNAIL --
-                      thumb_url = base_bg_url 
+                      # -- SẢN XUẤT ẢNH THUMBNAIL (LỒNG LOGO GIỮA ẢNH Y=100) --
+                      thumb_url = base_bg_url # Mặc định nếu lỗi
                       try:
                           bg_copy = base_bg.copy()
                           has_new_logo = False
@@ -132,6 +128,7 @@ jobs:
                               if h_res.status_code == 200:
                                   h_img = Image.open(io.BytesIO(h_res.content)).convert("RGBA")
                                   h_img = h_img.resize((120, 120))
+                                  # Dán logo bên trái (Cố định ở giữa theo yêu cầu của bác)
                                   bg_copy.paste(h_img, (100, 100), h_img)
                                   has_new_logo = True
                                   
@@ -140,6 +137,7 @@ jobs:
                               if a_res.status_code == 200:
                                   a_img = Image.open(io.BytesIO(a_res.content)).convert("RGBA")
                                   a_img = a_img.resize((120, 120))
+                                  # Dán logo bên phải (Cố định ở giữa theo yêu cầu của bác)
                                   bg_copy.paste(a_img, (420, 100), a_img)
                                   has_new_logo = True
                                   
@@ -150,7 +148,7 @@ jobs:
                       except Exception as e:
                           print(f"Lỗi tạo ảnh trận {match_id}: {e}")
 
-                      # -- TẠO FILE JSON CON (Sử dụng remote_data ra file riêng để chống giật) --
+                      # -- TẠO FILE JSON CON --
                       child_json = {"stream_links": []}
                       master_streams = []
                       for idx, s in enumerate(streams):
@@ -163,16 +161,16 @@ jobs:
                               "url": s_url, "default": idx==0,
                               "request_headers": [{"key": "Referer", "value": "https://api.chuoichientv.com/"}]
                           })
-                          # Link gọi m3u8 sẽ lấy từ Vercel
                           master_streams.append({"id": f"{match_id}_{idx}", "name": s_name, "remote_data": {"url": f"{BASE_REMOTE_URL}{match_id}.json"}})
 
                       if not master_streams: continue
                       with open(f"stream/{match_id}.json", "w", encoding="utf-8") as f:
                           json.dump(child_json, f, ensure_ascii=False, indent=2)
 
-                      # -- GIAO DIỆN KÊNH TRANG CHỦ --
+                      # -- GIAO DIỆN KÊNH (ĐẨY TÊN ĐỘI LÊN TOP) --
                       labels = [
                           {"position": "bottom-center", "text": time_display, "color": "#FF0000", "text_color": "#FFFFFF"},
+                          # Sửa từ center-left/right thành top-left/right
                           {"position": "top-left", "text": team1_short, "color": "#80000000", "text_color": "#FFFFFF"},
                           {"position": "top-right", "text": team2_short, "color": "#80000000", "text_color": "#FFFFFF"}
                       ]
@@ -193,7 +191,7 @@ jobs:
 
               with open('chuoichientv.json', 'w', encoding='utf-8') as f:
                   json.dump(master_json, f, ensure_ascii=False, indent=2)
-              print(f"🎉 THÀNH CÔNG! Nạp {count} trận - Tối ưu 100% Vercel & Chống treo MonPlayer.")
+              print(f"🎉 THÀNH CÔNG! Nạp {count} trận và tạo xong Thumbnail Logo lồng, đẩy text lên Top.")
           except Exception as e: 
               print(f"Lỗi tổng thể: {e}")
           EOF
@@ -204,13 +202,10 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
+          # Đẩy thêm cả thư mục thumbs chứa ảnh đã được "Photoshop"
           git add -A stream/
           git add -A thumbs/
           git add chuoichientv.json
           
-          git commit -m "Bản vá tối thượng: Vercel CDN + Fix MonPlayer Crash" || echo "No changes"
-          
-          # ĐỒNG BỘ MÃ TRƯỚC KHI PUSH ĐỂ CHỐNG LỖI XUNG ĐỘT
-          git pull --rebase origin main
-          
+          git commit -m "Auto Photoshop Logos & Text to Top Fix" || echo "No changes"
           git push
