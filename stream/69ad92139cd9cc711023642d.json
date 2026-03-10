@@ -2,9 +2,9 @@
   "stream_links": [
     {
       "id": "1",
-      "name": "Chuối Tiêu - HD1",
+      "name": "A Tích - HD1",
       "type": "hls",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitieu/playlist.m3u8",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atich/playlist.m3u8",
       "default": true,
       "request_headers": [
         {
@@ -15,9 +15,9 @@
     },
     {
       "id": "2",
-      "name": "Chuối Tiêu - HD2",
-      "type": "hls",
-      "url": "https://cyber.chuoichien.tv/chuoitieu/index.m3u8",
+      "name": "A Tích - HD2",
+      "type": "flv",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atich.flv",
       "default": false,
       "request_headers": [
         {
@@ -28,9 +28,9 @@
     },
     {
       "id": "3",
-      "name": "Chuối Tiêu - HD3",
-      "type": "flv",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitieu.flv",
+      "name": "A Tích - FHD1",
+      "type": "hls",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atichhd/playlist.m3u8",
       "default": false,
       "request_headers": [
         {
@@ -41,35 +41,9 @@
     },
     {
       "id": "4",
-      "name": "Chuối Tiêu - HD4",
+      "name": "A Tích - FHD2",
       "type": "flv",
-      "url": "https://cyber.chuoichien.tv/chuoitieu.flv",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Chuối Tiêu - SD1",
-      "type": "hls",
-      "url": "https://stream.chuoichien.tv/chuoitieu/index.m3u8",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Chuối Tiêu - SD2",
-      "type": "flv",
-      "url": "https://stream.chuoichien.tv/chuoitieu.flv",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atichhd.flv",
       "default": false,
       "request_headers": [
         {
