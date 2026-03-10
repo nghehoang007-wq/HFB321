@@ -958,32 +958,6 @@
                         },
                         {
                           "id": "lnk-23-main",
-                          "name": "BLV 7UP (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/534219.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-23-backup",
-                          "name": "BLV 7UP (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-534219_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24-main",
                           "name": "CÚ ĐÊM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -996,7 +970,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-24-backup",
+                          "id": "lnk-23-backup",
                           "name": "CÚ ĐÊM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1009,7 +983,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-25-main",
+                          "id": "lnk-24-main",
                           "name": "CR Bưởi (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1022,7 +996,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-25-backup",
+                          "id": "lnk-24-backup",
                           "name": "CR Bưởi (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1035,7 +1009,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-26-main",
+                          "id": "lnk-25-main",
                           "name": "ZIDANE (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1048,11 +1022,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-26-backup",
+                          "id": "lnk-25-backup",
                           "name": "ZIDANE (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-26-main",
+                          "name": "BLV ENZO (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/380460.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-26-backup",
+                          "name": "BLV ENZO (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-380460_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4210,32 +4210,6 @@
                         },
                         {
                           "id": "lnk-100-main",
-                          "name": "BLV MIXI (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/290928.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-100-backup",
-                          "name": "BLV MIXI (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-290928_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-101-main",
                           "name": "LOKA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4248,11 +4222,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-101-backup",
+                          "id": "lnk-100-backup",
                           "name": "LOKA (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-589848_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-101-main",
+                          "name": "BLV FIREMAN (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/991140.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-101-backup",
+                          "name": "BLV FIREMAN (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -9648,32 +9648,6 @@
                         },
                         {
                           "id": "lnk-224-main",
-                          "name": "MR BÍCH (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/285067.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-224-backup",
-                          "name": "MR BÍCH (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-285067_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-225-main",
                           "name": "BLV ANH TÀI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -9686,7 +9660,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-225-backup",
+                          "id": "lnk-224-backup",
                           "name": "BLV ANH TÀI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9753,7 +9727,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-226-main",
+                          "id": "lnk-225-main",
                           "name": "BLV LIO (Chính)",
                           "type": "hls",
                           "default": true,
@@ -9766,7 +9740,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-226-backup",
+                          "id": "lnk-225-backup",
                           "name": "BLV LIO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9779,7 +9753,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-227-main",
+                          "id": "lnk-226-main",
                           "name": "BLV TOMIA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -9792,7 +9766,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-227-backup",
+                          "id": "lnk-226-backup",
                           "name": "BLV TOMIA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9805,7 +9779,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-228-main",
+                          "id": "lnk-227-main",
                           "name": "Giàng A Thổ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -9818,7 +9792,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-228-backup",
+                          "id": "lnk-227-backup",
                           "name": "Giàng A Thổ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9885,7 +9859,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-229-main",
+                          "id": "lnk-228-main",
                           "name": "BLV MIXI (Chính)",
                           "type": "hls",
                           "default": true,
@@ -9898,7 +9872,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-229-backup",
+                          "id": "lnk-228-backup",
                           "name": "BLV MIXI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9911,7 +9885,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-230-main",
+                          "id": "lnk-229-main",
                           "name": "SAO LA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -9924,7 +9898,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-230-backup",
+                          "id": "lnk-229-backup",
                           "name": "SAO LA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -9937,7 +9911,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-231-main",
+                          "id": "lnk-230-main",
                           "name": "SÙNG A MÚP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -9950,7 +9924,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-231-backup",
+                          "id": "lnk-230-backup",
                           "name": "SÙNG A MÚP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10017,7 +9991,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-232-main",
+                          "id": "lnk-231-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10030,7 +10004,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-232-backup",
+                          "id": "lnk-231-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10043,7 +10017,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-233-main",
+                          "id": "lnk-232-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10056,7 +10030,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-233-backup",
+                          "id": "lnk-232-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10123,7 +10097,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-234-main",
+                          "id": "lnk-233-main",
                           "name": "BLV A TÚ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10136,7 +10110,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-234-backup",
+                          "id": "lnk-233-backup",
                           "name": "BLV A TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10149,7 +10123,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-235-main",
+                          "id": "lnk-234-main",
                           "name": "BLV CHIVAS (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10162,7 +10136,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-235-backup",
+                          "id": "lnk-234-backup",
                           "name": "BLV CHIVAS (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10175,7 +10149,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-236-main",
+                          "id": "lnk-235-main",
                           "name": "BLV VITAMIN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10188,7 +10162,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-236-backup",
+                          "id": "lnk-235-backup",
                           "name": "BLV VITAMIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10255,7 +10229,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-237-main",
+                          "id": "lnk-236-main",
                           "name": "A PÁO (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10268,7 +10242,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-237-backup",
+                          "id": "lnk-236-backup",
                           "name": "A PÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10281,7 +10255,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-238-main",
+                          "id": "lnk-237-main",
                           "name": "BLV RAMBO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10294,7 +10268,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-238-backup",
+                          "id": "lnk-237-backup",
                           "name": "BLV RAMBO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10307,7 +10281,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-239-main",
+                          "id": "lnk-238-main",
                           "name": "RABBIT (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10320,7 +10294,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-239-backup",
+                          "id": "lnk-238-backup",
                           "name": "RABBIT (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10387,7 +10361,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-240-main",
+                          "id": "lnk-239-main",
                           "name": "BLV COZY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10400,7 +10374,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-240-backup",
+                          "id": "lnk-239-backup",
                           "name": "BLV COZY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10413,7 +10387,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-241-main",
+                          "id": "lnk-240-main",
                           "name": "Đình Bắc (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10426,7 +10400,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-241-backup",
+                          "id": "lnk-240-backup",
                           "name": "Đình Bắc (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10439,7 +10413,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-242-main",
+                          "id": "lnk-241-main",
                           "name": "CHANH MUỐI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10452,7 +10426,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-242-backup",
+                          "id": "lnk-241-backup",
                           "name": "CHANH MUỐI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10519,7 +10493,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-243-main",
+                          "id": "lnk-242-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10532,7 +10506,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-243-backup",
+                          "id": "lnk-242-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10599,7 +10573,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-244-main",
+                          "id": "lnk-243-main",
                           "name": "BLV WUKONG (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10612,7 +10586,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-244-backup",
+                          "id": "lnk-243-backup",
                           "name": "BLV WUKONG (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10625,7 +10599,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-245-main",
+                          "id": "lnk-244-main",
                           "name": "LOKA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10638,7 +10612,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-245-backup",
+                          "id": "lnk-244-backup",
                           "name": "LOKA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10705,7 +10679,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-246-main",
+                          "id": "lnk-245-main",
                           "name": "BLV VIP (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10718,7 +10692,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-246-backup",
+                          "id": "lnk-245-backup",
                           "name": "BLV VIP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10731,7 +10705,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-247-main",
+                          "id": "lnk-246-main",
                           "name": "BLV A WIN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10744,7 +10718,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-247-backup",
+                          "id": "lnk-246-backup",
                           "name": "BLV A WIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10811,7 +10785,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-248-main",
+                          "id": "lnk-247-main",
                           "name": "BÚA TẠ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10824,7 +10798,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-248-backup",
+                          "id": "lnk-247-backup",
                           "name": "BÚA TẠ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10837,7 +10811,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-249-main",
+                          "id": "lnk-248-main",
                           "name": "BLV CÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10850,7 +10824,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-249-backup",
+                          "id": "lnk-248-backup",
                           "name": "BLV CÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10925,7 +10899,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-250-main",
+                          "id": "lnk-249-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -10938,7 +10912,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-250-backup",
+                          "id": "lnk-249-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -10951,7 +10925,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-251-main",
+                          "id": "lnk-250-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": false,
@@ -10964,7 +10938,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-251-backup",
+                          "id": "lnk-250-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11031,7 +11005,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-252-main",
+                          "id": "lnk-251-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11044,7 +11018,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-252-backup",
+                          "id": "lnk-251-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11111,7 +11085,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-253-main",
+                          "id": "lnk-252-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11124,7 +11098,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-253-backup",
+                          "id": "lnk-252-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11137,7 +11111,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-254-main",
+                          "id": "lnk-253-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11150,7 +11124,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-254-backup",
+                          "id": "lnk-253-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11217,7 +11191,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-255-main",
+                          "id": "lnk-254-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11230,7 +11204,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-255-backup",
+                          "id": "lnk-254-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11297,7 +11271,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-256-main",
+                          "id": "lnk-255-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11310,7 +11284,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-256-backup",
+                          "id": "lnk-255-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11377,7 +11351,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-257-main",
+                          "id": "lnk-256-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11390,7 +11364,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-257-backup",
+                          "id": "lnk-256-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11457,7 +11431,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-258-main",
+                          "id": "lnk-257-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11470,7 +11444,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-258-backup",
+                          "id": "lnk-257-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11537,7 +11511,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-259-main",
+                          "id": "lnk-258-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11550,7 +11524,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-259-backup",
+                          "id": "lnk-258-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11563,7 +11537,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-260-main",
+                          "id": "lnk-259-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11576,7 +11550,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-260-backup",
+                          "id": "lnk-259-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11589,7 +11563,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-261-main",
+                          "id": "lnk-260-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11602,7 +11576,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-261-backup",
+                          "id": "lnk-260-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11615,7 +11589,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-262-main",
+                          "id": "lnk-261-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11628,7 +11602,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-262-backup",
+                          "id": "lnk-261-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11641,7 +11615,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-263-main",
+                          "id": "lnk-262-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11654,7 +11628,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-263-backup",
+                          "id": "lnk-262-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11667,7 +11641,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-264-main",
+                          "id": "lnk-263-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11680,7 +11654,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-264-backup",
+                          "id": "lnk-263-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11747,7 +11721,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-265-main",
+                          "id": "lnk-264-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11760,7 +11734,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-265-backup",
+                          "id": "lnk-264-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11773,7 +11747,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-266-main",
+                          "id": "lnk-265-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11786,7 +11760,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-266-backup",
+                          "id": "lnk-265-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11799,7 +11773,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-267-main",
+                          "id": "lnk-266-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11812,7 +11786,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-267-backup",
+                          "id": "lnk-266-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11879,7 +11853,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-268-main",
+                          "id": "lnk-267-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11892,7 +11866,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-268-backup",
+                          "id": "lnk-267-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11905,7 +11879,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-269-main",
+                          "id": "lnk-268-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -11918,7 +11892,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-269-backup",
+                          "id": "lnk-268-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -11985,7 +11959,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-270-main",
+                          "id": "lnk-269-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -11998,7 +11972,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-270-backup",
+                          "id": "lnk-269-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -12065,7 +12039,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-271-main",
+                          "id": "lnk-270-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -12078,7 +12052,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-271-backup",
+                          "id": "lnk-270-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -12145,7 +12119,7 @@
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-272-main",
+                          "id": "lnk-271-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -12158,7 +12132,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-272-backup",
+                          "id": "lnk-271-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
