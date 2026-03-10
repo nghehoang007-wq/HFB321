@@ -16,19 +16,6 @@
     {
       "id": "2",
       "name": "A Tích - HD2",
-      "type": "hls",
-      "url": "https://cyber.chuoichien.tv/atich/index.m3u8",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "A Tích - HD3",
       "type": "flv",
       "url": "https://gckc0525.edgemaxcdn.org/live/atich.flv",
       "default": false,
@@ -40,23 +27,10 @@
       ]
     },
     {
-      "id": "4",
-      "name": "A Tích - HD4",
-      "type": "flv",
-      "url": "https://cyber.chuoichien.tv/atich.flv",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "A Tích - SD1",
+      "id": "3",
+      "name": "A Tích - FHD1",
       "type": "hls",
-      "url": "https://stream.chuoichien.tv/atich/index.m3u8",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atichhd/playlist.m3u8",
       "default": false,
       "request_headers": [
         {
@@ -66,10 +40,10 @@
       ]
     },
     {
-      "id": "6",
-      "name": "A Tích - SD2",
+      "id": "4",
+      "name": "A Tích - FHD2",
       "type": "flv",
-      "url": "https://stream.chuoichien.tv/atich.flv",
+      "url": "https://gckc0525.edgemaxcdn.org/live/atichhd.flv",
       "default": false,
       "request_headers": [
         {

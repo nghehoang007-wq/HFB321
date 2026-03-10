@@ -2,9 +2,9 @@
   "stream_links": [
     {
       "id": "1",
-      "name": "Chuối Tây - HD1",
+      "name": "Quan Vũ - HD1",
       "type": "hls",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+      "url": "https://gckc0525.edgemaxcdn.org/live/quanvu/playlist.m3u8",
       "default": true,
       "request_headers": [
         {
@@ -15,9 +15,9 @@
     },
     {
       "id": "2",
-      "name": "Chuối Tây - HD2",
-      "type": "hls",
-      "url": "https://cyber.chuoichien.tv/chuoitay/index.m3u8",
+      "name": "Quan Vũ - HD2",
+      "type": "flv",
+      "url": "https://gckc0525.edgemaxcdn.org/live/quanvu.flv",
       "default": false,
       "request_headers": [
         {
@@ -28,9 +28,9 @@
     },
     {
       "id": "3",
-      "name": "Chuối Tây - HD3",
-      "type": "flv",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay.flv",
+      "name": "Quan Vũ - FHD1",
+      "type": "hls",
+      "url": "https://gckc0525.edgemaxcdn.org/live/quanvuhd/playlist.m3u8",
       "default": false,
       "request_headers": [
         {
@@ -41,9 +41,9 @@
     },
     {
       "id": "4",
-      "name": "Chuối Tây - HD4",
+      "name": "Quan Vũ - FHD2",
       "type": "flv",
-      "url": "https://cyber.chuoichien.tv/chuoitay.flv",
+      "url": "https://gckc0525.edgemaxcdn.org/live/quanvuhd.flv",
       "default": false,
       "request_headers": [
         {
@@ -54,9 +54,9 @@
     },
     {
       "id": "5",
-      "name": "Chuối Tây - SD1",
+      "name": "Quan Vũ - SD1",
       "type": "hls",
-      "url": "https://stream.chuoichien.tv/chuoitay/index.m3u8",
+      "url": "https://stream.chuoichien.tv/quanvu/index.m3u8",
       "default": false,
       "request_headers": [
         {
@@ -67,9 +67,9 @@
     },
     {
       "id": "6",
-      "name": "Chuối Tây - SD2",
+      "name": "Quan Vũ - SD2",
       "type": "flv",
-      "url": "https://stream.chuoichien.tv/chuoitay.flv",
+      "url": "https://stream.chuoichien.tv/quanvu.flv",
       "default": false,
       "request_headers": [
         {
