@@ -2354,35 +2354,9 @@
                       "stream_links": [
                         {
                           "id": "lnk-58-main",
-                          "name": "BLV A TÚ (Chính)",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.inplyr.com/room/557845.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-58-backup",
-                          "name": "BLV A TÚ (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-557845_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-59-main",
                           "name": "NGƯỜI THÉP (Chính)",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.inplyr.com/room/568233.m3u8",
                           "request_headers": [
                             {
@@ -2392,7 +2366,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-59-backup",
+                          "id": "lnk-58-backup",
                           "name": "NGƯỜI THÉP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2405,7 +2379,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-60-main",
+                          "id": "lnk-59-main",
                           "name": "Giàng A Thổ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2418,11 +2392,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-60-backup",
+                          "id": "lnk-59-backup",
                           "name": "Giàng A Thổ (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-592799_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-60-main",
+                          "name": "BLV A BỆU (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/484845.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-60-backup",
+                          "name": "BLV A BỆU (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-484845_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3526,10 +3526,10 @@
                       "stream_links": [
                         {
                           "id": "lnk-82-main",
-                          "name": "Đình Bắc (Chính)",
+                          "name": "NGƯỜI THÉP (Chính)",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.inplyr.com/room/579144.m3u8",
+                          "url": "https://live.inplyr.com/room/568233.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3539,10 +3539,10 @@
                         },
                         {
                           "id": "lnk-82-backup",
-                          "name": "Đình Bắc (Dự phòng)",
+                          "name": "NGƯỜI THÉP (Dự phòng)",
                           "type": "hls",
                           "default": false,
-                          "url": "https://pull.niues.live/live/stream-579144_lhd.m3u8",
+                          "url": "https://pull.niues.live/live/stream-568233_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7850,32 +7850,6 @@
                         },
                         {
                           "id": "lnk-186-main",
-                          "name": "THẠCH TÚ (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/344370.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-186-backup",
-                          "name": "THẠCH TÚ (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-344370_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-187-main",
                           "name": "BLV TAP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7888,11 +7862,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-187-backup",
+                          "id": "lnk-186-backup",
                           "name": "BLV TAP (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-9912041_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-187-main",
+                          "name": "BLV MIXI (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/290928.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-187-backup",
+                          "name": "BLV MIXI (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-290928_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -8194,32 +8194,6 @@
                         },
                         {
                           "id": "lnk-193-main",
-                          "name": "NGƯỜI THÉP (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/568233.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-193-backup",
-                          "name": "NGƯỜI THÉP (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-568233_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-194-main",
                           "name": "BÚA TẠ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8232,11 +8206,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-194-backup",
+                          "id": "lnk-193-backup",
                           "name": "BÚA TẠ (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-570313_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-194-main",
+                          "name": "Đình Bắc (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/579144.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-194-backup",
+                          "name": "Đình Bắc (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-579144_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -10812,35 +10812,9 @@
                       "stream_links": [
                         {
                           "id": "lnk-248-main",
-                          "name": "NGƯỜI THÉP (Chính)",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.inplyr.com/room/568233.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-248-backup",
-                          "name": "NGƯỜI THÉP (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-568233_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-249-main",
                           "name": "BÚA TẠ (Chính)",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://live.inplyr.com/room/570313.m3u8",
                           "request_headers": [
                             {
@@ -10850,11 +10824,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-249-backup",
+                          "id": "lnk-248-backup",
                           "name": "BÚA TẠ (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-570313_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-249-main",
+                          "name": "BLV CÁO (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/597929.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-249-backup",
+                          "name": "BLV CÁO (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
