@@ -51,32 +51,6 @@
           "value": "https://api.chuoichientv.com/"
         }
       ]
-    },
-    {
-      "id": "5",
-      "name": "Chuối Vàng - SD1",
-      "type": "hls",
-      "url": "https://stream.chuoichien.tv/chuoivang/index.m3u8",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Chuối Vàng - SD2",
-      "type": "flv",
-      "url": "https://stream.chuoichien.tv/chuoivang.flv",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
     }
   ]
 }
