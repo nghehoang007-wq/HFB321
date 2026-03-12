@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69b1f5569cd9cc711056f652",
-          "name": "76 Iğdır Belediyespor vs BB Bodrumspor",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "76 Iğdır Bel..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "BB Bodrumspor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b1f5569cd9cc711056f652.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b1f5569cd9cc711056f652",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b1f5569cd9cc711056f652",
-                  "name": "76 Iğdır Belediyespor vs BB Bodrumspor",
-                  "streams": [
-                    {
-                      "id": "69b1f5569cd9cc711056f652_0",
-                      "name": "Chuối Vàng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5569cd9cc711056f652.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5569cd9cc711056f652_1",
-                      "name": "Chuối Vàng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5569cd9cc711056f652.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5569cd9cc711056f652_2",
-                      "name": "Chuối Vàng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5569cd9cc711056f652.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5569cd9cc711056f652_3",
-                      "name": "Chuối Vàng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5569cd9cc711056f652.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69b1f5d79cd9cc711057189c",
-          "name": "Tampines Rovers vs Bangkok United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Tampines Rov..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bangkok Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b1f5d79cd9cc711057189c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b1f5d79cd9cc711057189c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b1f5d79cd9cc711057189c",
-                  "name": "Tampines Rovers vs Bangkok United",
-                  "streams": [
-                    {
-                      "id": "69b1f5d79cd9cc711057189c_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5d79cd9cc711057189c.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5d79cd9cc711057189c_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5d79cd9cc711057189c.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5d79cd9cc711057189c_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5d79cd9cc711057189c.json"
-                      }
-                    },
-                    {
-                      "id": "69b1f5d79cd9cc711057189c_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b1f5d79cd9cc711057189c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69ae14d29cd9cc7110496939",
           "name": "Persis Solo vs Bali United",
           "labels": [
@@ -228,6 +80,94 @@
                       "name": "Chuối Nướng - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496939.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69ae14d29cd9cc7110496941",
+          "name": "Dinamo Samarqand vs Nasaf",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Dinamo Samar..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Nasaf",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ae14d29cd9cc7110496941.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69ae14d29cd9cc7110496941",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69ae14d29cd9cc7110496941",
+                  "name": "Dinamo Samarqand vs Nasaf",
+                  "streams": [
+                    {
+                      "id": "69ae14d29cd9cc7110496941_0",
+                      "name": "Zeman - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
+                      }
+                    },
+                    {
+                      "id": "69ae14d29cd9cc7110496941_1",
+                      "name": "Zeman - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
+                      }
+                    },
+                    {
+                      "id": "69ae14d29cd9cc7110496941_2",
+                      "name": "Zeman - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
+                      }
+                    },
+                    {
+                      "id": "69ae14d29cd9cc7110496941_3",
+                      "name": "Zeman - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
+                      }
+                    },
+                    {
+                      "id": "69ae14d29cd9cc7110496941_4",
+                      "name": "Zeman - SD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
+                      }
+                    },
+                    {
+                      "id": "69ae14d29cd9cc7110496941_5",
+                      "name": "Zeman - SD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ae14d29cd9cc7110496941.json"
                       }
                     }
                   ]
