@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69b497149cd9cc7110242627",
-          "name": "Como vs AS Roma",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Como",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "AS Roma",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b497149cd9cc7110242627.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b497149cd9cc7110242627",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b497149cd9cc7110242627",
-                  "name": "Como vs AS Roma",
-                  "streams": [
-                    {
-                      "id": "69b497149cd9cc7110242627_0",
-                      "name": "BLV Chuối Hột - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242627.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242627_1",
-                      "name": "BLV Chuối Hột - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242627.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242627_2",
-                      "name": "BLV Chuối Hột - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242627.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242627_3",
-                      "name": "BLV Chuối Hột - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242627.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69b497149cd9cc7110242640",
-          "name": "Real Betis vs Celta Vigo",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Real Betis",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Celta Vigo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b497149cd9cc7110242640.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b497149cd9cc7110242640",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b497149cd9cc7110242640",
-                  "name": "Real Betis vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "69b497149cd9cc7110242640_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242640.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242640_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242640.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242640_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242640.json"
-                      }
-                    },
-                    {
-                      "id": "69b497149cd9cc7110242640_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242640.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69b497149cd9cc711024263a",
           "name": "VfB Stuttgart vs RB Leipzig",
           "labels": [
@@ -352,28 +204,28 @@
                   "streams": [
                     {
                       "id": "69b497149cd9cc7110242642_0",
-                      "name": "Zeman - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242642.json"
                       }
                     },
                     {
                       "id": "69b497149cd9cc7110242642_1",
-                      "name": "Zeman - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242642.json"
                       }
                     },
                     {
                       "id": "69b497149cd9cc7110242642_2",
-                      "name": "Zeman - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242642.json"
                       }
                     },
                     {
                       "id": "69b497149cd9cc7110242642_3",
-                      "name": "Zeman - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b497149cd9cc7110242642.json"
                       }
