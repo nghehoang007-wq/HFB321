@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69b73ad14d41eea825251dd4",
-          "name": "FC Krasnodar vs CSKA Moscow",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Krasnodar",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "CSKA Moscow",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b73ad14d41eea825251dd4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b73ad14d41eea825251dd4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b73ad14d41eea825251dd4",
-                  "name": "FC Krasnodar vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "69b73ad14d41eea825251dd4_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd4.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd4_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd4.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd4_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd4.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd4_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69b73ad14d41eea825251dd1",
-          "name": "Fenerbahce vs Gazişehir Gaziantep",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Fenerbahce",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Gazişehir Ga..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b73ad14d41eea825251dd1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b73ad14d41eea825251dd1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b73ad14d41eea825251dd1",
-                  "name": "Fenerbahce vs Gazişehir Gaziantep",
-                  "streams": [
-                    {
-                      "id": "69b73ad14d41eea825251dd1_0",
-                      "name": "Chuối Nướng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd1.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd1_1",
-                      "name": "Chuối Nướng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd1.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd1_2",
-                      "name": "Chuối Nướng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd1.json"
-                      }
-                    },
-                    {
-                      "id": "69b73ad14d41eea825251dd1_3",
-                      "name": "Chuối Nướng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251dd1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69b73ad14d41eea825251de9",
           "name": "Sporting CP vs Bodo/Glimt",
           "labels": [
@@ -352,28 +204,28 @@
                   "streams": [
                     {
                       "id": "69b73ad14d41eea825251de7_0",
-                      "name": "Chuối Chồn - HD1",
+                      "name": "A Tích - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de7.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de7_1",
-                      "name": "Chuối Chồn - HD2",
+                      "name": "A Tích - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de7.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de7_2",
-                      "name": "Chuối Chồn - FHD1",
+                      "name": "A Tích - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de7.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de7_3",
-                      "name": "Chuối Chồn - FHD2",
+                      "name": "A Tích - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de7.json"
                       }
@@ -426,28 +278,28 @@
                   "streams": [
                     {
                       "id": "69b73ad14d41eea825251de8_0",
-                      "name": "Quan Vũ - HD1",
+                      "name": "Zeman - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de8.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de8_1",
-                      "name": "Quan Vũ - HD2",
+                      "name": "Zeman - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de8.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de8_2",
-                      "name": "Quan Vũ - FHD1",
+                      "name": "Zeman - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de8.json"
                       }
                     },
                     {
                       "id": "69b73ad14d41eea825251de8_3",
-                      "name": "Quan Vũ - FHD2",
+                      "name": "Zeman - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b73ad14d41eea825251de8.json"
                       }
