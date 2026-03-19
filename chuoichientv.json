@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69b778974d41eea8253aefb6",
-          "name": "Inter Miami vs Nashville SC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Nashville SC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b778974d41eea8253aefb6.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b778974d41eea8253aefb6",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b778974d41eea8253aefb6",
-                  "name": "Inter Miami vs Nashville SC",
-                  "streams": [
-                    {
-                      "id": "69b778974d41eea8253aefb6_0",
-                      "name": "Zeman - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b778974d41eea8253aefb6.json"
-                      }
-                    },
-                    {
-                      "id": "69b778974d41eea8253aefb6_1",
-                      "name": "Zeman - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b778974d41eea8253aefb6.json"
-                      }
-                    },
-                    {
-                      "id": "69b778974d41eea8253aefb6_2",
-                      "name": "Zeman - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b778974d41eea8253aefb6.json"
-                      }
-                    },
-                    {
-                      "id": "69b778974d41eea8253aefb6_3",
-                      "name": "Zeman - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b778974d41eea8253aefb6.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69b8bd7f4d41eea825877da8",
-          "name": "Club America vs Philadelphia Union",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Club America",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Philadelphia..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877da8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69b8bd7f4d41eea825877da8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69b8bd7f4d41eea825877da8",
-                  "name": "Club America vs Philadelphia Union",
-                  "streams": [
-                    {
-                      "id": "69b8bd7f4d41eea825877da8_0",
-                      "name": "Chuối Nướng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da8.json"
-                      }
-                    },
-                    {
-                      "id": "69b8bd7f4d41eea825877da8_1",
-                      "name": "Chuối Nướng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da8.json"
-                      }
-                    },
-                    {
-                      "id": "69b8bd7f4d41eea825877da8_2",
-                      "name": "Chuối Nướng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da8.json"
-                      }
-                    },
-                    {
-                      "id": "69b8bd7f4d41eea825877da8_3",
-                      "name": "Chuối Nướng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69bb2da34d41eea8251be2c4",
           "name": "Uzbekistan W vs Philippines W",
           "labels": [
@@ -302,6 +154,450 @@
                       "name": "BLV Chuối Hột - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b7c8bb4d41eea825563ffa.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877da2",
+          "name": "Buxoro vs Dinamo Samarqand",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h15",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Buxoro",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Dinamo Samar..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877da2.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877da2",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877da2",
+                  "name": "Buxoro vs Dinamo Samarqand",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877da2_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877da2_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877da2_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877da2_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da2.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877dae",
+          "name": "Lyon vs Celta Vigo",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Lyon",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Celta Vigo",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877dae.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877dae",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877dae",
+                  "name": "Lyon vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877dae_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dae.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dae_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dae.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dae_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dae.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dae_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dae.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877db1",
+          "name": "AEK Larnaca vs Crystal Palace",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "AEK Larnaca",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Crystal Pala..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877db1.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877db1",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877db1",
+                  "name": "AEK Larnaca vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877db1_0",
+                      "name": "BLV Chuối Hột - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db1.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db1_1",
+                      "name": "BLV Chuối Hột - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db1.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db1_2",
+                      "name": "BLV Chuối Hột - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db1.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db1_3",
+                      "name": "BLV Chuối Hột - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db1.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877db2",
+          "name": "Raków Częstochowa vs Fiorentina",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Raków Często..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Fiorentina",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877db2.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877db2",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877db2",
+                  "name": "Raków Częstochowa vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877db2_0",
+                      "name": "Quan Vũ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db2_1",
+                      "name": "Quan Vũ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db2_2",
+                      "name": "Quan Vũ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db2.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877db2_3",
+                      "name": "Quan Vũ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877db2.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877daa",
+          "name": "Aston Villa vs Lille",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Aston Villa",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Lille",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877daa.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877daa",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877daa",
+                  "name": "Aston Villa vs Lille",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877daa_0",
+                      "name": "Quan Vũ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877daa.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877daa_1",
+                      "name": "Quan Vũ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877daa.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877daa_2",
+                      "name": "Quan Vũ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877daa.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877daa_3",
+                      "name": "Quan Vũ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877daa.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69b8bd7f4d41eea825877dad",
+          "name": "Real Betis vs Panathinaikos",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Real Betis",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Panathinaikos",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b8bd7f4d41eea825877dad.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b8bd7f4d41eea825877dad",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b8bd7f4d41eea825877dad",
+                  "name": "Real Betis vs Panathinaikos",
+                  "streams": [
+                    {
+                      "id": "69b8bd7f4d41eea825877dad_0",
+                      "name": "Chuối Chồn - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dad.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dad_1",
+                      "name": "Chuối Chồn - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dad.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dad_2",
+                      "name": "Chuối Chồn - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dad.json"
+                      }
+                    },
+                    {
+                      "id": "69b8bd7f4d41eea825877dad_3",
+                      "name": "Chuối Chồn - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877dad.json"
                       }
                     }
                   ]
