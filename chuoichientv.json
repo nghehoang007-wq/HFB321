@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69bb2da34d41eea8251be2c4",
-          "name": "Uzbekistan W vs Philippines W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Uzbekistan W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Philippines W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69bb2da34d41eea8251be2c4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69bb2da34d41eea8251be2c4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69bb2da34d41eea8251be2c4",
-                  "name": "Uzbekistan W vs Philippines W",
-                  "streams": [
-                    {
-                      "id": "69bb2da34d41eea8251be2c4_0",
-                      "name": "Chuối Vàng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb2da34d41eea8251be2c4.json"
-                      }
-                    },
-                    {
-                      "id": "69bb2da34d41eea8251be2c4_1",
-                      "name": "Chuối Vàng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb2da34d41eea8251be2c4.json"
-                      }
-                    },
-                    {
-                      "id": "69bb2da34d41eea8251be2c4_2",
-                      "name": "Chuối Vàng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb2da34d41eea8251be2c4.json"
-                      }
-                    },
-                    {
-                      "id": "69bb2da34d41eea8251be2c4_3",
-                      "name": "Chuối Vàng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb2da34d41eea8251be2c4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69b7c8bb4d41eea825563ffa",
           "name": "Chinese Taipei W vs Korea DPR",
           "labels": [
@@ -163,6 +89,80 @@
           ]
         },
         {
+          "id": "69bb79da4d41eea825245d6d",
+          "name": "Oleksandria vs Dynamo Kyiv",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "18h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Oleksandria",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Dynamo Kyiv",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69bb79da4d41eea825245d6d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69bb79da4d41eea825245d6d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69bb79da4d41eea825245d6d",
+                  "name": "Oleksandria vs Dynamo Kyiv",
+                  "streams": [
+                    {
+                      "id": "69bb79da4d41eea825245d6d_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6d.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6d_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6d.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6d_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6d.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6d_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "69b8bd7f4d41eea825877da2",
           "name": "Buxoro vs Dinamo Samarqand",
           "labels": [
@@ -228,6 +228,154 @@
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b8bd7f4d41eea825877da2.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69bb79da4d41eea825245d6f",
+          "name": "Sabah FA vs Sumqayıt",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h15",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Sabah FA",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Sumqayıt",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69bb79da4d41eea825245d6f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69bb79da4d41eea825245d6f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69bb79da4d41eea825245d6f",
+                  "name": "Sabah FA vs Sumqayıt",
+                  "streams": [
+                    {
+                      "id": "69bb79da4d41eea825245d6f_0",
+                      "name": "Zeman - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6f.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6f_1",
+                      "name": "Zeman - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6f.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6f_2",
+                      "name": "Zeman - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6f.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6f_3",
+                      "name": "Zeman - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69bb79da4d41eea825245d6e",
+          "name": "Besiktas vs Kasimpasa",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Besiktas",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Kasimpasa",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69bb79da4d41eea825245d6e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69bb79da4d41eea825245d6e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69bb79da4d41eea825245d6e",
+                  "name": "Besiktas vs Kasimpasa",
+                  "streams": [
+                    {
+                      "id": "69bb79da4d41eea825245d6e_0",
+                      "name": "Chuối Vàng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6e.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6e_1",
+                      "name": "Chuối Vàng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6e.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6e_2",
+                      "name": "Chuối Vàng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6e.json"
+                      }
+                    },
+                    {
+                      "id": "69bb79da4d41eea825245d6e_3",
+                      "name": "Chuối Vàng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69bb79da4d41eea825245d6e.json"
                       }
                     }
                   ]
