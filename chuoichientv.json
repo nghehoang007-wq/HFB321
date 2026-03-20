@@ -15,6 +15,80 @@
       "grid_number": 2,
       "channels": [
         {
+          "id": "69b9e2294d41eea825cb7c3c",
+          "name": "Sydney FC W vs Wellington Phoenix W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "15h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Sydney FC W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Wellington P..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69b9e2294d41eea825cb7c3c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69b9e2294d41eea825cb7c3c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69b9e2294d41eea825cb7c3c",
+                  "name": "Sydney FC W vs Wellington Phoenix W",
+                  "streams": [
+                    {
+                      "id": "69b9e2294d41eea825cb7c3c_0",
+                      "name": "Chuối Nướng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b9e2294d41eea825cb7c3c.json"
+                      }
+                    },
+                    {
+                      "id": "69b9e2294d41eea825cb7c3c_1",
+                      "name": "Chuối Nướng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b9e2294d41eea825cb7c3c.json"
+                      }
+                    },
+                    {
+                      "id": "69b9e2294d41eea825cb7c3c_2",
+                      "name": "Chuối Nướng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b9e2294d41eea825cb7c3c.json"
+                      }
+                    },
+                    {
+                      "id": "69b9e2294d41eea825cb7c3c_3",
+                      "name": "Chuối Nướng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69b9e2294d41eea825cb7c3c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "69b9e2294d41eea825cb7c3a",
           "name": "Western Sydney Wanderers vs Adelaide United",
           "labels": [
