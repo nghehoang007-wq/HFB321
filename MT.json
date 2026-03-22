@@ -16,426 +16,6 @@
       "channels": [
         {
           "id": "ch-1",
-          "name": "New York City FC vs Inter Miami CF",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center-left",
-              "text": "New York City",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center-right",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "Socolive • 00h00",
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-1",
-              "name": "Socolive",
-              "contents": [
-                {
-                  "id": "cnt-1",
-                  "name": "New York City FC vs Inter Miami CF",
-                  "streams": [
-                    {
-                      "id": "strm-1",
-                      "name": "Danh sách luồng",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1-main",
-                          "name": "BLV MESSI (Chính)",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.inplyr.com/room/494201.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1-backup",
-                          "name": "BLV MESSI (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-494201_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2-main",
-                          "name": "BLV COZY (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/531989.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2-backup",
-                          "name": "BLV COZY (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-531989_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3-main",
-                          "name": "BLV BÉO (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/459401.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3-backup",
-                          "name": "BLV BÉO (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-459401_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4-main",
-                          "name": "BLV SATIVA (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/321443.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4-backup",
-                          "name": "BLV SATIVA (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-321443_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5-main",
-                          "name": "BLV FIREMAN (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/991140.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5-backup",
-                          "name": "BLV FIREMAN (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-991140_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6-main",
-                          "name": "RABBIT (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/596191.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6-backup",
-                          "name": "RABBIT (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-596191_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ch-2",
-          "name": "Athletic Club vs Real Betis",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center-left",
-              "text": "Athletic",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center-right",
-              "text": "Real Betis",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "Socolive • 00h30",
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-2",
-              "name": "Socolive",
-              "contents": [
-                {
-                  "id": "cnt-2",
-                  "name": "Athletic Club vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "strm-2",
-                      "name": "Danh sách luồng",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7-main",
-                          "name": "BLV ALEX (Chính)",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.inplyr.com/room/532081.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7-backup",
-                          "name": "BLV ALEX (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-532081_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8-main",
-                          "name": "NGƯỜI THÉP (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/568233.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8-backup",
-                          "name": "NGƯỜI THÉP (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-568233_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9-main",
-                          "name": "BLV LONG (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/9912050.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9-backup",
-                          "name": "BLV LONG (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-9912050_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-10-main",
-                          "name": "CÚ ĐÊM (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/547345.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-10-backup",
-                          "name": "CÚ ĐÊM (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-547345_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-11-main",
-                          "name": "LOKA (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/589848.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-11-backup",
-                          "name": "LOKA (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-589848_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-12-main",
-                          "name": "BLV ANH TÀI (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/406865.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-12-backup",
-                          "name": "BLV ANH TÀI (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-406865_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "ch-3",
           "name": "Alverca vs Sporting CP",
           "labels": [
             {
@@ -469,19 +49,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-3",
+              "id": "src-1",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-3",
+                  "id": "cnt-1",
                   "name": "Alverca vs Sporting CP",
                   "streams": [
                     {
-                      "id": "strm-3",
+                      "id": "strm-1",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-13-main",
+                          "id": "lnk-1-main",
                           "name": "NGƯỜI CÁ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -494,7 +74,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-13-backup",
+                          "id": "lnk-1-backup",
                           "name": "NGƯỜI CÁ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -507,7 +87,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-14-main",
+                          "id": "lnk-2-main",
                           "name": "MR BÍCH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -520,7 +100,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-14-backup",
+                          "id": "lnk-2-backup",
                           "name": "MR BÍCH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -541,7 +121,7 @@
           ]
         },
         {
-          "id": "ch-4",
+          "id": "ch-2",
           "name": "FC Augsburg vs VfB Stuttgart",
           "labels": [
             {
@@ -575,19 +155,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-4",
+              "id": "src-2",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-4",
+                  "id": "cnt-2",
                   "name": "FC Augsburg vs VfB Stuttgart",
                   "streams": [
                     {
-                      "id": "strm-4",
+                      "id": "strm-2",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-15-main",
+                          "id": "lnk-3-main",
                           "name": "BLV VOI (Chính)",
                           "type": "hls",
                           "default": true,
@@ -600,7 +180,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-15-backup",
+                          "id": "lnk-3-backup",
                           "name": "BLV VOI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -613,7 +193,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-16-main",
+                          "id": "lnk-4-main",
                           "name": "BLV ENZO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -626,7 +206,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-16-backup",
+                          "id": "lnk-4-backup",
                           "name": "BLV ENZO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -639,7 +219,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-17-main",
+                          "id": "lnk-5-main",
                           "name": "BLV RAMBO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -652,7 +232,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-17-backup",
+                          "id": "lnk-5-backup",
                           "name": "BLV RAMBO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -665,7 +245,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-18-main",
+                          "id": "lnk-6-main",
                           "name": "CR Bưởi (Chính)",
                           "type": "hls",
                           "default": false,
@@ -678,7 +258,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-18-backup",
+                          "id": "lnk-6-backup",
                           "name": "CR Bưởi (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -691,7 +271,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-19-main",
+                          "id": "lnk-7-main",
                           "name": "BLV ROBBEN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -704,7 +284,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-19-backup",
+                          "id": "lnk-7-backup",
                           "name": "BLV ROBBEN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -717,7 +297,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-20-main",
+                          "id": "lnk-8-main",
                           "name": "HỘI GYM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -730,7 +310,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-20-backup",
+                          "id": "lnk-8-backup",
                           "name": "HỘI GYM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -751,7 +331,7 @@
           ]
         },
         {
-          "id": "ch-5",
+          "id": "ch-3",
           "name": "Minnesota United FC vs Seattle Sounders",
           "labels": [
             {
@@ -785,19 +365,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-5",
+              "id": "src-3",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-5",
+                  "id": "cnt-3",
                   "name": "Minnesota United FC vs Seattle Sounders",
                   "streams": [
                     {
-                      "id": "strm-5",
+                      "id": "strm-3",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-21-main",
+                          "id": "lnk-9-main",
                           "name": "BLV A WIN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -810,7 +390,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-21-backup",
+                          "id": "lnk-9-backup",
                           "name": "BLV A WIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -823,7 +403,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-22-main",
+                          "id": "lnk-10-main",
                           "name": "BLV A TÚ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -836,7 +416,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-22-backup",
+                          "id": "lnk-10-backup",
                           "name": "BLV A TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -857,7 +437,7 @@
           ]
         },
         {
-          "id": "ch-6",
+          "id": "ch-4",
           "name": "Cruzeiro Esporte Clube vs Santos",
           "labels": [
             {
@@ -891,19 +471,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6",
+              "id": "src-4",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-6",
+                  "id": "cnt-4",
                   "name": "Cruzeiro Esporte Clube vs Santos",
                   "streams": [
                     {
-                      "id": "strm-6",
+                      "id": "strm-4",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-23-main",
+                          "id": "lnk-11-main",
                           "name": "Đình Bắc (Chính)",
                           "type": "hls",
                           "default": true,
@@ -916,7 +496,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-23-backup",
+                          "id": "lnk-11-backup",
                           "name": "Đình Bắc (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -929,7 +509,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-24-main",
+                          "id": "lnk-12-main",
                           "name": "BLV CÒ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -942,7 +522,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-24-backup",
+                          "id": "lnk-12-backup",
                           "name": "BLV CÒ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -963,7 +543,7 @@
           ]
         },
         {
-          "id": "ch-7",
+          "id": "ch-5",
           "name": "Fiorentina vs Inter Milan",
           "labels": [
             {
@@ -997,19 +577,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-7",
+              "id": "src-5",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-7",
+                  "id": "cnt-5",
                   "name": "Fiorentina vs Inter Milan",
                   "streams": [
                     {
-                      "id": "strm-7",
+                      "id": "strm-5",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-25-main",
+                          "id": "lnk-13-main",
                           "name": "BLV VITAMIN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1022,7 +602,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-25-backup",
+                          "id": "lnk-13-backup",
                           "name": "BLV VITAMIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1035,7 +615,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-26-main",
+                          "id": "lnk-14-main",
                           "name": "CÚ ĐÊM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1048,7 +628,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-26-backup",
+                          "id": "lnk-14-backup",
                           "name": "CÚ ĐÊM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1061,7 +641,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-27-main",
+                          "id": "lnk-15-main",
                           "name": "LOKA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1074,7 +654,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-27-backup",
+                          "id": "lnk-15-backup",
                           "name": "LOKA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1087,7 +667,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-28-main",
+                          "id": "lnk-16-main",
                           "name": "CÔNG CHẤT (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1100,7 +680,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-28-backup",
+                          "id": "lnk-16-backup",
                           "name": "CÔNG CHẤT (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1113,7 +693,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-29-main",
+                          "id": "lnk-17-main",
                           "name": "BLV ALEX (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1126,7 +706,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-29-backup",
+                          "id": "lnk-17-backup",
                           "name": "BLV ALEX (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1139,7 +719,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-30-main",
+                          "id": "lnk-18-main",
                           "name": "BLV BÉO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1152,7 +732,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-30-backup",
+                          "id": "lnk-18-backup",
                           "name": "BLV BÉO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1173,7 +753,7 @@
           ]
         },
         {
-          "id": "ch-8",
+          "id": "ch-6",
           "name": "FC Nantes vs RC Strasbourg Alsace",
           "labels": [
             {
@@ -1207,19 +787,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-8",
+              "id": "src-6",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-8",
+                  "id": "cnt-6",
                   "name": "FC Nantes vs RC Strasbourg Alsace",
                   "streams": [
                     {
-                      "id": "strm-8",
+                      "id": "strm-6",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-31-main",
+                          "id": "lnk-19-main",
                           "name": "BLV WUKONG (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1232,7 +812,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-31-backup",
+                          "id": "lnk-19-backup",
                           "name": "BLV WUKONG (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1245,33 +825,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-32-main",
-                          "name": "RABBIT (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/596191.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-32-backup",
-                          "name": "RABBIT (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-596191_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33-main",
+                          "id": "lnk-20-main",
                           "name": "BLV ANH TÀI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1284,7 +838,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-33-backup",
+                          "id": "lnk-20-backup",
                           "name": "BLV ANH TÀI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1297,7 +851,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-34-main",
+                          "id": "lnk-21-main",
                           "name": "BLV VIP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1310,7 +864,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-34-backup",
+                          "id": "lnk-21-backup",
                           "name": "BLV VIP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1331,7 +885,7 @@
           ]
         },
         {
-          "id": "ch-9",
+          "id": "ch-7",
           "name": "Real Madrid vs Atletico Madrid",
           "labels": [
             {
@@ -1365,19 +919,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-9",
+              "id": "src-7",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-9",
+                  "id": "cnt-7",
                   "name": "Real Madrid vs Atletico Madrid",
                   "streams": [
                     {
-                      "id": "strm-9",
+                      "id": "strm-7",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-35-main",
+                          "id": "lnk-22-main",
                           "name": "THẠCH TÚ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1390,7 +944,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-35-backup",
+                          "id": "lnk-22-backup",
                           "name": "THẠCH TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1403,7 +957,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-36-main",
+                          "id": "lnk-23-main",
                           "name": "LOGAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1416,7 +970,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-36-backup",
+                          "id": "lnk-23-backup",
                           "name": "LOGAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1429,7 +983,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-37-main",
+                          "id": "lnk-24-main",
                           "name": "BLV MESSI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1442,7 +996,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-37-backup",
+                          "id": "lnk-24-backup",
                           "name": "BLV MESSI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1455,7 +1009,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-38-main",
+                          "id": "lnk-25-main",
                           "name": "BLV COZY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1468,7 +1022,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-38-backup",
+                          "id": "lnk-25-backup",
                           "name": "BLV COZY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1481,7 +1035,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-39-main",
+                          "id": "lnk-26-main",
                           "name": "BLV TOMIA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1494,7 +1048,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-39-backup",
+                          "id": "lnk-26-backup",
                           "name": "BLV TOMIA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1507,7 +1061,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-40-main",
+                          "id": "lnk-27-main",
                           "name": "BLV SATIVA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1520,7 +1074,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-40-backup",
+                          "id": "lnk-27-backup",
                           "name": "BLV SATIVA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1541,7 +1095,7 @@
           ]
         },
         {
-          "id": "ch-10",
+          "id": "ch-8",
           "name": "Sporting Braga vs FC Porto",
           "labels": [
             {
@@ -1575,19 +1129,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-10",
+              "id": "src-8",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-10",
+                  "id": "cnt-8",
                   "name": "Sporting Braga vs FC Porto",
                   "streams": [
                     {
-                      "id": "strm-10",
+                      "id": "strm-8",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-41-main",
+                          "id": "lnk-28-main",
                           "name": "BLV CÁO (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1600,7 +1154,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-41-backup",
+                          "id": "lnk-28-backup",
                           "name": "BLV CÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1613,7 +1167,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-42-main",
+                          "id": "lnk-29-main",
                           "name": "BLV CÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1626,7 +1180,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-42-backup",
+                          "id": "lnk-29-backup",
                           "name": "BLV CÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1639,7 +1193,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-43-main",
+                          "id": "lnk-30-main",
                           "name": "BLV LONG (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1652,7 +1206,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-43-backup",
+                          "id": "lnk-30-backup",
                           "name": "BLV LONG (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1673,7 +1227,7 @@
           ]
         },
         {
-          "id": "ch-11",
+          "id": "ch-9",
           "name": "Portland Timbers vs Los Angeles Galaxy",
           "labels": [
             {
@@ -1707,19 +1261,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-11",
+              "id": "src-9",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-11",
+                  "id": "cnt-9",
                   "name": "Portland Timbers vs Los Angeles Galaxy",
                   "streams": [
                     {
-                      "id": "strm-11",
+                      "id": "strm-9",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-44-main",
+                          "id": "lnk-31-main",
                           "name": "VỊT BẠC (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1732,7 +1286,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-44-backup",
+                          "id": "lnk-31-backup",
                           "name": "VỊT BẠC (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1745,7 +1299,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-45-main",
+                          "id": "lnk-32-main",
                           "name": "THE KOP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1758,7 +1312,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-45-backup",
+                          "id": "lnk-32-backup",
                           "name": "THE KOP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1779,7 +1333,7 @@
           ]
         },
         {
-          "id": "ch-12",
+          "id": "ch-10",
           "name": "Estudiantes Rio Cuarto vs River Plate",
           "labels": [
             {
@@ -1813,19 +1367,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-12",
+              "id": "src-10",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-12",
+                  "id": "cnt-10",
                   "name": "Estudiantes Rio Cuarto vs River Plate",
                   "streams": [
                     {
-                      "id": "strm-12",
+                      "id": "strm-10",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-46-main",
+                          "id": "lnk-33-main",
                           "name": "A PÁO (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1838,7 +1392,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-46-backup",
+                          "id": "lnk-33-backup",
                           "name": "A PÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1859,7 +1413,7 @@
           ]
         },
         {
-          "id": "ch-13",
+          "id": "ch-11",
           "name": "Internacional RS vs Chapecoense SC",
           "labels": [
             {
@@ -1893,19 +1447,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-13",
+              "id": "src-11",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-13",
+                  "id": "cnt-11",
                   "name": "Internacional RS vs Chapecoense SC",
                   "streams": [
                     {
-                      "id": "strm-13",
+                      "id": "strm-11",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-47-main",
+                          "id": "lnk-34-main",
                           "name": "KÉP (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1918,7 +1472,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-47-backup",
+                          "id": "lnk-34-backup",
                           "name": "KÉP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1939,7 +1493,7 @@
           ]
         },
         {
-          "id": "ch-14",
+          "id": "ch-12",
           "name": "Vitoria BA vs Mirassol",
           "labels": [
             {
@@ -1973,19 +1527,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-14",
+              "id": "src-12",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-14",
+                  "id": "cnt-12",
                   "name": "Vitoria BA vs Mirassol",
                   "streams": [
                     {
-                      "id": "strm-14",
+                      "id": "strm-12",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-48-main",
+                          "id": "lnk-35-main",
                           "name": "XUÂN SON (Chính)",
                           "type": "hls",
                           "default": true,
@@ -1998,7 +1552,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-48-backup",
+                          "id": "lnk-35-backup",
                           "name": "XUÂN SON (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2011,7 +1565,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-49-main",
+                          "id": "lnk-36-main",
                           "name": "Giàng A Thổ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2024,7 +1578,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-49-backup",
+                          "id": "lnk-36-backup",
                           "name": "Giàng A Thổ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2045,7 +1599,7 @@
           ]
         },
         {
-          "id": "ch-15",
+          "id": "ch-13",
           "name": "San Diego FC vs Real Salt Lake",
           "labels": [
             {
@@ -2079,19 +1633,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-15",
+              "id": "src-13",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-15",
+                  "id": "cnt-13",
                   "name": "San Diego FC vs Real Salt Lake",
                   "streams": [
                     {
-                      "id": "strm-15",
+                      "id": "strm-13",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-50-main",
+                          "id": "lnk-37-main",
                           "name": "LÃO LÂM (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2104,7 +1658,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-50-backup",
+                          "id": "lnk-37-backup",
                           "name": "LÃO LÂM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2117,7 +1671,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-51-main",
+                          "id": "lnk-38-main",
                           "name": "BLV CHIVAS (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2130,7 +1684,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-51-backup",
+                          "id": "lnk-38-backup",
                           "name": "BLV CHIVAS (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2143,7 +1697,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-52-main",
+                          "id": "lnk-39-main",
                           "name": "CHANH MUỐI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2156,7 +1710,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-52-backup",
+                          "id": "lnk-39-backup",
                           "name": "CHANH MUỐI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2169,7 +1723,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-53-main",
+                          "id": "lnk-40-main",
                           "name": "BLV LUCAS (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2182,7 +1736,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-53-backup",
+                          "id": "lnk-40-backup",
                           "name": "BLV LUCAS (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2203,7 +1757,7 @@
           ]
         },
         {
-          "id": "ch-16",
+          "id": "ch-14",
           "name": "Boca Juniors vs Instituto de Córdoba",
           "labels": [
             {
@@ -2237,19 +1791,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-16",
+              "id": "src-14",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-16",
+                  "id": "cnt-14",
                   "name": "Boca Juniors vs Instituto de Córdoba",
                   "streams": [
                     {
-                      "id": "strm-16",
+                      "id": "strm-14",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-54-main",
+                          "id": "lnk-41-main",
                           "name": "VỊT BẠC (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2262,7 +1816,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-54-backup",
+                          "id": "lnk-41-backup",
                           "name": "VỊT BẠC (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2275,7 +1829,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-55-main",
+                          "id": "lnk-42-main",
                           "name": "THE KOP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2288,7 +1842,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-55-backup",
+                          "id": "lnk-42-backup",
                           "name": "THE KOP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2309,7 +1863,7 @@
           ]
         },
         {
-          "id": "ch-17",
+          "id": "ch-15",
           "name": "Pachuca vs Toluca",
           "labels": [
             {
@@ -2343,19 +1897,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-17",
+              "id": "src-15",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-17",
+                  "id": "cnt-15",
                   "name": "Pachuca vs Toluca",
                   "streams": [
                     {
-                      "id": "strm-17",
+                      "id": "strm-15",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-56-main",
+                          "id": "lnk-43-main",
                           "name": "BLV PEWPEW (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2368,7 +1922,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-56-backup",
+                          "id": "lnk-43-backup",
                           "name": "BLV PEWPEW (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2381,7 +1935,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-57-main",
+                          "id": "lnk-44-main",
                           "name": "A PÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2394,7 +1948,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-57-backup",
+                          "id": "lnk-44-backup",
                           "name": "A PÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2407,7 +1961,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-58-main",
+                          "id": "lnk-45-main",
                           "name": "VENDETTA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2420,7 +1974,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-58-backup",
+                          "id": "lnk-45-backup",
                           "name": "VENDETTA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2433,7 +1987,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-59-main",
+                          "id": "lnk-46-main",
                           "name": "BLV MIXI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2446,7 +2000,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-59-backup",
+                          "id": "lnk-46-backup",
                           "name": "BLV MIXI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2467,7 +2021,7 @@
           ]
         },
         {
-          "id": "ch-18",
+          "id": "ch-16",
           "name": "Santos Laguna vs Puebla",
           "labels": [
             {
@@ -2501,19 +2055,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-18",
+              "id": "src-16",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-18",
+                  "id": "cnt-16",
                   "name": "Santos Laguna vs Puebla",
                   "streams": [
                     {
-                      "id": "strm-18",
+                      "id": "strm-16",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-60-main",
+                          "id": "lnk-47-main",
                           "name": "BLV KEM (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2526,7 +2080,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-60-backup",
+                          "id": "lnk-47-backup",
                           "name": "BLV KEM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2539,7 +2093,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-61-main",
+                          "id": "lnk-48-main",
                           "name": "VƯƠNG ANH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2552,7 +2106,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-61-backup",
+                          "id": "lnk-48-backup",
                           "name": "VƯƠNG ANH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2565,7 +2119,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-62-main",
+                          "id": "lnk-49-main",
                           "name": "TAM MAO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2578,7 +2132,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-62-backup",
+                          "id": "lnk-49-backup",
                           "name": "TAM MAO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2591,7 +2145,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-63-main",
+                          "id": "lnk-50-main",
                           "name": "BLV GÔN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2604,7 +2158,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-63-backup",
+                          "id": "lnk-50-backup",
                           "name": "BLV GÔN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2625,7 +2179,7 @@
           ]
         },
         {
-          "id": "ch-19",
+          "id": "ch-17",
           "name": "Sport Club Corinthians Paulista vs CR Flamengo",
           "labels": [
             {
@@ -2659,19 +2213,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-19",
+              "id": "src-17",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-19",
+                  "id": "cnt-17",
                   "name": "Sport Club Corinthians Paulista vs CR Flamengo",
                   "streams": [
                     {
-                      "id": "strm-19",
+                      "id": "strm-17",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-64-main",
+                          "id": "lnk-51-main",
                           "name": "HẢI THANH (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2684,7 +2238,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-64-backup",
+                          "id": "lnk-51-backup",
                           "name": "HẢI THANH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2697,7 +2251,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-65-main",
+                          "id": "lnk-52-main",
                           "name": "BLV LIO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2710,7 +2264,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-65-backup",
+                          "id": "lnk-52-backup",
                           "name": "BLV LIO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2723,7 +2277,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-66-main",
+                          "id": "lnk-53-main",
                           "name": "BLV XO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2736,7 +2290,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-66-backup",
+                          "id": "lnk-53-backup",
                           "name": "BLV XO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2749,7 +2303,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-67-main",
+                          "id": "lnk-54-main",
                           "name": "BLV A WIN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2762,7 +2316,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-67-backup",
+                          "id": "lnk-54-backup",
                           "name": "BLV A WIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2783,7 +2337,7 @@
           ]
         },
         {
-          "id": "ch-20",
+          "id": "ch-18",
           "name": "Boston Celtics vs Minnesota Timberwolves",
           "labels": [
             {
@@ -2817,19 +2371,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-20",
+              "id": "src-18",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-20",
+                  "id": "cnt-18",
                   "name": "Boston Celtics vs Minnesota Timberwolves",
                   "streams": [
                     {
-                      "id": "strm-20",
+                      "id": "strm-18",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-68-main",
+                          "id": "lnk-55-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2842,7 +2396,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-68-backup",
+                          "id": "lnk-55-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2855,7 +2409,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-69-main",
+                          "id": "lnk-56-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2868,7 +2422,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-69-backup",
+                          "id": "lnk-56-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2889,7 +2443,7 @@
           ]
         },
         {
-          "id": "ch-21",
+          "id": "ch-19",
           "name": "Phoenix Suns vs Toronto Raptors",
           "labels": [
             {
@@ -2923,19 +2477,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-21",
+              "id": "src-19",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-21",
+                  "id": "cnt-19",
                   "name": "Phoenix Suns vs Toronto Raptors",
                   "streams": [
                     {
-                      "id": "strm-21",
+                      "id": "strm-19",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-70-main",
+                          "id": "lnk-57-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -2948,7 +2502,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-70-backup",
+                          "id": "lnk-57-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2961,7 +2515,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-71-main",
+                          "id": "lnk-58-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -2974,7 +2528,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-71-backup",
+                          "id": "lnk-58-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -2995,7 +2549,7 @@
           ]
         },
         {
-          "id": "ch-22",
+          "id": "ch-20",
           "name": "FC Juarez vs Tigres UANL",
           "labels": [
             {
@@ -3029,19 +2583,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-22",
+              "id": "src-20",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-22",
+                  "id": "cnt-20",
                   "name": "FC Juarez vs Tigres UANL",
                   "streams": [
                     {
-                      "id": "strm-22",
+                      "id": "strm-20",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-72-main",
+                          "id": "lnk-59-main",
                           "name": "BLV PEWPEW (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3054,7 +2608,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-72-backup",
+                          "id": "lnk-59-backup",
                           "name": "BLV PEWPEW (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3067,7 +2621,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-73-main",
+                          "id": "lnk-60-main",
                           "name": "BLV PIRLO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3080,7 +2634,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-73-backup",
+                          "id": "lnk-60-backup",
                           "name": "BLV PIRLO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3093,7 +2647,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-74-main",
+                          "id": "lnk-61-main",
                           "name": "RICKHANTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3106,7 +2660,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-74-backup",
+                          "id": "lnk-61-backup",
                           "name": "RICKHANTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3119,7 +2673,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-75-main",
+                          "id": "lnk-62-main",
                           "name": "BLV COCA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3132,7 +2686,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-75-backup",
+                          "id": "lnk-62-backup",
                           "name": "BLV COCA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3145,7 +2699,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-76-main",
+                          "id": "lnk-63-main",
                           "name": "TẠ BIÊN GIỚI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3158,7 +2712,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-76-backup",
+                          "id": "lnk-63-backup",
                           "name": "TẠ BIÊN GIỚI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3171,7 +2725,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-77-main",
+                          "id": "lnk-64-main",
                           "name": "TAM MAO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3184,7 +2738,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-77-backup",
+                          "id": "lnk-64-backup",
                           "name": "TAM MAO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3205,7 +2759,7 @@
           ]
         },
         {
-          "id": "ch-23",
+          "id": "ch-21",
           "name": "Argentinos Juniors vs CA Platense",
           "labels": [
             {
@@ -3239,19 +2793,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-23",
+              "id": "src-21",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-23",
+                  "id": "cnt-21",
                   "name": "Argentinos Juniors vs CA Platense",
                   "streams": [
                     {
-                      "id": "strm-23",
+                      "id": "strm-21",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-78-main",
+                          "id": "lnk-65-main",
                           "name": "VENDETTA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3264,7 +2818,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-78-backup",
+                          "id": "lnk-65-backup",
                           "name": "VENDETTA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3277,7 +2831,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-79-main",
+                          "id": "lnk-66-main",
                           "name": "GOAT (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3290,7 +2844,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-79-backup",
+                          "id": "lnk-66-backup",
                           "name": "GOAT (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3303,7 +2857,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-80-main",
+                          "id": "lnk-67-main",
                           "name": "BLV GÔN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3316,7 +2870,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-80-backup",
+                          "id": "lnk-67-backup",
                           "name": "BLV GÔN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3329,7 +2883,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-81-main",
+                          "id": "lnk-68-main",
                           "name": "A PÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3342,7 +2896,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-81-backup",
+                          "id": "lnk-68-backup",
                           "name": "A PÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3363,7 +2917,7 @@
           ]
         },
         {
-          "id": "ch-24",
+          "id": "ch-22",
           "name": "Independiente Rivadavia vs Rosario Central",
           "labels": [
             {
@@ -3397,19 +2951,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-24",
+              "id": "src-22",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-24",
+                  "id": "cnt-22",
                   "name": "Independiente Rivadavia vs Rosario Central",
                   "streams": [
                     {
-                      "id": "strm-24",
+                      "id": "strm-22",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-82-main",
+                          "id": "lnk-69-main",
                           "name": "BLV MIXI (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3422,7 +2976,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-82-backup",
+                          "id": "lnk-69-backup",
                           "name": "BLV MIXI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3435,7 +2989,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-83-main",
+                          "id": "lnk-70-main",
                           "name": "BLV KAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3448,7 +3002,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-83-backup",
+                          "id": "lnk-70-backup",
                           "name": "BLV KAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3461,7 +3015,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-84-main",
+                          "id": "lnk-71-main",
                           "name": "BLV KEM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3474,7 +3028,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-84-backup",
+                          "id": "lnk-71-backup",
                           "name": "BLV KEM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3487,7 +3041,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-85-main",
+                          "id": "lnk-72-main",
                           "name": "VƯƠNG ANH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3500,7 +3054,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-85-backup",
+                          "id": "lnk-72-backup",
                           "name": "VƯƠNG ANH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3521,7 +3075,7 @@
           ]
         },
         {
-          "id": "ch-25",
+          "id": "ch-23",
           "name": "Juticalpa vs CD Olimpia",
           "labels": [
             {
@@ -3555,19 +3109,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-25",
+              "id": "src-23",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-25",
+                  "id": "cnt-23",
                   "name": "Juticalpa vs CD Olimpia",
                   "streams": [
                     {
-                      "id": "strm-25",
+                      "id": "strm-23",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-86-main",
+                          "id": "lnk-73-main",
                           "name": "BLV ROBBEN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3580,7 +3134,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-86-backup",
+                          "id": "lnk-73-backup",
                           "name": "BLV ROBBEN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3593,7 +3147,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-87-main",
+                          "id": "lnk-74-main",
                           "name": "BLV LIO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3606,7 +3160,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-87-backup",
+                          "id": "lnk-74-backup",
                           "name": "BLV LIO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3627,7 +3181,7 @@
           ]
         },
         {
-          "id": "ch-26",
+          "id": "ch-24",
           "name": "Real Cartagena vs Union Magdalena",
           "labels": [
             {
@@ -3661,19 +3215,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-26",
+              "id": "src-24",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-26",
+                  "id": "cnt-24",
                   "name": "Real Cartagena vs Union Magdalena",
                   "streams": [
                     {
-                      "id": "strm-26",
+                      "id": "strm-24",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-88-main",
+                          "id": "lnk-75-main",
                           "name": "XUÂN SON (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3686,7 +3240,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-88-backup",
+                          "id": "lnk-75-backup",
                           "name": "XUÂN SON (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3699,7 +3253,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-89-main",
+                          "id": "lnk-76-main",
                           "name": "Giàng A Thổ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3712,7 +3266,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-89-backup",
+                          "id": "lnk-76-backup",
                           "name": "Giàng A Thổ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3733,7 +3287,7 @@
           ]
         },
         {
-          "id": "ch-27",
+          "id": "ch-25",
           "name": "Malacateco vs Aurora F.C.",
           "labels": [
             {
@@ -3767,19 +3321,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-27",
+              "id": "src-25",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-27",
+                  "id": "cnt-25",
                   "name": "Malacateco vs Aurora F.C.",
                   "streams": [
                     {
-                      "id": "strm-27",
+                      "id": "strm-25",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-90-main",
+                          "id": "lnk-77-main",
                           "name": "HỘI GYM (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3792,7 +3346,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-90-backup",
+                          "id": "lnk-77-backup",
                           "name": "HỘI GYM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3805,7 +3359,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-91-main",
+                          "id": "lnk-78-main",
                           "name": "LÃO LÂM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3818,7 +3372,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-91-backup",
+                          "id": "lnk-78-backup",
                           "name": "LÃO LÂM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3839,7 +3393,7 @@
           ]
         },
         {
-          "id": "ch-28",
+          "id": "ch-26",
           "name": "Tacoma Defiance vs Austin FC II",
           "labels": [
             {
@@ -3873,19 +3427,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-28",
+              "id": "src-26",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-28",
+                  "id": "cnt-26",
                   "name": "Tacoma Defiance vs Austin FC II",
                   "streams": [
                     {
-                      "id": "strm-28",
+                      "id": "strm-26",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-92-main",
+                          "id": "lnk-79-main",
                           "name": "BLV TAP (Chính)",
                           "type": "hls",
                           "default": true,
@@ -3898,7 +3452,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-92-backup",
+                          "id": "lnk-79-backup",
                           "name": "BLV TAP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3911,7 +3465,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-93-main",
+                          "id": "lnk-80-main",
                           "name": "BLV TOMMY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3924,7 +3478,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-93-backup",
+                          "id": "lnk-80-backup",
                           "name": "BLV TOMMY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3937,7 +3491,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-94-main",
+                          "id": "lnk-81-main",
                           "name": "BLV 7UP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3950,7 +3504,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-94-backup",
+                          "id": "lnk-81-backup",
                           "name": "BLV 7UP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3963,7 +3517,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-95-main",
+                          "id": "lnk-82-main",
                           "name": "BLV VOI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -3976,7 +3530,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-95-backup",
+                          "id": "lnk-82-backup",
                           "name": "BLV VOI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -3997,7 +3551,7 @@
           ]
         },
         {
-          "id": "ch-29",
+          "id": "ch-27",
           "name": "Seoul Samsung Thunders vs Ulsan Mobis Phoebus",
           "labels": [
             {
@@ -4031,19 +3585,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-29",
+              "id": "src-27",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-29",
+                  "id": "cnt-27",
                   "name": "Seoul Samsung Thunders vs Ulsan Mobis Phoebus",
                   "streams": [
                     {
-                      "id": "strm-29",
+                      "id": "strm-27",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-96-main",
+                          "id": "lnk-83-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4056,7 +3610,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-96-backup",
+                          "id": "lnk-83-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4069,7 +3623,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-97-main",
+                          "id": "lnk-84-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4082,7 +3636,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-97-backup",
+                          "id": "lnk-84-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4103,7 +3657,7 @@
           ]
         },
         {
-          "id": "ch-30",
+          "id": "ch-28",
           "name": "S-Birds W vs KB Stars W",
           "labels": [
             {
@@ -4137,19 +3691,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-30",
+              "id": "src-28",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-30",
+                  "id": "cnt-28",
                   "name": "S-Birds W vs KB Stars W",
                   "streams": [
                     {
-                      "id": "strm-30",
+                      "id": "strm-28",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-98-main",
+                          "id": "lnk-85-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4162,7 +3716,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-98-backup",
+                          "id": "lnk-85-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4175,7 +3729,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-99-main",
+                          "id": "lnk-86-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4188,7 +3742,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-99-backup",
+                          "id": "lnk-86-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4209,7 +3763,7 @@
           ]
         },
         {
-          "id": "ch-31",
+          "id": "ch-29",
           "name": "Beijing Royal Fighters vs Zhejiang Chouzhou",
           "labels": [
             {
@@ -4243,19 +3797,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-31",
+              "id": "src-29",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-31",
+                  "id": "cnt-29",
                   "name": "Beijing Royal Fighters vs Zhejiang Chouzhou",
                   "streams": [
                     {
-                      "id": "strm-31",
+                      "id": "strm-29",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-100-main",
+                          "id": "lnk-87-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4268,7 +3822,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-100-backup",
+                          "id": "lnk-87-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4289,7 +3843,7 @@
           ]
         },
         {
-          "id": "ch-32",
+          "id": "ch-30",
           "name": "East Bengal FC vs Mohammedan SC",
           "labels": [
             {
@@ -4323,19 +3877,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-32",
+              "id": "src-30",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-32",
+                  "id": "cnt-30",
                   "name": "East Bengal FC vs Mohammedan SC",
                   "streams": [
                     {
-                      "id": "strm-32",
+                      "id": "strm-30",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-101-main",
+                          "id": "lnk-88-main",
                           "name": "BLV RÔSI (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4348,7 +3902,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-101-backup",
+                          "id": "lnk-88-backup",
                           "name": "BLV RÔSI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4361,7 +3915,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-102-main",
+                          "id": "lnk-89-main",
                           "name": "BLV TAP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4374,7 +3928,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-102-backup",
+                          "id": "lnk-89-backup",
                           "name": "BLV TAP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4387,7 +3941,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-103-main",
+                          "id": "lnk-90-main",
                           "name": "DECO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4400,7 +3954,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-103-backup",
+                          "id": "lnk-90-backup",
                           "name": "DECO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4413,7 +3967,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-104-main",
+                          "id": "lnk-91-main",
                           "name": "BLV Củ Cải (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4426,7 +3980,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-104-backup",
+                          "id": "lnk-91-backup",
                           "name": "BLV Củ Cải (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4439,7 +3993,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-105-main",
+                          "id": "lnk-92-main",
                           "name": "BLV ĐỐM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4452,7 +4006,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-105-backup",
+                          "id": "lnk-92-backup",
                           "name": "BLV ĐỐM (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4465,7 +4019,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-106-main",
+                          "id": "lnk-93-main",
                           "name": "BLV 7UP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4478,7 +4032,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-106-backup",
+                          "id": "lnk-93-backup",
                           "name": "BLV 7UP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4499,7 +4053,7 @@
           ]
         },
         {
-          "id": "ch-33",
+          "id": "ch-31",
           "name": "FK Chelyabinsk vs Torpedo Moscow",
           "labels": [
             {
@@ -4533,19 +4087,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-33",
+              "id": "src-31",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-33",
+                  "id": "cnt-31",
                   "name": "FK Chelyabinsk vs Torpedo Moscow",
                   "streams": [
                     {
-                      "id": "strm-33",
+                      "id": "strm-31",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-107-main",
+                          "id": "lnk-94-main",
                           "name": "CR Bưởi (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4558,7 +4112,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-107-backup",
+                          "id": "lnk-94-backup",
                           "name": "CR Bưởi (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4571,7 +4125,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-108-main",
+                          "id": "lnk-95-main",
                           "name": "BLV SÓI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4584,7 +4138,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-108-backup",
+                          "id": "lnk-95-backup",
                           "name": "BLV SÓI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4597,7 +4151,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-109-main",
+                          "id": "lnk-96-main",
                           "name": "Đình Bắc (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4610,7 +4164,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-109-backup",
+                          "id": "lnk-96-backup",
                           "name": "Đình Bắc (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4623,7 +4177,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-110-main",
+                          "id": "lnk-97-main",
                           "name": "GOAT (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4636,7 +4190,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-110-backup",
+                          "id": "lnk-97-backup",
                           "name": "GOAT (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4649,7 +4203,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-111-main",
+                          "id": "lnk-98-main",
                           "name": "PINKMAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4662,7 +4216,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-111-backup",
+                          "id": "lnk-98-backup",
                           "name": "PINKMAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4675,7 +4229,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-112-main",
+                          "id": "lnk-99-main",
                           "name": "BLV A TINH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4688,7 +4242,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-112-backup",
+                          "id": "lnk-99-backup",
                           "name": "BLV A TINH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4709,7 +4263,7 @@
           ]
         },
         {
-          "id": "ch-34",
+          "id": "ch-32",
           "name": "Al-Rayyan vs Al Ahli",
           "labels": [
             {
@@ -4743,19 +4297,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-34",
+              "id": "src-32",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-34",
+                  "id": "cnt-32",
                   "name": "Al-Rayyan vs Al Ahli",
                   "streams": [
                     {
-                      "id": "strm-34",
+                      "id": "strm-32",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-113-main",
+                          "id": "lnk-100-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4768,7 +4322,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-113-backup",
+                          "id": "lnk-100-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4789,7 +4343,7 @@
           ]
         },
         {
-          "id": "ch-35",
+          "id": "ch-33",
           "name": "Portimonense U23 vs Estoril U23",
           "labels": [
             {
@@ -4823,19 +4377,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-35",
+              "id": "src-33",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-35",
+                  "id": "cnt-33",
                   "name": "Portimonense U23 vs Estoril U23",
                   "streams": [
                     {
-                      "id": "strm-35",
+                      "id": "strm-33",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-114-main",
+                          "id": "lnk-101-main",
                           "name": "TẠ BIÊN GIỚI (Chính)",
                           "type": "hls",
                           "default": true,
@@ -4848,7 +4402,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-114-backup",
+                          "id": "lnk-101-backup",
                           "name": "TẠ BIÊN GIỚI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4861,7 +4415,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-115-main",
+                          "id": "lnk-102-main",
                           "name": "BLV COCA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4874,7 +4428,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-115-backup",
+                          "id": "lnk-102-backup",
                           "name": "BLV COCA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4887,7 +4441,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-116-main",
+                          "id": "lnk-103-main",
                           "name": "BLV PIRLO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4900,7 +4454,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-116-backup",
+                          "id": "lnk-103-backup",
                           "name": "BLV PIRLO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4913,7 +4467,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-117-main",
+                          "id": "lnk-104-main",
                           "name": "BLV TOMMY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4926,7 +4480,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-117-backup",
+                          "id": "lnk-104-backup",
                           "name": "BLV TOMMY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4939,7 +4493,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-118-main",
+                          "id": "lnk-105-main",
                           "name": "MR BÍCH (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4952,7 +4506,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-118-backup",
+                          "id": "lnk-105-backup",
                           "name": "MR BÍCH (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4965,7 +4519,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-119-main",
+                          "id": "lnk-106-main",
                           "name": "BLV A TÚ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -4978,7 +4532,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-119-backup",
+                          "id": "lnk-106-backup",
                           "name": "BLV A TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -4999,7 +4553,7 @@
           ]
         },
         {
-          "id": "ch-36",
+          "id": "ch-34",
           "name": "Dynamo Kursk W vs MBA Moscow W",
           "labels": [
             {
@@ -5033,19 +4587,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-36",
+              "id": "src-34",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-36",
+                  "id": "cnt-34",
                   "name": "Dynamo Kursk W vs MBA Moscow W",
                   "streams": [
                     {
-                      "id": "strm-36",
+                      "id": "strm-34",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-120-main",
+                          "id": "lnk-107-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5058,7 +4612,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-120-backup",
+                          "id": "lnk-107-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5079,7 +4633,7 @@
           ]
         },
         {
-          "id": "ch-37",
+          "id": "ch-35",
           "name": "Rodina Moscow vs Chaika Peschanokopskoe",
           "labels": [
             {
@@ -5113,19 +4667,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-37",
+              "id": "src-35",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-37",
+                  "id": "cnt-35",
                   "name": "Rodina Moscow vs Chaika Peschanokopskoe",
                   "streams": [
                     {
-                      "id": "strm-37",
+                      "id": "strm-35",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-121-main",
+                          "id": "lnk-108-main",
                           "name": "RICKHANTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5138,7 +4692,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-121-backup",
+                          "id": "lnk-108-backup",
                           "name": "RICKHANTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5151,7 +4705,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-122-main",
+                          "id": "lnk-109-main",
                           "name": "DECO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5164,7 +4718,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-122-backup",
+                          "id": "lnk-109-backup",
                           "name": "DECO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5177,7 +4731,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-123-main",
+                          "id": "lnk-110-main",
                           "name": "THẠCH TÚ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5190,7 +4744,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-123-backup",
+                          "id": "lnk-110-backup",
                           "name": "THẠCH TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5203,7 +4757,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-124-main",
+                          "id": "lnk-111-main",
                           "name": "BLV Củ Cải (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5216,7 +4770,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-124-backup",
+                          "id": "lnk-111-backup",
                           "name": "BLV Củ Cải (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5229,7 +4783,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-125-main",
+                          "id": "lnk-112-main",
                           "name": "BLV ENZO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5242,7 +4796,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-125-backup",
+                          "id": "lnk-112-backup",
                           "name": "BLV ENZO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5255,7 +4809,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-126-main",
+                          "id": "lnk-113-main",
                           "name": "SAO LA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5268,7 +4822,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-126-backup",
+                          "id": "lnk-113-backup",
                           "name": "SAO LA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5289,7 +4843,7 @@
           ]
         },
         {
-          "id": "ch-38",
+          "id": "ch-36",
           "name": "Yantra Gabrovo vs Fratria",
           "labels": [
             {
@@ -5323,19 +4877,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-38",
+              "id": "src-36",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-38",
+                  "id": "cnt-36",
                   "name": "Yantra Gabrovo vs Fratria",
                   "streams": [
                     {
-                      "id": "strm-38",
+                      "id": "strm-36",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-127-main",
+                          "id": "lnk-114-main",
                           "name": "BLV A WIN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5348,7 +4902,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-127-backup",
+                          "id": "lnk-114-backup",
                           "name": "BLV A WIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5361,7 +4915,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-128-main",
+                          "id": "lnk-115-main",
                           "name": "KÉP (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5374,7 +4928,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-128-backup",
+                          "id": "lnk-115-backup",
                           "name": "KÉP (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5387,7 +4941,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-129-main",
+                          "id": "lnk-116-main",
                           "name": "NGƯỜI CÁ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5400,7 +4954,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-129-backup",
+                          "id": "lnk-116-backup",
                           "name": "NGƯỜI CÁ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5413,7 +4967,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-130-main",
+                          "id": "lnk-117-main",
                           "name": "BON BON (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5426,7 +4980,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-130-backup",
+                          "id": "lnk-117-backup",
                           "name": "BON BON (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5439,7 +4993,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-131-main",
+                          "id": "lnk-118-main",
                           "name": "BLV CÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5452,7 +5006,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-131-backup",
+                          "id": "lnk-118-backup",
                           "name": "BLV CÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5465,7 +5019,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-132-main",
+                          "id": "lnk-119-main",
                           "name": "BLV CÁO (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5478,7 +5032,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-132-backup",
+                          "id": "lnk-119-backup",
                           "name": "BLV CÁO (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5491,7 +5045,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-133-main",
+                          "id": "lnk-120-main",
                           "name": "CHANH MUỐI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5504,7 +5058,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-133-backup",
+                          "id": "lnk-120-backup",
                           "name": "CHANH MUỐI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5533,7 +5087,7 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "ch-39",
+          "id": "ch-37",
           "name": "Al Arabi vs Al Sadd",
           "labels": [
             {
@@ -5567,19 +5121,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-39",
+              "id": "src-37",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-39",
+                  "id": "cnt-37",
                   "name": "Al Arabi vs Al Sadd",
                   "streams": [
                     {
-                      "id": "strm-39",
+                      "id": "strm-37",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-134-main",
+                          "id": "lnk-121-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5592,7 +5146,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-134-backup",
+                          "id": "lnk-121-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5613,7 +5167,7 @@
           ]
         },
         {
-          "id": "ch-40",
+          "id": "ch-38",
           "name": "Ulm vs Bonn",
           "labels": [
             {
@@ -5647,19 +5201,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-40",
+              "id": "src-38",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-40",
+                  "id": "cnt-38",
                   "name": "Ulm vs Bonn",
                   "streams": [
                     {
-                      "id": "strm-40",
+                      "id": "strm-38",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-135-main",
+                          "id": "lnk-122-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5672,7 +5226,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-135-backup",
+                          "id": "lnk-122-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5693,7 +5247,7 @@
           ]
         },
         {
-          "id": "ch-41",
+          "id": "ch-39",
           "name": "Miami Heat vs San Antonio Spurs",
           "labels": [
             {
@@ -5727,19 +5281,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-41",
+              "id": "src-39",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-41",
+                  "id": "cnt-39",
                   "name": "Miami Heat vs San Antonio Spurs",
                   "streams": [
                     {
-                      "id": "strm-41",
+                      "id": "strm-39",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-136-main",
+                          "id": "lnk-123-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5752,7 +5306,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-136-backup",
+                          "id": "lnk-123-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5773,7 +5327,7 @@
           ]
         },
         {
-          "id": "ch-42",
+          "id": "ch-40",
           "name": "Atlanta Hawks vs Memphis Grizzlies",
           "labels": [
             {
@@ -5807,19 +5361,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-42",
+              "id": "src-40",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-42",
+                  "id": "cnt-40",
                   "name": "Atlanta Hawks vs Memphis Grizzlies",
                   "streams": [
                     {
-                      "id": "strm-42",
+                      "id": "strm-40",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-137-main",
+                          "id": "lnk-124-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5832,7 +5386,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-137-backup",
+                          "id": "lnk-124-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5853,7 +5407,7 @@
           ]
         },
         {
-          "id": "ch-43",
+          "id": "ch-41",
           "name": "Chicago Bulls vs Houston Rockets",
           "labels": [
             {
@@ -5887,19 +5441,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-43",
+              "id": "src-41",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-43",
+                  "id": "cnt-41",
                   "name": "Chicago Bulls vs Houston Rockets",
                   "streams": [
                     {
-                      "id": "strm-43",
+                      "id": "strm-41",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-138-main",
+                          "id": "lnk-125-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -5912,7 +5466,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-138-backup",
+                          "id": "lnk-125-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5925,7 +5479,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-139-main",
+                          "id": "lnk-126-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5938,7 +5492,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-139-backup",
+                          "id": "lnk-126-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5959,7 +5513,7 @@
           ]
         },
         {
-          "id": "ch-44",
+          "id": "ch-42",
           "name": "Dallas Mavericks vs Golden State Warriors",
           "labels": [
             {
@@ -5993,19 +5547,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-44",
+              "id": "src-42",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-44",
+                  "id": "cnt-42",
                   "name": "Dallas Mavericks vs Golden State Warriors",
                   "streams": [
                     {
-                      "id": "strm-44",
+                      "id": "strm-42",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-140-main",
+                          "id": "lnk-127-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6018,7 +5572,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-140-backup",
+                          "id": "lnk-127-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6039,7 +5593,7 @@
           ]
         },
         {
-          "id": "ch-45",
+          "id": "ch-43",
           "name": "Portland Trail Blazers vs Brooklyn Nets",
           "labels": [
             {
@@ -6073,19 +5627,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-45",
+              "id": "src-43",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-45",
+                  "id": "cnt-43",
                   "name": "Portland Trail Blazers vs Brooklyn Nets",
                   "streams": [
                     {
-                      "id": "strm-45",
+                      "id": "strm-43",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-141-main",
+                          "id": "lnk-128-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6098,7 +5652,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-141-backup",
+                          "id": "lnk-128-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6111,7 +5665,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-142-main",
+                          "id": "lnk-129-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6124,7 +5678,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-142-backup",
+                          "id": "lnk-129-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6145,7 +5699,7 @@
           ]
         },
         {
-          "id": "ch-46",
+          "id": "ch-44",
           "name": "Los Angeles Clippers vs Milwaukee Bucks",
           "labels": [
             {
@@ -6179,19 +5733,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-46",
+              "id": "src-44",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-46",
+                  "id": "cnt-44",
                   "name": "Los Angeles Clippers vs Milwaukee Bucks",
                   "streams": [
                     {
-                      "id": "strm-46",
+                      "id": "strm-44",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-143-main",
+                          "id": "lnk-130-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6204,7 +5758,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-143-backup",
+                          "id": "lnk-130-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6217,7 +5771,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-144-main",
+                          "id": "lnk-131-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6230,7 +5784,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-144-backup",
+                          "id": "lnk-131-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6251,7 +5805,7 @@
           ]
         },
         {
-          "id": "ch-47",
+          "id": "ch-45",
           "name": "Wonju DB vs Anyang JungKwanJang",
           "labels": [
             {
@@ -6285,19 +5839,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-47",
+              "id": "src-45",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-47",
+                  "id": "cnt-45",
                   "name": "Wonju DB vs Anyang JungKwanJang",
                   "streams": [
                     {
-                      "id": "strm-47",
+                      "id": "strm-45",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-145-main",
+                          "id": "lnk-132-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6310,7 +5864,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-145-backup",
+                          "id": "lnk-132-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6323,7 +5877,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-146-main",
+                          "id": "lnk-133-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6336,7 +5890,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-146-backup",
+                          "id": "lnk-133-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6349,7 +5903,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-147-main",
+                          "id": "lnk-134-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6362,7 +5916,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-147-backup",
+                          "id": "lnk-134-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6383,7 +5937,7 @@
           ]
         },
         {
-          "id": "ch-48",
+          "id": "ch-46",
           "name": "Shenzhen vs Jiangsu Dragons",
           "labels": [
             {
@@ -6417,19 +5971,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-48",
+              "id": "src-46",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-48",
+                  "id": "cnt-46",
                   "name": "Shenzhen vs Jiangsu Dragons",
                   "streams": [
                     {
-                      "id": "strm-48",
+                      "id": "strm-46",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-148-main",
+                          "id": "lnk-135-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6442,7 +5996,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-148-backup",
+                          "id": "lnk-135-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6463,7 +6017,7 @@
           ]
         },
         {
-          "id": "ch-49",
+          "id": "ch-47",
           "name": "Tianjin vs Zhejiang Guangsha",
           "labels": [
             {
@@ -6497,19 +6051,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-49",
+              "id": "src-47",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-49",
+                  "id": "cnt-47",
                   "name": "Tianjin vs Zhejiang Guangsha",
                   "streams": [
                     {
-                      "id": "strm-49",
+                      "id": "strm-47",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-149-main",
+                          "id": "lnk-136-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6522,7 +6076,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-149-backup",
+                          "id": "lnk-136-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6543,7 +6097,7 @@
           ]
         },
         {
-          "id": "ch-50",
+          "id": "ch-48",
           "name": "Galatasaray W vs Emlak Konut W",
           "labels": [
             {
@@ -6577,19 +6131,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-50",
+              "id": "src-48",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-50",
+                  "id": "cnt-48",
                   "name": "Galatasaray W vs Emlak Konut W",
                   "streams": [
                     {
-                      "id": "strm-50",
+                      "id": "strm-48",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-150-main",
+                          "id": "lnk-137-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -6602,7 +6156,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-150-backup",
+                          "id": "lnk-137-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -6615,7 +6169,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-151-main",
+                          "id": "lnk-138-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6628,7 +6182,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-151-backup",
+                          "id": "lnk-138-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
