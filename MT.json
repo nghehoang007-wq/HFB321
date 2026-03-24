@@ -7204,6 +7204,86 @@
       "channels": [
         {
           "id": "ch-51",
+          "name": "Baskonia vs Crvena Zvezda Meridianbet",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-left",
+              "text": "Baskonia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center-right",
+              "text": "C. Zvezda Me..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "Socolive • 02h30",
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-51",
+              "name": "Socolive",
+              "contents": [
+                {
+                  "id": "cnt-51",
+                  "name": "Baskonia vs Crvena Zvezda Meridianbet",
+                  "streams": [
+                    {
+                      "id": "strm-51",
+                      "name": "Danh sách luồng",
+                      "stream_links": [
+                        {
+                          "id": "lnk-173-main",
+                          "name": "KING (Chính)",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.inplyr.com/room/9912099.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-173-backup",
+                          "name": "KING (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-9912099_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ch-52",
           "name": "Boston Celtics vs Oklahoma City Thunder",
           "labels": [
             {
@@ -7237,19 +7317,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-51",
+              "id": "src-52",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-51",
+                  "id": "cnt-52",
                   "name": "Boston Celtics vs Oklahoma City Thunder",
                   "streams": [
                     {
-                      "id": "strm-51",
+                      "id": "strm-52",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-173-main",
+                          "id": "lnk-174-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7262,7 +7342,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-173-backup",
+                          "id": "lnk-174-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7275,7 +7355,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-174-main",
+                          "id": "lnk-175-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7288,7 +7368,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-174-backup",
+                          "id": "lnk-175-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7309,7 +7389,7 @@
           ]
         },
         {
-          "id": "ch-52",
+          "id": "ch-53",
           "name": "Cleveland Cavaliers vs Miami Heat",
           "labels": [
             {
@@ -7343,19 +7423,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-52",
+              "id": "src-53",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-52",
+                  "id": "cnt-53",
                   "name": "Cleveland Cavaliers vs Miami Heat",
                   "streams": [
                     {
-                      "id": "strm-52",
+                      "id": "strm-53",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-175-main",
+                          "id": "lnk-176-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7368,7 +7448,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-175-backup",
+                          "id": "lnk-176-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7381,7 +7461,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-176-main",
+                          "id": "lnk-177-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7394,7 +7474,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-176-backup",
+                          "id": "lnk-177-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7415,7 +7495,7 @@
           ]
         },
         {
-          "id": "ch-53",
+          "id": "ch-54",
           "name": "Memphis Grizzlies vs San Antonio Spurs",
           "labels": [
             {
@@ -7449,19 +7529,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-53",
+              "id": "src-54",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-53",
+                  "id": "cnt-54",
                   "name": "Memphis Grizzlies vs San Antonio Spurs",
                   "streams": [
                     {
-                      "id": "strm-53",
+                      "id": "strm-54",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-177-main",
+                          "id": "lnk-178-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7474,7 +7554,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-177-backup",
+                          "id": "lnk-178-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7495,7 +7575,7 @@
           ]
         },
         {
-          "id": "ch-54",
+          "id": "ch-55",
           "name": "Denver Nuggets vs Dallas Mavericks",
           "labels": [
             {
@@ -7529,19 +7609,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-54",
+              "id": "src-55",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-54",
+                  "id": "cnt-55",
                   "name": "Denver Nuggets vs Dallas Mavericks",
                   "streams": [
                     {
-                      "id": "strm-54",
+                      "id": "strm-55",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-178-main",
+                          "id": "lnk-179-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7554,7 +7634,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-178-backup",
+                          "id": "lnk-179-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7575,7 +7655,7 @@
           ]
         },
         {
-          "id": "ch-55",
+          "id": "ch-56",
           "name": "Golden State Warriors vs Brooklyn Nets",
           "labels": [
             {
@@ -7609,19 +7689,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-55",
+              "id": "src-56",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-55",
+                  "id": "cnt-56",
                   "name": "Golden State Warriors vs Brooklyn Nets",
                   "streams": [
                     {
-                      "id": "strm-55",
+                      "id": "strm-56",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-179-main",
+                          "id": "lnk-180-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7634,7 +7714,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-179-backup",
+                          "id": "lnk-180-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7647,7 +7727,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-180-main",
+                          "id": "lnk-181-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7660,7 +7740,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-180-backup",
+                          "id": "lnk-181-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7681,7 +7761,7 @@
           ]
         },
         {
-          "id": "ch-56",
+          "id": "ch-57",
           "name": "Portland Trail Blazers vs Milwaukee Bucks",
           "labels": [
             {
@@ -7715,19 +7795,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-56",
+              "id": "src-57",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-56",
+                  "id": "cnt-57",
                   "name": "Portland Trail Blazers vs Milwaukee Bucks",
                   "streams": [
                     {
-                      "id": "strm-56",
+                      "id": "strm-57",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-181-main",
+                          "id": "lnk-182-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7740,7 +7820,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-181-backup",
+                          "id": "lnk-182-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7761,7 +7841,7 @@
           ]
         },
         {
-          "id": "ch-57",
+          "id": "ch-58",
           "name": "Los Angeles Clippers vs Toronto Raptors",
           "labels": [
             {
@@ -7795,19 +7875,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-57",
+              "id": "src-58",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-57",
+                  "id": "cnt-58",
                   "name": "Los Angeles Clippers vs Toronto Raptors",
                   "streams": [
                     {
-                      "id": "strm-57",
+                      "id": "strm-58",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-182-main",
+                          "id": "lnk-183-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7820,7 +7900,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-182-backup",
+                          "id": "lnk-183-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7833,7 +7913,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-183-main",
+                          "id": "lnk-184-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7846,7 +7926,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-183-backup",
+                          "id": "lnk-184-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7867,7 +7947,7 @@
           ]
         },
         {
-          "id": "ch-58",
+          "id": "ch-59",
           "name": "Taiyuan W vs Taipower W",
           "labels": [
             {
@@ -7901,19 +7981,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-58",
+              "id": "src-59",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-58",
+                  "id": "cnt-59",
                   "name": "Taiyuan W vs Taipower W",
                   "streams": [
                     {
-                      "id": "strm-58",
+                      "id": "strm-59",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-184-main",
+                          "id": "lnk-185-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -7926,7 +8006,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-184-backup",
+                          "id": "lnk-185-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7939,7 +8019,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-185-main",
+                          "id": "lnk-186-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7952,7 +8032,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-185-backup",
+                          "id": "lnk-186-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7965,7 +8045,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-186-main",
+                          "id": "lnk-187-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7978,7 +8058,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-186-backup",
+                          "id": "lnk-187-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -7991,7 +8071,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-187-main",
+                          "id": "lnk-188-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8004,7 +8084,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-187-backup",
+                          "id": "lnk-188-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8017,7 +8097,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-188-main",
+                          "id": "lnk-189-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8030,7 +8110,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-188-backup",
+                          "id": "lnk-189-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8051,7 +8131,7 @@
           ]
         },
         {
-          "id": "ch-59",
+          "id": "ch-60",
           "name": "Chunghua Telecom W vs Cathay Life W",
           "labels": [
             {
@@ -8085,19 +8165,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-59",
+              "id": "src-60",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-59",
+                  "id": "cnt-60",
                   "name": "Chunghua Telecom W vs Cathay Life W",
                   "streams": [
                     {
-                      "id": "strm-59",
+                      "id": "strm-60",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-189-main",
+                          "id": "lnk-190-main",
                           "name": "BRIAN (Chính)",
                           "type": "hls",
                           "default": true,
@@ -8110,7 +8190,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-189-backup",
+                          "id": "lnk-190-backup",
                           "name": "BRIAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8123,7 +8203,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-190-main",
+                          "id": "lnk-191-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8136,7 +8216,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-190-backup",
+                          "id": "lnk-191-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8149,7 +8229,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-191-main",
+                          "id": "lnk-192-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8162,7 +8242,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-191-backup",
+                          "id": "lnk-192-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8175,7 +8255,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-192-main",
+                          "id": "lnk-193-main",
                           "name": "BLV HENRY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8188,7 +8268,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-192-backup",
+                          "id": "lnk-193-backup",
                           "name": "BLV HENRY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8201,7 +8281,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-193-main",
+                          "id": "lnk-194-main",
                           "name": "CHAN SENA (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8214,7 +8294,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-193-backup",
+                          "id": "lnk-194-backup",
                           "name": "CHAN SENA (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8227,7 +8307,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-194-main",
+                          "id": "lnk-195-main",
                           "name": "HUNTER (Chính)",
                           "type": "hls",
                           "default": false,
@@ -8240,7 +8320,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-194-backup",
+                          "id": "lnk-195-backup",
                           "name": "HUNTER (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8261,7 +8341,7 @@
           ]
         },
         {
-          "id": "ch-60",
+          "id": "ch-61",
           "name": "Taiwan Beer vs Yulon Luxgen Dinos",
           "labels": [
             {
@@ -8295,19 +8375,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-60",
+              "id": "src-61",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-60",
+                  "id": "cnt-61",
                   "name": "Taiwan Beer vs Yulon Luxgen Dinos",
                   "streams": [
                     {
-                      "id": "strm-60",
+                      "id": "strm-61",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-195-main",
+                          "id": "lnk-196-main",
                           "name": "KING (Chính)",
                           "type": "hls",
                           "default": true,
@@ -8320,7 +8400,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-195-backup",
+                          "id": "lnk-196-backup",
                           "name": "KING (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -8341,7 +8421,7 @@
           ]
         },
         {
-          "id": "ch-61",
+          "id": "ch-62",
           "name": "Uralmash Ekaterinburg vs CSKA Moscow",
           "labels": [
             {
@@ -8375,19 +8455,19 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-61",
+              "id": "src-62",
               "name": "Socolive",
               "contents": [
                 {
-                  "id": "cnt-61",
+                  "id": "cnt-62",
                   "name": "Uralmash Ekaterinburg vs CSKA Moscow",
                   "streams": [
                     {
-                      "id": "strm-61",
+                      "id": "strm-62",
                       "name": "Danh sách luồng",
                       "stream_links": [
                         {
-                          "id": "lnk-196-main",
+                          "id": "lnk-197-main",
                           "name": "A CHÈ (Chính)",
                           "type": "hls",
                           "default": true,
@@ -8400,7 +8480,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-196-backup",
+                          "id": "lnk-197-backup",
                           "name": "A CHÈ (Dự phòng)",
                           "type": "hls",
                           "default": false,
