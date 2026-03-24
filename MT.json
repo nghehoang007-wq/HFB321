@@ -6714,32 +6714,6 @@
                         },
                         {
                           "id": "lnk-161-main",
-                          "name": "BLV A WIN (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/536185.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-161-backup",
-                          "name": "BLV A WIN (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-162-main",
                           "name": "BLV A TÚ (Chính)",
                           "type": "hls",
                           "default": false,
@@ -6752,11 +6726,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-162-backup",
+                          "id": "lnk-161-backup",
                           "name": "BLV A TÚ (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-557845_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-162-main",
+                          "name": "BLV NIBO (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/372746.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-162-backup",
+                          "name": "BLV NIBO (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7084,32 +7084,6 @@
                         },
                         {
                           "id": "lnk-169-main",
-                          "name": "BLV NIBO (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/372746.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-169-backup",
-                          "name": "BLV NIBO (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-372746_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-170-main",
                           "name": "PINKMAN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -7122,11 +7096,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-170-backup",
+                          "id": "lnk-169-backup",
                           "name": "PINKMAN (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-595715_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-170-main",
+                          "name": "BLV CÁO (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/597929.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-170-backup",
+                          "name": "BLV CÁO (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7162,10 +7162,10 @@
                         },
                         {
                           "id": "lnk-172-main",
-                          "name": "BLV CÁO (Chính)",
+                          "name": "BLV A WIN (Chính)",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.inplyr.com/room/597929.m3u8",
+                          "url": "https://live.inplyr.com/room/536185.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7175,10 +7175,10 @@
                         },
                         {
                           "id": "lnk-172-backup",
-                          "name": "BLV CÁO (Dự phòng)",
+                          "name": "BLV A WIN (Dự phòng)",
                           "type": "hls",
                           "default": false,
-                          "url": "https://pull.niues.live/live/stream-597929_lhd.m3u8",
+                          "url": "https://pull.niues.live/live/stream-536185_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
