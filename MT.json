@@ -1256,32 +1256,6 @@
                         },
                         {
                           "id": "lnk-30-main",
-                          "name": "BLV CÒ (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/582342.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-30-backup",
-                          "name": "BLV CÒ (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-31-main",
                           "name": "BLV MIXI (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1294,7 +1268,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-31-backup",
+                          "id": "lnk-30-backup",
                           "name": "BLV MIXI (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1307,7 +1281,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-32-main",
+                          "id": "lnk-31-main",
                           "name": "CR Bưởi (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1320,7 +1294,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-32-backup",
+                          "id": "lnk-31-backup",
                           "name": "CR Bưởi (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -1333,7 +1307,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-33-main",
+                          "id": "lnk-32-main",
                           "name": "LÃO LÂM (Chính)",
                           "type": "hls",
                           "default": false,
@@ -1346,11 +1320,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-33-backup",
+                          "id": "lnk-32-backup",
                           "name": "LÃO LÂM (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-527384_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-33-main",
+                          "name": "BLV VITAMIN (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/400722.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-33-backup",
+                          "name": "BLV VITAMIN (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-400722_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5898,32 +5898,6 @@
                         },
                         {
                           "id": "lnk-140-main",
-                          "name": "BLV VITAMIN (Chính)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.inplyr.com/room/400722.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-140-backup",
-                          "name": "BLV VITAMIN (Dự phòng)",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.niues.live/live/stream-400722_lhd.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv3.com/"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-141-main",
                           "name": "BLV TOMMY (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5936,7 +5910,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-141-backup",
+                          "id": "lnk-140-backup",
                           "name": "BLV TOMMY (Dự phòng)",
                           "type": "hls",
                           "default": false,
@@ -5949,7 +5923,7 @@
                           ]
                         },
                         {
-                          "id": "lnk-142-main",
+                          "id": "lnk-141-main",
                           "name": "BLV GÔN (Chính)",
                           "type": "hls",
                           "default": false,
@@ -5962,11 +5936,37 @@
                           ]
                         },
                         {
-                          "id": "lnk-142-backup",
+                          "id": "lnk-141-backup",
                           "name": "BLV GÔN (Dự phòng)",
                           "type": "hls",
                           "default": false,
                           "url": "https://pull.niues.live/live/stream-445260_lhd.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-142-main",
+                          "name": "BLV CÒ (Chính)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.inplyr.com/room/582342.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv3.com/"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-142-backup",
+                          "name": "BLV CÒ (Dự phòng)",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://pull.niues.live/live/stream-582342_lhd.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
