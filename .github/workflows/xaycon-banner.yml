@@ -1,0 +1,97 @@
+name: Generate Xaycon Banners
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/20 * * * *' # Cứ 20 phút chạy 1 lần
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Cài đặt thư viện
+        run: pip install requests Pillow
+
+      - name: Chạy xưởng tạo ảnh
+        run: |
+          mkdir -p thumbs
+          
+          cat << 'EOF' > scraper.py
+          import os
+          import io
+          import requests
+          from PIL import Image
+
+          API_URL = "https://sv.xaycontv.xyz/api/v1/external/fixtures/unfinished"
+          # Bê nguyên cái nền chuẩn của mã gốc bác gửi
+          BG_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
+
+          try:
+              print("Tải ảnh nền gốc...")
+              bg_res = requests.get(BG_URL, timeout=10)
+              base_bg = Image.open(io.BytesIO(bg_res.content)).convert("RGBA")
+              base_bg = base_bg.resize((640, 360))
+          except:
+              base_bg = Image.new('RGBA', (640, 360), (0, 0, 0, 255))
+
+          try:
+              response = requests.get(API_URL, timeout=30)
+              matches = response.json().get('data', [])
+              
+              count = 0
+              for match in matches:
+                  match_id = str(match.get('id', ''))
+                  home_logo = match.get('homeTeam', {}).get('logoUrl', '')
+                  away_logo = match.get('awayTeam', {}).get('logoUrl', '')
+                  
+                  thumb_path = f"thumbs/{match_id}.png"
+                  
+                  # Nếu đã làm ảnh rồi thì bỏ qua luôn cho nhẹ máy
+                  if os.path.exists(thumb_path):
+                      continue
+                      
+                  try:
+                      bg_copy = base_bg.copy()
+                      has_logo = False
+                      
+                      if home_logo:
+                          h_res = requests.get(home_logo, timeout=5)
+                          if h_res.status_code == 200:
+                              h_img = Image.open(io.BytesIO(h_res.content)).convert("RGBA")
+                              h_img.thumbnail((120, 120))
+                              # Ép logo chủ nhà sang trái
+                              bg_copy.paste(h_img, (100, 100), h_img)
+                              has_logo = True
+                              
+                      if away_logo:
+                          a_res = requests.get(away_logo, timeout=5)
+                          if a_res.status_code == 200:
+                              a_img = Image.open(io.BytesIO(a_res.content)).convert("RGBA")
+                              a_img.thumbnail((120, 120))
+                              # Ép logo khách sang phải
+                              bg_copy.paste(a_img, (420, 100), a_img)
+                              has_logo = True
+                              
+                      if has_logo:
+                          bg_copy.save(thumb_path, "PNG")
+                          print(f"Đã tạo banner cho trận: {match_id}")
+                          count += 1
+                  except Exception as e:
+                      print(f"Lỗi ghép ảnh trận {match_id}: {e}")
+                      
+              print(f"Hoàn thành tạo {count} ảnh mới.")
+          except Exception as e:
+              print(f"Lỗi API: {e}")
+          EOF
+          python3 scraper.py
+
+      - name: Commit và Đẩy ảnh lên Github
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add thumbs/
+          git commit -m "Cập nhật Banner mới" || echo "Không có trận mới"
+          git push
