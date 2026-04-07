@@ -13,7 +13,452 @@
       "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN",
       "display": "vertical",
       "grid_number": 2,
-      "channels": []
+      "channels": [
+        {
+          "id": "69d1a8544d41eea82549385c",
+          "name": "Vietnam U20 W vs Banglas U20 W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Vietnam U20 W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Banglas U20 W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d1a8544d41eea82549385c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d1a8544d41eea82549385c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d1a8544d41eea82549385c",
+                  "name": "Vietnam U20 W vs Banglas U20 W",
+                  "streams": [
+                    {
+                      "id": "69d1a8544d41eea82549385c_0",
+                      "name": "Chuối Đồng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea82549385c.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea82549385c_1",
+                      "name": "Chuối Đồng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea82549385c.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea82549385c_2",
+                      "name": "Chuối Đồng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea82549385c.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea82549385c_3",
+                      "name": "Chuối Đồng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea82549385c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69d41fc84d41eea8259be990",
+          "name": "Krylia Sovetov vs CSKA Moscow",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Krylia Sovet..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "CSKA Moscow",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d41fc84d41eea8259be990.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d41fc84d41eea8259be990",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d41fc84d41eea8259be990",
+                  "name": "Krylia Sovetov vs CSKA Moscow",
+                  "streams": [
+                    {
+                      "id": "69d41fc84d41eea8259be990_0",
+                      "name": "BLV Chuối Hột - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d41fc84d41eea8259be990.json"
+                      }
+                    },
+                    {
+                      "id": "69d41fc84d41eea8259be990_1",
+                      "name": "BLV Chuối Hột - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d41fc84d41eea8259be990.json"
+                      }
+                    },
+                    {
+                      "id": "69d41fc84d41eea8259be990_2",
+                      "name": "BLV Chuối Hột - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d41fc84d41eea8259be990.json"
+                      }
+                    },
+                    {
+                      "id": "69d41fc84d41eea8259be990_3",
+                      "name": "BLV Chuối Hột - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d41fc84d41eea8259be990.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69d1a8544d41eea825493847",
+          "name": "Yeni Çorumspor vs BB Bodrumspor",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Yeni Çorumsp..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "BB Bodrumspor",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d1a8544d41eea825493847.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d1a8544d41eea825493847",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d1a8544d41eea825493847",
+                  "name": "Yeni Çorumspor vs BB Bodrumspor",
+                  "streams": [
+                    {
+                      "id": "69d1a8544d41eea825493847_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493847.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493847_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493847.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493847_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493847.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493847_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493847.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69d1a8544d41eea825493856",
+          "name": "Sporting CP vs Arsenal",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Sporting CP",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Arsenal",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d1a8544d41eea825493856.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d1a8544d41eea825493856",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d1a8544d41eea825493856",
+                  "name": "Sporting CP vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "69d1a8544d41eea825493856_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493856.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493856_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493856.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493856_2",
+                      "name": "Chuối To - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493856.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493856_3",
+                      "name": "Chuối To - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493856.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69d1a8544d41eea825493857",
+          "name": "Real Madrid vs Bayern München",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Real Madrid",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Bayern Münch..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d1a8544d41eea825493857.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d1a8544d41eea825493857",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d1a8544d41eea825493857",
+                  "name": "Real Madrid vs Bayern München",
+                  "streams": [
+                    {
+                      "id": "69d1a8544d41eea825493857_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493857.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493857_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493857.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493857_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493857.json"
+                      }
+                    },
+                    {
+                      "id": "69d1a8544d41eea825493857_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d1a8544d41eea825493857.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69d3c4e74d41eea8259054ba",
+          "name": "Los Angeles FC vs Cruz Azul",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "09h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Los Angeles ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Cruz Azul",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054ba.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d3c4e74d41eea8259054ba",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d3c4e74d41eea8259054ba",
+                  "name": "Los Angeles FC vs Cruz Azul",
+                  "streams": [
+                    {
+                      "id": "69d3c4e74d41eea8259054ba_0",
+                      "name": "BLV Chuối Hột - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054ba.json"
+                      }
+                    },
+                    {
+                      "id": "69d3c4e74d41eea8259054ba_1",
+                      "name": "BLV Chuối Hột - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054ba.json"
+                      }
+                    },
+                    {
+                      "id": "69d3c4e74d41eea8259054ba_2",
+                      "name": "BLV Chuối Hột - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054ba.json"
+                      }
+                    },
+                    {
+                      "id": "69d3c4e74d41eea8259054ba_3",
+                      "name": "BLV Chuối Hột - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054ba.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "notice": {
