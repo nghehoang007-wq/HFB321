@@ -1,4 +1,4 @@
-name: Xaycon Banner Factory
+name: Generate Xaycon Banners
 on:
   workflow_dispatch:
   schedule:
@@ -15,7 +15,7 @@ jobs:
       - name: Install Dependencies
         run: pip install requests Pillow python-dateutil
 
-      - name: Run Factory Script
+      - name: Run Banner Factory
         run: |
           mkdir -p thumbs
           cat << 'EOF' > scraper.py
@@ -25,79 +25,83 @@ jobs:
           from PIL import Image, ImageDraw, ImageFont
 
           API_URL = "https://sv.xaycontv.xyz/api/v1/external/fixtures/unfinished"
+          # Vẫn dùng nền cũ nhưng sẽ bóp lại thành tỷ lệ 4:3
           BG_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
-          HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+          
+          IMG_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
-          def get_img(url):
+          def get_image(url):
               if not url: return None
               try:
-                  res = requests.get(url, headers=HEADERS, timeout=10)
+                  res = requests.get(url, headers=IMG_HEADERS, timeout=10)
                   if res.status_code == 200:
                       return Image.open(io.BytesIO(res.content)).convert("RGBA")
-              except: return None
+              except Exception as e:
+                  print(f"Lỗi tải ảnh: {e}")
               return None
 
-          # 1. Tải nền chuẩn
+          print("Đang tải ảnh nền...")
           try:
               bg_res = requests.get(BG_URL, timeout=15)
-              base_bg = Image.open(io.BytesIO(bg_res.content)).convert("RGBA").resize((640, 360))
+              # CHỐT HẠ: Resize nền về chuẩn 640x480 (Tỷ lệ 4:3)
+              base_bg = Image.open(io.BytesIO(bg_res.content)).convert("RGBA").resize((640, 480))
           except:
-              base_bg = Image.new('RGBA', (640, 360), (15, 23, 42, 255))
-
-          # 2. Load Font (Cỡ 22 cho tên đội, 45 cho VS)
-          try:
-              font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-              font_name = ImageFont.truetype(font_path, 22)
-              font_vs = ImageFont.truetype(font_path, 45)
-          except:
-              font_name = ImageFont.load_default()
-              font_vs = ImageFont.load_default()
+              base_bg = Image.new('RGBA', (640, 480), (15, 23, 42, 255))
 
           try:
-              response = requests.get(API_URL, headers=HEADERS, timeout=30)
+              response = requests.get(API_URL, timeout=30)
               matches = response.json().get('data', [])
               
-              for m in matches:
-                  match_id = str(m.get('id', ''))
-                  h_team = m.get('homeTeam', {})
-                  a_team = m.get('awayTeam', {})
+              for match in matches:
+                  match_id = str(match.get('id', ''))
+                  home = match.get('homeTeam', {})
+                  away = match.get('awayTeam', {})
                   
-                  path = f"thumbs/{match_id}.png"
-                  # Nếu bác muốn ép vẽ lại toàn bộ để cập nhật tên đội, hãy bỏ dấu # dòng dưới
-                  # if os.path.exists(path): continue
+                  thumb_path = f"thumbs/{match_id}.png"
 
-                  img = base_bg.copy()
-                  draw = ImageDraw.Draw(img)
-
-                  # VẼ ĐỘI NHÀ (Trái)
-                  h_logo = get_img(h_team.get('logoUrl'))
-                  if h_logo:
-                      h_logo = h_logo.resize((140, 140), Image.Resampling.LANCZOS)
-                      img.paste(h_logo, (90, 70), h_logo)
+                  bg_copy = base_bg.copy()
+                  draw = ImageDraw.Draw(bg_copy)
                   
-                  h_txt = h_team.get('name', 'HOME').upper()[:14]
-                  # Vẽ viền đen cho chữ nổi bật
-                  draw.text((160, 237), h_txt, font=font_name, fill="black", anchor="mt")
-                  draw.text((158, 235), h_txt, font=font_name, fill="white", anchor="mt")
+                  # Font chữ thu nhỏ lại một chút cho thanh thoát
+                  try:
+                      font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 20)
+                  except:
+                      font = ImageFont.load_default()
 
-                  # VẼ ĐỘI KHÁCH (Phải)
-                  a_logo = get_img(a_team.get('logoUrl'))
-                  if a_logo:
-                      a_logo = a_logo.resize((140, 140), Image.Resampling.LANCZOS)
-                      img.paste(a_logo, (410, 70), a_logo)
+                  # ===============================================
+                  # ĐỘI NHÀ (Kéo sát vào tâm ảnh, tọa độ X mới: 145)
+                  # ===============================================
+                  h_img_raw = get_image(home.get('logoUrl'))
+                  if h_img_raw:
+                      # Thu nhỏ logo còn 110x110
+                      h_img = h_img_raw.resize((110, 110), Image.Resampling.LANCZOS)
+                      bg_copy.paste(h_img, (145, 150), h_img)
                   
-                  a_txt = a_team.get('name', 'AWAY').upper()[:14]
-                  draw.text((480, 237), a_txt, font=font_name, fill="black", anchor="mt")
-                  draw.text((478, 235), a_txt, font=font_name, fill="white", anchor="mt")
+                  h_name = home.get('name', 'HOME')[:14].upper()
+                  # Tâm của logo nhà = 145 + (110/2) = 200. Neo chữ chính giữa tâm logo.
+                  draw.text((200, 270), h_name, font=font, fill="black", anchor="mt")
+                  draw.text((198, 268), h_name, font=font, fill="white", anchor="mt")
 
-                  # VẼ CHỮ VS
-                  draw.text((320, 140), "  ", font=font_vs, fill="#ef4444", anchor="mm")
+                  # ===============================================
+                  # ĐỘI KHÁCH (Kéo sát vào tâm ảnh, tọa độ X mới: 385)
+                  # ===============================================
+                  a_img_raw = get_image(away.get('logoUrl'))
+                  if a_img_raw:
+                      a_img = a_img_raw.resize((110, 110), Image.Resampling.LANCZOS)
+                      bg_copy.paste(a_img, (385, 150), a_img)
+                  
+                  a_name = away.get('name', 'AWAY')[:14].upper()
+                  # Tâm của logo khách = 385 + (110/2) = 440.
+                  draw.text((440, 270), a_name, font=font, fill="black", anchor="mt")
+                  draw.text((438, 268), a_name, font=font, fill="white", anchor="mt")
 
-                  img.save(path, "PNG")
-                  print(f"Created banner for: {match_id}")
+                  # ĐÃ XÓA CHỮ "VS" THEO YÊU CẦU
+
+                  bg_copy.save(thumb_path, "PNG")
+                  print(f"Đã vẽ xong banner 4:3: {match_id} ({h_name} - {a_name})")
 
           except Exception as e:
-              print(f"Error: {e}")
+              print(f"Lỗi API: {e}")
           EOF
           python3 scraper.py
 
@@ -106,5 +110,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add thumbs/
-          git commit -m "Update banners with team names" || echo "No changes"
+          git commit -m "Cập nhật Banner tỷ lệ 4:3, căn giữa logo" || echo "No changes"
           git push
