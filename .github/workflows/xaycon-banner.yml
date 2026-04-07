@@ -25,7 +25,6 @@ jobs:
           from PIL import Image, ImageDraw, ImageFont
 
           API_URL = "https://sv.xaycontv.xyz/api/v1/external/fixtures/unfinished"
-          # Vẫn dùng nền cũ nhưng sẽ bóp lại thành tỷ lệ 4:3
           BG_URL = "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png"
           
           IMG_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
@@ -37,13 +36,13 @@ jobs:
                   if res.status_code == 200:
                       return Image.open(io.BytesIO(res.content)).convert("RGBA")
               except Exception as e:
-                  print(f"Lỗi tải ảnh: {e}")
+                  pass
               return None
 
           print("Đang tải ảnh nền...")
           try:
               bg_res = requests.get(BG_URL, timeout=15)
-              # CHỐT HẠ: Resize nền về chuẩn 640x480 (Tỷ lệ 4:3)
+              # Resize nền về chuẩn 640x480 (Tỷ lệ 4:3)
               base_bg = Image.open(io.BytesIO(bg_res.content)).convert("RGBA").resize((640, 480))
           except:
               base_bg = Image.new('RGBA', (640, 480), (15, 23, 42, 255))
@@ -62,43 +61,41 @@ jobs:
                   bg_copy = base_bg.copy()
                   draw = ImageDraw.Draw(bg_copy)
                   
-                  # Font chữ thu nhỏ lại một chút cho thanh thoát
                   try:
-                      font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 20)
+                      font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 22)
                   except:
                       font = ImageFont.load_default()
 
                   # ===============================================
-                  # ĐỘI NHÀ (Kéo sát vào tâm ảnh, tọa độ X mới: 145)
+                  # ĐỘI NHÀ (Dạt sang Trái, căn giữa chiều cao)
                   # ===============================================
                   h_img_raw = get_image(home.get('logoUrl'))
                   if h_img_raw:
-                      # Thu nhỏ logo còn 110x110
-                      h_img = h_img_raw.resize((110, 110), Image.Resampling.LANCZOS)
-                      bg_copy.paste(h_img, (145, 150), h_img)
+                      h_img = h_img_raw.resize((130, 130), Image.Resampling.LANCZOS)
+                      # Đẩy ra mép trái (X=95), hạ xuống giữa (Y=140)
+                      bg_copy.paste(h_img, (95, 140), h_img)
                   
                   h_name = home.get('name', 'HOME')[:14].upper()
-                  # Tâm của logo nhà = 145 + (110/2) = 200. Neo chữ chính giữa tâm logo.
-                  draw.text((200, 270), h_name, font=font, fill="black", anchor="mt")
-                  draw.text((198, 268), h_name, font=font, fill="white", anchor="mt")
+                  # Tâm logo = 95 + (130/2) = 160. Neo chữ ở X=160, Y=285
+                  draw.text((160, 287), h_name, font=font, fill="black", anchor="mt")
+                  draw.text((158, 285), h_name, font=font, fill="white", anchor="mt")
 
                   # ===============================================
-                  # ĐỘI KHÁCH (Kéo sát vào tâm ảnh, tọa độ X mới: 385)
+                  # ĐỘI KHÁCH (Dạt sang Phải, căn giữa chiều cao)
                   # ===============================================
                   a_img_raw = get_image(away.get('logoUrl'))
                   if a_img_raw:
-                      a_img = a_img_raw.resize((110, 110), Image.Resampling.LANCZOS)
-                      bg_copy.paste(a_img, (385, 150), a_img)
+                      a_img = a_img_raw.resize((130, 130), Image.Resampling.LANCZOS)
+                      # Đẩy ra mép phải (X=415), hạ xuống giữa (Y=140)
+                      bg_copy.paste(a_img, (415, 140), a_img)
                   
                   a_name = away.get('name', 'AWAY')[:14].upper()
-                  # Tâm của logo khách = 385 + (110/2) = 440.
-                  draw.text((440, 270), a_name, font=font, fill="black", anchor="mt")
-                  draw.text((438, 268), a_name, font=font, fill="white", anchor="mt")
-
-                  # ĐÃ XÓA CHỮ "VS" THEO YÊU CẦU
+                  # Tâm logo = 415 + (130/2) = 480. Neo chữ ở X=480, Y=285
+                  draw.text((480, 287), a_name, font=font, fill="black", anchor="mt")
+                  draw.text((478, 285), a_name, font=font, fill="white", anchor="mt")
 
                   bg_copy.save(thumb_path, "PNG")
-                  print(f"Đã vẽ xong banner 4:3: {match_id} ({h_name} - {a_name})")
+                  print(f"Đã vẽ xong banner 4:3 (Dãn đều 2 bên): {match_id} ({h_name} - {a_name})")
 
           except Exception as e:
               print(f"Lỗi API: {e}")
@@ -110,5 +107,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add thumbs/
-          git commit -m "Cập nhật Banner tỷ lệ 4:3, căn giữa logo" || echo "No changes"
+          git commit -m "Banner 4:3, dãn đều logo 2 bên, căn giữa chuẩn" || echo "No changes"
           git push
