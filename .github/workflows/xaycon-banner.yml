@@ -91,7 +91,7 @@ jobs:
                   draw.text((478, 235), a_txt, font=font_name, fill="white", anchor="mt")
 
                   # VẼ CHỮ VS
-                  draw.text((320, 140), "VS", font=font_vs, fill="#ef4444", anchor="mm")
+                  draw.text((320, 140), "  ", font=font_vs, fill="#ef4444", anchor="mm")
 
                   img.save(path, "PNG")
                   print(f"Created banner for: {match_id}")
