@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69d3c4e74d41eea8259054b8",
-          "name": "Gamba Osaka vs Bangkok United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Gamba Osaka",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bangkok Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054b8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69d3c4e74d41eea8259054b8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69d3c4e74d41eea8259054b8",
-                  "name": "Gamba Osaka vs Bangkok United",
-                  "streams": [
-                    {
-                      "id": "69d3c4e74d41eea8259054b8_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054b8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054b8_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054b8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054b8_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054b8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054b8_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054b8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69d551c009ffd97854214a7d",
           "name": "Buriram United vs Pathum United",
           "labels": [
@@ -204,28 +130,28 @@
                   "streams": [
                     {
                       "id": "69d621fdf0631e96fd0dfb6a_0",
-                      "name": "Chuối Đồng - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
                       }
                     },
                     {
                       "id": "69d621fdf0631e96fd0dfb6a_1",
-                      "name": "Chuối Đồng - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
                       }
                     },
                     {
                       "id": "69d621fdf0631e96fd0dfb6a_2",
-                      "name": "Chuối Đồng - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
                       }
                     },
                     {
                       "id": "69d621fdf0631e96fd0dfb6a_3",
-                      "name": "Chuối Đồng - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
                       }
@@ -681,8 +607,8 @@
           ]
         },
         {
-          "id": "69d3c4e74d41eea8259054c1",
-          "name": "Deportivo Cuenca vs Santos",
+          "id": "69d3c4e74d41eea8259054c2",
+          "name": "Deportivo Riestra vs Palestino",
           "labels": [
             {
               "position": "bottom-center",
@@ -692,19 +618,19 @@
             },
             {
               "position": "top-left",
-              "text": "Deportivo Cu..",
+              "text": "Deportivo Ri..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Santos",
+              "text": "Palestino",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054c1.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054c2.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -713,39 +639,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-69d3c4e74d41eea8259054c1",
+              "id": "src-69d3c4e74d41eea8259054c2",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-69d3c4e74d41eea8259054c1",
-                  "name": "Deportivo Cuenca vs Santos",
+                  "id": "c-69d3c4e74d41eea8259054c2",
+                  "name": "Deportivo Riestra vs Palestino",
                   "streams": [
                     {
-                      "id": "69d3c4e74d41eea8259054c1_0",
-                      "name": "BLV Chuối Hột - HD1",
+                      "id": "69d3c4e74d41eea8259054c2_0",
+                      "name": "Chuối Đồng - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c1.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c2.json"
                       }
                     },
                     {
-                      "id": "69d3c4e74d41eea8259054c1_1",
-                      "name": "BLV Chuối Hột - HD2",
+                      "id": "69d3c4e74d41eea8259054c2_1",
+                      "name": "Chuối Đồng - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c1.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c2.json"
                       }
                     },
                     {
-                      "id": "69d3c4e74d41eea8259054c1_2",
-                      "name": "BLV Chuối Hột - FHD1",
+                      "id": "69d3c4e74d41eea8259054c2_2",
+                      "name": "Chuối Đồng - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c1.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c2.json"
                       }
                     },
                     {
-                      "id": "69d3c4e74d41eea8259054c1_3",
-                      "name": "BLV Chuối Hột - FHD2",
+                      "id": "69d3c4e74d41eea8259054c2_3",
+                      "name": "Chuối Đồng - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c1.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054c2.json"
                       }
                     }
                   ]
