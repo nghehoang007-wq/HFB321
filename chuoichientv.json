@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69d3c4e74d41eea8259054aa",
-          "name": "Al-Fayha vs Al-Ahli Jeddah",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h55",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Fayha",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Ahli Jedd..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054aa.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69d3c4e74d41eea8259054aa",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69d3c4e74d41eea8259054aa",
-                  "name": "Al-Fayha vs Al-Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "69d3c4e74d41eea8259054aa_0",
-                      "name": "BLV Chuối Hột - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054aa.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054aa_1",
-                      "name": "BLV Chuối Hột - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054aa.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054aa_2",
-                      "name": "BLV Chuối Hột - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054aa.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054aa_3",
-                      "name": "BLV Chuối Hột - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054aa.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69d3c4e74d41eea8259054cb",
-          "name": "SC Braga vs Real Betis",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "SC Braga",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Real Betis",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054cb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69d3c4e74d41eea8259054cb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69d3c4e74d41eea8259054cb",
-                  "name": "SC Braga vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "69d3c4e74d41eea8259054cb_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054cb.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054cb_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054cb.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054cb_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054cb.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054cb_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054cb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69d3c4e74d41eea8259054a8",
-          "name": "Al-Hilal Saudi FC vs Al Kholood",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Hilal Sau..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al Kholood",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d3c4e74d41eea8259054a8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69d3c4e74d41eea8259054a8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69d3c4e74d41eea8259054a8",
-                  "name": "Al-Hilal Saudi FC vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "69d3c4e74d41eea8259054a8_0",
-                      "name": "Zeman - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054a8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054a8_1",
-                      "name": "Zeman - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054a8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054a8_2",
-                      "name": "Zeman - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054a8.json"
-                      }
-                    },
-                    {
-                      "id": "69d3c4e74d41eea8259054a8_3",
-                      "name": "Zeman - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054a8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69d3c4e74d41eea8259054bb",
           "name": "Barcelona vs Atletico Madrid",
           "labels": [
@@ -278,28 +56,28 @@
                   "streams": [
                     {
                       "id": "69d3c4e74d41eea8259054bb_0",
-                      "name": "Chuối To - HD1",
+                      "name": "Zeman - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054bb.json"
                       }
                     },
                     {
                       "id": "69d3c4e74d41eea8259054bb_1",
-                      "name": "Chuối To - HD2",
+                      "name": "Zeman - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054bb.json"
                       }
                     },
                     {
                       "id": "69d3c4e74d41eea8259054bb_2",
-                      "name": "Chuối To - FHD1",
+                      "name": "Zeman - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054bb.json"
                       }
                     },
                     {
                       "id": "69d3c4e74d41eea8259054bb_3",
-                      "name": "Chuối To - FHD2",
+                      "name": "Zeman - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d3c4e74d41eea8259054bb.json"
                       }
