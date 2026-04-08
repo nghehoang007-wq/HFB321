@@ -237,6 +237,80 @@
           ]
         },
         {
+          "id": "69d621fdf0631e96fd0dfb6a",
+          "name": "Thailand vs Việt Nam",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Thailand",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Việt Nam",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d621fdf0631e96fd0dfb6a.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d621fdf0631e96fd0dfb6a",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d621fdf0631e96fd0dfb6a",
+                  "name": "Thailand vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "69d621fdf0631e96fd0dfb6a_0",
+                      "name": "Chuối Đồng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
+                      }
+                    },
+                    {
+                      "id": "69d621fdf0631e96fd0dfb6a_1",
+                      "name": "Chuối Đồng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
+                      }
+                    },
+                    {
+                      "id": "69d621fdf0631e96fd0dfb6a_2",
+                      "name": "Chuối Đồng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
+                      }
+                    },
+                    {
+                      "id": "69d621fdf0631e96fd0dfb6a_3",
+                      "name": "Chuối Đồng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d621fdf0631e96fd0dfb6a.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "69d3c4e74d41eea8259054a5",
           "name": "76 Iğdır Belediyespor vs Keçiörengücü",
           "labels": [
