@@ -15,6 +15,80 @@
       "grid_number": 2,
       "channels": [
         {
+          "id": "69d97bc87eec3857b7a6a50c",
+          "name": "Hisamitsu Springs W vs Gunma Bank Green Wings W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "12h05",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Hisamitsu Sp..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Gunma Bank G..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69d97bc87eec3857b7a6a50c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69d97bc87eec3857b7a6a50c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69d97bc87eec3857b7a6a50c",
+                  "name": "Hisamitsu Springs W vs Gunma Bank Green Wings W",
+                  "streams": [
+                    {
+                      "id": "69d97bc87eec3857b7a6a50c_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d97bc87eec3857b7a6a50c.json"
+                      }
+                    },
+                    {
+                      "id": "69d97bc87eec3857b7a6a50c_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d97bc87eec3857b7a6a50c.json"
+                      }
+                    },
+                    {
+                      "id": "69d97bc87eec3857b7a6a50c_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d97bc87eec3857b7a6a50c.json"
+                      }
+                    },
+                    {
+                      "id": "69d97bc87eec3857b7a6a50c_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69d97bc87eec3857b7a6a50c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "69d9610609ffd978549ca8e4",
           "name": "Japan U20 W vs Vietnam U20 W",
           "labels": [
