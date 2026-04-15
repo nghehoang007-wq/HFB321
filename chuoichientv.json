@@ -15,304 +15,8 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69ded79609ffd978544c127b",
-          "name": "India W vs Malawi W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "India W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Malawi W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ded79609ffd978544c127b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69ded79609ffd978544c127b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69ded79609ffd978544c127b",
-                  "name": "India W vs Malawi W",
-                  "streams": [
-                    {
-                      "id": "69ded79609ffd978544c127b_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded79609ffd978544c127b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded79609ffd978544c127b_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded79609ffd978544c127b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded79609ffd978544c127b_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded79609ffd978544c127b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded79609ffd978544c127b_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded79609ffd978544c127b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69dc70d809ffd97854053186",
-          "name": "Bangkok United vs Gamba Osaka",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bangkok Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Gamba Osaka",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc70d809ffd97854053186.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc70d809ffd97854053186",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc70d809ffd97854053186",
-                  "name": "Bangkok United vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "69dc70d809ffd97854053186_0",
-                      "name": "Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053186.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053186_1",
-                      "name": "Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053186.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053186_2",
-                      "name": "Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053186.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053186_3",
-                      "name": "Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053186.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69ded8407eec3857b7c67f6b",
-          "name": "China PR U20 W vs Japan U20 W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China PR U20..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Japan U20 W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ded8407eec3857b7c67f6b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69ded8407eec3857b7c67f6b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69ded8407eec3857b7c67f6b",
-                  "name": "China PR U20 W vs Japan U20 W",
-                  "streams": [
-                    {
-                      "id": "69ded8407eec3857b7c67f6b_0",
-                      "name": "Zeman - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8407eec3857b7c67f6b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded8407eec3857b7c67f6b_1",
-                      "name": "Zeman - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8407eec3857b7c67f6b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded8407eec3857b7c67f6b_2",
-                      "name": "Zeman - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8407eec3857b7c67f6b.json"
-                      }
-                    },
-                    {
-                      "id": "69ded8407eec3857b7c67f6b_3",
-                      "name": "Zeman - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8407eec3857b7c67f6b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69dc70d809ffd97854053184",
-          "name": "Kerala Blasters vs NorthEast United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Kerala Blast..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "NorthEast Un..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc70d809ffd97854053184.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc70d809ffd97854053184",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc70d809ffd97854053184",
-                  "name": "Kerala Blasters vs NorthEast United",
-                  "streams": [
-                    {
-                      "id": "69dc70d809ffd97854053184_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053184.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053184_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053184.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053184_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053184.json"
-                      }
-                    },
-                    {
-                      "id": "69dc70d809ffd97854053184_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053184.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69ded8b309ffd978544c3f45",
-          "name": "Al Baten vs Al Arabi SC",
+          "id": "69dfb45f09ffd97854666777",
+          "name": "Al-Faisaly FC vs Al Taee",
           "labels": [
             {
               "position": "bottom-center",
@@ -322,19 +26,19 @@
             },
             {
               "position": "top-left",
-              "text": "Al Baten",
+              "text": "Al-Faisaly FC",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Al Arabi SC",
+              "text": "Al Taee",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ded8b309ffd978544c3f45.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dfb45f09ffd97854666777.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -343,39 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-69ded8b309ffd978544c3f45",
+              "id": "src-69dfb45f09ffd97854666777",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-69ded8b309ffd978544c3f45",
-                  "name": "Al Baten vs Al Arabi SC",
+                  "id": "c-69dfb45f09ffd97854666777",
+                  "name": "Al-Faisaly FC vs Al Taee",
                   "streams": [
                     {
-                      "id": "69ded8b309ffd978544c3f45_0",
+                      "id": "69dfb45f09ffd97854666777_0",
                       "name": "Zeman - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8b309ffd978544c3f45.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
                       }
                     },
                     {
-                      "id": "69ded8b309ffd978544c3f45_1",
+                      "id": "69dfb45f09ffd97854666777_1",
                       "name": "Zeman - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8b309ffd978544c3f45.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
                       }
                     },
                     {
-                      "id": "69ded8b309ffd978544c3f45_2",
+                      "id": "69dfb45f09ffd97854666777_2",
                       "name": "Zeman - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8b309ffd978544c3f45.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
                       }
                     },
                     {
-                      "id": "69ded8b309ffd978544c3f45_3",
+                      "id": "69dfb45f09ffd97854666777_3",
                       "name": "Zeman - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded8b309ffd978544c3f45.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
                       }
                     }
                   ]
