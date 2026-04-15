@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69dfb45f09ffd97854666777",
-          "name": "Al-Faisaly FC vs Al Taee",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Faisaly FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al Taee",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dfb45f09ffd97854666777.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dfb45f09ffd97854666777",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dfb45f09ffd97854666777",
-                  "name": "Al-Faisaly FC vs Al Taee",
-                  "streams": [
-                    {
-                      "id": "69dfb45f09ffd97854666777_0",
-                      "name": "Zeman - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
-                      }
-                    },
-                    {
-                      "id": "69dfb45f09ffd97854666777_1",
-                      "name": "Zeman - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
-                      }
-                    },
-                    {
-                      "id": "69dfb45f09ffd97854666777_2",
-                      "name": "Zeman - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
-                      }
-                    },
-                    {
-                      "id": "69dfb45f09ffd97854666777_3",
-                      "name": "Zeman - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dfb45f09ffd97854666777.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69ded91109ffd978544c4ab3",
-          "name": "Al-Nassr vs Al-Ettifaq",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Nassr",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Ettifaq",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ded91109ffd978544c4ab3.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69ded91109ffd978544c4ab3",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69ded91109ffd978544c4ab3",
-                  "name": "Al-Nassr vs Al-Ettifaq",
-                  "streams": [
-                    {
-                      "id": "69ded91109ffd978544c4ab3_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded91109ffd978544c4ab3.json"
-                      }
-                    },
-                    {
-                      "id": "69ded91109ffd978544c4ab3_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded91109ffd978544c4ab3.json"
-                      }
-                    },
-                    {
-                      "id": "69ded91109ffd978544c4ab3_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded91109ffd978544c4ab3.json"
-                      }
-                    },
-                    {
-                      "id": "69ded91109ffd978544c4ab3_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded91109ffd978544c4ab3.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69dc70d809ffd97854053187",
           "name": "Arsenal vs Sporting CP",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "69dc70d809ffd97854053187_0",
-                      "name": "Chanh - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053187.json"
                       }
                     },
                     {
                       "id": "69dc70d809ffd97854053187_1",
-                      "name": "Chanh - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053187.json"
                       }
                     },
                     {
                       "id": "69dc70d809ffd97854053187_2",
-                      "name": "Chanh - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053187.json"
                       }
                     },
                     {
                       "id": "69dc70d809ffd97854053187_3",
-                      "name": "Chanh - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc70d809ffd97854053187.json"
                       }
