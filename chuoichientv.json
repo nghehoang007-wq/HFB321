@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69ded97209ffd978544c5639",
-          "name": "Naples vs Orlando City SC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Naples",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Orlando City..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69ded97209ffd978544c5639.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69ded97209ffd978544c5639",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69ded97209ffd978544c5639",
-                  "name": "Naples vs Orlando City SC",
-                  "streams": [
-                    {
-                      "id": "69ded97209ffd978544c5639_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded97209ffd978544c5639.json"
-                      }
-                    },
-                    {
-                      "id": "69ded97209ffd978544c5639_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded97209ffd978544c5639.json"
-                      }
-                    },
-                    {
-                      "id": "69ded97209ffd978544c5639_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded97209ffd978544c5639.json"
-                      }
-                    },
-                    {
-                      "id": "69ded97209ffd978544c5639_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69ded97209ffd978544c5639.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69de1d2809ffd97854346c1c",
-          "name": "Los Angeles Galaxy vs Toluca",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Los Angeles ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Toluca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69de1d2809ffd97854346c1c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69de1d2809ffd97854346c1c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69de1d2809ffd97854346c1c",
-                  "name": "Los Angeles Galaxy vs Toluca",
-                  "streams": [
-                    {
-                      "id": "69de1d2809ffd97854346c1c_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69de1d2809ffd97854346c1c.json"
-                      }
-                    },
-                    {
-                      "id": "69de1d2809ffd97854346c1c_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69de1d2809ffd97854346c1c.json"
-                      }
-                    },
-                    {
-                      "id": "69de1d2809ffd97854346c1c_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69de1d2809ffd97854346c1c.json"
-                      }
-                    },
-                    {
-                      "id": "69de1d2809ffd97854346c1c_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69de1d2809ffd97854346c1c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69de1d2809ffd97854346c1d",
           "name": "Seattle Sounders vs Tigres UANL",
           "labels": [
@@ -228,6 +80,154 @@
                       "name": "Chuối To - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69de1d2809ffd97854346c1d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69e03f900cd5d1b021349bce",
+          "name": "Việt Nam vs Timor-Leste",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "15h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Việt Nam",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Timor-Leste",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e03f900cd5d1b021349bce.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69e03f900cd5d1b021349bce",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69e03f900cd5d1b021349bce",
+                  "name": "Việt Nam vs Timor-Leste",
+                  "streams": [
+                    {
+                      "id": "69e03f900cd5d1b021349bce_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f900cd5d1b021349bce.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f900cd5d1b021349bce_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f900cd5d1b021349bce.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f900cd5d1b021349bce_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f900cd5d1b021349bce.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f900cd5d1b021349bce_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f900cd5d1b021349bce.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69e03f3c09ffd978547887eb",
+          "name": "Kaspij Aktau 2 vs Sport Academy Kairat",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Kaspij Aktau..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Sport Academ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e03f3c09ffd978547887eb.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69e03f3c09ffd978547887eb",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69e03f3c09ffd978547887eb",
+                  "name": "Kaspij Aktau 2 vs Sport Academy Kairat",
+                  "streams": [
+                    {
+                      "id": "69e03f3c09ffd978547887eb_0",
+                      "name": "Chuối Đồng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f3c09ffd978547887eb.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f3c09ffd978547887eb_1",
+                      "name": "Chuối Đồng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f3c09ffd978547887eb.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f3c09ffd978547887eb_2",
+                      "name": "Chuối Đồng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f3c09ffd978547887eb.json"
+                      }
+                    },
+                    {
+                      "id": "69e03f3c09ffd978547887eb_3",
+                      "name": "Chuối Đồng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e03f3c09ffd978547887eb.json"
                       }
                     }
                   ]
