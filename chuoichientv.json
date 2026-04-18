@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69e0fbb109ffd9785494b833",
-          "name": "Chelsea vs Manchester United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Chelsea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Man Utd",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b833.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69e0fbb109ffd9785494b833",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69e0fbb109ffd9785494b833",
-                  "name": "Chelsea vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "69e0fbb109ffd9785494b833_0",
-                      "name": "Chuối Đồng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b833.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b833_1",
-                      "name": "Chuối Đồng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b833.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b833_2",
-                      "name": "Chuối Đồng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b833.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b833_3",
-                      "name": "Chuối Đồng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b833.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69e0fbb109ffd9785494b88c",
           "name": "Atletico Madrid vs Real Sociedad",
           "labels": [
@@ -237,8 +163,8 @@
           ]
         },
         {
-          "id": "69e0fbb109ffd9785494b85c",
-          "name": "Chapecoense-sc vs Botafogo",
+          "id": "69e0fbb109ffd9785494b85e",
+          "name": "Vasco DA Gama vs Sao Paulo",
           "labels": [
             {
               "position": "bottom-center",
@@ -248,19 +174,19 @@
             },
             {
               "position": "top-left",
-              "text": "Chapecoense-..",
+              "text": "Vasco DA Gama",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Botafogo",
+              "text": "Sao Paulo",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b85c.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b85e.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -269,39 +195,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-69e0fbb109ffd9785494b85c",
+              "id": "src-69e0fbb109ffd9785494b85e",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-69e0fbb109ffd9785494b85c",
-                  "name": "Chapecoense-sc vs Botafogo",
+                  "id": "c-69e0fbb109ffd9785494b85e",
+                  "name": "Vasco DA Gama vs Sao Paulo",
                   "streams": [
                     {
-                      "id": "69e0fbb109ffd9785494b85c_0",
+                      "id": "69e0fbb109ffd9785494b85e_0",
                       "name": "Chuối To - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85c.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85e.json"
                       }
                     },
                     {
-                      "id": "69e0fbb109ffd9785494b85c_1",
+                      "id": "69e0fbb109ffd9785494b85e_1",
                       "name": "Chuối To - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85c.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85e.json"
                       }
                     },
                     {
-                      "id": "69e0fbb109ffd9785494b85c_2",
+                      "id": "69e0fbb109ffd9785494b85e_2",
                       "name": "Chuối To - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85c.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85e.json"
                       }
                     },
                     {
-                      "id": "69e0fbb109ffd9785494b85c_3",
+                      "id": "69e0fbb109ffd9785494b85e_3",
                       "name": "Chuối To - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85c.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85e.json"
                       }
                     }
                   ]
