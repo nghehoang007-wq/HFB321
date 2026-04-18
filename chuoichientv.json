@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69e0fbb109ffd9785494b84f",
-          "name": "Colorado Rapids vs Inter Miami",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Colorado Rap..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b84f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69e0fbb109ffd9785494b84f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69e0fbb109ffd9785494b84f",
-                  "name": "Colorado Rapids vs Inter Miami",
-                  "streams": [
-                    {
-                      "id": "69e0fbb109ffd9785494b84f_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b84f_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b84f_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b84f_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69e0fbb109ffd9785494b85e",
           "name": "Vasco DA Gama vs Sao Paulo",
           "labels": [
@@ -154,6 +80,80 @@
                       "name": "Chuối To - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b85e.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69e2bd4090b79695e20c506c",
+          "name": "Hisamitsu Springs W vs PFU Blue Cats W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "12h05",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Hisamitsu Sp..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "PFU Blue Cat..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e2bd4090b79695e20c506c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69e2bd4090b79695e20c506c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69e2bd4090b79695e20c506c",
+                  "name": "Hisamitsu Springs W vs PFU Blue Cats W",
+                  "streams": [
+                    {
+                      "id": "69e2bd4090b79695e20c506c_0",
+                      "name": "Lá Chanh  - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e2bd4090b79695e20c506c.json"
+                      }
+                    },
+                    {
+                      "id": "69e2bd4090b79695e20c506c_1",
+                      "name": "Lá Chanh  - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e2bd4090b79695e20c506c.json"
+                      }
+                    },
+                    {
+                      "id": "69e2bd4090b79695e20c506c_2",
+                      "name": "Lá Chanh  - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e2bd4090b79695e20c506c.json"
+                      }
+                    },
+                    {
+                      "id": "69e2bd4090b79695e20c506c_3",
+                      "name": "Lá Chanh  - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e2bd4090b79695e20c506c.json"
                       }
                     }
                   ]
