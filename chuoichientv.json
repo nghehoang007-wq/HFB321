@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69e0fbb109ffd9785494b836",
-          "name": "Tottenham vs Brighton",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Tottenham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Brighton",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b836.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69e0fbb109ffd9785494b836",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69e0fbb109ffd9785494b836",
-                  "name": "Tottenham vs Brighton",
-                  "streams": [
-                    {
-                      "id": "69e0fbb109ffd9785494b836_0",
-                      "name": "Lá Chanh  - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b836.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b836_1",
-                      "name": "Lá Chanh  - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b836.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b836_2",
-                      "name": "Lá Chanh  - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b836.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b836_3",
-                      "name": "Lá Chanh  - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b836.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69e0fbb109ffd9785494b83d",
-          "name": "Eintracht Frankfurt vs RB Leipzig",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Eintracht Fr..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "RB Leipzig",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b83d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69e0fbb109ffd9785494b83d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69e0fbb109ffd9785494b83d",
-                  "name": "Eintracht Frankfurt vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "69e0fbb109ffd9785494b83d_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b83d.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b83d_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b83d.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b83d_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b83d.json"
-                      }
-                    },
-                    {
-                      "id": "69e0fbb109ffd9785494b83d_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b83d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69e0fbb109ffd9785494b833",
           "name": "Chelsea vs Manchester United",
           "labels": [
@@ -302,6 +154,80 @@
                       "name": "Lá Chanh  - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b88c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69e0fbb109ffd9785494b84f",
+          "name": "Colorado Rapids vs Inter Miami",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Colorado Rap..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Inter Miami",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69e0fbb109ffd9785494b84f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69e0fbb109ffd9785494b84f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69e0fbb109ffd9785494b84f",
+                  "name": "Colorado Rapids vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "69e0fbb109ffd9785494b84f_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
+                      }
+                    },
+                    {
+                      "id": "69e0fbb109ffd9785494b84f_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
+                      }
+                    },
+                    {
+                      "id": "69e0fbb109ffd9785494b84f_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
+                      }
+                    },
+                    {
+                      "id": "69e0fbb109ffd9785494b84f_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69e0fbb109ffd9785494b84f.json"
                       }
                     }
                   ]
