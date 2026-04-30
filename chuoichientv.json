@@ -15,6 +15,80 @@
       "grid_number": 2,
       "channels": [
         {
+          "id": "69f3cee1449a74fb7dfa5b66",
+          "name": "Thailand U17 vs Vietnam U17",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "14h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Thailand U17",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Vietnam U17",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69f3cee1449a74fb7dfa5b66.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69f3cee1449a74fb7dfa5b66",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69f3cee1449a74fb7dfa5b66",
+                  "name": "Thailand U17 vs Vietnam U17",
+                  "streams": [
+                    {
+                      "id": "69f3cee1449a74fb7dfa5b66_0",
+                      "name": "Chuối Đồng - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f3cee1449a74fb7dfa5b66.json"
+                      }
+                    },
+                    {
+                      "id": "69f3cee1449a74fb7dfa5b66_1",
+                      "name": "Chuối Đồng - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f3cee1449a74fb7dfa5b66.json"
+                      }
+                    },
+                    {
+                      "id": "69f3cee1449a74fb7dfa5b66_2",
+                      "name": "Chuối Đồng - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f3cee1449a74fb7dfa5b66.json"
+                      }
+                    },
+                    {
+                      "id": "69f3cee1449a74fb7dfa5b66_3",
+                      "name": "Chuối Đồng - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f3cee1449a74fb7dfa5b66.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "69f1976e09ffd978542cfc79",
           "name": "Văn Hiến vs Bắc Ninh",
           "labels": [
