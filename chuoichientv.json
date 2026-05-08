@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69f99d5209ffd978547c8298",
-          "name": "Da Nang vs Becamex Hồ Chí Minh",
+          "id": "69fcd1af09ffd97854e95eaa",
+          "name": "Lokomotiv Plovdiv vs Arda Kardzhali",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "18h00",
+              "text": "21h30",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Da Nang",
+              "text": "Lokomotiv Pl..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Becamex Hồ C..",
+              "text": "Arda Kardzha..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69f99d5209ffd978547c8298.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69fcd1af09ffd97854e95eaa.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,187 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-69f99d5209ffd978547c8298",
+              "id": "src-69fcd1af09ffd97854e95eaa",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-69f99d5209ffd978547c8298",
-                  "name": "Da Nang vs Becamex Hồ Chí Minh",
+                  "id": "c-69fcd1af09ffd97854e95eaa",
+                  "name": "Lokomotiv Plovdiv vs Arda Kardzhali",
                   "streams": [
                     {
-                      "id": "69f99d5209ffd978547c8298_0",
-                      "name": "Lá Chanh  - HD1",
+                      "id": "69fcd1af09ffd97854e95eaa_0",
+                      "name": "Chuối To - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8298.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95eaa.json"
                       }
                     },
                     {
-                      "id": "69f99d5209ffd978547c8298_1",
-                      "name": "Lá Chanh  - HD2",
+                      "id": "69fcd1af09ffd97854e95eaa_1",
+                      "name": "Chuối To - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8298.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95eaa.json"
                       }
                     },
                     {
-                      "id": "69f99d5209ffd978547c8298_2",
-                      "name": "Lá Chanh  - FHD1",
+                      "id": "69fcd1af09ffd97854e95eaa_2",
+                      "name": "Chuối To - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8298.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95eaa.json"
                       }
                     },
                     {
-                      "id": "69f99d5209ffd978547c8298_3",
-                      "name": "Lá Chanh  - FHD2",
+                      "id": "69fcd1af09ffd97854e95eaa_3",
+                      "name": "Chuối To - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8298.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69f99d5209ffd978547c8292",
-          "name": "PSBS Biak Numfor vs Dewa United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "PSBS Biak Nu..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Dewa United",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69f99d5209ffd978547c8292.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69f99d5209ffd978547c8292",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69f99d5209ffd978547c8292",
-                  "name": "PSBS Biak Numfor vs Dewa United",
-                  "streams": [
-                    {
-                      "id": "69f99d5209ffd978547c8292_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8292.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8292_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8292.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8292_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8292.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8292_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8292.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69f99d5209ffd978547c8293",
-          "name": "Terengganu vs Imigresen",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Terengganu",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Imigresen",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69f99d5209ffd978547c8293.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69f99d5209ffd978547c8293",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69f99d5209ffd978547c8293",
-                  "name": "Terengganu vs Imigresen",
-                  "streams": [
-                    {
-                      "id": "69f99d5209ffd978547c8293_0",
-                      "name": "Lá Chanh  - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8293.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8293_1",
-                      "name": "Lá Chanh  - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8293.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8293_2",
-                      "name": "Lá Chanh  - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8293.json"
-                      }
-                    },
-                    {
-                      "id": "69f99d5209ffd978547c8293_3",
-                      "name": "Lá Chanh  - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69f99d5209ffd978547c8293.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95eaa.json"
                       }
                     }
                   ]
@@ -311,8 +163,8 @@
           ]
         },
         {
-          "id": "69fcd1af09ffd97854e95e98",
-          "name": "1. FC Kaiserslautern vs Arminia Bielefeld",
+          "id": "69fcd1af09ffd97854e95e99",
+          "name": "SC Paderborn 07 vs Karlsruher SC",
           "labels": [
             {
               "position": "bottom-center",
@@ -322,19 +174,19 @@
             },
             {
               "position": "top-left",
-              "text": "1. FC Kaiser..",
+              "text": "SC Paderborn..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Arminia Biel..",
+              "text": "Karlsruher SC",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69fcd1af09ffd97854e95e98.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69fcd1af09ffd97854e95e99.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -343,39 +195,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-69fcd1af09ffd97854e95e98",
+              "id": "src-69fcd1af09ffd97854e95e99",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-69fcd1af09ffd97854e95e98",
-                  "name": "1. FC Kaiserslautern vs Arminia Bielefeld",
+                  "id": "c-69fcd1af09ffd97854e95e99",
+                  "name": "SC Paderborn 07 vs Karlsruher SC",
                   "streams": [
                     {
-                      "id": "69fcd1af09ffd97854e95e98_0",
+                      "id": "69fcd1af09ffd97854e95e99_0",
                       "name": "Lá Chanh  - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e98.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e99.json"
                       }
                     },
                     {
-                      "id": "69fcd1af09ffd97854e95e98_1",
+                      "id": "69fcd1af09ffd97854e95e99_1",
                       "name": "Lá Chanh  - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e98.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e99.json"
                       }
                     },
                     {
-                      "id": "69fcd1af09ffd97854e95e98_2",
+                      "id": "69fcd1af09ffd97854e95e99_2",
                       "name": "Lá Chanh  - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e98.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e99.json"
                       }
                     },
                     {
-                      "id": "69fcd1af09ffd97854e95e98_3",
+                      "id": "69fcd1af09ffd97854e95e99_3",
                       "name": "Lá Chanh  - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e98.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69fcd1af09ffd97854e95e99.json"
                       }
                     }
                   ]
