@@ -15,6 +15,80 @@
       "grid_number": 2,
       "channels": [
         {
+          "id": "6a03e3cd92e90f4149644281",
+          "name": "Hồ Chí Minh City W vs Hà Nội Nữ",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "16h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Hồ Chí Minh ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Hà Nội Nữ",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a03e3cd92e90f4149644281.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a03e3cd92e90f4149644281",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a03e3cd92e90f4149644281",
+                  "name": "Hồ Chí Minh City W vs Hà Nội Nữ",
+                  "streams": [
+                    {
+                      "id": "6a03e3cd92e90f4149644281_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a03e3cd92e90f4149644281.json"
+                      }
+                    },
+                    {
+                      "id": "6a03e3cd92e90f4149644281_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a03e3cd92e90f4149644281.json"
+                      }
+                    },
+                    {
+                      "id": "6a03e3cd92e90f4149644281_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a03e3cd92e90f4149644281.json"
+                      }
+                    },
+                    {
+                      "id": "6a03e3cd92e90f4149644281_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a03e3cd92e90f4149644281.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6a01210709ffd978547a604a",
           "name": "Bucheon FC 1995 vs Jeonbuk Motors",
           "labels": [
