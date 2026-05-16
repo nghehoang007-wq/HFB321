@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a055e0e09ffd9785484fd45",
-          "name": "Khatoco Khanh Hoa vs Bắc Ninh",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Khatoco Khan..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bắc Ninh",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a055e0e09ffd9785484fd45.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a055e0e09ffd9785484fd45",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a055e0e09ffd9785484fd45",
-                  "name": "Khatoco Khanh Hoa vs Bắc Ninh",
-                  "streams": [
-                    {
-                      "id": "6a055e0e09ffd9785484fd45_0",
-                      "name": "Chuối Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a055e0e09ffd9785484fd45.json"
-                      }
-                    },
-                    {
-                      "id": "6a055e0e09ffd9785484fd45_1",
-                      "name": "Chuối Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a055e0e09ffd9785484fd45.json"
-                      }
-                    },
-                    {
-                      "id": "6a055e0e09ffd9785484fd45_2",
-                      "name": "Chuối Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a055e0e09ffd9785484fd45.json"
-                      }
-                    },
-                    {
-                      "id": "6a055e0e09ffd9785484fd45_3",
-                      "name": "Chuối Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a055e0e09ffd9785484fd45.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a055e0e09ffd9785484fd42",
           "name": "Song Lam Nghe An vs Ninh Bình FC",
           "labels": [
@@ -746,6 +672,80 @@
                       "name": "Chuối Đồng - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07602109ffd97854c35e2b.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a07614b09ffd97854c39926",
+          "name": "St. Truiden vs Gent",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "St. Truiden",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Gent",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a07614b09ffd97854c39926.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a07614b09ffd97854c39926",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a07614b09ffd97854c39926",
+                  "name": "St. Truiden vs Gent",
+                  "streams": [
+                    {
+                      "id": "6a07614b09ffd97854c39926_0",
+                      "name": "Anh Hột - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07614b09ffd97854c39926.json"
+                      }
+                    },
+                    {
+                      "id": "6a07614b09ffd97854c39926_1",
+                      "name": "Anh Hột - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07614b09ffd97854c39926.json"
+                      }
+                    },
+                    {
+                      "id": "6a07614b09ffd97854c39926_2",
+                      "name": "Anh Hột - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07614b09ffd97854c39926.json"
+                      }
+                    },
+                    {
+                      "id": "6a07614b09ffd97854c39926_3",
+                      "name": "Anh Hột - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07614b09ffd97854c39926.json"
                       }
                     }
                   ]
