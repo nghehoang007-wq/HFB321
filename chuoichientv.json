@@ -15,376 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0a388b09ffd978544202fd",
-          "name": "Lahti vs VPS",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lahti",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "VPS",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0a388b09ffd978544202fd.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0a388b09ffd978544202fd",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0a388b09ffd978544202fd",
-                  "name": "Lahti vs VPS",
-                  "streams": [
-                    {
-                      "id": "6a0a388b09ffd978544202fd_0",
-                      "name": "Anh Sói - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a388b09ffd978544202fd.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a388b09ffd978544202fd_1",
-                      "name": "Anh Sói - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a388b09ffd978544202fd.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a388b09ffd978544202fd_2",
-                      "name": "Anh Sói - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a388b09ffd978544202fd.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a388b09ffd978544202fd_3",
-                      "name": "Anh Sói - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a388b09ffd978544202fd.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0a389d09ffd978544204a4",
-          "name": "Puszcza Niepołomice vs ŁKS Łódź",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Puszcza Niep..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "ŁKS Łódź",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0a389d09ffd978544204a4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0a389d09ffd978544204a4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0a389d09ffd978544204a4",
-                  "name": "Puszcza Niepołomice vs ŁKS Łódź",
-                  "streams": [
-                    {
-                      "id": "6a0a389d09ffd978544204a4_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a389d09ffd978544204a4.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a389d09ffd978544204a4_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a389d09ffd978544204a4.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a389d09ffd978544204a4_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a389d09ffd978544204a4.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a389d09ffd978544204a4_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a389d09ffd978544204a4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a07e50a09ffd97854d99e72",
-          "name": "Lokomotiv Sofia vs Slavia Sofia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lokomotiv So..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Slavia Sofia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a07e50a09ffd97854d99e72.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a07e50a09ffd97854d99e72",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a07e50a09ffd97854d99e72",
-                  "name": "Lokomotiv Sofia vs Slavia Sofia",
-                  "streams": [
-                    {
-                      "id": "6a07e50a09ffd97854d99e72_0",
-                      "name": "Anh Hột - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e72.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e72_1",
-                      "name": "Anh Hột - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e72.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e72_2",
-                      "name": "Anh Hột - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e72.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e72_3",
-                      "name": "Anh Hột - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e72.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a07e50a09ffd97854d99e70",
-          "name": "El Mokawloon vs Wadi Degla",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "El Mokawloon",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Wadi Degla",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a07e50a09ffd97854d99e70.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a07e50a09ffd97854d99e70",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a07e50a09ffd97854d99e70",
-                  "name": "El Mokawloon vs Wadi Degla",
-                  "streams": [
-                    {
-                      "id": "6a07e50a09ffd97854d99e70_0",
-                      "name": "Chuối Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e70.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e70_1",
-                      "name": "Chuối Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e70.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e70_2",
-                      "name": "Chuối Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e70.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e70_3",
-                      "name": "Chuối Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e70.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a07e50a09ffd97854d99e71",
-          "name": "Ghazl El Mehalla vs Al Ittihad",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ghazl El Meh..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al Ittihad",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a07e50a09ffd97854d99e71.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a07e50a09ffd97854d99e71",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a07e50a09ffd97854d99e71",
-                  "name": "Ghazl El Mehalla vs Al Ittihad",
-                  "streams": [
-                    {
-                      "id": "6a07e50a09ffd97854d99e71_0",
-                      "name": "Anh Quất - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e71.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e71_1",
-                      "name": "Anh Quất - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e71.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e71_2",
-                      "name": "Anh Quất - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e71.json"
-                      }
-                    },
-                    {
-                      "id": "6a07e50a09ffd97854d99e71_3",
-                      "name": "Anh Quất - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a07e50a09ffd97854d99e71.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a07e50a09ffd97854d99e6a",
           "name": "Arsenal vs Burnley",
           "labels": [
@@ -820,6 +450,80 @@
                       "name": "Chuối Chanh - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a09d66e09ffd97854353e80.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a09d66e09ffd97854353e81",
+          "name": "Qingdao Youth Island vs Beijing Guoan",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "19h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Qingdao Yout..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Beijing Guoan",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a09d66e09ffd97854353e81.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a09d66e09ffd97854353e81",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a09d66e09ffd97854353e81",
+                  "name": "Qingdao Youth Island vs Beijing Guoan",
+                  "streams": [
+                    {
+                      "id": "6a09d66e09ffd97854353e81_0",
+                      "name": "Anh Hột - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a09d66e09ffd97854353e81.json"
+                      }
+                    },
+                    {
+                      "id": "6a09d66e09ffd97854353e81_1",
+                      "name": "Anh Hột - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a09d66e09ffd97854353e81.json"
+                      }
+                    },
+                    {
+                      "id": "6a09d66e09ffd97854353e81_2",
+                      "name": "Anh Hột - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a09d66e09ffd97854353e81.json"
+                      }
+                    },
+                    {
+                      "id": "6a09d66e09ffd97854353e81_3",
+                      "name": "Anh Hột - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a09d66e09ffd97854353e81.json"
                       }
                     }
                   ]
