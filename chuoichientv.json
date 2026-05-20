@@ -15,82 +15,8 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0cac7009ffd97854ea773c",
-          "name": "Ural vs Makhachkala",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ural",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Makhachkala",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0cac7009ffd97854ea773c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0cac7009ffd97854ea773c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0cac7009ffd97854ea773c",
-                  "name": "Ural vs Makhachkala",
-                  "streams": [
-                    {
-                      "id": "6a0cac7009ffd97854ea773c_0",
-                      "name": "Chuối Đồng - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac7009ffd97854ea773c.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac7009ffd97854ea773c_1",
-                      "name": "Chuối Đồng - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac7009ffd97854ea773c.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac7009ffd97854ea773c_2",
-                      "name": "Chuối Đồng - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac7009ffd97854ea773c.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac7009ffd97854ea773c_3",
-                      "name": "Chuối Đồng - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac7009ffd97854ea773c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0cac8409ffd97854ea7915",
-          "name": "Start vs Bodo/Glimt",
+          "id": "6a0dda9109ffd9785414e6bd",
+          "name": "Lokomotiv Plovdiv vs CSKA Sofia",
           "labels": [
             {
               "position": "bottom-center",
@@ -100,19 +26,19 @@
             },
             {
               "position": "top-left",
-              "text": "Start",
+              "text": "Lokomotiv Pl..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Bodo/Glimt",
+              "text": "CSKA Sofia",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0cac8409ffd97854ea7915.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0dda9109ffd9785414e6bd.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -121,39 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a0cac8409ffd97854ea7915",
+              "id": "src-6a0dda9109ffd9785414e6bd",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a0cac8409ffd97854ea7915",
-                  "name": "Start vs Bodo/Glimt",
+                  "id": "c-6a0dda9109ffd9785414e6bd",
+                  "name": "Lokomotiv Plovdiv vs CSKA Sofia",
                   "streams": [
                     {
-                      "id": "6a0cac8409ffd97854ea7915_0",
+                      "id": "6a0dda9109ffd9785414e6bd_0",
                       "name": "Chuối Tây - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0dda9109ffd9785414e6bd.json"
                       }
                     },
                     {
-                      "id": "6a0cac8409ffd97854ea7915_1",
+                      "id": "6a0dda9109ffd9785414e6bd_1",
                       "name": "Chuối Tây - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0dda9109ffd9785414e6bd.json"
                       }
                     },
                     {
-                      "id": "6a0cac8409ffd97854ea7915_2",
+                      "id": "6a0dda9109ffd9785414e6bd_2",
                       "name": "Chuối Tây - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0dda9109ffd9785414e6bd.json"
                       }
                     },
                     {
-                      "id": "6a0cac8409ffd97854ea7915_3",
+                      "id": "6a0dda9109ffd9785414e6bd_3",
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0dda9109ffd9785414e6bd.json"
                       }
                     }
                   ]
