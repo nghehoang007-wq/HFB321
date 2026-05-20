@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0a372a09ffd9785441db82",
-          "name": "Melbourne City W vs Tokyo Verdy Beleza W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Melbourne Ci..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Tokyo Verdy ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0a372a09ffd9785441db82.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0a372a09ffd9785441db82",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0a372a09ffd9785441db82",
-                  "name": "Melbourne City W vs Tokyo Verdy Beleza W",
-                  "streams": [
-                    {
-                      "id": "6a0a372a09ffd9785441db82_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a372a09ffd9785441db82.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a372a09ffd9785441db82_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a372a09ffd9785441db82.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a372a09ffd9785441db82_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a372a09ffd9785441db82.json"
-                      }
-                    },
-                    {
-                      "id": "6a0a372a09ffd9785441db82_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0a372a09ffd9785441db82.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0ccb75347649e2b45010bb",
-          "name": "Binh chủng Thông tin vs Suwon (Kor)",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Binh chủng T..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Suwon (Kor)",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0ccb75347649e2b45010bb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0ccb75347649e2b45010bb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0ccb75347649e2b45010bb",
-                  "name": "Binh chủng Thông tin vs Suwon (Kor)",
-                  "streams": [
-                    {
-                      "id": "6a0ccb75347649e2b45010bb_0",
-                      "name": "Chuối Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccb75347649e2b45010bb.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccb75347649e2b45010bb_1",
-                      "name": "Chuối Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccb75347649e2b45010bb.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccb75347649e2b45010bb_2",
-                      "name": "Chuối Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccb75347649e2b45010bb.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccb75347649e2b45010bb_3",
-                      "name": "Chuối Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccb75347649e2b45010bb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a0cac4209ffd97854ea71d0",
           "name": "Svay Rieng vs Boeung Ket",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a0cac4209ffd97854ea71d0_0",
-                      "name": "Chuối Đồng - HD1",
+                      "name": "Chuối Chanh - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
                       }
                     },
                     {
                       "id": "6a0cac4209ffd97854ea71d0_1",
-                      "name": "Chuối Đồng - HD2",
+                      "name": "Chuối Chanh - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
                       }
                     },
                     {
                       "id": "6a0cac4209ffd97854ea71d0_2",
-                      "name": "Chuối Đồng - FHD1",
+                      "name": "Chuối Chanh - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
                       }
                     },
                     {
                       "id": "6a0cac4209ffd97854ea71d0_3",
-                      "name": "Chuối Đồng - FHD2",
+                      "name": "Chuối Chanh - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
                       }
