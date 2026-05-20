@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0cac4209ffd97854ea71d0",
-          "name": "Svay Rieng vs Boeung Ket",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Svay Rieng",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Boeung Ket",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0cac4209ffd97854ea71d0.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0cac4209ffd97854ea71d0",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0cac4209ffd97854ea71d0",
-                  "name": "Svay Rieng vs Boeung Ket",
-                  "streams": [
-                    {
-                      "id": "6a0cac4209ffd97854ea71d0_0",
-                      "name": "Chuối Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac4209ffd97854ea71d0_1",
-                      "name": "Chuối Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac4209ffd97854ea71d0_2",
-                      "name": "Chuối Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac4209ffd97854ea71d0_3",
-                      "name": "Chuối Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac4209ffd97854ea71d0.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0cac5909ffd97854ea7484",
-          "name": "Selangor vs Buriram United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Selangor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Buriram Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0cac5909ffd97854ea7484.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0cac5909ffd97854ea7484",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0cac5909ffd97854ea7484",
-                  "name": "Selangor vs Buriram United",
-                  "streams": [
-                    {
-                      "id": "6a0cac5909ffd97854ea7484_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac5909ffd97854ea7484.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac5909ffd97854ea7484_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac5909ffd97854ea7484.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac5909ffd97854ea7484_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac5909ffd97854ea7484.json"
-                      }
-                    },
-                    {
-                      "id": "6a0cac5909ffd97854ea7484_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac5909ffd97854ea7484.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0ccbc904f7699bcc495e53",
-          "name": "Giang Tô (CN) vs LPBank Ninh Bình",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Giang Tô (CN)",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "LPBank Ninh ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0ccbc904f7699bcc495e53.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0ccbc904f7699bcc495e53",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0ccbc904f7699bcc495e53",
-                  "name": "Giang Tô (CN) vs LPBank Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "6a0ccbc904f7699bcc495e53_0",
-                      "name": "Chuối Chanh - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccbc904f7699bcc495e53.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccbc904f7699bcc495e53_1",
-                      "name": "Chuối Chanh - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccbc904f7699bcc495e53.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccbc904f7699bcc495e53_2",
-                      "name": "Chuối Chanh - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccbc904f7699bcc495e53.json"
-                      }
-                    },
-                    {
-                      "id": "6a0ccbc904f7699bcc495e53_3",
-                      "name": "Chuối Chanh - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0ccbc904f7699bcc495e53.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a0cac7009ffd97854ea773c",
           "name": "Ural vs Makhachkala",
           "labels": [
@@ -352,28 +130,28 @@
                   "streams": [
                     {
                       "id": "6a0cac8409ffd97854ea7915_0",
-                      "name": "Chuối Tiêu - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
                       }
                     },
                     {
                       "id": "6a0cac8409ffd97854ea7915_1",
-                      "name": "Chuối Tiêu - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
                       }
                     },
                     {
                       "id": "6a0cac8409ffd97854ea7915_2",
-                      "name": "Chuối Tiêu - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
                       }
                     },
                     {
                       "id": "6a0cac8409ffd97854ea7915_3",
-                      "name": "Chuối Tiêu - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cac8409ffd97854ea7915.json"
                       }
@@ -574,28 +352,28 @@
                   "streams": [
                     {
                       "id": "6a0cace509ffd97854ea8448_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "Chuối Tiêu - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cace509ffd97854ea8448.json"
                       }
                     },
                     {
                       "id": "6a0cace509ffd97854ea8448_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "Chuối Tiêu - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cace509ffd97854ea8448.json"
                       }
                     },
                     {
                       "id": "6a0cace509ffd97854ea8448_2",
-                      "name": "Chuối Tây - FHD1",
+                      "name": "Chuối Tiêu - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cace509ffd97854ea8448.json"
                       }
                     },
                     {
                       "id": "6a0cace509ffd97854ea8448_3",
-                      "name": "Chuối Tây - FHD2",
+                      "name": "Chuối Tiêu - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0cace509ffd97854ea8448.json"
                       }
