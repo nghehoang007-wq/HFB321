@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0e290309ffd978541ea1c8",
-          "name": "Ajax vs Groningen",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ajax",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Groningen",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0e290309ffd978541ea1c8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0e290309ffd978541ea1c8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0e290309ffd978541ea1c8",
-                  "name": "Ajax vs Groningen",
-                  "streams": [
-                    {
-                      "id": "6a0e290309ffd978541ea1c8_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0e290309ffd978541ea1c8.json"
-                      }
-                    },
-                    {
-                      "id": "6a0e290309ffd978541ea1c8_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0e290309ffd978541ea1c8.json"
-                      }
-                    },
-                    {
-                      "id": "6a0e290309ffd978541ea1c8_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0e290309ffd978541ea1c8.json"
-                      }
-                    },
-                    {
-                      "id": "6a0e290309ffd978541ea1c8_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0e290309ffd978541ea1c8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a0bc2d809ffd978547c1f06",
           "name": "Al-Nassr vs Damac",
           "labels": [
@@ -228,6 +154,80 @@
                       "name": "Chuối Bơ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f0b.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a0bc2d809ffd978547c1f1e",
+          "name": "VfL Wolfsburg vs SC Paderborn 07",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "VfL Wolfsburg",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "SC Paderborn..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0bc2d809ffd978547c1f1e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a0bc2d809ffd978547c1f1e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a0bc2d809ffd978547c1f1e",
+                  "name": "VfL Wolfsburg vs SC Paderborn 07",
+                  "streams": [
+                    {
+                      "id": "6a0bc2d809ffd978547c1f1e_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a0bc2d809ffd978547c1f1e_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a0bc2d809ffd978547c1f1e_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a0bc2d809ffd978547c1f1e_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
                       }
                     }
                   ]
