@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a0bc2d809ffd978547c1f06",
-          "name": "Al-Nassr vs Damac",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Nassr",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Damac",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0bc2d809ffd978547c1f06.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0bc2d809ffd978547c1f06",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0bc2d809ffd978547c1f06",
-                  "name": "Al-Nassr vs Damac",
-                  "streams": [
-                    {
-                      "id": "6a0bc2d809ffd978547c1f06_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f06.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f06_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f06.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f06_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f06.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f06_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f06.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0bc2d809ffd978547c1f0b",
-          "name": "Al-Fayha vs Al-Hilal Saudi FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Fayha",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Hilal Sau..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0bc2d809ffd978547c1f0b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0bc2d809ffd978547c1f0b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0bc2d809ffd978547c1f0b",
-                  "name": "Al-Fayha vs Al-Hilal Saudi FC",
-                  "streams": [
-                    {
-                      "id": "6a0bc2d809ffd978547c1f0b_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f0b.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f0b_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f0b.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f0b_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f0b.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f0b_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f0b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a0bc2d809ffd978547c1f1e",
-          "name": "VfL Wolfsburg vs SC Paderborn 07",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "VfL Wolfsburg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SC Paderborn..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a0bc2d809ffd978547c1f1e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a0bc2d809ffd978547c1f1e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a0bc2d809ffd978547c1f1e",
-                  "name": "VfL Wolfsburg vs SC Paderborn 07",
-                  "streams": [
-                    {
-                      "id": "6a0bc2d809ffd978547c1f1e_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f1e_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f1e_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
-                      }
-                    },
-                    {
-                      "id": "6a0bc2d809ffd978547c1f1e_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f1e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a0bc2d809ffd978547c1f10",
           "name": "Atletico-MG vs Cienciano",
           "labels": [
@@ -278,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a0bc2d809ffd978547c1f10_0",
-                      "name": "Chuối Đồng - HD1",
+                      "name": "Chuối Nhỏ - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f10.json"
                       }
                     },
                     {
                       "id": "6a0bc2d809ffd978547c1f10_1",
-                      "name": "Chuối Đồng - HD2",
+                      "name": "Chuối Nhỏ - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f10.json"
                       }
                     },
                     {
                       "id": "6a0bc2d809ffd978547c1f10_2",
-                      "name": "Chuối Đồng - FHD1",
+                      "name": "Chuối Nhỏ - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f10.json"
                       }
                     },
                     {
                       "id": "6a0bc2d809ffd978547c1f10_3",
-                      "name": "Chuối Đồng - FHD2",
+                      "name": "Chuối Nhỏ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a0bc2d809ffd978547c1f10.json"
                       }
