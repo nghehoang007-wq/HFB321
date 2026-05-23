@@ -311,6 +311,80 @@
           ]
         },
         {
+          "id": "6a1123e3845e384055fd94b6",
+          "name": "VTV Bình Điền Long An vs Giang Tô (CN)",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "VTV Bình Điề..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Giang Tô (CN)",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1123e3845e384055fd94b6.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a1123e3845e384055fd94b6",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a1123e3845e384055fd94b6",
+                  "name": "VTV Bình Điền Long An vs Giang Tô (CN)",
+                  "streams": [
+                    {
+                      "id": "6a1123e3845e384055fd94b6_0",
+                      "name": "Chuối Bơ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1123e3845e384055fd94b6.json"
+                      }
+                    },
+                    {
+                      "id": "6a1123e3845e384055fd94b6_1",
+                      "name": "Chuối Bơ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1123e3845e384055fd94b6.json"
+                      }
+                    },
+                    {
+                      "id": "6a1123e3845e384055fd94b6_2",
+                      "name": "Chuối Bơ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1123e3845e384055fd94b6.json"
+                      }
+                    },
+                    {
+                      "id": "6a1123e3845e384055fd94b6_3",
+                      "name": "Chuối Bơ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1123e3845e384055fd94b6.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6a10a9bc09ffd97854b2bfcd",
           "name": "Hull City vs Middlesbrough",
           "labels": [
