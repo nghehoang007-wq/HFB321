@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a1c87b409ffd9785485e1c5",
-          "name": "Colombia vs Costa Rica",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Colombia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Costa Rica",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1c87b409ffd9785485e1c5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1c87b409ffd9785485e1c5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1c87b409ffd9785485e1c5",
-                  "name": "Colombia vs Costa Rica",
-                  "streams": [
-                    {
-                      "id": "6a1c87b409ffd9785485e1c5_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c5.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c5_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c5.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c5_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c5.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c5_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a1c87b409ffd9785485e1c1",
-          "name": "Canada vs Uzbekistan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Canada",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Uzbekistan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1c87b409ffd9785485e1c1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1c87b409ffd9785485e1c1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1c87b409ffd9785485e1c1",
-                  "name": "Canada vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "6a1c87b409ffd9785485e1c1_0",
-                      "name": "Ngộ Không - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c1_1",
-                      "name": "Ngộ Không - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c1_2",
-                      "name": "Ngộ Không - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1c1_3",
-                      "name": "Ngộ Không - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1c1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a1c878909ffd9785485d998",
           "name": "Thailand U19 vs Brunei U19",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a1c878909ffd9785485d998_0",
-                      "name": "Alex - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c878909ffd9785485d998.json"
                       }
                     },
                     {
                       "id": "6a1c878909ffd9785485d998_1",
-                      "name": "Alex - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c878909ffd9785485d998.json"
                       }
                     },
                     {
                       "id": "6a1c878909ffd9785485d998_2",
-                      "name": "Alex - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c878909ffd9785485d998.json"
                       }
                     },
                     {
                       "id": "6a1c878909ffd9785485d998_3",
-                      "name": "Alex - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c878909ffd9785485d998.json"
                       }
@@ -500,104 +352,30 @@
                   "streams": [
                     {
                       "id": "6a1dc6bd09ffd97854a6ef9a_0",
-                      "name": "Alex - HD1",
+                      "name": "Ngộ Không - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6bd09ffd97854a6ef9a.json"
                       }
                     },
                     {
                       "id": "6a1dc6bd09ffd97854a6ef9a_1",
-                      "name": "Alex - HD2",
+                      "name": "Ngộ Không - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6bd09ffd97854a6ef9a.json"
                       }
                     },
                     {
                       "id": "6a1dc6bd09ffd97854a6ef9a_2",
-                      "name": "Alex - FHD1",
+                      "name": "Ngộ Không - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6bd09ffd97854a6ef9a.json"
                       }
                     },
                     {
                       "id": "6a1dc6bd09ffd97854a6ef9a_3",
-                      "name": "Alex - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6bd09ffd97854a6ef9a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a1dc6d509ffd97854a6f2ff",
-          "name": "Gharraf vs Naft Maysan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Gharraf",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Naft Maysan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1dc6d509ffd97854a6f2ff.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1dc6d509ffd97854a6f2ff",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1dc6d509ffd97854a6f2ff",
-                  "name": "Gharraf vs Naft Maysan",
-                  "streams": [
-                    {
-                      "id": "6a1dc6d509ffd97854a6f2ff_0",
-                      "name": "Ngộ Không - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6d509ffd97854a6f2ff.json"
-                      }
-                    },
-                    {
-                      "id": "6a1dc6d509ffd97854a6f2ff_1",
-                      "name": "Ngộ Không - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6d509ffd97854a6f2ff.json"
-                      }
-                    },
-                    {
-                      "id": "6a1dc6d509ffd97854a6f2ff_2",
-                      "name": "Ngộ Không - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6d509ffd97854a6f2ff.json"
-                      }
-                    },
-                    {
-                      "id": "6a1dc6d509ffd97854a6f2ff_3",
                       "name": "Ngộ Không - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6d509ffd97854a6f2ff.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1dc6bd09ffd97854a6ef9a.json"
                       }
                     }
                   ]
@@ -903,80 +681,6 @@
           ]
         },
         {
-          "id": "6a1c87b409ffd9785485e1ca",
-          "name": "Morocco vs Madagascar",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Morocco",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Madagascar",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1c87b409ffd9785485e1ca.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1c87b409ffd9785485e1ca",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1c87b409ffd9785485e1ca",
-                  "name": "Morocco vs Madagascar",
-                  "streams": [
-                    {
-                      "id": "6a1c87b409ffd9785485e1ca_0",
-                      "name": "Anh Béo - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1ca.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1ca_1",
-                      "name": "Anh Béo - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1ca.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1ca_2",
-                      "name": "Anh Béo - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1ca.json"
-                      }
-                    },
-                    {
-                      "id": "6a1c87b409ffd9785485e1ca_3",
-                      "name": "Anh Béo - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87b409ffd9785485e1ca.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a1c87b409ffd9785485e1c4",
           "name": "Wales vs Ghana",
           "labels": [
@@ -1092,28 +796,28 @@
                   "streams": [
                     {
                       "id": "6a1c87fb09ffd9785485e9c8_0",
-                      "name": "Alex - HD1",
+                      "name": "Ngộ Không - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87fb09ffd9785485e9c8.json"
                       }
                     },
                     {
                       "id": "6a1c87fb09ffd9785485e9c8_1",
-                      "name": "Alex - HD2",
+                      "name": "Ngộ Không - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87fb09ffd9785485e9c8.json"
                       }
                     },
                     {
                       "id": "6a1c87fb09ffd9785485e9c8_2",
-                      "name": "Alex - FHD1",
+                      "name": "Ngộ Không - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87fb09ffd9785485e9c8.json"
                       }
                     },
                     {
                       "id": "6a1c87fb09ffd9785485e9c8_3",
-                      "name": "Alex - FHD2",
+                      "name": "Ngộ Không - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1c87fb09ffd9785485e9c8.json"
                       }
