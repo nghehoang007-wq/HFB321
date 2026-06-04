@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a1bb37f09ffd978546dfba6",
-          "name": "Brazil W vs Netherlands W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Brazil W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Netherlands W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1bb37f09ffd978546dfba6.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1bb37f09ffd978546dfba6",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1bb37f09ffd978546dfba6",
-                  "name": "Brazil W vs Netherlands W",
-                  "streams": [
-                    {
-                      "id": "6a1bb37f09ffd978546dfba6_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba6.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba6_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba6.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba6_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba6.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba6_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba6.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a1bb37f09ffd978546dfba7",
-          "name": "Canada W vs Germany W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Canada W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Germany W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1bb37f09ffd978546dfba7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1bb37f09ffd978546dfba7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1bb37f09ffd978546dfba7",
-                  "name": "Canada W vs Germany W",
-                  "streams": [
-                    {
-                      "id": "6a1bb37f09ffd978546dfba7_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba7_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba7_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1bb37f09ffd978546dfba7_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a1f247609ffd97854c979a7",
-          "name": "South Korea vs El Salvador",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "South Korea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "El Salvador",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a1f247609ffd97854c979a7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a1f247609ffd97854c979a7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a1f247609ffd97854c979a7",
-                  "name": "South Korea vs El Salvador",
-                  "streams": [
-                    {
-                      "id": "6a1f247609ffd97854c979a7_0",
-                      "name": "Chuối Xuyên Không - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1f247609ffd97854c979a7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1f247609ffd97854c979a7_1",
-                      "name": "Chuối Xuyên Không - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1f247609ffd97854c979a7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1f247609ffd97854c979a7_2",
-                      "name": "Chuối Xuyên Không - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1f247609ffd97854c979a7.json"
-                      }
-                    },
-                    {
-                      "id": "6a1f247609ffd97854c979a7_3",
-                      "name": "Chuối Xuyên Không - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1f247609ffd97854c979a7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a1bb37f09ffd978546dfba8",
           "name": "Czech Republic W vs Poland W",
           "labels": [
@@ -524,6 +302,80 @@
                       "name": "Chuối Bơ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a1bb37f09ffd978546dfba9.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a20926109ffd97854efeec3",
+          "name": "Belgium U17 vs France U17",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "18h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Belgium U17",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "France U17",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a20926109ffd97854efeec3.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a20926109ffd97854efeec3",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a20926109ffd97854efeec3",
+                  "name": "Belgium U17 vs France U17",
+                  "streams": [
+                    {
+                      "id": "6a20926109ffd97854efeec3_0",
+                      "name": "Ngộ Không - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a20926109ffd97854efeec3.json"
+                      }
+                    },
+                    {
+                      "id": "6a20926109ffd97854efeec3_1",
+                      "name": "Ngộ Không - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a20926109ffd97854efeec3.json"
+                      }
+                    },
+                    {
+                      "id": "6a20926109ffd97854efeec3_2",
+                      "name": "Ngộ Không - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a20926109ffd97854efeec3.json"
+                      }
+                    },
+                    {
+                      "id": "6a20926109ffd97854efeec3_3",
+                      "name": "Ngộ Không - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a20926109ffd97854efeec3.json"
                       }
                     }
                   ]
