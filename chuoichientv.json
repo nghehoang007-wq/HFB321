@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a2093e409ffd97854f01763",
-          "name": "Belgium vs Tunisia",
+          "id": "6a214e9d09ffd97854030d82",
+          "name": "Portugal U20 vs Côte d'Ivoire U20",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "20h00",
+              "text": "23h30",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Belgium",
+              "text": "Portugal U20",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Tunisia",
+              "text": "Côte d'Ivoir..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2093e409ffd97854f01763.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a214e9d09ffd97854030d82.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,187 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a2093e409ffd97854f01763",
+              "id": "src-6a214e9d09ffd97854030d82",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a2093e409ffd97854f01763",
-                  "name": "Belgium vs Tunisia",
+                  "id": "c-6a214e9d09ffd97854030d82",
+                  "name": "Portugal U20 vs Côte d'Ivoire U20",
                   "streams": [
                     {
-                      "id": "6a2093e409ffd97854f01763_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01763.json"
-                      }
-                    },
-                    {
-                      "id": "6a2093e409ffd97854f01763_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01763.json"
-                      }
-                    },
-                    {
-                      "id": "6a2093e409ffd97854f01763_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01763.json"
-                      }
-                    },
-                    {
-                      "id": "6a2093e409ffd97854f01763_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01763.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a217dd109ffd97854081bf8",
-          "name": "Brazil W vs Bulgaria W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Brazil W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bulgaria W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a217dd109ffd97854081bf8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a217dd109ffd97854081bf8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a217dd109ffd97854081bf8",
-                  "name": "Brazil W vs Bulgaria W",
-                  "streams": [
-                    {
-                      "id": "6a217dd109ffd97854081bf8_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a217dd109ffd97854081bf8.json"
-                      }
-                    },
-                    {
-                      "id": "6a217dd109ffd97854081bf8_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a217dd109ffd97854081bf8.json"
-                      }
-                    },
-                    {
-                      "id": "6a217dd109ffd97854081bf8_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a217dd109ffd97854081bf8.json"
-                      }
-                    },
-                    {
-                      "id": "6a217dd109ffd97854081bf8_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a217dd109ffd97854081bf8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2093e409ffd97854f01766",
-          "name": "Armenia vs Kazakhstan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Armenia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kazakhstan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2093e409ffd97854f01766.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2093e409ffd97854f01766",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2093e409ffd97854f01766",
-                  "name": "Armenia vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "6a2093e409ffd97854f01766_0",
+                      "id": "6a214e9d09ffd97854030d82_0",
                       "name": "Cậu Cả - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01766.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214e9d09ffd97854030d82.json"
                       }
                     },
                     {
-                      "id": "6a2093e409ffd97854f01766_1",
+                      "id": "6a214e9d09ffd97854030d82_1",
                       "name": "Cậu Cả - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01766.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214e9d09ffd97854030d82.json"
                       }
                     },
                     {
-                      "id": "6a2093e409ffd97854f01766_2",
+                      "id": "6a214e9d09ffd97854030d82_2",
                       "name": "Cậu Cả - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01766.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214e9d09ffd97854030d82.json"
                       }
                     },
                     {
-                      "id": "6a2093e409ffd97854f01766_3",
+                      "id": "6a214e9d09ffd97854030d82_3",
                       "name": "Cậu Cả - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2093e409ffd97854f01766.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214e9d09ffd97854030d82.json"
                       }
                     }
                   ]
