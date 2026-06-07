@@ -15,302 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a214f3509ffd97854031d87",
-          "name": "Becamex Hồ Chí Minh vs Hoang Anh Gia Lai",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Becamex Hồ C..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hoang Anh Gi..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a214f3509ffd97854031d87.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a214f3509ffd97854031d87",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a214f3509ffd97854031d87",
-                  "name": "Becamex Hồ Chí Minh vs Hoang Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "6a214f3509ffd97854031d87_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d87.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d87_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d87.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d87_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d87.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d87_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d87.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a214f3509ffd97854031d88",
-          "name": "Da Nang vs Thanh Hóa",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Da Nang",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Thanh Hóa",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a214f3509ffd97854031d88.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a214f3509ffd97854031d88",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a214f3509ffd97854031d88",
-                  "name": "Da Nang vs Thanh Hóa",
-                  "streams": [
-                    {
-                      "id": "6a214f3509ffd97854031d88_0",
-                      "name": "Chuối Xuyên Không - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d88.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d88_1",
-                      "name": "Chuối Xuyên Không - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d88.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d88_2",
-                      "name": "Chuối Xuyên Không - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d88.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d88_3",
-                      "name": "Chuối Xuyên Không - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d88.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a214f3509ffd97854031d8c",
-          "name": "Song Lam Nghe An vs PVF-CAND",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Song Lam Ngh..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "PVF-CAND",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a214f3509ffd97854031d8c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a214f3509ffd97854031d8c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a214f3509ffd97854031d8c",
-                  "name": "Song Lam Nghe An vs PVF-CAND",
-                  "streams": [
-                    {
-                      "id": "6a214f3509ffd97854031d8c_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d8c.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d8c_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d8c.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d8c_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d8c.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f3509ffd97854031d8c_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f3509ffd97854031d8c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a22dee209ffd978542ce685",
-          "name": "China W vs Poland W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Poland W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a22dee209ffd978542ce685.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a22dee209ffd978542ce685",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a22dee209ffd978542ce685",
-                  "name": "China W vs Poland W",
-                  "streams": [
-                    {
-                      "id": "6a22dee209ffd978542ce685_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce685.json"
-                      }
-                    },
-                    {
-                      "id": "6a22dee209ffd978542ce685_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce685.json"
-                      }
-                    },
-                    {
-                      "id": "6a22dee209ffd978542ce685_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce685.json"
-                      }
-                    },
-                    {
-                      "id": "6a22dee209ffd978542ce685_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce685.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a214f3509ffd97854031d92",
           "name": "Indonesia U19 vs Vietnam U19",
           "labels": [
@@ -385,80 +89,6 @@
           ]
         },
         {
-          "id": "6a2451c2966a612324c10798",
-          "name": "Uzbekistan W vs South Korea W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Uzbekistan W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "South Korea W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2451c2966a612324c10798.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2451c2966a612324c10798",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2451c2966a612324c10798",
-                  "name": "Uzbekistan W vs South Korea W",
-                  "streams": [
-                    {
-                      "id": "6a2451c2966a612324c10798_0",
-                      "name": "Cậu Cả - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2451c2966a612324c10798.json"
-                      }
-                    },
-                    {
-                      "id": "6a2451c2966a612324c10798_1",
-                      "name": "Cậu Cả - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2451c2966a612324c10798.json"
-                      }
-                    },
-                    {
-                      "id": "6a2451c2966a612324c10798_2",
-                      "name": "Cậu Cả - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2451c2966a612324c10798.json"
-                      }
-                    },
-                    {
-                      "id": "6a2451c2966a612324c10798_3",
-                      "name": "Cậu Cả - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2451c2966a612324c10798.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a22dee209ffd978542ce686",
           "name": "Dominican Republic W vs Netherlands W",
           "labels": [
@@ -500,28 +130,28 @@
                   "streams": [
                     {
                       "id": "6a22dee209ffd978542ce686_0",
-                      "name": "Chuối Bơ - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce686.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce686_1",
-                      "name": "Chuối Bơ - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce686.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce686_2",
-                      "name": "Chuối Bơ - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce686.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce686_3",
-                      "name": "Chuối Bơ - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce686.json"
                       }
@@ -648,28 +278,28 @@
                   "streams": [
                     {
                       "id": "6a214f7209ffd978540323ee_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "Chuối Bơ - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
                       }
                     },
                     {
                       "id": "6a214f7209ffd978540323ee_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "Chuối Bơ - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
                       }
                     },
                     {
                       "id": "6a214f7209ffd978540323ee_2",
-                      "name": "Chuối Tây - FHD1",
+                      "name": "Chuối Bơ - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
                       }
                     },
                     {
                       "id": "6a214f7209ffd978540323ee_3",
-                      "name": "Chuối Tây - FHD2",
+                      "name": "Chuối Bơ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
                       }
