@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a214f7209ffd978540323ee",
-          "name": "Denmark vs Ukraine",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Denmark",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ukraine",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a214f7209ffd978540323ee.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a214f7209ffd978540323ee",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a214f7209ffd978540323ee",
-                  "name": "Denmark vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "6a214f7209ffd978540323ee_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f7209ffd978540323ee_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f7209ffd978540323ee_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
-                      }
-                    },
-                    {
-                      "id": "6a214f7209ffd978540323ee_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a214f7209ffd978540323ee.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a22dee209ffd978542ce688",
           "name": "Brazil W vs Italy W",
           "labels": [
@@ -204,28 +130,28 @@
                   "streams": [
                     {
                       "id": "6a22dee209ffd978542ce689_0",
-                      "name": "Chuối Tím - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce689.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce689_1",
-                      "name": "Chuối Tím - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce689.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce689_2",
-                      "name": "Chuối Tím - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce689.json"
                       }
                     },
                     {
                       "id": "6a22dee209ffd978542ce689_3",
-                      "name": "Chuối Tím - FHD2",
+                      "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a22dee209ffd978542ce689.json"
                       }
@@ -1708,6 +1634,154 @@
                       "name": "Cậu Cả - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a25012909ffd978546c2ece.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2452a8c3ee3a60ffc9b9ef",
+          "name": "Lebanon W vs Iran W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "11h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Lebanon W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Iran W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2452a8c3ee3a60ffc9b9ef.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2452a8c3ee3a60ffc9b9ef",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2452a8c3ee3a60ffc9b9ef",
+                  "name": "Lebanon W vs Iran W",
+                  "streams": [
+                    {
+                      "id": "6a2452a8c3ee3a60ffc9b9ef_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452a8c3ee3a60ffc9b9ef.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452a8c3ee3a60ffc9b9ef_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452a8c3ee3a60ffc9b9ef.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452a8c3ee3a60ffc9b9ef_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452a8c3ee3a60ffc9b9ef.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452a8c3ee3a60ffc9b9ef_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452a8c3ee3a60ffc9b9ef.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2452c53f7d141c5a986664",
+          "name": "Uzbekistan W vs Chinese Taipei W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "11h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Uzbekistan W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Chinese Taip..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2452c53f7d141c5a986664.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2452c53f7d141c5a986664",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2452c53f7d141c5a986664",
+                  "name": "Uzbekistan W vs Chinese Taipei W",
+                  "streams": [
+                    {
+                      "id": "6a2452c53f7d141c5a986664_0",
+                      "name": "Chuối Tím - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452c53f7d141c5a986664.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452c53f7d141c5a986664_1",
+                      "name": "Chuối Tím - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452c53f7d141c5a986664.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452c53f7d141c5a986664_2",
+                      "name": "Chuối Tím - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452c53f7d141c5a986664.json"
+                      }
+                    },
+                    {
+                      "id": "6a2452c53f7d141c5a986664_3",
+                      "name": "Chuối Tím - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2452c53f7d141c5a986664.json"
                       }
                     }
                   ]
