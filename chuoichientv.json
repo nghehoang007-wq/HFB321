@@ -15,302 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a2c4f3d09ffd978543838b4",
-          "name": "Auda vs FS Jelgava",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Auda",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FS Jelgava",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c4f3d09ffd978543838b4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c4f3d09ffd978543838b4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c4f3d09ffd978543838b4",
-                  "name": "Auda vs FS Jelgava",
-                  "streams": [
-                    {
-                      "id": "6a2c4f3d09ffd978543838b4_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3d09ffd978543838b4.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3d09ffd978543838b4_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3d09ffd978543838b4.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3d09ffd978543838b4_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3d09ffd978543838b4.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3d09ffd978543838b4_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3d09ffd978543838b4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2c4f3409ffd97854383723",
-          "name": "Dinamo Minsk vs FC Gomel",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Dinamo Minsk",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FC Gomel",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c4f3409ffd97854383723.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c4f3409ffd97854383723",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c4f3409ffd97854383723",
-                  "name": "Dinamo Minsk vs FC Gomel",
-                  "streams": [
-                    {
-                      "id": "6a2c4f3409ffd97854383723_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3409ffd97854383723.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3409ffd97854383723_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3409ffd97854383723.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3409ffd97854383723_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3409ffd97854383723.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f3409ffd97854383723_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f3409ffd97854383723.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2c4f4f09ffd97854383abe",
-          "name": "Lahti vs SJK",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lahti",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SJK",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c4f4f09ffd97854383abe.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c4f4f09ffd97854383abe",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c4f4f09ffd97854383abe",
-                  "name": "Lahti vs SJK",
-                  "streams": [
-                    {
-                      "id": "6a2c4f4f09ffd97854383abe_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f4f09ffd97854383abe.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f4f09ffd97854383abe_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f4f09ffd97854383abe.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f4f09ffd97854383abe_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f4f09ffd97854383abe.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c4f4f09ffd97854383abe_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c4f4f09ffd97854383abe.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a293e3209ffd97854e179c9",
-          "name": "Coquimbo Unido vs O'Higgins",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Coquimbo Uni..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "O'Higgins",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a293e3209ffd97854e179c9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a293e3209ffd97854e179c9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a293e3209ffd97854e179c9",
-                  "name": "Coquimbo Unido vs O'Higgins",
-                  "streams": [
-                    {
-                      "id": "6a293e3209ffd97854e179c9_0",
-                      "name": "Chuối Max - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a293e3209ffd97854e179c9.json"
-                      }
-                    },
-                    {
-                      "id": "6a293e3209ffd97854e179c9_1",
-                      "name": "Chuối Max - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a293e3209ffd97854e179c9.json"
-                      }
-                    },
-                    {
-                      "id": "6a293e3209ffd97854e179c9_2",
-                      "name": "Chuối Max - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a293e3209ffd97854e179c9.json"
-                      }
-                    },
-                    {
-                      "id": "6a293e3209ffd97854e179c9_3",
-                      "name": "Chuối Max - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a293e3209ffd97854e179c9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a2c50fb09ffd97854387070",
           "name": "Bulgaria vs Argentina",
           "labels": [
@@ -352,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a2c50fb09ffd97854387070_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "Chuối Bơ - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387070.json"
                       }
                     },
                     {
                       "id": "6a2c50fb09ffd97854387070_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "Chuối Bơ - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387070.json"
                       }
                     },
                     {
                       "id": "6a2c50fb09ffd97854387070_2",
-                      "name": "Chuối Tây - FHD1",
+                      "name": "Chuối Bơ - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387070.json"
                       }
                     },
                     {
                       "id": "6a2c50fb09ffd97854387070_3",
-                      "name": "Chuối Tây - FHD2",
+                      "name": "Chuối Bơ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387070.json"
                       }
@@ -722,28 +426,28 @@
                   "streams": [
                     {
                       "id": "69dc81c409ffd97854071316_0",
-                      "name": "Chuối To - HD1",
+                      "name": "Chuối Max - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd97854071316_1",
-                      "name": "Chuối To - HD2",
+                      "name": "Chuối Max - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd97854071316_2",
-                      "name": "Chuối To - FHD1",
+                      "name": "Chuối Max - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd97854071316_3",
-                      "name": "Chuối To - FHD2",
+                      "name": "Chuối Max - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
                       }
