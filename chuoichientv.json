@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a2c50fb09ffd97854387072",
-          "name": "Turkey vs Italy",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Turkey",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Italy",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c50fb09ffd97854387072.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c50fb09ffd97854387072",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c50fb09ffd97854387072",
-                  "name": "Turkey vs Italy",
-                  "streams": [
-                    {
-                      "id": "6a2c50fb09ffd97854387072_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387072.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387072_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387072.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387072_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387072.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387072_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387072.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "69dc81c409ffd97854071316",
-          "name": "Haiti vs Scotland",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Haiti",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Scotland",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd97854071316.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc81c409ffd97854071316",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc81c409ffd97854071316",
-                  "name": "Haiti vs Scotland",
-                  "streams": [
-                    {
-                      "id": "69dc81c409ffd97854071316_0",
-                      "name": "Chuối Max - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd97854071316_1",
-                      "name": "Chuối Max - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd97854071316_2",
-                      "name": "Chuối Max - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd97854071316_3",
-                      "name": "Chuối Max - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd97854071316.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69dc81c409ffd9785407134b",
           "name": "Australia vs Türkiye",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "69dc81c409ffd9785407134b_0",
-                      "name": "Chuối Chao - HD1",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd9785407134b_1",
-                      "name": "Chuối Chao - HD2",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd9785407134b_2",
-                      "name": "Chuối Chao - FHD1",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
                       }
                     },
                     {
                       "id": "69dc81c409ffd9785407134b_3",
-                      "name": "Chuối Chao - FHD2",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
                       }
