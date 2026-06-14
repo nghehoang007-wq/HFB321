@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69dc81c409ffd9785407134b",
-          "name": "Australia vs Türkiye",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Australia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Türkiye",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407134b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc81c409ffd9785407134b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc81c409ffd9785407134b",
-                  "name": "Australia vs Türkiye",
-                  "streams": [
-                    {
-                      "id": "69dc81c409ffd9785407134b_0",
-                      "name": "A Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134b_1",
-                      "name": "A Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134b_2",
-                      "name": "A Ngao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134b_3",
-                      "name": "A Ngao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2c50fb09ffd97854387073",
-          "name": "Ukraine vs Poland",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ukraine",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Poland",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c50fb09ffd97854387073.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c50fb09ffd97854387073",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c50fb09ffd97854387073",
-                  "name": "Ukraine vs Poland",
-                  "streams": [
-                    {
-                      "id": "6a2c50fb09ffd97854387073_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387073.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387073_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387073.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387073_2",
-                      "name": "Chuối Già - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387073.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387073_3",
-                      "name": "Chuối Già - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387073.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2c50fb09ffd97854387074",
-          "name": "China vs Cuba",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "15h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Cuba",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c50fb09ffd97854387074.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2c50fb09ffd97854387074",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2c50fb09ffd97854387074",
-                  "name": "China vs Cuba",
-                  "streams": [
-                    {
-                      "id": "6a2c50fb09ffd97854387074_0",
-                      "name": "Chuối Max - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387074.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387074_1",
-                      "name": "Chuối Max - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387074.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387074_2",
-                      "name": "Chuối Max - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387074.json"
-                      }
-                    },
-                    {
-                      "id": "6a2c50fb09ffd97854387074_3",
-                      "name": "Chuối Max - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c50fb09ffd97854387074.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a2dd56a09ffd97854663ece",
           "name": "Ninh Bình FC vs TP. Hồ Chí Minh",
           "labels": [
@@ -278,30 +56,178 @@
                   "streams": [
                     {
                       "id": "6a2dd56a09ffd97854663ece_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd56a09ffd97854663ece.json"
                       }
                     },
                     {
                       "id": "6a2dd56a09ffd97854663ece_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd56a09ffd97854663ece.json"
                       }
                     },
                     {
                       "id": "6a2dd56a09ffd97854663ece_2",
-                      "name": "Chuối Tây - FHD1",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd56a09ffd97854663ece.json"
                       }
                     },
                     {
                       "id": "6a2dd56a09ffd97854663ece_3",
-                      "name": "Chuối Tây - FHD2",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd56a09ffd97854663ece.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2e5d9e33317c0b42149503",
+          "name": "Chinese Taipei vs South Korea",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "18h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Chinese Taip..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "South Korea",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2e5d9e33317c0b42149503.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2e5d9e33317c0b42149503",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2e5d9e33317c0b42149503",
+                  "name": "Chinese Taipei vs South Korea",
+                  "streams": [
+                    {
+                      "id": "6a2e5d9e33317c0b42149503_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2e5d9e33317c0b42149503.json"
+                      }
+                    },
+                    {
+                      "id": "6a2e5d9e33317c0b42149503_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2e5d9e33317c0b42149503.json"
+                      }
+                    },
+                    {
+                      "id": "6a2e5d9e33317c0b42149503_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2e5d9e33317c0b42149503.json"
+                      }
+                    },
+                    {
+                      "id": "6a2e5d9e33317c0b42149503_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2e5d9e33317c0b42149503.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2c502909ffd97854385386",
+          "name": "Ulytau vs Zhenys",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "19h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Ulytau",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Zhenys",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2c502909ffd97854385386.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2c502909ffd97854385386",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2c502909ffd97854385386",
+                  "name": "Ulytau vs Zhenys",
+                  "streams": [
+                    {
+                      "id": "6a2c502909ffd97854385386_0",
+                      "name": "Chuối Max - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c502909ffd97854385386.json"
+                      }
+                    },
+                    {
+                      "id": "6a2c502909ffd97854385386_1",
+                      "name": "Chuối Max - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c502909ffd97854385386.json"
+                      }
+                    },
+                    {
+                      "id": "6a2c502909ffd97854385386_2",
+                      "name": "Chuối Max - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c502909ffd97854385386.json"
+                      }
+                    },
+                    {
+                      "id": "6a2c502909ffd97854385386_3",
+                      "name": "Chuối Max - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2c502909ffd97854385386.json"
                       }
                     }
                   ]
