@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a2dd7e609ffd978546686a8",
-          "name": "Bulgaria vs Serbia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bulgaria",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Serbia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2dd7e609ffd978546686a8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2dd7e609ffd978546686a8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2dd7e609ffd978546686a8",
-                  "name": "Bulgaria vs Serbia",
-                  "streams": [
-                    {
-                      "id": "6a2dd7e609ffd978546686a8_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686a8.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686a8_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686a8.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686a8_2",
-                      "name": "Chuối Già - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686a8.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686a8_3",
-                      "name": "Chuối Già - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686a8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2dd7e609ffd978546686aa",
-          "name": "Canada vs Turkey",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Canada",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Turkey",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2dd7e609ffd978546686aa.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2dd7e609ffd978546686aa",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2dd7e609ffd978546686aa",
-                  "name": "Canada vs Turkey",
-                  "streams": [
-                    {
-                      "id": "6a2dd7e609ffd978546686aa_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686aa.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686aa_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686aa.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686aa_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686aa.json"
-                      }
-                    },
-                    {
-                      "id": "6a2dd7e609ffd978546686aa_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2dd7e609ffd978546686aa.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "69dc81c409ffd9785407131a",
           "name": "Netherlands vs Japan",
           "labels": [
@@ -524,6 +376,450 @@
                       "name": "Chuối Max - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2f210009ffd978548cfd1f",
+          "name": "Negelle Arsi vs Awassa Kenema",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Negelle Arsi",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Awassa Kenema",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f210009ffd978548cfd1f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2f210009ffd978548cfd1f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2f210009ffd978548cfd1f",
+                  "name": "Negelle Arsi vs Awassa Kenema",
+                  "streams": [
+                    {
+                      "id": "6a2f210009ffd978548cfd1f_0",
+                      "name": "Chuối Tím - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd1f_1",
+                      "name": "Chuối Tím - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd1f_2",
+                      "name": "Chuối Tím - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd1f_3",
+                      "name": "Chuối Tím - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2f208a09ffd978548cf0c1",
+          "name": "Bhutan U19 vs Paro",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "19h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Bhutan U19",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Paro",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f208a09ffd978548cf0c1.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2f208a09ffd978548cf0c1",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2f208a09ffd978548cf0c1",
+                  "name": "Bhutan U19 vs Paro",
+                  "streams": [
+                    {
+                      "id": "6a2f208a09ffd978548cf0c1_0",
+                      "name": "Chuối Già - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f208a09ffd978548cf0c1_1",
+                      "name": "Chuối Già - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f208a09ffd978548cf0c1_2",
+                      "name": "Chuối Già - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f208a09ffd978548cf0c1_3",
+                      "name": "Chuối Già - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2f210009ffd978548cfd21",
+          "name": "Adama Kenema vs Ethiopia Nigd Bank",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Adama Kenema",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Ethiopia Nig..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f210009ffd978548cfd21.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2f210009ffd978548cfd21",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2f210009ffd978548cfd21",
+                  "name": "Adama Kenema vs Ethiopia Nigd Bank",
+                  "streams": [
+                    {
+                      "id": "6a2f210009ffd978548cfd21_0",
+                      "name": "Chuối Max - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd21.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd21_1",
+                      "name": "Chuối Max - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd21.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd21_2",
+                      "name": "Chuối Max - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd21.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd21_3",
+                      "name": "Chuối Max - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd21.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2f210009ffd978548cfd22",
+          "name": "Hadiya Hosaena vs Fasil Ketema",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Hadiya Hosae..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Fasil Ketema",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f210009ffd978548cfd22.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2f210009ffd978548cfd22",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2f210009ffd978548cfd22",
+                  "name": "Hadiya Hosaena vs Fasil Ketema",
+                  "streams": [
+                    {
+                      "id": "6a2f210009ffd978548cfd22_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd22.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd22_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd22.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd22_2",
+                      "name": "Chuối Chao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd22.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f210009ffd978548cfd22_3",
+                      "name": "Chuối Chao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd22.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69dc81c409ffd9785407131e",
+          "name": "Spain vs Cape Verde Islands",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "23h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Spain",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Cape Verde I..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407131e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69dc81c409ffd9785407131e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69dc81c409ffd9785407131e",
+                  "name": "Spain vs Cape Verde Islands",
+                  "streams": [
+                    {
+                      "id": "69dc81c409ffd9785407131e_0",
+                      "name": "A Ngao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131e.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131e_1",
+                      "name": "A Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131e.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131e_2",
+                      "name": "A Ngao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131e.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131e_3",
+                      "name": "A Ngao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131e.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a2f220d09ffd978548d1a01",
+          "name": "KA Akureyri vs Fram Reykjavik",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "KA Akureyri",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Fram Reykjav..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f220d09ffd978548d1a01.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a2f220d09ffd978548d1a01",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a2f220d09ffd978548d1a01",
+                  "name": "KA Akureyri vs Fram Reykjavik",
+                  "streams": [
+                    {
+                      "id": "6a2f220d09ffd978548d1a01_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f220d09ffd978548d1a01.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f220d09ffd978548d1a01_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f220d09ffd978548d1a01.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f220d09ffd978548d1a01_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f220d09ffd978548d1a01.json"
+                      }
+                    },
+                    {
+                      "id": "6a2f220d09ffd978548d1a01_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f220d09ffd978548d1a01.json"
                       }
                     }
                   ]
