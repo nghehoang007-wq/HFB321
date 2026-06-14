@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69dc81c409ffd9785407131a",
-          "name": "Netherlands vs Japan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Netherlands",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Japan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407131a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc81c409ffd9785407131a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc81c409ffd9785407131a",
-                  "name": "Netherlands vs Japan",
-                  "streams": [
-                    {
-                      "id": "69dc81c409ffd9785407131a_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131a.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407131a_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131a.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407131a_2",
-                      "name": "Chuối Chao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131a.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407131a_3",
-                      "name": "Chuối Chao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a2dd7e609ffd978546686ac",
           "name": "Brazil vs Argentina",
           "labels": [
@@ -820,6 +746,228 @@
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f220d09ffd978548d1a01.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69dc81c409ffd9785407131b",
+          "name": "Belgium vs Egypt",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Belgium",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Egypt",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407131b.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69dc81c409ffd9785407131b",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69dc81c409ffd9785407131b",
+                  "name": "Belgium vs Egypt",
+                  "streams": [
+                    {
+                      "id": "69dc81c409ffd9785407131b_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131b.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131b_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131b.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131b_2",
+                      "name": "Trốc Tru - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131b.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131b_3",
+                      "name": "Trốc Tru - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131b.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69dc81c409ffd9785407131d",
+          "name": "Saudi Arabia vs Uruguay",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "05h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Saudi Arabia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Uruguay",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407131d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69dc81c409ffd9785407131d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69dc81c409ffd9785407131d",
+                  "name": "Saudi Arabia vs Uruguay",
+                  "streams": [
+                    {
+                      "id": "69dc81c409ffd9785407131d_0",
+                      "name": "Chuối Max - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131d.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131d_1",
+                      "name": "Chuối Max - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131d.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131d_2",
+                      "name": "Chuối Max - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131d.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131d_3",
+                      "name": "Chuối Max - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "69dc81c409ffd9785407131c",
+          "name": "Iran vs New Zealand",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "08h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Iran",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "New Zealand",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407131c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-69dc81c409ffd9785407131c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-69dc81c409ffd9785407131c",
+                  "name": "Iran vs New Zealand",
+                  "streams": [
+                    {
+                      "id": "69dc81c409ffd9785407131c_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131c.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131c_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131c.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131c_2",
+                      "name": "Chuối To - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131c.json"
+                      }
+                    },
+                    {
+                      "id": "69dc81c409ffd9785407131c_3",
+                      "name": "Chuối To - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407131c.json"
                       }
                     }
                   ]
