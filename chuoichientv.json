@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "69dc81c409ffd9785407134c",
-          "name": "Sweden vs Tunisia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sweden",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Tunisia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/69dc81c409ffd9785407134c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-69dc81c409ffd9785407134c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-69dc81c409ffd9785407134c",
-                  "name": "Sweden vs Tunisia",
-                  "streams": [
-                    {
-                      "id": "69dc81c409ffd9785407134c_0",
-                      "name": "Chuối Max - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134c.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134c_1",
-                      "name": "Chuối Max - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134c.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134c_2",
-                      "name": "Chuối Max - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134c.json"
-                      }
-                    },
-                    {
-                      "id": "69dc81c409ffd9785407134c_3",
-                      "name": "Chuối Max - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/69dc81c409ffd9785407134c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a2f210009ffd978548cfd1f",
-          "name": "Negelle Arsi vs Awassa Kenema",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Negelle Arsi",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Awassa Kenema",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a2f210009ffd978548cfd1f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a2f210009ffd978548cfd1f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a2f210009ffd978548cfd1f",
-                  "name": "Negelle Arsi vs Awassa Kenema",
-                  "streams": [
-                    {
-                      "id": "6a2f210009ffd978548cfd1f_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
-                      }
-                    },
-                    {
-                      "id": "6a2f210009ffd978548cfd1f_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
-                      }
-                    },
-                    {
-                      "id": "6a2f210009ffd978548cfd1f_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
-                      }
-                    },
-                    {
-                      "id": "6a2f210009ffd978548cfd1f_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f210009ffd978548cfd1f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a2f208a09ffd978548cf0c1",
           "name": "Bhutan U19 vs Paro",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a2f208a09ffd978548cf0c1_0",
-                      "name": "Chuối Già - HD1",
+                      "name": "Chuối Nhỏ - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
                       }
                     },
                     {
                       "id": "6a2f208a09ffd978548cf0c1_1",
-                      "name": "Chuối Già - HD2",
+                      "name": "Chuối Nhỏ - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
                       }
                     },
                     {
                       "id": "6a2f208a09ffd978548cf0c1_2",
-                      "name": "Chuối Già - FHD1",
+                      "name": "Chuối Nhỏ - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
                       }
                     },
                     {
                       "id": "6a2f208a09ffd978548cf0c1_3",
-                      "name": "Chuối Già - FHD2",
+                      "name": "Chuối Nhỏ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a2f208a09ffd978548cf0c1.json"
                       }
