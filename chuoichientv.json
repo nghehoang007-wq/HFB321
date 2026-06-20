@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a33387f09ffd97854fc4b59",
-          "name": "Netherlands W vs Poland W",
+          "id": "6a33383309ffd97854fc4395",
+          "name": "Wuxi Wugou vs Qingdao Jonoon",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "17h00",
+              "text": "18h00",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Netherlands W",
+              "text": "Wuxi Wugou",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Poland W",
+              "text": "Qingdao Jono..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a33387f09ffd97854fc4b59.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a33383309ffd97854fc4395.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,39 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a33387f09ffd97854fc4b59",
+              "id": "src-6a33383309ffd97854fc4395",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a33387f09ffd97854fc4b59",
-                  "name": "Netherlands W vs Poland W",
+                  "id": "c-6a33383309ffd97854fc4395",
+                  "name": "Wuxi Wugou vs Qingdao Jonoon",
                   "streams": [
                     {
-                      "id": "6a33387f09ffd97854fc4b59_0",
-                      "name": "Chuối Tím - HD1",
+                      "id": "6a33383309ffd97854fc4395_0",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b59.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33383309ffd97854fc4395.json"
                       }
                     },
                     {
-                      "id": "6a33387f09ffd97854fc4b59_1",
-                      "name": "Chuối Tím - HD2",
+                      "id": "6a33383309ffd97854fc4395_1",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b59.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33383309ffd97854fc4395.json"
                       }
                     },
                     {
-                      "id": "6a33387f09ffd97854fc4b59_2",
-                      "name": "Chuối Tím - FHD1",
+                      "id": "6a33383309ffd97854fc4395_2",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b59.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33383309ffd97854fc4395.json"
                       }
                     },
                     {
-                      "id": "6a33387f09ffd97854fc4b59_3",
-                      "name": "Chuối Tím - FHD2",
+                      "id": "6a33383309ffd97854fc4395_3",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b59.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33383309ffd97854fc4395.json"
                       }
                     }
                   ]
@@ -302,6 +302,80 @@
                       "name": "Trốc Tru - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33383309ffd97854fc4387.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a33387f09ffd97854fc4b5b",
+          "name": "China W vs Brazil W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "China W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Brazil W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a33387f09ffd97854fc4b5b.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a33387f09ffd97854fc4b5b",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a33387f09ffd97854fc4b5b",
+                  "name": "China W vs Brazil W",
+                  "streams": [
+                    {
+                      "id": "6a33387f09ffd97854fc4b5b_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b5b.json"
+                      }
+                    },
+                    {
+                      "id": "6a33387f09ffd97854fc4b5b_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b5b.json"
+                      }
+                    },
+                    {
+                      "id": "6a33387f09ffd97854fc4b5b_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b5b.json"
+                      }
+                    },
+                    {
+                      "id": "6a33387f09ffd97854fc4b5b_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a33387f09ffd97854fc4b5b.json"
                       }
                     }
                   ]
