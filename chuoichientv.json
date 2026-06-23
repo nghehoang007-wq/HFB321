@@ -15,376 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a3926232db4f0e9c2a636f2",
-          "name": "Chinese Taipei vs Kazakhstan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Chinese Taip..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kazakhstan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a3926232db4f0e9c2a636f2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a3926232db4f0e9c2a636f2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a3926232db4f0e9c2a636f2",
-                  "name": "Chinese Taipei vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "6a3926232db4f0e9c2a636f2_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926232db4f0e9c2a636f2.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926232db4f0e9c2a636f2_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926232db4f0e9c2a636f2.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926232db4f0e9c2a636f2_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926232db4f0e9c2a636f2.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926232db4f0e9c2a636f2_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926232db4f0e9c2a636f2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a3774a209ffd9785474fd74",
-          "name": "Paro vs Ugyen Academy",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Paro",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ugyen Academy",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a3774a209ffd9785474fd74.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a3774a209ffd9785474fd74",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a3774a209ffd9785474fd74",
-                  "name": "Paro vs Ugyen Academy",
-                  "streams": [
-                    {
-                      "id": "6a3774a209ffd9785474fd74_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd74.json"
-                      }
-                    },
-                    {
-                      "id": "6a3774a209ffd9785474fd74_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd74.json"
-                      }
-                    },
-                    {
-                      "id": "6a3774a209ffd9785474fd74_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd74.json"
-                      }
-                    },
-                    {
-                      "id": "6a3774a209ffd9785474fd74_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd74.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a3926f209ffd97854a909c7",
-          "name": "Edgeworth Eagles vs Lambton Jaffas",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Edgeworth Ea..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Lambton Jaff..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a3926f209ffd97854a909c7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a3926f209ffd97854a909c7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a3926f209ffd97854a909c7",
-                  "name": "Edgeworth Eagles vs Lambton Jaffas",
-                  "streams": [
-                    {
-                      "id": "6a3926f209ffd97854a909c7_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926f209ffd97854a909c7.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926f209ffd97854a909c7_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926f209ffd97854a909c7.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926f209ffd97854a909c7_2",
-                      "name": "Chuối Chao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926f209ffd97854a909c7.json"
-                      }
-                    },
-                    {
-                      "id": "6a3926f209ffd97854a909c7_3",
-                      "name": "Chuối Chao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926f209ffd97854a909c7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a39271a09ffd97854a90d8e",
-          "name": "Guangdong Mingtu vs Guizhou Zhucheng",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Guangdong Mi..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Guizhou Zhuc..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a39271a09ffd97854a90d8e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a39271a09ffd97854a90d8e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a39271a09ffd97854a90d8e",
-                  "name": "Guangdong Mingtu vs Guizhou Zhucheng",
-                  "streams": [
-                    {
-                      "id": "6a39271a09ffd97854a90d8e_0",
-                      "name": "A Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8e.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8e_1",
-                      "name": "A Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8e.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8e_2",
-                      "name": "A Ngao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8e.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8e_3",
-                      "name": "A Ngao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a39271a09ffd97854a90d8f",
-          "name": "Nantong Haimen Codion vs Shanghai Port II",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Nantong Haim..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Shanghai Por..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a39271a09ffd97854a90d8f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a39271a09ffd97854a90d8f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a39271a09ffd97854a90d8f",
-                  "name": "Nantong Haimen Codion vs Shanghai Port II",
-                  "streams": [
-                    {
-                      "id": "6a39271a09ffd97854a90d8f_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8f.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8f_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8f.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8f_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8f.json"
-                      }
-                    },
-                    {
-                      "id": "6a39271a09ffd97854a90d8f_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a39271a09ffd97854a90d8f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a3926432db4f0e9c2a63707",
           "name": "Indonesia vs Thailand",
           "labels": [
@@ -450,6 +80,80 @@
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3926432db4f0e9c2a63707.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a3774a209ffd9785474fd6d",
+          "name": "KuPS vs Ilves",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "KuPS",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Ilves",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a3774a209ffd9785474fd6d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a3774a209ffd9785474fd6d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a3774a209ffd9785474fd6d",
+                  "name": "KuPS vs Ilves",
+                  "streams": [
+                    {
+                      "id": "6a3774a209ffd9785474fd6d_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd6d.json"
+                      }
+                    },
+                    {
+                      "id": "6a3774a209ffd9785474fd6d_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd6d.json"
+                      }
+                    },
+                    {
+                      "id": "6a3774a209ffd9785474fd6d_2",
+                      "name": "Trốc Tru - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd6d.json"
+                      }
+                    },
+                    {
+                      "id": "6a3774a209ffd9785474fd6d_3",
+                      "name": "Trốc Tru - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a3774a209ffd9785474fd6d.json"
                       }
                     }
                   ]
