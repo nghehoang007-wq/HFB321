@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a41676209ffd97854929f79",
-          "name": "France vs Sweden",
+          "id": "6a441822abbd485916128b89",
+          "name": "South Korea W vs India W",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "04h00",
+              "text": "13h00",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "France",
+              "text": "South Korea W",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Sweden",
+              "text": "India W",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a41676209ffd97854929f79.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a441822abbd485916128b89.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,113 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a41676209ffd97854929f79",
+              "id": "src-6a441822abbd485916128b89",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a41676209ffd97854929f79",
-                  "name": "France vs Sweden",
+                  "id": "c-6a441822abbd485916128b89",
+                  "name": "South Korea W vs India W",
                   "streams": [
                     {
-                      "id": "6a41676209ffd97854929f79_0",
-                      "name": "Chuối Nhỏ - HD1",
+                      "id": "6a441822abbd485916128b89_0",
+                      "name": "Chuối Già - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a41676209ffd97854929f79.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a441822abbd485916128b89.json"
                       }
                     },
                     {
-                      "id": "6a41676209ffd97854929f79_1",
-                      "name": "Chuối Nhỏ - HD2",
+                      "id": "6a441822abbd485916128b89_1",
+                      "name": "Chuối Già - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a41676209ffd97854929f79.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a441822abbd485916128b89.json"
                       }
                     },
                     {
-                      "id": "6a41676209ffd97854929f79_2",
-                      "name": "Chuối Nhỏ - FHD1",
+                      "id": "6a441822abbd485916128b89_2",
+                      "name": "Chuối Già - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a41676209ffd97854929f79.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a441822abbd485916128b89.json"
                       }
                     },
                     {
-                      "id": "6a41676209ffd97854929f79_3",
-                      "name": "Chuối Nhỏ - FHD2",
+                      "id": "6a441822abbd485916128b89_3",
+                      "name": "Chuối Già - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a41676209ffd97854929f79.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a42be4309ffd97854b61ee1",
-          "name": "Mexico vs Ecuador",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Mexico",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ecuador",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a42be4309ffd97854b61ee1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a42be4309ffd97854b61ee1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a42be4309ffd97854b61ee1",
-                  "name": "Mexico vs Ecuador",
-                  "streams": [
-                    {
-                      "id": "6a42be4309ffd97854b61ee1_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a42be4309ffd97854b61ee1.json"
-                      }
-                    },
-                    {
-                      "id": "6a42be4309ffd97854b61ee1_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a42be4309ffd97854b61ee1.json"
-                      }
-                    },
-                    {
-                      "id": "6a42be4309ffd97854b61ee1_2",
-                      "name": "Chuối Chao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a42be4309ffd97854b61ee1.json"
-                      }
-                    },
-                    {
-                      "id": "6a42be4309ffd97854b61ee1_3",
-                      "name": "Chuối Chao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a42be4309ffd97854b61ee1.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a441822abbd485916128b89.json"
                       }
                     }
                   ]
