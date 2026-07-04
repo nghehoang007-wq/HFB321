@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a44748909ffd97854e3c08e",
-          "name": "Argentina vs Cape Verde Islands",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "05h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Argentina",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Cape Verde I..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a44748909ffd97854e3c08e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a44748909ffd97854e3c08e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a44748909ffd97854e3c08e",
-                  "name": "Argentina vs Cape Verde Islands",
-                  "streams": [
-                    {
-                      "id": "6a44748909ffd97854e3c08e_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a44748909ffd97854e3c08e.json"
-                      }
-                    },
-                    {
-                      "id": "6a44748909ffd97854e3c08e_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a44748909ffd97854e3c08e.json"
-                      }
-                    },
-                    {
-                      "id": "6a44748909ffd97854e3c08e_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a44748909ffd97854e3c08e.json"
-                      }
-                    },
-                    {
-                      "id": "6a44748909ffd97854e3c08e_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a44748909ffd97854e3c08e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a46a1ea09ffd978541f1ba7",
           "name": "Colombia vs Ghana",
           "labels": [
@@ -1338,6 +1264,80 @@
                       "name": "Chuối Chao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b43909ffd978540668d7.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a485c79a30ffb0256368b1e",
+          "name": "Australia vs Iran",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "10h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Australia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Iran",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a485c79a30ffb0256368b1e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a485c79a30ffb0256368b1e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a485c79a30ffb0256368b1e",
+                  "name": "Australia vs Iran",
+                  "streams": [
+                    {
+                      "id": "6a485c79a30ffb0256368b1e_0",
+                      "name": "Chuối Bơ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a485c79a30ffb0256368b1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a485c79a30ffb0256368b1e_1",
+                      "name": "Chuối Bơ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a485c79a30ffb0256368b1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a485c79a30ffb0256368b1e_2",
+                      "name": "Chuối Bơ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a485c79a30ffb0256368b1e.json"
+                      }
+                    },
+                    {
+                      "id": "6a485c79a30ffb0256368b1e_3",
+                      "name": "Chuối Bơ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a485c79a30ffb0256368b1e.json"
                       }
                     }
                   ]
