@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a45b4c209ffd97854067734",
-          "name": "Xi'an Ronghai vs Shanghai Second",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "15h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Xi'an Ronghai",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Shanghai Sec..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a45b4c209ffd97854067734.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a45b4c209ffd97854067734",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a45b4c209ffd97854067734",
-                  "name": "Xi'an Ronghai vs Shanghai Second",
-                  "streams": [
-                    {
-                      "id": "6a45b4c209ffd97854067734_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b4c209ffd97854067734.json"
-                      }
-                    },
-                    {
-                      "id": "6a45b4c209ffd97854067734_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b4c209ffd97854067734.json"
-                      }
-                    },
-                    {
-                      "id": "6a45b4c209ffd97854067734_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b4c209ffd97854067734.json"
-                      }
-                    },
-                    {
-                      "id": "6a45b4c209ffd97854067734_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b4c209ffd97854067734.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a491bc3bc6171afcebc5713",
-          "name": "South Korea W vs Kazakhstan W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "South Korea W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kazakhstan W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a491bc3bc6171afcebc5713.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a491bc3bc6171afcebc5713",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a491bc3bc6171afcebc5713",
-                  "name": "South Korea W vs Kazakhstan W",
-                  "streams": [
-                    {
-                      "id": "6a491bc3bc6171afcebc5713_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491bc3bc6171afcebc5713.json"
-                      }
-                    },
-                    {
-                      "id": "6a491bc3bc6171afcebc5713_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491bc3bc6171afcebc5713.json"
-                      }
-                    },
-                    {
-                      "id": "6a491bc3bc6171afcebc5713_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491bc3bc6171afcebc5713.json"
-                      }
-                    },
-                    {
-                      "id": "6a491bc3bc6171afcebc5713_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491bc3bc6171afcebc5713.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a491d13ff4bffea4820f5a5",
-          "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hà Nội Nữ",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Phong Phú Hà..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a491d13ff4bffea4820f5a5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a491d13ff4bffea4820f5a5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a491d13ff4bffea4820f5a5",
-                  "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ",
-                  "streams": [
-                    {
-                      "id": "6a491d13ff4bffea4820f5a5_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491d13ff4bffea4820f5a5.json"
-                      }
-                    },
-                    {
-                      "id": "6a491d13ff4bffea4820f5a5_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491d13ff4bffea4820f5a5.json"
-                      }
-                    },
-                    {
-                      "id": "6a491d13ff4bffea4820f5a5_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491d13ff4bffea4820f5a5.json"
-                      }
-                    },
-                    {
-                      "id": "6a491d13ff4bffea4820f5a5_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a491d13ff4bffea4820f5a5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a45b4c209ffd97854067738",
           "name": "RTC vs Ugyen Academy",
           "labels": [
@@ -376,6 +154,80 @@
                       "name": "Chuối Chao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a45b4c209ffd97854067729.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a4a2b8709ffd9785485756d",
+          "name": "Gwangju FC vs Ulsan Hyundai FC",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Gwangju FC",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Ulsan Hyunda..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a4a2b8709ffd9785485756d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a4a2b8709ffd9785485756d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a4a2b8709ffd9785485756d",
+                  "name": "Gwangju FC vs Ulsan Hyundai FC",
+                  "streams": [
+                    {
+                      "id": "6a4a2b8709ffd9785485756d_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4a2b8709ffd9785485756d.json"
+                      }
+                    },
+                    {
+                      "id": "6a4a2b8709ffd9785485756d_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4a2b8709ffd9785485756d.json"
+                      }
+                    },
+                    {
+                      "id": "6a4a2b8709ffd9785485756d_2",
+                      "name": "Chuối To - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4a2b8709ffd9785485756d.json"
+                      }
+                    },
+                    {
+                      "id": "6a4a2b8709ffd9785485756d_3",
+                      "name": "Chuối To - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4a2b8709ffd9785485756d.json"
                       }
                     }
                   ]
