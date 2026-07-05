@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a48525309ffd9785450090c",
-          "name": "Brazil vs Norway",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Brazil",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Norway",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a48525309ffd9785450090c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a48525309ffd9785450090c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a48525309ffd9785450090c",
-                  "name": "Brazil vs Norway",
-                  "streams": [
-                    {
-                      "id": "6a48525309ffd9785450090c_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48525309ffd9785450090c.json"
-                      }
-                    },
-                    {
-                      "id": "6a48525309ffd9785450090c_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48525309ffd9785450090c.json"
-                      }
-                    },
-                    {
-                      "id": "6a48525309ffd9785450090c_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48525309ffd9785450090c.json"
-                      }
-                    },
-                    {
-                      "id": "6a48525309ffd9785450090c_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48525309ffd9785450090c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a4a6c7609ffd978548ca0f7",
           "name": "Miami FC vs Birmingham Legion",
           "labels": [
@@ -228,6 +154,80 @@
                       "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48539309ffd97854503200.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a48539309ffd978545031fe",
+          "name": "Ulaanbaatar vs Deren",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "11h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Ulaanbaatar",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Deren",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a48539309ffd978545031fe.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a48539309ffd978545031fe",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a48539309ffd978545031fe",
+                  "name": "Ulaanbaatar vs Deren",
+                  "streams": [
+                    {
+                      "id": "6a48539309ffd978545031fe_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48539309ffd978545031fe.json"
+                      }
+                    },
+                    {
+                      "id": "6a48539309ffd978545031fe_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48539309ffd978545031fe.json"
+                      }
+                    },
+                    {
+                      "id": "6a48539309ffd978545031fe_2",
+                      "name": "Chuối Chao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48539309ffd978545031fe.json"
+                      }
+                    },
+                    {
+                      "id": "6a48539309ffd978545031fe_3",
+                      "name": "Chuối Chao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a48539309ffd978545031fe.json"
                       }
                     }
                   ]
