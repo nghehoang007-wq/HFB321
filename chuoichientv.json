@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a4dd69009ffd97854ed66fb",
-          "name": "CSKA Sofia vs Derry City",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "CSKA Sofia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Derry City",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a4dd69009ffd97854ed66fb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a4dd69009ffd97854ed66fb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a4dd69009ffd97854ed66fb",
-                  "name": "CSKA Sofia vs Derry City",
-                  "streams": [
-                    {
-                      "id": "6a4dd69009ffd97854ed66fb_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed66fb.json"
-                      }
-                    },
-                    {
-                      "id": "6a4dd69009ffd97854ed66fb_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed66fb.json"
-                      }
-                    },
-                    {
-                      "id": "6a4dd69009ffd97854ed66fb_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed66fb.json"
-                      }
-                    },
-                    {
-                      "id": "6a4dd69009ffd97854ed66fb_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed66fb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a4e5a0f09ffd97854fb3172",
-          "name": "Serbia W vs France W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Serbia W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "France W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a4e5a0f09ffd97854fb3172.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a4e5a0f09ffd97854fb3172",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a4e5a0f09ffd97854fb3172",
-                  "name": "Serbia W vs France W",
-                  "streams": [
-                    {
-                      "id": "6a4e5a0f09ffd97854fb3172_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4e5a0f09ffd97854fb3172.json"
-                      }
-                    },
-                    {
-                      "id": "6a4e5a0f09ffd97854fb3172_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4e5a0f09ffd97854fb3172.json"
-                      }
-                    },
-                    {
-                      "id": "6a4e5a0f09ffd97854fb3172_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4e5a0f09ffd97854fb3172.json"
-                      }
-                    },
-                    {
-                      "id": "6a4e5a0f09ffd97854fb3172_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4e5a0f09ffd97854fb3172.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a4dd69009ffd97854ed6701",
           "name": "France vs Morocco",
           "labels": [
@@ -204,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a4dd69009ffd97854ed6701_0",
-                      "name": "Trốc Tru - HD1",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed6701.json"
                       }
                     },
                     {
                       "id": "6a4dd69009ffd97854ed6701_1",
-                      "name": "Trốc Tru - HD2",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed6701.json"
                       }
                     },
                     {
                       "id": "6a4dd69009ffd97854ed6701_2",
-                      "name": "Trốc Tru - FHD1",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed6701.json"
                       }
                     },
                     {
                       "id": "6a4dd69009ffd97854ed6701_3",
-                      "name": "Trốc Tru - FHD2",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a4dd69009ffd97854ed6701.json"
                       }
