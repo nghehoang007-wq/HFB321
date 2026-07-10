@@ -1199,6 +1199,80 @@
           ]
         },
         {
+          "id": "6a514c8209ffd978544a6e01",
+          "name": "Tromso vs Valerenga",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "23h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Tromso",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Valerenga",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a514c8209ffd978544a6e01.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a514c8209ffd978544a6e01",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a514c8209ffd978544a6e01",
+                  "name": "Tromso vs Valerenga",
+                  "streams": [
+                    {
+                      "id": "6a514c8209ffd978544a6e01_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a514c8209ffd978544a6e01.json"
+                      }
+                    },
+                    {
+                      "id": "6a514c8209ffd978544a6e01_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a514c8209ffd978544a6e01.json"
+                      }
+                    },
+                    {
+                      "id": "6a514c8209ffd978544a6e01_2",
+                      "name": "Chuối Chao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a514c8209ffd978544a6e01.json"
+                      }
+                    },
+                    {
+                      "id": "6a514c8209ffd978544a6e01_3",
+                      "name": "Chuối Chao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a514c8209ffd978544a6e01.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6a514cfc09ffd978544a7eb8",
           "name": "Stirling Albion vs Dundee Utd",
           "labels": [
