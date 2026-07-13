@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a5403dc09ffd978549a466e",
-          "name": "Ningbo Professional vs Dongguan United",
+          "id": "6a54cd8909ffd97854ae801a",
+          "name": "Singapore vs Laos W",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "18h00",
+              "text": "19h45",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Ningbo Profe..",
+              "text": "Singapore",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Dongguan Uni..",
+              "text": "Laos W",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5403dc09ffd978549a466e.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a54cd8909ffd97854ae801a.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,261 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a5403dc09ffd978549a466e",
+              "id": "src-6a54cd8909ffd97854ae801a",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a5403dc09ffd978549a466e",
-                  "name": "Ningbo Professional vs Dongguan United",
+                  "id": "c-6a54cd8909ffd97854ae801a",
+                  "name": "Singapore vs Laos W",
                   "streams": [
                     {
-                      "id": "6a5403dc09ffd978549a466e_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5403dc09ffd978549a466e.json"
-                      }
-                    },
-                    {
-                      "id": "6a5403dc09ffd978549a466e_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5403dc09ffd978549a466e.json"
-                      }
-                    },
-                    {
-                      "id": "6a5403dc09ffd978549a466e_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5403dc09ffd978549a466e.json"
-                      }
-                    },
-                    {
-                      "id": "6a5403dc09ffd978549a466e_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5403dc09ffd978549a466e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a5408148cd69f0475d77dba",
-          "name": "China vs Hong Kong",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hong Kong",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5408148cd69f0475d77dba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5408148cd69f0475d77dba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5408148cd69f0475d77dba",
-                  "name": "China vs Hong Kong",
-                  "streams": [
-                    {
-                      "id": "6a5408148cd69f0475d77dba_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5408148cd69f0475d77dba.json"
-                      }
-                    },
-                    {
-                      "id": "6a5408148cd69f0475d77dba_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5408148cd69f0475d77dba.json"
-                      }
-                    },
-                    {
-                      "id": "6a5408148cd69f0475d77dba_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5408148cd69f0475d77dba.json"
-                      }
-                    },
-                    {
-                      "id": "6a5408148cd69f0475d77dba_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5408148cd69f0475d77dba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a54082d4fd98b14b5beaa40",
-          "name": "Japan vs Australia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Japan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Australia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a54082d4fd98b14b5beaa40.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a54082d4fd98b14b5beaa40",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a54082d4fd98b14b5beaa40",
-                  "name": "Japan vs Australia",
-                  "streams": [
-                    {
-                      "id": "6a54082d4fd98b14b5beaa40_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54082d4fd98b14b5beaa40.json"
-                      }
-                    },
-                    {
-                      "id": "6a54082d4fd98b14b5beaa40_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54082d4fd98b14b5beaa40.json"
-                      }
-                    },
-                    {
-                      "id": "6a54082d4fd98b14b5beaa40_2",
-                      "name": "Chuối Già - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54082d4fd98b14b5beaa40.json"
-                      }
-                    },
-                    {
-                      "id": "6a54082d4fd98b14b5beaa40_3",
-                      "name": "Chuối Già - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54082d4fd98b14b5beaa40.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a51e07e09ffd978545a7ae4",
-          "name": "Ugyen Academy vs Transport United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ugyen Academy",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Transport Un..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a51e07e09ffd978545a7ae4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a51e07e09ffd978545a7ae4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a51e07e09ffd978545a7ae4",
-                  "name": "Ugyen Academy vs Transport United",
-                  "streams": [
-                    {
-                      "id": "6a51e07e09ffd978545a7ae4_0",
+                      "id": "6a54cd8909ffd97854ae801a_0",
                       "name": "Chuối Nhỏ - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a51e07e09ffd978545a7ae4.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54cd8909ffd97854ae801a.json"
                       }
                     },
                     {
-                      "id": "6a51e07e09ffd978545a7ae4_1",
+                      "id": "6a54cd8909ffd97854ae801a_1",
                       "name": "Chuối Nhỏ - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a51e07e09ffd978545a7ae4.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54cd8909ffd97854ae801a.json"
                       }
                     },
                     {
-                      "id": "6a51e07e09ffd978545a7ae4_2",
+                      "id": "6a54cd8909ffd97854ae801a_2",
                       "name": "Chuối Nhỏ - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a51e07e09ffd978545a7ae4.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54cd8909ffd97854ae801a.json"
                       }
                     },
                     {
-                      "id": "6a51e07e09ffd978545a7ae4_3",
+                      "id": "6a54cd8909ffd97854ae801a_3",
                       "name": "Chuối Nhỏ - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a51e07e09ffd978545a7ae4.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54cd8909ffd97854ae801a.json"
                       }
                     }
                   ]
