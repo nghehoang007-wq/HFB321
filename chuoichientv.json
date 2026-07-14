@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a5566fa09ffd97854be0892",
-          "name": "Muras United vs Bars",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Muras United",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bars",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5566fa09ffd97854be0892.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5566fa09ffd97854be0892",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5566fa09ffd97854be0892",
-                  "name": "Muras United vs Bars",
-                  "streams": [
-                    {
-                      "id": "6a5566fa09ffd97854be0892_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5566fa09ffd97854be0892.json"
-                      }
-                    },
-                    {
-                      "id": "6a5566fa09ffd97854be0892_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5566fa09ffd97854be0892.json"
-                      }
-                    },
-                    {
-                      "id": "6a5566fa09ffd97854be0892_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5566fa09ffd97854be0892.json"
-                      }
-                    },
-                    {
-                      "id": "6a5566fa09ffd97854be0892_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5566fa09ffd97854be0892.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a5565b509ffd97854bde7df",
           "name": "KuPS vs Vardar Skopje",
           "labels": [
@@ -302,6 +228,80 @@
                       "name": "Trốc Tru - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5565b509ffd97854bde7de.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a5565b509ffd97854bde7dc",
+          "name": "Gyori ETO FC vs Vikingur Reykjavik",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Gyori ETO FC",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Vikingur Rey..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5565b509ffd97854bde7dc.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a5565b509ffd97854bde7dc",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a5565b509ffd97854bde7dc",
+                  "name": "Gyori ETO FC vs Vikingur Reykjavik",
+                  "streams": [
+                    {
+                      "id": "6a5565b509ffd97854bde7dc_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5565b509ffd97854bde7dc.json"
+                      }
+                    },
+                    {
+                      "id": "6a5565b509ffd97854bde7dc_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5565b509ffd97854bde7dc.json"
+                      }
+                    },
+                    {
+                      "id": "6a5565b509ffd97854bde7dc_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5565b509ffd97854bde7dc.json"
+                      }
+                    },
+                    {
+                      "id": "6a5565b509ffd97854bde7dc_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5565b509ffd97854bde7dc.json"
                       }
                     }
                   ]
