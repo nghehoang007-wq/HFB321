@@ -15,82 +15,8 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a56259c09ffd97854d1205e",
-          "name": "Canada vs Argentina",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Canada",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Argentina",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56259c09ffd97854d1205e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56259c09ffd97854d1205e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56259c09ffd97854d1205e",
-                  "name": "Canada vs Argentina",
-                  "streams": [
-                    {
-                      "id": "6a56259c09ffd97854d1205e_0",
-                      "name": "Chuối Tím - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d1205e.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d1205e_1",
-                      "name": "Chuối Tím - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d1205e.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d1205e_2",
-                      "name": "Chuối Tím - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d1205e.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d1205e_3",
-                      "name": "Chuối Tím - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d1205e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a56a41599804b1ce822a5fd",
-          "name": "Việt Nam vs Myanmar",
+          "id": "6a570a761890f80d51bab516",
+          "name": "Việt Nam vs Thailand",
           "labels": [
             {
               "position": "bottom-center",
@@ -106,13 +32,13 @@
             },
             {
               "position": "top-right",
-              "text": "Myanmar",
+              "text": "Thailand",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56a41599804b1ce822a5fd.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a570a761890f80d51bab516.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -121,39 +47,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a56a41599804b1ce822a5fd",
+              "id": "src-6a570a761890f80d51bab516",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a56a41599804b1ce822a5fd",
-                  "name": "Việt Nam vs Myanmar",
+                  "id": "c-6a570a761890f80d51bab516",
+                  "name": "Việt Nam vs Thailand",
                   "streams": [
                     {
-                      "id": "6a56a41599804b1ce822a5fd_0",
+                      "id": "6a570a761890f80d51bab516_0",
                       "name": "Chuối Tây - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a41599804b1ce822a5fd.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a570a761890f80d51bab516.json"
                       }
                     },
                     {
-                      "id": "6a56a41599804b1ce822a5fd_1",
+                      "id": "6a570a761890f80d51bab516_1",
                       "name": "Chuối Tây - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a41599804b1ce822a5fd.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a570a761890f80d51bab516.json"
                       }
                     },
                     {
-                      "id": "6a56a41599804b1ce822a5fd_2",
+                      "id": "6a570a761890f80d51bab516_2",
                       "name": "Chuối Tây - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a41599804b1ce822a5fd.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a570a761890f80d51bab516.json"
                       }
                     },
                     {
-                      "id": "6a56a41599804b1ce822a5fd_3",
+                      "id": "6a570a761890f80d51bab516_3",
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a41599804b1ce822a5fd.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a570a761890f80d51bab516.json"
                       }
                     }
                   ]
