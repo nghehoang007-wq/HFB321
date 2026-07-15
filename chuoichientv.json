@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a56a74209ffd97854dffb60",
-          "name": "England vs Argentina",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "England",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Argentina",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56a74209ffd97854dffb60.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56a74209ffd97854dffb60",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56a74209ffd97854dffb60",
-                  "name": "England vs Argentina",
-                  "streams": [
-                    {
-                      "id": "6a56a74209ffd97854dffb60_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a74209ffd97854dffb60.json"
-                      }
-                    },
-                    {
-                      "id": "6a56a74209ffd97854dffb60_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a74209ffd97854dffb60.json"
-                      }
-                    },
-                    {
-                      "id": "6a56a74209ffd97854dffb60_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a74209ffd97854dffb60.json"
-                      }
-                    },
-                    {
-                      "id": "6a56a74209ffd97854dffb60_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56a74209ffd97854dffb60.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a56259c09ffd97854d12065",
-          "name": "France vs Brazil",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "France",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Brazil",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56259c09ffd97854d12065.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56259c09ffd97854d12065",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56259c09ffd97854d12065",
-                  "name": "France vs Brazil",
-                  "streams": [
-                    {
-                      "id": "6a56259c09ffd97854d12065_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12065.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12065_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12065.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12065_2",
-                      "name": "Chuối Già - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12065.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12065_3",
-                      "name": "Chuối Già - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12065.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a54648b09ffd97854a3e601",
           "name": "Leones del Norte vs Deportivo Cuenca",
           "labels": [
@@ -204,104 +56,30 @@
                   "streams": [
                     {
                       "id": "6a54648b09ffd97854a3e601_0",
-                      "name": "Chuối Nhỏ - HD1",
+                      "name": "Trốc Tru - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54648b09ffd97854a3e601.json"
                       }
                     },
                     {
                       "id": "6a54648b09ffd97854a3e601_1",
-                      "name": "Chuối Nhỏ - HD2",
+                      "name": "Trốc Tru - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54648b09ffd97854a3e601.json"
                       }
                     },
                     {
                       "id": "6a54648b09ffd97854a3e601_2",
-                      "name": "Chuối Nhỏ - FHD1",
+                      "name": "Trốc Tru - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54648b09ffd97854a3e601.json"
                       }
                     },
                     {
                       "id": "6a54648b09ffd97854a3e601_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54648b09ffd97854a3e601.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a5464c409ffd97854a3eba8",
-          "name": "Barcelona SC vs Guayaquil City FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Barca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Guayaquil Ci..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5464c409ffd97854a3eba8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5464c409ffd97854a3eba8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5464c409ffd97854a3eba8",
-                  "name": "Barcelona SC vs Guayaquil City FC",
-                  "streams": [
-                    {
-                      "id": "6a5464c409ffd97854a3eba8_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3eba8.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3eba8_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3eba8.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3eba8_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3eba8.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3eba8_3",
                       "name": "Trốc Tru - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3eba8.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a54648b09ffd97854a3e601.json"
                       }
                     }
                   ]
