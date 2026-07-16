@@ -15,302 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a56259c09ffd97854d12069",
-          "name": "Iran vs Germany",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Iran",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Germany",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56259c09ffd97854d12069.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56259c09ffd97854d12069",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56259c09ffd97854d12069",
-                  "name": "Iran vs Germany",
-                  "streams": [
-                    {
-                      "id": "6a56259c09ffd97854d12069_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12069.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12069_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12069.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12069_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12069.json"
-                      }
-                    },
-                    {
-                      "id": "6a56259c09ffd97854d12069_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56259c09ffd97854d12069.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a5464c409ffd97854a3ebae",
-          "name": "FC Astana vs Dinamo Tirana",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Astana",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Dinamo Tirana",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5464c409ffd97854a3ebae.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5464c409ffd97854a3ebae",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5464c409ffd97854a3ebae",
-                  "name": "FC Astana vs Dinamo Tirana",
-                  "streams": [
-                    {
-                      "id": "6a5464c409ffd97854a3ebae_0",
-                      "name": "A Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3ebae.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3ebae_1",
-                      "name": "A Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3ebae.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3ebae_2",
-                      "name": "A Ngao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3ebae.json"
-                      }
-                    },
-                    {
-                      "id": "6a5464c409ffd97854a3ebae_3",
-                      "name": "A Ngao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5464c409ffd97854a3ebae.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a57d16e09ffd97854ff5178",
-          "name": "Bunyodkor vs Nasaf",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bunyodkor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Nasaf",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a57d16e09ffd97854ff5178.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a57d16e09ffd97854ff5178",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a57d16e09ffd97854ff5178",
-                  "name": "Bunyodkor vs Nasaf",
-                  "streams": [
-                    {
-                      "id": "6a57d16e09ffd97854ff5178_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff5178.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff5178_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff5178.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff5178_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff5178.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff5178_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff5178.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a57d16e09ffd97854ff517b",
-          "name": "Neftchi vs Buxoro",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Neftchi",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Buxoro",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a57d16e09ffd97854ff517b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a57d16e09ffd97854ff517b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a57d16e09ffd97854ff517b",
-                  "name": "Neftchi vs Buxoro",
-                  "streams": [
-                    {
-                      "id": "6a57d16e09ffd97854ff517b_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff517b.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff517b_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff517b.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff517b_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff517b.json"
-                      }
-                    },
-                    {
-                      "id": "6a57d16e09ffd97854ff517b_3",
-                      "name": "Chuối To - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff517b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a5464c409ffd97854a3ebb2",
           "name": "Paide vs Hegelmann Litauen",
           "labels": [
@@ -681,30 +385,30 @@
           ]
         },
         {
-          "id": "6a56d43809ffd97854e48f03",
-          "name": "Aluminij vs Sheriff Tiraspol",
+          "id": "6a59181f09ffd97854231c6f",
+          "name": "Ferencvarosi TC vs Vojvodina",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "01h00",
+              "text": "01h15",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Aluminij",
+              "text": "Ferencvarosi..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Sheriff Tira..",
+              "text": "Vojvodina",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d43809ffd97854e48f03.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a59181f09ffd97854231c6f.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -713,39 +417,39 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a56d43809ffd97854e48f03",
+              "id": "src-6a59181f09ffd97854231c6f",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a56d43809ffd97854e48f03",
-                  "name": "Aluminij vs Sheriff Tiraspol",
+                  "id": "c-6a59181f09ffd97854231c6f",
+                  "name": "Ferencvarosi TC vs Vojvodina",
                   "streams": [
                     {
-                      "id": "6a56d43809ffd97854e48f03_0",
+                      "id": "6a59181f09ffd97854231c6f_0",
                       "name": "Chuối Chao - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d43809ffd97854e48f03.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a59181f09ffd97854231c6f.json"
                       }
                     },
                     {
-                      "id": "6a56d43809ffd97854e48f03_1",
+                      "id": "6a59181f09ffd97854231c6f_1",
                       "name": "Chuối Chao - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d43809ffd97854e48f03.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a59181f09ffd97854231c6f.json"
                       }
                     },
                     {
-                      "id": "6a56d43809ffd97854e48f03_2",
+                      "id": "6a59181f09ffd97854231c6f_2",
                       "name": "Chuối Chao - FHD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d43809ffd97854e48f03.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a59181f09ffd97854231c6f.json"
                       }
                     },
                     {
-                      "id": "6a56d43809ffd97854e48f03_3",
+                      "id": "6a59181f09ffd97854231c6f_3",
                       "name": "Chuối Chao - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d43809ffd97854e48f03.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a59181f09ffd97854231c6f.json"
                       }
                     }
                   ]
