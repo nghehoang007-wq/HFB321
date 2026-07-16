@@ -2605,6 +2605,80 @@
           ]
         },
         {
+          "id": "6a56d64809ffd97854e4c388",
+          "name": "Los Angeles Galaxy vs Los Angeles FC",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "09h25",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Los Angeles ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Los Angeles ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d64809ffd97854e4c388.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a56d64809ffd97854e4c388",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a56d64809ffd97854e4c388",
+                  "name": "Los Angeles Galaxy vs Los Angeles FC",
+                  "streams": [
+                    {
+                      "id": "6a56d64809ffd97854e4c388_0",
+                      "name": "Chuối Tiêu - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c388.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c388_1",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c388.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c388_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c388.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c388_3",
+                      "name": "Chuối Tiêu - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c388.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6a56d64809ffd97854e4c3a5",
           "name": "FC Juarez vs Puebla",
           "labels": [
