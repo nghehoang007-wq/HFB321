@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a56d4de09ffd97854e4a068",
-          "name": "Yunnan Yukun vs SHANGHAI SIPG",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Yunnan Yukun",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SHANGHAI SIPG",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d4de09ffd97854e4a068.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56d4de09ffd97854e4a068",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56d4de09ffd97854e4a068",
-                  "name": "Yunnan Yukun vs SHANGHAI SIPG",
-                  "streams": [
-                    {
-                      "id": "6a56d4de09ffd97854e4a068_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d4de09ffd97854e4a068.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d4de09ffd97854e4a068_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d4de09ffd97854e4a068.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d4de09ffd97854e4a068_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d4de09ffd97854e4a068.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d4de09ffd97854e4a068_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d4de09ffd97854e4a068.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a56259c09ffd97854d1206f",
           "name": "Turkey vs Ukraine",
           "labels": [
@@ -228,6 +154,80 @@
                       "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a57d16e09ffd97854ff5179.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a5a466009ffd9785443b170",
+          "name": "Navbahor vs Olmaliq",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Navbahor",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Olmaliq",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5a466009ffd9785443b170.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a5a466009ffd9785443b170",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a5a466009ffd9785443b170",
+                  "name": "Navbahor vs Olmaliq",
+                  "streams": [
+                    {
+                      "id": "6a5a466009ffd9785443b170_0",
+                      "name": "A Ngao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5a466009ffd9785443b170.json"
+                      }
+                    },
+                    {
+                      "id": "6a5a466009ffd9785443b170_1",
+                      "name": "A Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5a466009ffd9785443b170.json"
+                      }
+                    },
+                    {
+                      "id": "6a5a466009ffd9785443b170_2",
+                      "name": "A Ngao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5a466009ffd9785443b170.json"
+                      }
+                    },
+                    {
+                      "id": "6a5a466009ffd9785443b170_3",
+                      "name": "A Ngao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5a466009ffd9785443b170.json"
                       }
                     }
                   ]
