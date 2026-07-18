@@ -15,228 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a5625c909ffd97854d12522",
-          "name": "Argentina vs Italy",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h20",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Argentina",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Italy",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5625c909ffd97854d12522.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5625c909ffd97854d12522",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5625c909ffd97854d12522",
-                  "name": "Argentina vs Italy",
-                  "streams": [
-                    {
-                      "id": "6a5625c909ffd97854d12522_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12522.json"
-                      }
-                    },
-                    {
-                      "id": "6a5625c909ffd97854d12522_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12522.json"
-                      }
-                    },
-                    {
-                      "id": "6a5625c909ffd97854d12522_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12522.json"
-                      }
-                    },
-                    {
-                      "id": "6a5625c909ffd97854d12522_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12522.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a56d64809ffd97854e4c38a",
-          "name": "Daejeon Citizen vs Ulsan Hyundai FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Daejeon Citi..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ulsan Hyunda..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d64809ffd97854e4c38a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56d64809ffd97854e4c38a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56d64809ffd97854e4c38a",
-                  "name": "Daejeon Citizen vs Ulsan Hyundai FC",
-                  "streams": [
-                    {
-                      "id": "6a56d64809ffd97854e4c38a_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38a.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38a_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38a.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38a_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38a.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38a_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a56d64809ffd97854e4c38d",
-          "name": "Jeju United FC vs Pohang Steelers",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Jeju United ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Pohang Steel..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d64809ffd97854e4c38d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a56d64809ffd97854e4c38d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a56d64809ffd97854e4c38d",
-                  "name": "Jeju United FC vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "6a56d64809ffd97854e4c38d_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38d.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38d_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38d.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38d_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38d.json"
-                      }
-                    },
-                    {
-                      "id": "6a56d64809ffd97854e4c38d_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c38d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a56d64809ffd97854e4c3b3",
           "name": "Việt Nam vs Myanmar",
           "labels": [
@@ -278,28 +56,28 @@
                   "streams": [
                     {
                       "id": "6a56d64809ffd97854e4c3b3_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c3b3.json"
                       }
                     },
                     {
                       "id": "6a56d64809ffd97854e4c3b3_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c3b3.json"
                       }
                     },
                     {
                       "id": "6a56d64809ffd97854e4c3b3_2",
-                      "name": "Chuối Tây - FHD1",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c3b3.json"
                       }
                     },
                     {
                       "id": "6a56d64809ffd97854e4c3b3_3",
-                      "name": "Chuối Tây - FHD2",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c3b3.json"
                       }
