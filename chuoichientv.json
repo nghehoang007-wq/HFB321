@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a5ab2b209ffd97854501165",
-          "name": "Weston Bears vs Kahibah",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Weston Bears",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kahibah",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5ab2b209ffd97854501165.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5ab2b209ffd97854501165",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5ab2b209ffd97854501165",
-                  "name": "Weston Bears vs Kahibah",
-                  "streams": [
-                    {
-                      "id": "6a5ab2b209ffd97854501165_0",
-                      "name": "Chuối Tiêu - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5ab2b209ffd97854501165.json"
-                      }
-                    },
-                    {
-                      "id": "6a5ab2b209ffd97854501165_1",
-                      "name": "Chuối Tiêu - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5ab2b209ffd97854501165.json"
-                      }
-                    },
-                    {
-                      "id": "6a5ab2b209ffd97854501165_2",
-                      "name": "Chuối Tiêu - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5ab2b209ffd97854501165.json"
-                      }
-                    },
-                    {
-                      "id": "6a5ab2b209ffd97854501165_3",
-                      "name": "Chuối Tiêu - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5ab2b209ffd97854501165.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a5625c909ffd97854d12522",
           "name": "Argentina vs Italy",
           "labels": [
@@ -376,6 +302,302 @@
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c3b3.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a5b3e96894380960184b74d",
+          "name": "Việt Nam vs Indonesia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "19h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Việt Nam",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Indonesia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5b3e96894380960184b74d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a5b3e96894380960184b74d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a5b3e96894380960184b74d",
+                  "name": "Việt Nam vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "6a5b3e96894380960184b74d_0",
+                      "name": "Chuối Già - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5b3e96894380960184b74d.json"
+                      }
+                    },
+                    {
+                      "id": "6a5b3e96894380960184b74d_1",
+                      "name": "Chuối Già - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5b3e96894380960184b74d.json"
+                      }
+                    },
+                    {
+                      "id": "6a5b3e96894380960184b74d_2",
+                      "name": "Chuối Già - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5b3e96894380960184b74d.json"
+                      }
+                    },
+                    {
+                      "id": "6a5b3e96894380960184b74d_3",
+                      "name": "Chuối Già - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5b3e96894380960184b74d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a5625c909ffd97854d12523",
+          "name": "Turkey vs Slovenia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "21h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Turkey",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Slovenia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5625c909ffd97854d12523.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a5625c909ffd97854d12523",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a5625c909ffd97854d12523",
+                  "name": "Turkey vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "6a5625c909ffd97854d12523_0",
+                      "name": "Chuối Bơ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12523.json"
+                      }
+                    },
+                    {
+                      "id": "6a5625c909ffd97854d12523_1",
+                      "name": "Chuối Bơ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12523.json"
+                      }
+                    },
+                    {
+                      "id": "6a5625c909ffd97854d12523_2",
+                      "name": "Chuối Bơ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12523.json"
+                      }
+                    },
+                    {
+                      "id": "6a5625c909ffd97854d12523_3",
+                      "name": "Chuối Bơ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5625c909ffd97854d12523.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a56d64809ffd97854e4c39e",
+          "name": "Manchester United vs Wrexham",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Man Utd",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Wrexham",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a56d64809ffd97854e4c39e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a56d64809ffd97854e4c39e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a56d64809ffd97854e4c39e",
+                  "name": "Manchester United vs Wrexham",
+                  "streams": [
+                    {
+                      "id": "6a56d64809ffd97854e4c39e_0",
+                      "name": "Chuối Nhỏ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c39e.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c39e_1",
+                      "name": "Chuối Nhỏ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c39e.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c39e_2",
+                      "name": "Chuối Nhỏ - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c39e.json"
+                      }
+                    },
+                    {
+                      "id": "6a56d64809ffd97854e4c39e_3",
+                      "name": "Chuối Nhỏ - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a56d64809ffd97854e4c39e.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a58c57909ffd978541a00b2",
+          "name": "France vs England",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "04h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "France",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "England",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a58c57909ffd978541a00b2.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a58c57909ffd978541a00b2",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a58c57909ffd978541a00b2",
+                  "name": "France vs England",
+                  "streams": [
+                    {
+                      "id": "6a58c57909ffd978541a00b2_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a58c57909ffd978541a00b2.json"
+                      }
+                    },
+                    {
+                      "id": "6a58c57909ffd978541a00b2_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a58c57909ffd978541a00b2.json"
+                      }
+                    },
+                    {
+                      "id": "6a58c57909ffd978541a00b2_2",
+                      "name": "Chuối Chao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a58c57909ffd978541a00b2.json"
+                      }
+                    },
+                    {
+                      "id": "6a58c57909ffd978541a00b2_3",
+                      "name": "Chuối Chao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a58c57909ffd978541a00b2.json"
                       }
                     }
                   ]
