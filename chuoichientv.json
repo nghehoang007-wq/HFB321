@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a5e8ac409ffd97854bf3026",
-          "name": "UCV vs Santos",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "UCV",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Santos",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5e8ac409ffd97854bf3026.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5e8ac409ffd97854bf3026",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5e8ac409ffd97854bf3026",
-                  "name": "UCV vs Santos",
-                  "streams": [
-                    {
-                      "id": "6a5e8ac409ffd97854bf3026_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8ac409ffd97854bf3026.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8ac409ffd97854bf3026_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8ac409ffd97854bf3026.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8ac409ffd97854bf3026_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8ac409ffd97854bf3026.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8ac409ffd97854bf3026_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8ac409ffd97854bf3026.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a5e8b4909ffd97854bf3dce",
-          "name": "Cruz Azul vs Puebla",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Cruz Azul",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Puebla",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a5e8b4909ffd97854bf3dce.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a5e8b4909ffd97854bf3dce",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a5e8b4909ffd97854bf3dce",
-                  "name": "Cruz Azul vs Puebla",
-                  "streams": [
-                    {
-                      "id": "6a5e8b4909ffd97854bf3dce_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8b4909ffd97854bf3dce.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8b4909ffd97854bf3dce_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8b4909ffd97854bf3dce.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8b4909ffd97854bf3dce_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8b4909ffd97854bf3dce.json"
-                      }
-                    },
-                    {
-                      "id": "6a5e8b4909ffd97854bf3dce_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8b4909ffd97854bf3dce.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a5e8b4909ffd97854bf3dcf",
           "name": "Toluca vs U.N.A.M. - Pumas",
           "labels": [
@@ -524,6 +376,154 @@
                       "name": "Chuối Nhỏ - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b005.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a60099109ffd97854e60a95",
+          "name": "Bucheon FC 1995 vs FC Anyang",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Bucheon FC 1..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "FC Anyang",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a60099109ffd97854e60a95.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a60099109ffd97854e60a95",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a60099109ffd97854e60a95",
+                  "name": "Bucheon FC 1995 vs FC Anyang",
+                  "streams": [
+                    {
+                      "id": "6a60099109ffd97854e60a95_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a95.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a95_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a95.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a95_2",
+                      "name": "Chuối To - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a95.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a95_3",
+                      "name": "Chuối To - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a95.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a60099109ffd97854e60a96",
+          "name": "FC Seoul vs Pohang Steelers",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "FC Seoul",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Pohang Steel..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a60099109ffd97854e60a96.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a60099109ffd97854e60a96",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a60099109ffd97854e60a96",
+                  "name": "FC Seoul vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "6a60099109ffd97854e60a96_0",
+                      "name": "Chuối Già - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a96.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a96_1",
+                      "name": "Chuối Già - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a96.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a96_2",
+                      "name": "Chuối Già - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a96.json"
+                      }
+                    },
+                    {
+                      "id": "6a60099109ffd97854e60a96_3",
+                      "name": "Chuối Già - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60099109ffd97854e60a96.json"
                       }
                     }
                   ]
