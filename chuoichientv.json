@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a60067109ffd97854e5b009",
-          "name": "Bologna vs 1. FC Heidenheim",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bologna",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "1. FC Heiden..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a60067109ffd97854e5b009.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a60067109ffd97854e5b009",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a60067109ffd97854e5b009",
-                  "name": "Bologna vs 1. FC Heidenheim",
-                  "streams": [
-                    {
-                      "id": "6a60067109ffd97854e5b009_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b009.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b009_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b009.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b009_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b009.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b009_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b009.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a60067109ffd97854e5b006",
           "name": "Mash'al vs Nasaf",
           "labels": [
@@ -168,7 +94,7 @@
           "labels": [
             {
               "position": "bottom-center",
-              "text": "22h00",
+              "text": "23h00",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
@@ -204,28 +130,28 @@
                   "streams": [
                     {
                       "id": "6a60db0c09ffd97854fcbe40_0",
-                      "name": "Chuối Tiêu - HD1",
+                      "name": "Trốc Tru - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60db0c09ffd97854fcbe40.json"
                       }
                     },
                     {
                       "id": "6a60db0c09ffd97854fcbe40_1",
-                      "name": "Chuối Tiêu - HD2",
+                      "name": "Trốc Tru - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60db0c09ffd97854fcbe40.json"
                       }
                     },
                     {
                       "id": "6a60db0c09ffd97854fcbe40_2",
-                      "name": "Chuối Tiêu - FHD1",
+                      "name": "Trốc Tru - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60db0c09ffd97854fcbe40.json"
                       }
                     },
                     {
                       "id": "6a60db0c09ffd97854fcbe40_3",
-                      "name": "Chuối Tiêu - FHD2",
+                      "name": "Trốc Tru - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60db0c09ffd97854fcbe40.json"
                       }
