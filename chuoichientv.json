@@ -15,80 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a60067109ffd97854e5b008",
-          "name": "Independiente del Valle vs Tecnico Universitario",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Independient..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Tecnico Univ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a60067109ffd97854e5b008.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a60067109ffd97854e5b008",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a60067109ffd97854e5b008",
-                  "name": "Independiente del Valle vs Tecnico Universitario",
-                  "streams": [
-                    {
-                      "id": "6a60067109ffd97854e5b008_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b008.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b008_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b008.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b008_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b008.json"
-                      }
-                    },
-                    {
-                      "id": "6a60067109ffd97854e5b008_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a60067109ffd97854e5b008.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a5e8ac409ffd97854bf3022",
           "name": "Independiente Medellin vs Vasco DA Gama",
           "labels": [
@@ -302,6 +228,80 @@
                       "name": "Chuối Tiêu - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a5e8ac409ffd97854bf3025.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a61532c09ffd97854097c5f",
+          "name": "Sao Paulo vs Atletico Paranaense",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "07h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Sao Paulo",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Atletico Par..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a61532c09ffd97854097c5f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a61532c09ffd97854097c5f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a61532c09ffd97854097c5f",
+                  "name": "Sao Paulo vs Atletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "6a61532c09ffd97854097c5f_0",
+                      "name": "Chuối To - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61532c09ffd97854097c5f.json"
+                      }
+                    },
+                    {
+                      "id": "6a61532c09ffd97854097c5f_1",
+                      "name": "Chuối To - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61532c09ffd97854097c5f.json"
+                      }
+                    },
+                    {
+                      "id": "6a61532c09ffd97854097c5f_2",
+                      "name": "Chuối To - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61532c09ffd97854097c5f.json"
+                      }
+                    },
+                    {
+                      "id": "6a61532c09ffd97854097c5f_3",
+                      "name": "Chuối To - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61532c09ffd97854097c5f.json"
                       }
                     }
                   ]
