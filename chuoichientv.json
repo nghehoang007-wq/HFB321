@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a6006ba09ffd97854e5b771",
-          "name": "Los Angeles FC vs Real Salt Lake",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Los Angeles ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Real Salt La..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6006ba09ffd97854e5b771.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6006ba09ffd97854e5b771",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6006ba09ffd97854e5b771",
-                  "name": "Los Angeles FC vs Real Salt Lake",
-                  "streams": [
-                    {
-                      "id": "6a6006ba09ffd97854e5b771_0",
-                      "name": "A Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6006ba09ffd97854e5b771.json"
-                      }
-                    },
-                    {
-                      "id": "6a6006ba09ffd97854e5b771_1",
-                      "name": "A Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6006ba09ffd97854e5b771.json"
-                      }
-                    },
-                    {
-                      "id": "6a6006ba09ffd97854e5b771_2",
-                      "name": "A Ngao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6006ba09ffd97854e5b771.json"
-                      }
-                    },
-                    {
-                      "id": "6a6006ba09ffd97854e5b771_3",
-                      "name": "A Ngao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6006ba09ffd97854e5b771.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a61344a09ffd978540667ed",
-          "name": "Turkey W vs Canada W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "15h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Turkey W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Canada W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a61344a09ffd978540667ed.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a61344a09ffd978540667ed",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a61344a09ffd978540667ed",
-                  "name": "Turkey W vs Canada W",
-                  "streams": [
-                    {
-                      "id": "6a61344a09ffd978540667ed_0",
-                      "name": "Chuối Bơ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ed.json"
-                      }
-                    },
-                    {
-                      "id": "6a61344a09ffd978540667ed_1",
-                      "name": "Chuối Bơ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ed.json"
-                      }
-                    },
-                    {
-                      "id": "6a61344a09ffd978540667ed_2",
-                      "name": "Chuối Bơ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ed.json"
-                      }
-                    },
-                    {
-                      "id": "6a61344a09ffd978540667ed_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ed.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a6139555f237d9b9deeb41e",
           "name": "Việt Nam vs Thailand",
           "labels": [
@@ -352,104 +204,30 @@
                   "streams": [
                     {
                       "id": "6a61344a09ffd978540667ee_0",
-                      "name": "Chuối Bơ - HD1",
+                      "name": "Chuối Tây - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ee.json"
                       }
                     },
                     {
                       "id": "6a61344a09ffd978540667ee_1",
-                      "name": "Chuối Bơ - HD2",
+                      "name": "Chuối Tây - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ee.json"
                       }
                     },
                     {
                       "id": "6a61344a09ffd978540667ee_2",
-                      "name": "Chuối Bơ - FHD1",
+                      "name": "Chuối Tây - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ee.json"
                       }
                     },
                     {
                       "id": "6a61344a09ffd978540667ee_3",
-                      "name": "Chuối Bơ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ee.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a6139ff09ffd9785406f691",
-          "name": "Akademiya Ontustik vs Astana II",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Akademiya On..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Astana II",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6139ff09ffd9785406f691.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6139ff09ffd9785406f691",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6139ff09ffd9785406f691",
-                  "name": "Akademiya Ontustik vs Astana II",
-                  "streams": [
-                    {
-                      "id": "6a6139ff09ffd9785406f691_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6139ff09ffd9785406f691.json"
-                      }
-                    },
-                    {
-                      "id": "6a6139ff09ffd9785406f691_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6139ff09ffd9785406f691.json"
-                      }
-                    },
-                    {
-                      "id": "6a6139ff09ffd9785406f691_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6139ff09ffd9785406f691.json"
-                      }
-                    },
-                    {
-                      "id": "6a6139ff09ffd9785406f691_3",
                       "name": "Chuối Tây - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6139ff09ffd9785406f691.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a61344a09ffd978540667ee.json"
                       }
                     }
                   ]
