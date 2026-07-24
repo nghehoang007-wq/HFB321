@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a6256f009ffd97854255889",
-          "name": "Cambodia vs Singapore",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Cambodia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Singapore",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6256f009ffd97854255889.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6256f009ffd97854255889",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6256f009ffd97854255889",
-                  "name": "Cambodia vs Singapore",
-                  "streams": [
-                    {
-                      "id": "6a6256f009ffd97854255889_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd97854255889.json"
-                      }
-                    },
-                    {
-                      "id": "6a6256f009ffd97854255889_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd97854255889.json"
-                      }
-                    },
-                    {
-                      "id": "6a6256f009ffd97854255889_2",
-                      "name": "Chuối Chao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd97854255889.json"
-                      }
-                    },
-                    {
-                      "id": "6a6256f009ffd97854255889_3",
-                      "name": "Chuối Chao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd97854255889.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a625cd68943809601f7a3c1",
-          "name": "Philippines vs Indonesia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Philippines",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Indonesia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a625cd68943809601f7a3c1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a625cd68943809601f7a3c1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a625cd68943809601f7a3c1",
-                  "name": "Philippines vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "6a625cd68943809601f7a3c1_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a625cd68943809601f7a3c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a625cd68943809601f7a3c1_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a625cd68943809601f7a3c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a625cd68943809601f7a3c1_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a625cd68943809601f7a3c1.json"
-                      }
-                    },
-                    {
-                      "id": "6a625cd68943809601f7a3c1_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a625cd68943809601f7a3c1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a6256f009ffd97854255893",
           "name": "Timor-Leste vs Việt Nam",
           "labels": [
@@ -1190,6 +1042,154 @@
                       "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd97854255890.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a635e8609ffd9785440af28",
+          "name": "Brazil W vs Italy W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "15h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Brazil W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Italy W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a635e8609ffd9785440af28.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a635e8609ffd9785440af28",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a635e8609ffd9785440af28",
+                  "name": "Brazil W vs Italy W",
+                  "streams": [
+                    {
+                      "id": "6a635e8609ffd9785440af28_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af28.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af28_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af28.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af28_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af28.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af28_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af28.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a635e8609ffd9785440af29",
+          "name": "China W vs Turkey W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "18h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "China W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Turkey W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a635e8609ffd9785440af29.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a635e8609ffd9785440af29",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a635e8609ffd9785440af29",
+                  "name": "China W vs Turkey W",
+                  "streams": [
+                    {
+                      "id": "6a635e8609ffd9785440af29_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af29_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af29_2",
+                      "name": "Chuối Tây - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
+                      }
+                    },
+                    {
+                      "id": "6a635e8609ffd9785440af29_3",
+                      "name": "Chuối Tây - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
                       }
                     }
                   ]
