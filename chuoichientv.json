@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a635e8609ffd9785440af29",
-          "name": "China W vs Turkey W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Turkey W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a635e8609ffd9785440af29.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a635e8609ffd9785440af29",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a635e8609ffd9785440af29",
-                  "name": "China W vs Turkey W",
-                  "streams": [
-                    {
-                      "id": "6a635e8609ffd9785440af29_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
-                      }
-                    },
-                    {
-                      "id": "6a635e8609ffd9785440af29_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
-                      }
-                    },
-                    {
-                      "id": "6a635e8609ffd9785440af29_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
-                      }
-                    },
-                    {
-                      "id": "6a635e8609ffd9785440af29_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a635e8609ffd9785440af29.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a63e79b09ffd9785450e0b7",
-          "name": "SHANGHAI SIPG vs Shanghai Shenhua",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h35",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "SHANGHAI SIPG",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Shanghai She..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a63e79b09ffd9785450e0b7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a63e79b09ffd9785450e0b7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a63e79b09ffd9785450e0b7",
-                  "name": "SHANGHAI SIPG vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "6a63e79b09ffd9785450e0b7_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a63e79b09ffd9785450e0b7.json"
-                      }
-                    },
-                    {
-                      "id": "6a63e79b09ffd9785450e0b7_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a63e79b09ffd9785450e0b7.json"
-                      }
-                    },
-                    {
-                      "id": "6a63e79b09ffd9785450e0b7_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a63e79b09ffd9785450e0b7.json"
-                      }
-                    },
-                    {
-                      "id": "6a63e79b09ffd9785450e0b7_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a63e79b09ffd9785450e0b7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a63e79b09ffd9785450e0b8",
           "name": "Wuhan Three Towns vs Chongqing Tongliang Long",
           "labels": [
@@ -278,28 +130,28 @@
                   "streams": [
                     {
                       "id": "6a6256f009ffd9785425588b_0",
-                      "name": "Chuối Chao - HD1",
+                      "name": "A Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd9785425588b.json"
                       }
                     },
                     {
                       "id": "6a6256f009ffd9785425588b_1",
-                      "name": "Chuối Chao - HD2",
+                      "name": "A Ngao - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd9785425588b.json"
                       }
                     },
                     {
                       "id": "6a6256f009ffd9785425588b_2",
-                      "name": "Chuối Chao - FHD1",
+                      "name": "A Ngao - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd9785425588b.json"
                       }
                     },
                     {
                       "id": "6a6256f009ffd9785425588b_3",
-                      "name": "Chuối Chao - FHD2",
+                      "name": "A Ngao - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6256f009ffd9785425588b.json"
                       }
