@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a6d2d8b09ffd97854563e76",
-          "name": "Western Sydney W. II vs UNSW",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Western Sydn..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "UNSW",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6d2d8b09ffd97854563e76.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6d2d8b09ffd97854563e76",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6d2d8b09ffd97854563e76",
-                  "name": "Western Sydney W. II vs UNSW",
-                  "streams": [
-                    {
-                      "id": "6a6d2d8b09ffd97854563e76_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d2d8b09ffd97854563e76.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d2d8b09ffd97854563e76_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d2d8b09ffd97854563e76.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d2d8b09ffd97854563e76_2",
-                      "name": "Chuối Tây - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d2d8b09ffd97854563e76.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d2d8b09ffd97854563e76_3",
-                      "name": "Chuối Tây - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d2d8b09ffd97854563e76.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a6c8f2f09ffd9785441e985",
-          "name": "Slovenia vs Poland",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "14h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Slovenia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Poland",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6c8f2f09ffd9785441e985.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6c8f2f09ffd9785441e985",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6c8f2f09ffd9785441e985",
-                  "name": "Slovenia vs Poland",
-                  "streams": [
-                    {
-                      "id": "6a6c8f2f09ffd9785441e985_0",
-                      "name": "Camry - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6c8f2f09ffd9785441e985.json"
-                      }
-                    },
-                    {
-                      "id": "6a6c8f2f09ffd9785441e985_1",
-                      "name": "Camry - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6c8f2f09ffd9785441e985.json"
-                      }
-                    },
-                    {
-                      "id": "6a6c8f2f09ffd9785441e985_2",
-                      "name": "Camry - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6c8f2f09ffd9785441e985.json"
-                      }
-                    },
-                    {
-                      "id": "6a6c8f2f09ffd9785441e985_3",
-                      "name": "Camry - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6c8f2f09ffd9785441e985.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a6d2e0309ffd97854565076",
           "name": "Monaro Panthers vs O'Connor Knights",
           "labels": [
@@ -829,6 +681,80 @@
           ]
         },
         {
+          "id": "6a6d98dc09ffd97854625f34",
+          "name": "Thailand vs Malaysia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Thailand",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Malaysia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6d98dc09ffd97854625f34.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a6d98dc09ffd97854625f34",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a6d98dc09ffd97854625f34",
+                  "name": "Thailand vs Malaysia",
+                  "streams": [
+                    {
+                      "id": "6a6d98dc09ffd97854625f34_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d98dc09ffd97854625f34.json"
+                      }
+                    },
+                    {
+                      "id": "6a6d98dc09ffd97854625f34_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d98dc09ffd97854625f34.json"
+                      }
+                    },
+                    {
+                      "id": "6a6d98dc09ffd97854625f34_2",
+                      "name": "Chuối Chao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d98dc09ffd97854625f34.json"
+                      }
+                    },
+                    {
+                      "id": "6a6d98dc09ffd97854625f34_3",
+                      "name": "Chuối Chao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d98dc09ffd97854625f34.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6a6d305009ffd9785456918d",
           "name": "Tranmere vs Rochdale",
           "labels": [
@@ -1240,104 +1166,30 @@
                   "streams": [
                     {
                       "id": "6a6d308409ffd978545696f3_0",
-                      "name": "Chuối Chao - HD1",
+                      "name": "Chuối To - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f3.json"
                       }
                     },
                     {
                       "id": "6a6d308409ffd978545696f3_1",
-                      "name": "Chuối Chao - HD2",
+                      "name": "Chuối To - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f3.json"
                       }
                     },
                     {
                       "id": "6a6d308409ffd978545696f3_2",
-                      "name": "Chuối Chao - FHD1",
+                      "name": "Chuối To - FHD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f3.json"
                       }
                     },
                     {
                       "id": "6a6d308409ffd978545696f3_3",
-                      "name": "Chuối Chao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f3.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a6d308409ffd978545696f5",
-          "name": "Atlas vs Monterrey",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Atlas",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Monterrey",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a6d308409ffd978545696f5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a6d308409ffd978545696f5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a6d308409ffd978545696f5",
-                  "name": "Atlas vs Monterrey",
-                  "streams": [
-                    {
-                      "id": "6a6d308409ffd978545696f5_0",
-                      "name": "Chuối To - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f5.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d308409ffd978545696f5_1",
-                      "name": "Chuối To - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f5.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d308409ffd978545696f5_2",
-                      "name": "Chuối To - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f5.json"
-                      }
-                    },
-                    {
-                      "id": "6a6d308409ffd978545696f5_3",
                       "name": "Chuối To - FHD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f5.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a6d308409ffd978545696f3.json"
                       }
                     }
                   ]
