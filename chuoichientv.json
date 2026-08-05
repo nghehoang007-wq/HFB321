@@ -15,154 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a72255f09ffd97854f33632",
-          "name": "Chelsea vs Juventus",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Chelsea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Juventus",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a72255f09ffd97854f33632.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a72255f09ffd97854f33632",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a72255f09ffd97854f33632",
-                  "name": "Chelsea vs Juventus",
-                  "streams": [
-                    {
-                      "id": "6a72255f09ffd97854f33632_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33632.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33632_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33632.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33632_2",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33632.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33632_3",
-                      "name": "Chuối Nhỏ - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33632.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a7320f809ffd978540d20a9",
-          "name": "Lochin vs Yaypan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lochin",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Yaypan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7320f809ffd978540d20a9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7320f809ffd978540d20a9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7320f809ffd978540d20a9",
-                  "name": "Lochin vs Yaypan",
-                  "streams": [
-                    {
-                      "id": "6a7320f809ffd978540d20a9_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7320f809ffd978540d20a9.json"
-                      }
-                    },
-                    {
-                      "id": "6a7320f809ffd978540d20a9_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7320f809ffd978540d20a9.json"
-                      }
-                    },
-                    {
-                      "id": "6a7320f809ffd978540d20a9_2",
-                      "name": "Trốc Tru - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7320f809ffd978540d20a9.json"
-                      }
-                    },
-                    {
-                      "id": "6a7320f809ffd978540d20a9_3",
-                      "name": "Trốc Tru - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7320f809ffd978540d20a9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a73224909ffd978540d47f8",
           "name": "BuxDu vs Shortan",
           "labels": [
@@ -237,80 +89,6 @@
           ]
         },
         {
-          "id": "6a72255f09ffd97854f33634",
-          "name": "Górnik Łęczna vs Kalisz",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Górnik Łęczna",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kalisz",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a72255f09ffd97854f33634.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a72255f09ffd97854f33634",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a72255f09ffd97854f33634",
-                  "name": "Górnik Łęczna vs Kalisz",
-                  "streams": [
-                    {
-                      "id": "6a72255f09ffd97854f33634_0",
-                      "name": "A Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33634.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33634_1",
-                      "name": "A Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33634.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33634_2",
-                      "name": "A Ngao - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33634.json"
-                      }
-                    },
-                    {
-                      "id": "6a72255f09ffd97854f33634_3",
-                      "name": "A Ngao - FHD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f33634.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a72255f09ffd97854f3363b",
           "name": "Lazio vs Ostia Mare",
           "labels": [
@@ -376,6 +154,80 @@
                       "name": "Trốc Tru - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a72255f09ffd97854f3363b.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a7347de09ffd97854118a9c",
+          "name": "Dinamo Minsk II vs Lida",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "23h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Dinamo Minsk..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Lida",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7347de09ffd97854118a9c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a7347de09ffd97854118a9c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a7347de09ffd97854118a9c",
+                  "name": "Dinamo Minsk II vs Lida",
+                  "streams": [
+                    {
+                      "id": "6a7347de09ffd97854118a9c_0",
+                      "name": "A Ngao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7347de09ffd97854118a9c.json"
+                      }
+                    },
+                    {
+                      "id": "6a7347de09ffd97854118a9c_1",
+                      "name": "A Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7347de09ffd97854118a9c.json"
+                      }
+                    },
+                    {
+                      "id": "6a7347de09ffd97854118a9c_2",
+                      "name": "A Ngao - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7347de09ffd97854118a9c.json"
+                      }
+                    },
+                    {
+                      "id": "6a7347de09ffd97854118a9c_3",
+                      "name": "A Ngao - FHD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7347de09ffd97854118a9c.json"
                       }
                     }
                   ]
