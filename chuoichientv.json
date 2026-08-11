@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a79d2cd09ffd97854df7f79",
-          "name": "Paro vs Mackenzie W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Paro",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Mackenzie W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a79d2cd09ffd97854df7f79.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a79d2cd09ffd97854df7f79",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a79d2cd09ffd97854df7f79",
-                  "name": "Paro vs Mackenzie W",
-                  "streams": [
-                    {
-                      "id": "6a79d2cd09ffd97854df7f79_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f79.json"
-                      }
-                    },
-                    {
-                      "id": "6a79d2cd09ffd97854df7f79_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f79.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a79d2cd09ffd97854df7f76",
           "name": "Dordoi Bishkek vs Wathba",
           "labels": [
@@ -116,14 +56,28 @@
                   "streams": [
                     {
                       "id": "6a79d2cd09ffd97854df7f76_0",
-                      "name": "Chuối Tiêu - HD",
+                      "name": "Chuối Tiêu - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f76.json"
                       }
                     },
                     {
                       "id": "6a79d2cd09ffd97854df7f76_1",
-                      "name": "Chuối Tiêu - FHD",
+                      "name": "Chuối Tiêu - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f76.json"
+                      }
+                    },
+                    {
+                      "id": "6a79d2cd09ffd97854df7f76_2",
+                      "name": "Chuối Tiêu - FHD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f76.json"
+                      }
+                    },
+                    {
+                      "id": "6a79d2cd09ffd97854df7f76_3",
+                      "name": "Chuối Tiêu - FHD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f76.json"
                       }
