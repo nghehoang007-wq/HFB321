@@ -2,9 +2,9 @@
   "stream_links": [
     {
       "id": "1",
-      "name": "Chuối Đá - HD1",
+      "name": "Chuối Đá - HD",
       "type": "hls",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoida/playlist.m3u8",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoida/playlist.m3u8",
       "default": true,
       "request_headers": [
         {
@@ -15,35 +15,9 @@
     },
     {
       "id": "2",
-      "name": "Chuối Đá - HD2",
-      "type": "flv",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoida.flv",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Chuối Đá - FHD1",
+      "name": "Chuối Đá - FHD",
       "type": "hls",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoidahd/playlist.m3u8",
-      "default": false,
-      "request_headers": [
-        {
-          "key": "Referer",
-          "value": "https://api.chuoichientv.com/"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Chuối Đá - FHD2",
-      "type": "flv",
-      "url": "https://gckc0525.edgemaxcdn.org/live/chuoidahd.flv",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoidahd/playlist.m3u8",
       "default": false,
       "request_headers": [
         {
