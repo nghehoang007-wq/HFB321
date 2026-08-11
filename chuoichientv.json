@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a79d2cd09ffd97854df7f7f",
-          "name": "FK Crvena Zvezda vs Hapoel Beer Sheva",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FK Crvena Zv..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hapoel Beer ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a79d2cd09ffd97854df7f7f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a79d2cd09ffd97854df7f7f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a79d2cd09ffd97854df7f7f",
-                  "name": "FK Crvena Zvezda vs Hapoel Beer Sheva",
-                  "streams": [
-                    {
-                      "id": "6a79d2cd09ffd97854df7f7f_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f7f.json"
-                      }
-                    },
-                    {
-                      "id": "6a79d2cd09ffd97854df7f7f_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f7f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a79d2cd09ffd97854df7f83",
           "name": "Sturm Graz vs Fenerbahce",
           "labels": [
