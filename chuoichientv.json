@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a79d2cd09ffd97854df7f70",
-          "name": "Fluminense vs Independ. Rivadavia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "05h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Fluminense",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Independ. Ri..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a79d2cd09ffd97854df7f70.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a79d2cd09ffd97854df7f70",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a79d2cd09ffd97854df7f70",
-                  "name": "Fluminense vs Independ. Rivadavia",
-                  "streams": [
-                    {
-                      "id": "6a79d2cd09ffd97854df7f70_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f70.json"
-                      }
-                    },
-                    {
-                      "id": "6a79d2cd09ffd97854df7f70_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f70.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a79d2cd09ffd97854df7f6e",
           "name": "Columbus Crew vs U.N.A.M. - Pumas",
           "labels": [
