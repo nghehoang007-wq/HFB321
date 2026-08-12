@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a79d2cd09ffd97854df7f6e",
-          "name": "Columbus Crew vs U.N.A.M. - Pumas",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Columbus Crew",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "U.N.A.M. - P..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a79d2cd09ffd97854df7f6e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a79d2cd09ffd97854df7f6e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a79d2cd09ffd97854df7f6e",
-                  "name": "Columbus Crew vs U.N.A.M. - Pumas",
-                  "streams": [
-                    {
-                      "id": "6a79d2cd09ffd97854df7f6e_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f6e.json"
-                      }
-                    },
-                    {
-                      "id": "6a79d2cd09ffd97854df7f6e_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a79d2cd09ffd97854df7f6e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a79d2e509ffd97854df8208",
           "name": "Real Salt Lake vs FC Juarez",
           "labels": [
