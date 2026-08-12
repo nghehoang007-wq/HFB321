@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7b9d0e09ffd9785410c3da",
-          "name": "East Bengal II vs Al Arabi",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "East Bengal ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al Arabi",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7b9d0e09ffd9785410c3da.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7b9d0e09ffd9785410c3da",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7b9d0e09ffd9785410c3da",
-                  "name": "East Bengal II vs Al Arabi",
-                  "streams": [
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3da_0",
-                      "name": "Chuối Đá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3da.json"
-                      }
-                    },
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3da_1",
-                      "name": "Chuối Đá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3da.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7c8d1309ffd97854326633",
           "name": "Arkadag vs Goa",
           "labels": [
