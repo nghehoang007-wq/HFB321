@@ -1,0 +1,30 @@
+{
+  "stream_links": [
+    {
+      "id": "1",
+      "name": "A Ngao - HD",
+      "type": "hls",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angao/playlist.m3u8",
+      "default": true,
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "A Ngao - FHD",
+      "type": "hls",
+      "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/angaohd/playlist.m3u8",
+      "default": false,
+      "request_headers": [
+        {
+          "key": "Referer",
+          "value": "https://api.chuoichientv.com/"
+        }
+      ]
+    }
+  ]
+}
