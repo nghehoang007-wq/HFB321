@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7b9d0e09ffd9785410c3cc",
-          "name": "Inter Miami vs Leon",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Leon",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7b9d0e09ffd9785410c3cc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7b9d0e09ffd9785410c3cc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7b9d0e09ffd9785410c3cc",
-                  "name": "Inter Miami vs Leon",
-                  "streams": [
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3cc_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3cc.json"
-                      }
-                    },
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3cc_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3cc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7b9d0e09ffd9785410c3ce",
           "name": "Monterrey vs Nashville SC",
           "labels": [
