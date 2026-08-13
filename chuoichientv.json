@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7b9d0e09ffd9785410c3ce",
-          "name": "Monterrey vs Nashville SC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Monterrey",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Nashville SC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7b9d0e09ffd9785410c3ce.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7b9d0e09ffd9785410c3ce",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7b9d0e09ffd9785410c3ce",
-                  "name": "Monterrey vs Nashville SC",
-                  "streams": [
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3ce_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3ce.json"
-                      }
-                    },
-                    {
-                      "id": "6a7b9d0e09ffd9785410c3ce_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7b9d0e09ffd9785410c3ce.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7b9d0e09ffd9785410c3cd",
           "name": "Los Angeles FC vs Club Queretaro",
           "labels": [
