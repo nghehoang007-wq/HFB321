@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7e206e09ffd978545f0b51",
-          "name": "Dinamo Samarqand vs Xorazm",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Dinamo Samar..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Xorazm",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7e206e09ffd978545f0b51.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7e206e09ffd978545f0b51",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7e206e09ffd978545f0b51",
-                  "name": "Dinamo Samarqand vs Xorazm",
-                  "streams": [
-                    {
-                      "id": "6a7e206e09ffd978545f0b51_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b51.json"
-                      }
-                    },
-                    {
-                      "id": "6a7e206e09ffd978545f0b51_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b51.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7e206e09ffd978545f0b73",
           "name": "Marseille vs Atletico Madrid",
           "labels": [
@@ -606,66 +546,6 @@
                       "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b4b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a7e206e09ffd978545f0b5f",
-          "name": "Llaneros vs Deportes Tolima",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Llaneros",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Deportes Tol..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7e206e09ffd978545f0b5f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7e206e09ffd978545f0b5f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7e206e09ffd978545f0b5f",
-                  "name": "Llaneros vs Deportes Tolima",
-                  "streams": [
-                    {
-                      "id": "6a7e206e09ffd978545f0b5f_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b5f.json"
-                      }
-                    },
-                    {
-                      "id": "6a7e206e09ffd978545f0b5f_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b5f.json"
                       }
                     }
                   ]
