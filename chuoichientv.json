@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7e206e09ffd978545f0b63",
-          "name": "FC Orenburg vs Lokomotiv",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Orenburg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Lokomotiv",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7e206e09ffd978545f0b63.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7e206e09ffd978545f0b63",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7e206e09ffd978545f0b63",
-                  "name": "FC Orenburg vs Lokomotiv",
-                  "streams": [
-                    {
-                      "id": "6a7e206e09ffd978545f0b63_0",
-                      "name": "Chuối Tiêu - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b63.json"
-                      }
-                    },
-                    {
-                      "id": "6a7e206e09ffd978545f0b63_1",
-                      "name": "Chuối Tiêu - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b63.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7e206e09ffd978545f0b51",
           "name": "Dinamo Samarqand vs Xorazm",
           "labels": [
@@ -356,14 +296,14 @@
                   "streams": [
                     {
                       "id": "6a7e206e09ffd978545f0b5d_0",
-                      "name": "Chuối Tây - HD",
+                      "name": "Chuối Tiêu - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b5d.json"
                       }
                     },
                     {
                       "id": "6a7e206e09ffd978545f0b5d_1",
-                      "name": "Chuối Tây - FHD",
+                      "name": "Chuối Tiêu - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b5d.json"
                       }
@@ -596,14 +536,14 @@
                   "streams": [
                     {
                       "id": "6a7e206e09ffd978545f0b69_0",
-                      "name": "Chuối Tiêu - HD",
+                      "name": "Chuối Tây - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b69.json"
                       }
                     },
                     {
                       "id": "6a7e206e09ffd978545f0b69_1",
-                      "name": "Chuối Tiêu - FHD",
+                      "name": "Chuối Tây - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b69.json"
                       }
