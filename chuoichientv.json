@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7e206e09ffd978545f0b4b",
-          "name": "Atlanta United II vs New York RB II",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Atlanta Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "New York RB ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7e206e09ffd978545f0b4b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7e206e09ffd978545f0b4b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7e206e09ffd978545f0b4b",
-                  "name": "Atlanta United II vs New York RB II",
-                  "streams": [
-                    {
-                      "id": "6a7e206e09ffd978545f0b4b_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b4b.json"
-                      }
-                    },
-                    {
-                      "id": "6a7e206e09ffd978545f0b4b_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b4b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7f71b609ffd978548428ad",
           "name": "Universidad de Concepcion vs D. La Serena",
           "labels": [
