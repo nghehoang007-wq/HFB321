@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7e206e09ffd978545f0b70",
-          "name": "Galatasaray vs Yeni Çorumspor",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Galatasaray",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Yeni Çorumsp..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7e206e09ffd978545f0b70.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7e206e09ffd978545f0b70",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7e206e09ffd978545f0b70",
-                  "name": "Galatasaray vs Yeni Çorumspor",
-                  "streams": [
-                    {
-                      "id": "6a7e206e09ffd978545f0b70_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b70.json"
-                      }
-                    },
-                    {
-                      "id": "6a7e206e09ffd978545f0b70_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b70.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7e206e09ffd978545f0b64",
           "name": "Wolves vs Blackburn",
           "labels": [
