@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7cfd2709ffd978543f453b",
-          "name": "Al-Hilal Saudi FC vs Al-Faisaly FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Hilal Sau..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Faisaly FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7cfd2709ffd978543f453b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7cfd2709ffd978543f453b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7cfd2709ffd978543f453b",
-                  "name": "Al-Hilal Saudi FC vs Al-Faisaly FC",
-                  "streams": [
-                    {
-                      "id": "6a7cfd2709ffd978543f453b_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7cfd2709ffd978543f453b.json"
-                      }
-                    },
-                    {
-                      "id": "6a7cfd2709ffd978543f453b_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7cfd2709ffd978543f453b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7e206e09ffd978545f0b70",
           "name": "Galatasaray vs Yeni Çorumspor",
           "labels": [
@@ -306,6 +246,66 @@
                       "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7e206e09ffd978545f0b4b.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a7f71b609ffd978548428ad",
+          "name": "Universidad de Concepcion vs D. La Serena",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "06h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Universidad ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "D. La Serena",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7f71b609ffd978548428ad.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a7f71b609ffd978548428ad",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a7f71b609ffd978548428ad",
+                  "name": "Universidad de Concepcion vs D. La Serena",
+                  "streams": [
+                    {
+                      "id": "6a7f71b609ffd978548428ad_0",
+                      "name": "Chuối Tây - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7f71b609ffd978548428ad.json"
+                      }
+                    },
+                    {
+                      "id": "6a7f71b609ffd978548428ad_1",
+                      "name": "Chuối Tây - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7f71b609ffd978548428ad.json"
                       }
                     }
                   ]
