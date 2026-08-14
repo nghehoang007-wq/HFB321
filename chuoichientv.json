@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7baf8e09ffd9785412b926",
-          "name": "Club America vs Austin",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Club America",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Austin",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7baf8e09ffd9785412b926.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7baf8e09ffd9785412b926",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7baf8e09ffd9785412b926",
-                  "name": "Club America vs Austin",
-                  "streams": [
-                    {
-                      "id": "6a7baf8e09ffd9785412b926_0",
-                      "name": "Chuối Tiêu - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7baf8e09ffd9785412b926.json"
-                      }
-                    },
-                    {
-                      "id": "6a7baf8e09ffd9785412b926_1",
-                      "name": "Chuối Tiêu - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7baf8e09ffd9785412b926.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7baf8e09ffd9785412b92a",
           "name": "Portland Timbers vs Club Tijuana",
           "labels": [
