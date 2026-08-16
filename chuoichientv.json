@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b80447",
-          "name": "FC Basel 1893 vs Barcelona",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Basel 1893",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Barca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80447.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80447",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80447",
-                  "name": "FC Basel 1893 vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80447_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80447.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80447_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80447.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b8043e",
           "name": "Racing Santander vs Villarreal",
           "labels": [
@@ -135,66 +75,6 @@
           ]
         },
         {
-          "id": "6a81000509ffd97854b80445",
-          "name": "FC Schalke 04 vs Real Madrid",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Schalke 04",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Real Madrid",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80445.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80445",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80445",
-                  "name": "FC Schalke 04 vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80445_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80445.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80445_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80445.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b8043d",
           "name": "Espanyol vs Levante",
           "labels": [
@@ -236,16 +116,76 @@
                   "streams": [
                     {
                       "id": "6a81000509ffd97854b8043d_0",
-                      "name": "Chuối Chao - HD",
+                      "name": "Trốc Tru - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043d.json"
                       }
                     },
                     {
                       "id": "6a81000509ffd97854b8043d_1",
-                      "name": "Chuối Chao - FHD",
+                      "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a81e6494c4d4e7eda3e31b2",
+          "name": "Liverpool vs Como",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Liverpool",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Como",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81e6494c4d4e7eda3e31b2.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a81e6494c4d4e7eda3e31b2",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a81e6494c4d4e7eda3e31b2",
+                  "name": "Liverpool vs Como",
+                  "streams": [
+                    {
+                      "id": "6a81e6494c4d4e7eda3e31b2_0",
+                      "name": "Chuối Chao - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81e6494c4d4e7eda3e31b2.json"
+                      }
+                    },
+                    {
+                      "id": "6a81e6494c4d4e7eda3e31b2_1",
+                      "name": "Chuối Chao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81e6494c4d4e7eda3e31b2.json"
                       }
                     }
                   ]
