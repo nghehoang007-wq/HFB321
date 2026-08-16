@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b80446",
-          "name": "Malaysia vs Việt Nam",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Malaysia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Việt Nam",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80446.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80446",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80446",
-                  "name": "Malaysia vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80446_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80446.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80446_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80446.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b80442",
           "name": "Arsenal vs Manchester City",
           "labels": [
