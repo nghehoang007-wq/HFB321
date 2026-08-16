@@ -15,126 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b8043f",
-          "name": "Hannover 96 vs VfL Wolfsburg",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hannover 96",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "VfL Wolfsburg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b8043f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b8043f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b8043f",
-                  "name": "Hannover 96 vs VfL Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b8043f_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043f.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b8043f_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a81000509ffd97854b80440",
-          "name": "Dynamo Dresden vs SV Darmstadt 98",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Dynamo Dresd..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SV Darmstadt..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80440.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80440",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80440",
-                  "name": "Dynamo Dresden vs SV Darmstadt 98",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80440_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80440.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80440_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80440.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b80446",
           "name": "Malaysia vs Việt Nam",
           "labels": [
@@ -236,14 +116,14 @@
                   "streams": [
                     {
                       "id": "6a81000509ffd97854b80442_0",
-                      "name": "Chuối Đá - HD",
+                      "name": "Trốc Tru - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80442.json"
                       }
                     },
                     {
                       "id": "6a81000509ffd97854b80442_1",
-                      "name": "Chuối Đá - FHD",
+                      "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80442.json"
                       }
