@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7efc3809ffd97854756ff7",
-          "name": "Nashville SC vs Inter Miami",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Nashville SC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7efc3809ffd97854756ff7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7efc3809ffd97854756ff7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7efc3809ffd97854756ff7",
-                  "name": "Nashville SC vs Inter Miami",
-                  "streams": [
-                    {
-                      "id": "6a7efc3809ffd97854756ff7_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7efc3809ffd97854756ff7.json"
-                      }
-                    },
-                    {
-                      "id": "6a7efc3809ffd97854756ff7_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7efc3809ffd97854756ff7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a7efc3809ffd97854756ffc",
           "name": "Los Angeles FC vs San Diego",
           "labels": [
