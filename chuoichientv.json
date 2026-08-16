@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b80439",
-          "name": "Lens vs Paris Saint Germain",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lens",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Paris Saint ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80439.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80439",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80439",
-                  "name": "Lens vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80439_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80439.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80439_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80439.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b8043c",
           "name": "Lazio vs Mantova",
           "labels": [
