@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b80444",
-          "name": "Yokohama FC vs Jubilo Iwata",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Yokohama FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Jubilo Iwata",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b80444.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b80444",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b80444",
-                  "name": "Yokohama FC vs Jubilo Iwata",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b80444_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80444.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b80444_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80444.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b80437",
           "name": "Bucheon FC 1995 vs Jeonbuk Motors",
           "labels": [
@@ -126,66 +66,6 @@
                       "name": "Chuối To - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b80437.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a8100aa09ffd97854b815e0",
-          "name": "Tottenham vs 1899 Hoffenheim",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Tottenham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "1899 Hoffenh..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8100aa09ffd97854b815e0.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8100aa09ffd97854b815e0",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8100aa09ffd97854b815e0",
-                  "name": "Tottenham vs 1899 Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "6a8100aa09ffd97854b815e0_0",
-                      "name": "Chuối Đá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8100aa09ffd97854b815e0.json"
-                      }
-                    },
-                    {
-                      "id": "6a8100aa09ffd97854b815e0_1",
-                      "name": "Chuối Đá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8100aa09ffd97854b815e0.json"
                       }
                     }
                   ]
