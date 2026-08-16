@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a7efc3809ffd97854756ffc",
-          "name": "Los Angeles FC vs San Diego",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Los Angeles ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "San Diego",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a7efc3809ffd97854756ffc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a7efc3809ffd97854756ffc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a7efc3809ffd97854756ffc",
-                  "name": "Los Angeles FC vs San Diego",
-                  "streams": [
-                    {
-                      "id": "6a7efc3809ffd97854756ffc_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7efc3809ffd97854756ffc.json"
-                      }
-                    },
-                    {
-                      "id": "6a7efc3809ffd97854756ffc_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a7efc3809ffd97854756ffc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b80444",
           "name": "Yokohama FC vs Jubilo Iwata",
           "labels": [
