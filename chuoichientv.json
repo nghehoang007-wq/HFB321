@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81000509ffd97854b8043e",
-          "name": "Racing Santander vs Villarreal",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Racing Santa..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Villarr",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81000509ffd97854b8043e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81000509ffd97854b8043e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81000509ffd97854b8043e",
-                  "name": "Racing Santander vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "6a81000509ffd97854b8043e_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043e.json"
-                      }
-                    },
-                    {
-                      "id": "6a81000509ffd97854b8043e_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81000509ffd97854b8043e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b8043d",
           "name": "Espanyol vs Levante",
           "labels": [
