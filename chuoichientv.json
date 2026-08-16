@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81f5c209ffd97854d806ee",
-          "name": "Mirassol vs Flamengo",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Mirassol",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Flamengo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81f5c209ffd97854d806ee.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81f5c209ffd97854d806ee",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81f5c209ffd97854d806ee",
-                  "name": "Mirassol vs Flamengo",
-                  "streams": [
-                    {
-                      "id": "6a81f5c209ffd97854d806ee_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81f5c209ffd97854d806ee.json"
-                      }
-                    },
-                    {
-                      "id": "6a81f5c209ffd97854d806ee_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81f5c209ffd97854d806ee.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81000509ffd97854b80436",
           "name": "Barracas Central vs Rosario Central",
           "labels": [
