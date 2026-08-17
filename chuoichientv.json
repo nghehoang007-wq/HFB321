@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81002f09ffd97854b808d8",
-          "name": "Seattle Sounders vs Vancouver Whitecaps",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Seattle Soun..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Vancouver Wh..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81002f09ffd97854b808d8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81002f09ffd97854b808d8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81002f09ffd97854b808d8",
-                  "name": "Seattle Sounders vs Vancouver Whitecaps",
-                  "streams": [
-                    {
-                      "id": "6a81002f09ffd97854b808d8_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81002f09ffd97854b808d8.json"
-                      }
-                    },
-                    {
-                      "id": "6a81002f09ffd97854b808d8_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81002f09ffd97854b808d8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81d5cf09ffd97854d37c5e",
           "name": "April W vs Kharaatsai W",
           "labels": [
