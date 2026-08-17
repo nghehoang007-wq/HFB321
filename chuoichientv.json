@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81062e09ffd97854b8c074",
-          "name": "Austin vs FC Dallas",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Austin",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FC Dallas",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81062e09ffd97854b8c074.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81062e09ffd97854b8c074",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81062e09ffd97854b8c074",
-                  "name": "Austin vs FC Dallas",
-                  "streams": [
-                    {
-                      "id": "6a81062e09ffd97854b8c074_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81062e09ffd97854b8c074.json"
-                      }
-                    },
-                    {
-                      "id": "6a81062e09ffd97854b8c074_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81062e09ffd97854b8c074.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81002f09ffd97854b808d8",
           "name": "Seattle Sounders vs Vancouver Whitecaps",
           "labels": [
