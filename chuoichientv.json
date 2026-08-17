@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81d5cf09ffd97854d37c4e",
-          "name": "Lanus vs Independiente",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lanus",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Independiente",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81d5cf09ffd97854d37c4e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81d5cf09ffd97854d37c4e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81d5cf09ffd97854d37c4e",
-                  "name": "Lanus vs Independiente",
-                  "streams": [
-                    {
-                      "id": "6a81d5cf09ffd97854d37c4e_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d5cf09ffd97854d37c4e.json"
-                      }
-                    },
-                    {
-                      "id": "6a81d5cf09ffd97854d37c4e_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d5cf09ffd97854d37c4e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81d5cf09ffd97854d37c50",
           "name": "Velez Sarsfield vs Defensa Y Justicia",
           "labels": [
