@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81d66c09ffd97854d3956d",
-          "name": "Pachuca vs Puebla",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h06",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Pachuca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Puebla",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81d66c09ffd97854d3956d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81d66c09ffd97854d3956d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81d66c09ffd97854d3956d",
-                  "name": "Pachuca vs Puebla",
-                  "streams": [
-                    {
-                      "id": "6a81d66c09ffd97854d3956d_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d66c09ffd97854d3956d.json"
-                      }
-                    },
-                    {
-                      "id": "6a81d66c09ffd97854d3956d_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d66c09ffd97854d3956d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81d66c09ffd97854d3957a",
           "name": "Sydney vs SD Raiders",
           "labels": [
