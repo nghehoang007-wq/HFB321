@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a84589209ffd97854188cb4",
-          "name": "Barcelona vs Al Ahly",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Barca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al Ahly",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a84589209ffd97854188cb4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a84589209ffd97854188cb4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a84589209ffd97854188cb4",
-                  "name": "Barcelona vs Al Ahly",
-                  "streams": [
-                    {
-                      "id": "6a84589209ffd97854188cb4_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188cb4.json"
-                      }
-                    },
-                    {
-                      "id": "6a84589209ffd97854188cb4_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188cb4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a84589209ffd97854188cb3",
           "name": "Atletico Madrid vs Malaga",
           "labels": [
