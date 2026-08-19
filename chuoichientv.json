@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a84589209ffd97854188cba",
-          "name": "Việt Nam vs Malaysia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Việt Nam",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Malaysia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a84589209ffd97854188cba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a84589209ffd97854188cba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a84589209ffd97854188cba",
-                  "name": "Việt Nam vs Malaysia",
-                  "streams": [
-                    {
-                      "id": "6a84589209ffd97854188cba_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188cba.json"
-                      }
-                    },
-                    {
-                      "id": "6a84589209ffd97854188cba_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188cba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a84589209ffd97854188cae",
           "name": "Olmaliq vs Dinamo Samarqand",
           "labels": [
