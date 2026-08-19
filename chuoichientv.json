@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a81d67b09ffd97854d396fc",
-          "name": "Sao Paulo vs Bolívar",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sao Paulo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bolívar",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a81d67b09ffd97854d396fc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a81d67b09ffd97854d396fc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a81d67b09ffd97854d396fc",
-                  "name": "Sao Paulo vs Bolívar",
-                  "streams": [
-                    {
-                      "id": "6a81d67b09ffd97854d396fc_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d67b09ffd97854d396fc.json"
-                      }
-                    },
-                    {
-                      "id": "6a81d67b09ffd97854d396fc_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a81d67b09ffd97854d396fc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a81d67b09ffd97854d396fa",
           "name": "CS Cartagines vs Verdes",
           "labels": [
