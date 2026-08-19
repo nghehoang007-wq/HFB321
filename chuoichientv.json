@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a84589209ffd97854188caf",
-          "name": "SHANGHAI SIPG vs Dalian Zhixing",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h35",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "SHANGHAI SIPG",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Dalian Zhixi..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a84589209ffd97854188caf.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a84589209ffd97854188caf",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a84589209ffd97854188caf",
-                  "name": "SHANGHAI SIPG vs Dalian Zhixing",
-                  "streams": [
-                    {
-                      "id": "6a84589209ffd97854188caf_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188caf.json"
-                      }
-                    },
-                    {
-                      "id": "6a84589209ffd97854188caf_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188caf.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a84589209ffd97854188cba",
           "name": "Việt Nam vs Malaysia",
           "labels": [
