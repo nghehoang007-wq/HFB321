@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a84589209ffd97854188caa",
-          "name": "Philadelphia Union vs Inter Miami",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Philadelphia..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Inter Miami",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a84589209ffd97854188caa.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a84589209ffd97854188caa",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a84589209ffd97854188caa",
-                  "name": "Philadelphia Union vs Inter Miami",
-                  "streams": [
-                    {
-                      "id": "6a84589209ffd97854188caa_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188caa.json"
-                      }
-                    },
-                    {
-                      "id": "6a84589209ffd97854188caa_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84589209ffd97854188caa.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8459ff09ffd9785418bfc4",
           "name": "Colorado Rapids vs Los Angeles FC",
           "labels": [
