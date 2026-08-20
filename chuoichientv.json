@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a84f78509ffd978542b082e",
-          "name": "Los Angeles Galaxy vs San Jose Earthquakes",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Los Angeles ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "San Jose Ear..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a84f78509ffd978542b082e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a84f78509ffd978542b082e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a84f78509ffd978542b082e",
-                  "name": "Los Angeles Galaxy vs San Jose Earthquakes",
-                  "streams": [
-                    {
-                      "id": "6a84f78509ffd978542b082e_0",
-                      "name": "Chuối Đá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84f78509ffd978542b082e.json"
-                      }
-                    },
-                    {
-                      "id": "6a84f78509ffd978542b082e_1",
-                      "name": "Chuối Đá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a84f78509ffd978542b082e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8459ff09ffd9785418bfcd",
           "name": "Rovers FC W vs East Bengal W",
           "labels": [
