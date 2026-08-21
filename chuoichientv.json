@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8562a409ffd97854361425",
-          "name": "Al-Qadisiyah FC vs Al-Ittihad FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Al-Qadisiyah..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Ittihad FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562a409ffd97854361425.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562a409ffd97854361425",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562a409ffd97854361425",
-                  "name": "Al-Qadisiyah FC vs Al-Ittihad FC",
-                  "streams": [
-                    {
-                      "id": "6a8562a409ffd97854361425_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361425.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562a409ffd97854361425_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361425.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8562a409ffd9785436141d",
           "name": "Arsenal vs Coventry",
           "labels": [
@@ -176,14 +116,14 @@
                   "streams": [
                     {
                       "id": "6a8562a409ffd97854361416_0",
-                      "name": "Chuối Nhỏ - HD",
+                      "name": "Trốc Tru - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361416.json"
                       }
                     },
                     {
                       "id": "6a8562a409ffd97854361416_1",
-                      "name": "Chuối Nhỏ - FHD",
+                      "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361416.json"
                       }
@@ -246,66 +186,6 @@
                       "name": "A Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562b909ffd978543615ca.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a8562b909ffd978543615c8",
-          "name": "FC Juarez vs Club America",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Juarez",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Club America",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562b909ffd978543615c8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562b909ffd978543615c8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562b909ffd978543615c8",
-                  "name": "FC Juarez vs Club America",
-                  "streams": [
-                    {
-                      "id": "6a8562b909ffd978543615c8_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562b909ffd978543615c8.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562b909ffd978543615c8_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562b909ffd978543615c8.json"
                       }
                     }
                   ]
