@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8562a409ffd97854361417",
-          "name": "Navbahor vs Nasaf",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Navbahor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Nasaf",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562a409ffd97854361417.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562a409ffd97854361417",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562a409ffd97854361417",
-                  "name": "Navbahor vs Nasaf",
-                  "streams": [
-                    {
-                      "id": "6a8562a409ffd97854361417_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361417.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562a409ffd97854361417_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361417.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8562a409ffd97854361422",
           "name": "Al Riyadh vs Al-Nassr",
           "labels": [
@@ -246,66 +186,6 @@
                       "name": "A Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361425.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a8562a409ffd9785436141a",
-          "name": "Marseille vs Strasbourg",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Marseille",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Strasbourg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562a409ffd9785436141a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562a409ffd9785436141a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562a409ffd9785436141a",
-                  "name": "Marseille vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "6a8562a409ffd9785436141a_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd9785436141a.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562a409ffd9785436141a_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd9785436141a.json"
                       }
                     }
                   ]
