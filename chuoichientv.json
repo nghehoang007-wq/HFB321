@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a87169db3bb0134f4e71ef1",
-          "name": "Thailand vs Australia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Thailand",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Australia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87169db3bb0134f4e71ef1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a87169db3bb0134f4e71ef1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a87169db3bb0134f4e71ef1",
-                  "name": "Thailand vs Australia",
-                  "streams": [
-                    {
-                      "id": "6a87169db3bb0134f4e71ef1_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87169db3bb0134f4e71ef1.json"
-                      }
-                    },
-                    {
-                      "id": "6a87169db3bb0134f4e71ef1_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87169db3bb0134f4e71ef1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8562a409ffd97854361418",
           "name": "Green Gully vs St. Albans Saints",
           "labels": [
@@ -116,14 +56,14 @@
                   "streams": [
                     {
                       "id": "6a8562a409ffd97854361418_0",
-                      "name": "Chuối Nhỏ - HD",
+                      "name": "Chuối Chao - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361418.json"
                       }
                     },
                     {
                       "id": "6a8562a409ffd97854361418_1",
-                      "name": "Chuối Nhỏ - FHD",
+                      "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361418.json"
                       }
@@ -416,14 +356,14 @@
                   "streams": [
                     {
                       "id": "6a8562a409ffd97854361417_0",
-                      "name": "Chuối Chao - HD",
+                      "name": "Chuối Nhỏ - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361417.json"
                       }
                     },
                     {
                       "id": "6a8562a409ffd97854361417_1",
-                      "name": "Chuối Chao - FHD",
+                      "name": "Chuối Nhỏ - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361417.json"
                       }
