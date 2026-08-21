@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8562a409ffd97854361421",
-          "name": "Johor Darul Takzim FC vs Kuching FA",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Johor Darul ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Kuching FA",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562a409ffd97854361421.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562a409ffd97854361421",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562a409ffd97854361421",
-                  "name": "Johor Darul Takzim FC vs Kuching FA",
-                  "streams": [
-                    {
-                      "id": "6a8562a409ffd97854361421_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361421.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562a409ffd97854361421_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd97854361421.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8562a409ffd97854361417",
           "name": "Navbahor vs Nasaf",
           "labels": [
