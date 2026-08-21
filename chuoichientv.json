@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8562a409ffd9785436141d",
-          "name": "Arsenal vs Coventry",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Arsenal",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Coventry",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8562a409ffd9785436141d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8562a409ffd9785436141d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8562a409ffd9785436141d",
-                  "name": "Arsenal vs Coventry",
-                  "streams": [
-                    {
-                      "id": "6a8562a409ffd9785436141d_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd9785436141d.json"
-                      }
-                    },
-                    {
-                      "id": "6a8562a409ffd9785436141d_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8562a409ffd9785436141d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8562a409ffd97854361416",
           "name": "Estudiantes de Rio Cuarto vs San Lorenzo",
           "labels": [
