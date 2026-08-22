@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a89674109ffd97854ad5944",
-          "name": "Kashima vs Avispa Fukuoka",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Kashima",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Avispa Fukuo..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89674109ffd97854ad5944.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a89674109ffd97854ad5944",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a89674109ffd97854ad5944",
-                  "name": "Kashima vs Avispa Fukuoka",
-                  "streams": [
-                    {
-                      "id": "6a89674109ffd97854ad5944_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89674109ffd97854ad5944.json"
-                      }
-                    },
-                    {
-                      "id": "6a89674109ffd97854ad5944_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89674109ffd97854ad5944.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a87196a09ffd9785467ee7b",
           "name": "Hull City vs Manchester United",
           "labels": [
