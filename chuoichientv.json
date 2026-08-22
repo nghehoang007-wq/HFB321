@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a88edfd595b8fcf87f81f5a",
-          "name": "Việt Nam vs South Korea",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Việt Nam",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "South Korea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a88edfd595b8fcf87f81f5a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a88edfd595b8fcf87f81f5a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a88edfd595b8fcf87f81f5a",
-                  "name": "Việt Nam vs South Korea",
-                  "streams": [
-                    {
-                      "id": "6a88edfd595b8fcf87f81f5a_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a88edfd595b8fcf87f81f5a.json"
-                      }
-                    },
-                    {
-                      "id": "6a88edfd595b8fcf87f81f5a_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a88edfd595b8fcf87f81f5a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a88ee2ec7fc5a2fa5eaae2b",
           "name": "Kazakhstan vs Indonesia",
           "labels": [
