@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a87196a09ffd9785467ee7b",
-          "name": "Hull City vs Manchester United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hull City",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Man Utd",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87196a09ffd9785467ee7b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a87196a09ffd9785467ee7b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a87196a09ffd9785467ee7b",
-                  "name": "Hull City vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "6a87196a09ffd9785467ee7b_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee7b.json"
-                      }
-                    },
-                    {
-                      "id": "6a87196a09ffd9785467ee7b_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee7b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a88ee6af45c577cad207dfa",
           "name": "China vs Iraq",
           "labels": [
@@ -246,6 +186,66 @@
                       "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee7c.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a87196a09ffd9785467ee7d",
+          "name": "Ipswich vs Sunderland",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "21h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Ipswich",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Sunderland",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87196a09ffd9785467ee7d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87196a09ffd9785467ee7d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87196a09ffd9785467ee7d",
+                  "name": "Ipswich vs Sunderland",
+                  "streams": [
+                    {
+                      "id": "6a87196a09ffd9785467ee7d_0",
+                      "name": "Trốc Tru - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee7d.json"
+                      }
+                    },
+                    {
+                      "id": "6a87196a09ffd9785467ee7d_1",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee7d.json"
                       }
                     }
                   ]
