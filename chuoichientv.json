@@ -15,59 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a89b91009ffd97854bcddca",
-          "name": "Elche vs Barcelona",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Elche",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Barca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89b91009ffd97854bcddca.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a89b91009ffd97854bcddca",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a89b91009ffd97854bcddca",
-                  "name": "Elche vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "6a89b91009ffd97854bcddca_0",
-                      "name": "Nhà Đài - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b91009ffd97854bcddca.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a89b90f09ffd97854bcddc0",
           "name": "Santos vs Mirassol",
           "labels": [
