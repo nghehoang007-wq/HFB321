@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a89b90f09ffd97854bcddc0",
-          "name": "Santos vs Mirassol",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Santos",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Mirassol",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89b90f09ffd97854bcddc0.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a89b90f09ffd97854bcddc0",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a89b90f09ffd97854bcddc0",
-                  "name": "Santos vs Mirassol",
-                  "streams": [
-                    {
-                      "id": "6a89b90f09ffd97854bcddc0_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b90f09ffd97854bcddc0.json"
-                      }
-                    },
-                    {
-                      "id": "6a89b90f09ffd97854bcddc0_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b90f09ffd97854bcddc0.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8b457809ffd97854ed2f92",
           "name": "Atlanta United FC vs Sporting Kansas City",
           "labels": [
