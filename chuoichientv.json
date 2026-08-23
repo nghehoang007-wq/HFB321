@@ -13,7 +13,368 @@
       "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN",
       "display": "vertical",
       "grid_number": 2,
-      "channels": []
+      "channels": [
+        {
+          "id": "6a87196a09ffd9785467ee81",
+          "name": "Brighton vs Aston Villa",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Brighton",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Aston Villa",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87196a09ffd9785467ee81.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87196a09ffd9785467ee81",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87196a09ffd9785467ee81",
+                  "name": "Brighton vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "6a87196a09ffd9785467ee81_0",
+                      "name": "Trốc Tru - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee81.json"
+                      }
+                    },
+                    {
+                      "id": "6a87196a09ffd9785467ee81_1",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee81.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a87196a09ffd9785467ee82",
+          "name": "Manchester City vs Bournemouth",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Man City",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Bournemouth",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87196a09ffd9785467ee82.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87196a09ffd9785467ee82",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87196a09ffd9785467ee82",
+                  "name": "Manchester City vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "6a87196a09ffd9785467ee82_0",
+                      "name": "A Ngao - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee82.json"
+                      }
+                    },
+                    {
+                      "id": "6a87196a09ffd9785467ee82_1",
+                      "name": "A Ngao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee82.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a87198409ffd9785467f160",
+          "name": "Atletico Madrid vs Villarreal",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Atletico Mad..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Villarr",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87198409ffd9785467f160.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87198409ffd9785467f160",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87198409ffd9785467f160",
+                  "name": "Atletico Madrid vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "6a87198409ffd9785467f160_0",
+                      "name": "Chuối Chao - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87198409ffd9785467f160.json"
+                      }
+                    },
+                    {
+                      "id": "6a87198409ffd9785467f160_1",
+                      "name": "Chuối Chao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87198409ffd9785467f160.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a87196a09ffd9785467ee83",
+          "name": "Newcastle vs Liverpool",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Newcastle",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Liverpool",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87196a09ffd9785467ee83.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87196a09ffd9785467ee83",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87196a09ffd9785467ee83",
+                  "name": "Newcastle vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "6a87196a09ffd9785467ee83_0",
+                      "name": "Chuối Nhỏ - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee83.json"
+                      }
+                    },
+                    {
+                      "id": "6a87196a09ffd9785467ee83_1",
+                      "name": "Chuối Nhỏ - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87196a09ffd9785467ee83.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a87199e09ffd9785467f44f",
+          "name": "Frosinone vs Juventus",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "23h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Frosinone",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Juventus",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a87199e09ffd9785467f44f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a87199e09ffd9785467f44f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a87199e09ffd9785467f44f",
+                  "name": "Frosinone vs Juventus",
+                  "streams": [
+                    {
+                      "id": "6a87199e09ffd9785467f44f_0",
+                      "name": "Trốc Tru - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87199e09ffd9785467f44f.json"
+                      }
+                    },
+                    {
+                      "id": "6a87199e09ffd9785467f44f_1",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a87199e09ffd9785467f44f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6a89b91009ffd97854bcddcb",
+          "name": "Getafe vs Racing Santander",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "00h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Getafe",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Racing Santa..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89b91009ffd97854bcddcb.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6a89b91009ffd97854bcddcb",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6a89b91009ffd97854bcddcb",
+                  "name": "Getafe vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "6a89b91009ffd97854bcddcb_0",
+                      "name": "Chuối To - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b91009ffd97854bcddcb.json"
+                      }
+                    },
+                    {
+                      "id": "6a89b91009ffd97854bcddcb_1",
+                      "name": "Chuối To - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b91009ffd97854bcddcb.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "notice": {
