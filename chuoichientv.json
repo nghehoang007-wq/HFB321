@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a89b9a109ffd97854bd00bb",
-          "name": "Atlante W vs Toluca W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Atlante W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Toluca W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89b9a109ffd97854bd00bb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a89b9a109ffd97854bd00bb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a89b9a109ffd97854bd00bb",
-                  "name": "Atlante W vs Toluca W",
-                  "streams": [
-                    {
-                      "id": "6a89b9a109ffd97854bd00bb_0",
-                      "name": "Chuối Lá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b9a109ffd97854bd00bb.json"
-                      }
-                    },
-                    {
-                      "id": "6a89b9a109ffd97854bd00bb_1",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b9a109ffd97854bd00bb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a89b9a109ffd97854bd00ac",
           "name": "Botafogo vs Atletico Paranaense",
           "labels": [
