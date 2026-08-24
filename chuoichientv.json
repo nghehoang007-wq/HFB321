@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a89b9a109ffd97854bd00b8",
-          "name": "Sabah FA vs Imigresen",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sabah FA",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Imigresen",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a89b9a109ffd97854bd00b8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a89b9a109ffd97854bd00b8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a89b9a109ffd97854bd00b8",
-                  "name": "Sabah FA vs Imigresen",
-                  "streams": [
-                    {
-                      "id": "6a89b9a109ffd97854bd00b8_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b9a109ffd97854bd00b8.json"
-                      }
-                    },
-                    {
-                      "id": "6a89b9a109ffd97854bd00b8_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a89b9a109ffd97854bd00b8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a89b9a109ffd97854bd00ae",
           "name": "Kokand-1912 vs Buxoro",
           "labels": [
