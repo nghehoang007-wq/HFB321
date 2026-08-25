@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8b8fb43ccb39801602c270",
-          "name": "Japan vs Vietnam W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Japan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Vietnam W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8b8fb43ccb39801602c270.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8b8fb43ccb39801602c270",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8b8fb43ccb39801602c270",
-                  "name": "Japan vs Vietnam W",
-                  "streams": [
-                    {
-                      "id": "6a8b8fb43ccb39801602c270_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b8fb43ccb39801602c270.json"
-                      }
-                    },
-                    {
-                      "id": "6a8b8fb43ccb39801602c270_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b8fb43ccb39801602c270.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8b906d09ffd97854f630ba",
           "name": "Andijan vs Xorazm",
           "labels": [
