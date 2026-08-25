@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8b3128b019ce9d9d307222",
-          "name": "Iran vs Iraq",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Iran",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Iraq",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8b3128b019ce9d9d307222.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8b3128b019ce9d9d307222",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8b3128b019ce9d9d307222",
-                  "name": "Iran vs Iraq",
-                  "streams": [
-                    {
-                      "id": "6a8b3128b019ce9d9d307222_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b3128b019ce9d9d307222.json"
-                      }
-                    },
-                    {
-                      "id": "6a8b3128b019ce9d9d307222_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b3128b019ce9d9d307222.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a89b9b809ffd97854bd0806",
           "name": "Lions vs North Sunshine Eagles",
           "labels": [
