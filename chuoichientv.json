@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8b906d09ffd97854f630bd",
-          "name": "Juventude vs CRB",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "05h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Juventude",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "CRB",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8b906d09ffd97854f630bd.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8b906d09ffd97854f630bd",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8b906d09ffd97854f630bd",
-                  "name": "Juventude vs CRB",
-                  "streams": [
-                    {
-                      "id": "6a8b906d09ffd97854f630bd_0",
-                      "name": "Chuối Lá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b906d09ffd97854f630bd.json"
-                      }
-                    },
-                    {
-                      "id": "6a8b906d09ffd97854f630bd_1",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b906d09ffd97854f630bd.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8b909609ffd97854f63730",
           "name": "Monterrey vs Chicago Fire",
           "labels": [
