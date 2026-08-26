@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a8b909609ffd97854f63730",
-          "name": "Monterrey vs Chicago Fire",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Monterrey",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Chicago Fire",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a8b909609ffd97854f63730.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a8b909609ffd97854f63730",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a8b909609ffd97854f63730",
-                  "name": "Monterrey vs Chicago Fire",
-                  "streams": [
-                    {
-                      "id": "6a8b909609ffd97854f63730_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b909609ffd97854f63730.json"
-                      }
-                    },
-                    {
-                      "id": "6a8b909609ffd97854f63730_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a8b909609ffd97854f63730.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a8c8700d7a983695f3c6549",
           "name": "Hong Kong vs South Korea",
           "labels": [
