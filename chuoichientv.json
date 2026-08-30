@@ -15,246 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a9380f509ffd97854ed9712",
-          "name": "Real Madrid vs Malaga",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Real Madrid",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Malaga",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed9712.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9380f509ffd97854ed9712",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9380f509ffd97854ed9712",
-                  "name": "Real Madrid vs Malaga",
-                  "streams": [
-                    {
-                      "id": "6a9380f509ffd97854ed9712_0",
-                      "name": "Chuối Lá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9712.json"
-                      }
-                    },
-                    {
-                      "id": "6a9380f509ffd97854ed9712_1",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9712.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a9380f509ffd97854ed970e",
-          "name": "Manchester United vs Ipswich",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Man Utd",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ipswich",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed970e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9380f509ffd97854ed970e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9380f509ffd97854ed970e",
-                  "name": "Manchester United vs Ipswich",
-                  "streams": [
-                    {
-                      "id": "6a9380f509ffd97854ed970e_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed970e.json"
-                      }
-                    },
-                    {
-                      "id": "6a9380f509ffd97854ed970e_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed970e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a9380f509ffd97854ed9708",
-          "name": "Napoli vs Como",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Napoli",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Como",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed9708.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9380f509ffd97854ed9708",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9380f509ffd97854ed9708",
-                  "name": "Napoli vs Como",
-                  "streams": [
-                    {
-                      "id": "6a9380f509ffd97854ed9708_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9708.json"
-                      }
-                    },
-                    {
-                      "id": "6a9380f509ffd97854ed9708_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9708.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a9380f509ffd97854ed9711",
-          "name": "Deportivo La Coruna vs Valencia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Deportivo La..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Valencia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed9711.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9380f509ffd97854ed9711",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9380f509ffd97854ed9711",
-                  "name": "Deportivo La Coruna vs Valencia",
-                  "streams": [
-                    {
-                      "id": "6a9380f509ffd97854ed9711_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9711.json"
-                      }
-                    },
-                    {
-                      "id": "6a9380f509ffd97854ed9711_1",
-                      "name": "A Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9711.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a9380f509ffd97854ed9706",
           "name": "Cagliari vs Inter",
           "labels": [
@@ -555,8 +315,8 @@
           ]
         },
         {
-          "id": "6a9380f509ffd97854ed9714",
-          "name": "Atlético San Luis W vs Atlas W",
+          "id": "6a946f7409ffd978540d2811",
+          "name": "St. Louis City vs FC Dallas",
           "labels": [
             {
               "position": "bottom-center",
@@ -566,19 +326,19 @@
             },
             {
               "position": "top-left",
-              "text": "Atlético San..",
+              "text": "St. Louis Ci..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Atlas W",
+              "text": "FC Dallas",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed9714.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a946f7409ffd978540d2811.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -587,25 +347,25 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a9380f509ffd97854ed9714",
+              "id": "src-6a946f7409ffd978540d2811",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a9380f509ffd97854ed9714",
-                  "name": "Atlético San Luis W vs Atlas W",
+                  "id": "c-6a946f7409ffd978540d2811",
+                  "name": "St. Louis City vs FC Dallas",
                   "streams": [
                     {
-                      "id": "6a9380f509ffd97854ed9714_0",
+                      "id": "6a946f7409ffd978540d2811_0",
                       "name": "A Ngao - HD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9714.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a946f7409ffd978540d2811.json"
                       }
                     },
                     {
-                      "id": "6a9380f509ffd97854ed9714_1",
+                      "id": "6a946f7409ffd978540d2811_1",
                       "name": "A Ngao - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9714.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a946f7409ffd978540d2811.json"
                       }
                     }
                   ]
