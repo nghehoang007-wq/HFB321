@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a9380f509ffd97854ed9704",
-          "name": "Mirassol vs Palmeiras",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Mirassol",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Palmeiras",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9380f509ffd97854ed9704.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9380f509ffd97854ed9704",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9380f509ffd97854ed9704",
-                  "name": "Mirassol vs Palmeiras",
-                  "streams": [
-                    {
-                      "id": "6a9380f509ffd97854ed9704_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9704.json"
-                      }
-                    },
-                    {
-                      "id": "6a9380f509ffd97854ed9704_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9380f509ffd97854ed9704.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a946f7409ffd978540d2811",
           "name": "St. Louis City vs FC Dallas",
           "labels": [
