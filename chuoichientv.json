@@ -13,68 +13,7 @@
       "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN",
       "display": "vertical",
       "grid_number": 2,
-      "channels": [
-        {
-          "id": "6a9419d809ffd97854ff8fc7",
-          "name": "Atletico-MG vs Cruzeiro",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Atletico-MG",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Cruzeiro",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9419d809ffd97854ff8fc7.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9419d809ffd97854ff8fc7",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9419d809ffd97854ff8fc7",
-                  "name": "Atletico-MG vs Cruzeiro",
-                  "streams": [
-                    {
-                      "id": "6a9419d809ffd97854ff8fc7_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9419d809ffd97854ff8fc7.json"
-                      }
-                    },
-                    {
-                      "id": "6a9419d809ffd97854ff8fc7_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9419d809ffd97854ff8fc7.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "channels": []
     }
   ],
   "notice": {
