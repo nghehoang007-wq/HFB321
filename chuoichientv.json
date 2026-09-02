@@ -15,248 +15,8 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a96a7db09ffd978544b8082",
-          "name": "Sassuolo vs Frosinone",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sassuolo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Frosinone",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96a7db09ffd978544b8082.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a96a7db09ffd978544b8082",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a96a7db09ffd978544b8082",
-                  "name": "Sassuolo vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "6a96a7db09ffd978544b8082_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8082.json"
-                      }
-                    },
-                    {
-                      "id": "6a96a7db09ffd978544b8082_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8082.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a96a7db09ffd978544b807c",
-          "name": "FC Orenburg vs Rubin",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FC Orenburg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Rubin",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96a7db09ffd978544b807c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a96a7db09ffd978544b807c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a96a7db09ffd978544b807c",
-                  "name": "FC Orenburg vs Rubin",
-                  "streams": [
-                    {
-                      "id": "6a96a7db09ffd978544b807c_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b807c.json"
-                      }
-                    },
-                    {
-                      "id": "6a96a7db09ffd978544b807c_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b807c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a96a7db09ffd978544b807d",
-          "name": "Zenit vs Makhachkala",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Zenit",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Makhachkala",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96a7db09ffd978544b807d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a96a7db09ffd978544b807d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a96a7db09ffd978544b807d",
-                  "name": "Zenit vs Makhachkala",
-                  "streams": [
-                    {
-                      "id": "6a96a7db09ffd978544b807d_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b807d.json"
-                      }
-                    },
-                    {
-                      "id": "6a96a7db09ffd978544b807d_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b807d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a98187e09ffd9785472c5d9",
-          "name": "Udinese vs Venezia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Udinese",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Venezia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a98187e09ffd9785472c5d9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a98187e09ffd9785472c5d9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a98187e09ffd9785472c5d9",
-                  "name": "Udinese vs Venezia",
-                  "streams": [
-                    {
-                      "id": "6a98187e09ffd9785472c5d9_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a98187e09ffd9785472c5d9.json"
-                      }
-                    },
-                    {
-                      "id": "6a98187e09ffd9785472c5d9_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a98187e09ffd9785472c5d9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a96a7db09ffd978544b8080",
-          "name": "Real Sociedad W vs Chelsea W",
+          "id": "6a984fb409ffd9785478e292",
+          "name": "Slavia Sofia vs Levski Sofia",
           "labels": [
             {
               "position": "bottom-center",
@@ -266,19 +26,19 @@
             },
             {
               "position": "top-left",
-              "text": "Real Socieda..",
+              "text": "Slavia Sofia",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Chelsea W",
+              "text": "Levski Sofia",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96a7db09ffd978544b8080.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a984fb409ffd9785478e292.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -287,25 +47,25 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6a96a7db09ffd978544b8080",
+              "id": "src-6a984fb409ffd9785478e292",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6a96a7db09ffd978544b8080",
-                  "name": "Real Sociedad W vs Chelsea W",
+                  "id": "c-6a984fb409ffd9785478e292",
+                  "name": "Slavia Sofia vs Levski Sofia",
                   "streams": [
                     {
-                      "id": "6a96a7db09ffd978544b8080_0",
+                      "id": "6a984fb409ffd9785478e292_0",
                       "name": "A Ngao - HD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8080.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a984fb409ffd9785478e292.json"
                       }
                     },
                     {
-                      "id": "6a96a7db09ffd978544b8080_1",
+                      "id": "6a984fb409ffd9785478e292_1",
                       "name": "A Ngao - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8080.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a984fb409ffd9785478e292.json"
                       }
                     }
                   ]
