@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a96a7db09ffd978544b8074",
-          "name": "Flamengo vs Mirassol",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "05h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Flamengo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Mirassol",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96a7db09ffd978544b8074.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a96a7db09ffd978544b8074",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a96a7db09ffd978544b8074",
-                  "name": "Flamengo vs Mirassol",
-                  "streams": [
-                    {
-                      "id": "6a96a7db09ffd978544b8074_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8074.json"
-                      }
-                    },
-                    {
-                      "id": "6a96a7db09ffd978544b8074_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96a7db09ffd978544b8074.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a97eea509ffd978546e3a58",
           "name": "Santos vs Palmeiras",
           "labels": [
