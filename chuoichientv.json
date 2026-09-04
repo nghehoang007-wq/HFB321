@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a97f41c09ffd978546ecc64",
-          "name": "Arminia Bielefeld vs FC St. Pauli",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Arminia Biel..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FC St. Pauli",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a97f41c09ffd978546ecc64.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a97f41c09ffd978546ecc64",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a97f41c09ffd978546ecc64",
-                  "name": "Arminia Bielefeld vs FC St. Pauli",
-                  "streams": [
-                    {
-                      "id": "6a97f41c09ffd978546ecc64_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f41c09ffd978546ecc64.json"
-                      }
-                    },
-                    {
-                      "id": "6a97f41c09ffd978546ecc64_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f41c09ffd978546ecc64.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a97f41c09ffd978546ecc63",
           "name": "VfB Stuttgart vs 1.FC Köln",
           "labels": [
