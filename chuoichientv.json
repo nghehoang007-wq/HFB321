@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a97f2b526d5cf010b17aaba",
-          "name": "Iran vs New Zealand",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Iran",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "New Zealand",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a97f2b526d5cf010b17aaba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a97f2b526d5cf010b17aaba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a97f2b526d5cf010b17aaba",
-                  "name": "Iran vs New Zealand",
-                  "streams": [
-                    {
-                      "id": "6a97f2b526d5cf010b17aaba_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f2b526d5cf010b17aaba.json"
-                      }
-                    },
-                    {
-                      "id": "6a97f2b526d5cf010b17aaba_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f2b526d5cf010b17aaba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a97f2f32cd2eba3c91a3ead",
           "name": "South Korea vs Chinese Taipei",
           "labels": [
@@ -126,66 +66,6 @@
                       "name": "Chuối Tây - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f2f32cd2eba3c91a3ead.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6a96b47b09ffd978544cca64",
-          "name": "Arema FC vs Adhyaksa",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "15h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Arema FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Adhyaksa",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a96b47b09ffd978544cca64.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a96b47b09ffd978544cca64",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a96b47b09ffd978544cca64",
-                  "name": "Arema FC vs Adhyaksa",
-                  "streams": [
-                    {
-                      "id": "6a96b47b09ffd978544cca64_0",
-                      "name": "Chuối Lá - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96b47b09ffd978544cca64.json"
-                      }
-                    },
-                    {
-                      "id": "6a96b47b09ffd978544cca64_1",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a96b47b09ffd978544cca64.json"
                       }
                     }
                   ]
@@ -716,14 +596,14 @@
                   "streams": [
                     {
                       "id": "6a97f41c09ffd978546ecc62_0",
-                      "name": "Chuối Lá - HD",
+                      "name": "A Ngao - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f41c09ffd978546ecc62.json"
                       }
                     },
                     {
                       "id": "6a97f41c09ffd978546ecc62_1",
-                      "name": "Chuối Lá - FHD",
+                      "name": "A Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a97f41c09ffd978546ecc62.json"
                       }
