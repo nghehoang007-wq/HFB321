@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a9a8e0509ffd97854b5db6b",
-          "name": "Arsenal vs Chelsea",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Arsenal",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Chelsea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9a8e0509ffd97854b5db6b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9a8e0509ffd97854b5db6b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9a8e0509ffd97854b5db6b",
-                  "name": "Arsenal vs Chelsea",
-                  "streams": [
-                    {
-                      "id": "6a9a8e0509ffd97854b5db6b_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9a8e0509ffd97854b5db6b.json"
-                      }
-                    },
-                    {
-                      "id": "6a9a8e0509ffd97854b5db6b_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9a8e0509ffd97854b5db6b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a9d07819f0a25ca8517c768",
           "name": "Italy W vs Turkey W",
           "labels": [
