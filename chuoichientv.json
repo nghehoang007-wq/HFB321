@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a9b80dc5125b66236bb33c9",
-          "name": "New Zealand vs China",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "New Zealand",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "China",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9b80dc5125b66236bb33c9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9b80dc5125b66236bb33c9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9b80dc5125b66236bb33c9",
-                  "name": "New Zealand vs China",
-                  "streams": [
-                    {
-                      "id": "6a9b80dc5125b66236bb33c9_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9b80dc5125b66236bb33c9.json"
-                      }
-                    },
-                    {
-                      "id": "6a9b80dc5125b66236bb33c9_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9b80dc5125b66236bb33c9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6a9b8105b2a85adf0013346f",
           "name": "Thailand vs South Korea",
           "labels": [
