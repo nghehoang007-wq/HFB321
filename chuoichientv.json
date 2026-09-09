@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6a9fcc319f0a25ca85d643c2",
-          "name": "Chinese Taipei vs Thailand",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Chinese Taip..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Thailand",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9fcc319f0a25ca85d643c2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9fcc319f0a25ca85d643c2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9fcc319f0a25ca85d643c2",
-                  "name": "Chinese Taipei vs Thailand",
-                  "streams": [
-                    {
-                      "id": "6a9fcc319f0a25ca85d643c2_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9fcc319f0a25ca85d643c2.json"
-                      }
-                    },
-                    {
-                      "id": "6a9fcc319f0a25ca85d643c2_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9fcc319f0a25ca85d643c2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa0add1cfcef69b760926d1",
           "name": "Iran vs China",
           "labels": [
