@@ -73,66 +73,6 @@
               ]
             }
           ]
-        },
-        {
-          "id": "6a9e40d809ffd978543b51ec",
-          "name": "Los Angeles FC vs New York Red Bulls",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Los Angeles ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "New York Red..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6a9e40d809ffd978543b51ec.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6a9e40d809ffd978543b51ec",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6a9e40d809ffd978543b51ec",
-                  "name": "Los Angeles FC vs New York Red Bulls",
-                  "streams": [
-                    {
-                      "id": "6a9e40d809ffd978543b51ec_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9e40d809ffd978543b51ec.json"
-                      }
-                    },
-                    {
-                      "id": "6a9e40d809ffd978543b51ec_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6a9e40d809ffd978543b51ec.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     }
