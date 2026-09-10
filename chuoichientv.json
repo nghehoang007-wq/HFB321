@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa2069912ed59c0ea33a286",
-          "name": "Thailand vs Australia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Thailand",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Australia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa2069912ed59c0ea33a286.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa2069912ed59c0ea33a286",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa2069912ed59c0ea33a286",
-                  "name": "Thailand vs Australia",
-                  "streams": [
-                    {
-                      "id": "6aa2069912ed59c0ea33a286_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa2069912ed59c0ea33a286.json"
-                      }
-                    },
-                    {
-                      "id": "6aa2069912ed59c0ea33a286_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa2069912ed59c0ea33a286.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa236ca0b73345882828750",
           "name": "South Korea vs China",
           "labels": [
