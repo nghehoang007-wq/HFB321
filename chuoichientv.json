@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa236ca0b73345882828750",
-          "name": "South Korea vs China",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "South Korea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "China",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa236ca0b73345882828750.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa236ca0b73345882828750",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa236ca0b73345882828750",
-                  "name": "South Korea vs China",
-                  "streams": [
-                    {
-                      "id": "6aa236ca0b73345882828750_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa236ca0b73345882828750.json"
-                      }
-                    },
-                    {
-                      "id": "6aa236ca0b73345882828750_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa236ca0b73345882828750.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa10fbf09ffd978548d7664",
           "name": "Viettel vs Công An Hà Nội",
           "labels": [
@@ -135,66 +75,6 @@
           ]
         },
         {
-          "id": "6aa10fbf09ffd978548d766b",
-          "name": "Manchester United U19 vs Sabah U19",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Man Utd",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Sabah U19",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa10fbf09ffd978548d766b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa10fbf09ffd978548d766b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa10fbf09ffd978548d766b",
-                  "name": "Manchester United U19 vs Sabah U19",
-                  "streams": [
-                    {
-                      "id": "6aa10fbf09ffd978548d766b_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa10fbf09ffd978548d766b.json"
-                      }
-                    },
-                    {
-                      "id": "6aa10fbf09ffd978548d766b_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa10fbf09ffd978548d766b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa111f4ce18a7ff0a35d235",
           "name": "Poland vs Portugal",
           "labels": [
@@ -246,6 +126,66 @@
                       "name": "Chuối Tây - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa111f4ce18a7ff0a35d235.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6aa2a54809ffd97854ba0033",
+          "name": "Spain U20 vs New Caledonia U20 W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "20h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Spain U20",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "New Caledoni..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa2a54809ffd97854ba0033.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6aa2a54809ffd97854ba0033",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6aa2a54809ffd97854ba0033",
+                  "name": "Spain U20 vs New Caledonia U20 W",
+                  "streams": [
+                    {
+                      "id": "6aa2a54809ffd97854ba0033_0",
+                      "name": "Chuối Nhỏ - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa2a54809ffd97854ba0033.json"
+                      }
+                    },
+                    {
+                      "id": "6aa2a54809ffd97854ba0033_1",
+                      "name": "Chuối Nhỏ - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa2a54809ffd97854ba0033.json"
                       }
                     }
                   ]
