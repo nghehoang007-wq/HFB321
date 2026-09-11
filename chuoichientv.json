@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa3764b09ffd97854d131b2",
-          "name": "Sevilla vs Valencia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sevilla",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Valencia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa3764b09ffd97854d131b2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa3764b09ffd97854d131b2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa3764b09ffd97854d131b2",
-                  "name": "Sevilla vs Valencia",
-                  "streams": [
-                    {
-                      "id": "6aa3764b09ffd97854d131b2_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa3764b09ffd97854d131b2.json"
-                      }
-                    },
-                    {
-                      "id": "6aa3764b09ffd97854d131b2_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa3764b09ffd97854d131b2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa44c6f09ffd97854e99244",
           "name": "Jaguares vs Fortaleza FC",
           "labels": [
