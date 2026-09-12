@@ -13,68 +13,7 @@
       "name": "🔴 TRỰC TIẾP CHUỐI CHIÊN",
       "display": "vertical",
       "grid_number": 2,
-      "channels": [
-        {
-          "id": "6aa44c6f09ffd97854e99244",
-          "name": "Jaguares vs Fortaleza FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Jaguares",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Fortaleza FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa44c6f09ffd97854e99244.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa44c6f09ffd97854e99244",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa44c6f09ffd97854e99244",
-                  "name": "Jaguares vs Fortaleza FC",
-                  "streams": [
-                    {
-                      "id": "6aa44c6f09ffd97854e99244_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa44c6f09ffd97854e99244.json"
-                      }
-                    },
-                    {
-                      "id": "6aa44c6f09ffd97854e99244_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa44c6f09ffd97854e99244.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "channels": []
     }
   ],
   "notice": {
