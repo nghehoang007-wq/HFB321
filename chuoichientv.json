@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa52baffe1dcf8b7f666eba",
-          "name": "Japan vs South Korea",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h40",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Japan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "South Korea",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa52baffe1dcf8b7f666eba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa52baffe1dcf8b7f666eba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa52baffe1dcf8b7f666eba",
-                  "name": "Japan vs South Korea",
-                  "streams": [
-                    {
-                      "id": "6aa52baffe1dcf8b7f666eba_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa52baffe1dcf8b7f666eba.json"
-                      }
-                    },
-                    {
-                      "id": "6aa52baffe1dcf8b7f666eba_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa52baffe1dcf8b7f666eba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa4a913dcdd0cab1de87491",
           "name": "Denmark vs Netherlands",
           "labels": [
@@ -126,66 +66,6 @@
                       "name": "Chuối Kem - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4a913dcdd0cab1de87491.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aa4b2ea09ffd97854f65b44",
-          "name": "Ha Noi vs Song Lam Nghe An",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ha Noi",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Song Lam Ngh..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa4b2ea09ffd97854f65b44.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa4b2ea09ffd97854f65b44",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa4b2ea09ffd97854f65b44",
-                  "name": "Ha Noi vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "6aa4b2ea09ffd97854f65b44_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4b2ea09ffd97854f65b44.json"
-                      }
-                    },
-                    {
-                      "id": "6aa4b2ea09ffd97854f65b44_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4b2ea09ffd97854f65b44.json"
                       }
                     }
                   ]
