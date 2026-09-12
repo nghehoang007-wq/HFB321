@@ -15,186 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa4a94960d62e433cabae93",
-          "name": "Bulgaria vs Ukraine",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bulgaria",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ukraine",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa4a94960d62e433cabae93.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa4a94960d62e433cabae93",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa4a94960d62e433cabae93",
-                  "name": "Bulgaria vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "6aa4a94960d62e433cabae93_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4a94960d62e433cabae93.json"
-                      }
-                    },
-                    {
-                      "id": "6aa4a94960d62e433cabae93_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4a94960d62e433cabae93.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aa4abe309ffd97854f5744f",
-          "name": "Lazio vs AC Milan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lazio",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "AC Milan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa4abe309ffd97854f5744f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa4abe309ffd97854f5744f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa4abe309ffd97854f5744f",
-                  "name": "Lazio vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "6aa4abe309ffd97854f5744f_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5744f.json"
-                      }
-                    },
-                    {
-                      "id": "6aa4abe309ffd97854f5744f_1",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5744f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aa4abe309ffd97854f5745a",
-          "name": "Tottenham vs Everton",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Tottenham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Everton",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa4abe309ffd97854f5745a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa4abe309ffd97854f5745a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa4abe309ffd97854f5745a",
-                  "name": "Tottenham vs Everton",
-                  "streams": [
-                    {
-                      "id": "6aa4abe309ffd97854f5745a_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5745a.json"
-                      }
-                    },
-                    {
-                      "id": "6aa4abe309ffd97854f5745a_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5745a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa4abe309ffd97854f57460",
           "name": "Al Khaleej Saihat vs Al-Nassr",
           "labels": [
@@ -356,14 +176,14 @@
                   "streams": [
                     {
                       "id": "6aa4abe309ffd97854f5745e_0",
-                      "name": "A Ngao - HD",
+                      "name": "Trốc Tru - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5745e.json"
                       }
                     },
                     {
                       "id": "6aa4abe309ffd97854f5745e_1",
-                      "name": "A Ngao - FHD",
+                      "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa4abe309ffd97854f5745e.json"
                       }
