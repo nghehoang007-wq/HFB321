@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa69e888720ead8613e0aa0",
-          "name": "Philippines vs Uzbekistan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Philippines",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Uzbekistan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa69e888720ead8613e0aa0.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa69e888720ead8613e0aa0",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa69e888720ead8613e0aa0",
-                  "name": "Philippines vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "6aa69e888720ead8613e0aa0_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa69e888720ead8613e0aa0.json"
-                      }
-                    },
-                    {
-                      "id": "6aa69e888720ead8613e0aa0_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa69e888720ead8613e0aa0.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa69ed0dc16b31c9bdd1f2e",
           "name": "Chinese Taipei vs Vietnam W",
           "labels": [
