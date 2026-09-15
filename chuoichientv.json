@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aa69d6d09ffd978543f261f",
-          "name": "South Melbourne vs Lions",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "South Melbou..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Lions",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aa69d6d09ffd978543f261f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aa69d6d09ffd978543f261f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aa69d6d09ffd978543f261f",
-                  "name": "South Melbourne vs Lions",
-                  "streams": [
-                    {
-                      "id": "6aa69d6d09ffd978543f261f_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa69d6d09ffd978543f261f.json"
-                      }
-                    },
-                    {
-                      "id": "6aa69d6d09ffd978543f261f_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aa69d6d09ffd978543f261f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aa69d6d09ffd978543f2619",
           "name": "Daejeon Citizen vs Kyoto Sanga",
           "labels": [
