@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aab8e0209ffd97854d0ed9e",
-          "name": "Central Cordoba de Santiago vs Defensa Y Justicia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Central Cord..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Defensa Y Ju..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aab8e0209ffd97854d0ed9e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aab8e0209ffd97854d0ed9e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aab8e0209ffd97854d0ed9e",
-                  "name": "Central Cordoba de Santiago vs Defensa Y Justicia",
-                  "streams": [
-                    {
-                      "id": "6aab8e0209ffd97854d0ed9e_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aab8e0209ffd97854d0ed9e.json"
-                      }
-                    },
-                    {
-                      "id": "6aab8e0209ffd97854d0ed9e_1",
-                      "name": "Trốc Tru - FULL HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aab8e0209ffd97854d0ed9e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aab8e0209ffd97854d0ed9d",
           "name": "New York City FC vs New York Red Bulls",
           "labels": [
