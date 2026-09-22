@@ -15,246 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab1cfcca98792e63ac74125",
-          "name": "France vs Romania",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "France",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Romania",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1cfcca98792e63ac74125.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab1cfcca98792e63ac74125",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab1cfcca98792e63ac74125",
-                  "name": "France vs Romania",
-                  "streams": [
-                    {
-                      "id": "6ab1cfcca98792e63ac74125_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1cfcca98792e63ac74125.json"
-                      }
-                    },
-                    {
-                      "id": "6ab1cfcca98792e63ac74125_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1cfcca98792e63ac74125.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab1d11c09ffd978549bcdea",
-          "name": "Namibia U20 vs Seychelles U20",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Namibia U20",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Seychelles U..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1d11c09ffd978549bcdea.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab1d11c09ffd978549bcdea",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab1d11c09ffd978549bcdea",
-                  "name": "Namibia U20 vs Seychelles U20",
-                  "streams": [
-                    {
-                      "id": "6ab1d11c09ffd978549bcdea_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdea.json"
-                      }
-                    },
-                    {
-                      "id": "6ab1d11c09ffd978549bcdea_1",
-                      "name": "Trốc Tru - FULL HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdea.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab26e2d09ffd97854ae418b",
-          "name": "Dumbrăviţa vs CSM Reşiţa",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Dumbrăviţa",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "CSM Reşiţa",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab26e2d09ffd97854ae418b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab26e2d09ffd97854ae418b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab26e2d09ffd97854ae418b",
-                  "name": "Dumbrăviţa vs CSM Reşiţa",
-                  "streams": [
-                    {
-                      "id": "6ab26e2d09ffd97854ae418b_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab26e2d09ffd97854ae418b.json"
-                      }
-                    },
-                    {
-                      "id": "6ab26e2d09ffd97854ae418b_1",
-                      "name": "Chuối Nhỏ - FHD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab26e2d09ffd97854ae418b.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab1d04300d3cb8a45751abc",
-          "name": "Poland vs Germany",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Poland",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Germany",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1d04300d3cb8a45751abc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab1d04300d3cb8a45751abc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab1d04300d3cb8a45751abc",
-                  "name": "Poland vs Germany",
-                  "streams": [
-                    {
-                      "id": "6ab1d04300d3cb8a45751abc_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d04300d3cb8a45751abc.json"
-                      }
-                    },
-                    {
-                      "id": "6ab1d04300d3cb8a45751abc_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d04300d3cb8a45751abc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab1d11c09ffd978549bcddd",
           "name": "Bayern Munich W vs Manchester City W",
           "labels": [
@@ -435,66 +195,6 @@
           ]
         },
         {
-          "id": "6ab1d11c09ffd978549bcde2",
-          "name": "Muaither SC vs Al-Khor",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Muaither SC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Al-Khor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1d11c09ffd978549bcde2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab1d11c09ffd978549bcde2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab1d11c09ffd978549bcde2",
-                  "name": "Muaither SC vs Al-Khor",
-                  "streams": [
-                    {
-                      "id": "6ab1d11c09ffd978549bcde2_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcde2.json"
-                      }
-                    },
-                    {
-                      "id": "6ab1d11c09ffd978549bcde2_1",
-                      "name": "Trốc Tru - FULL HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcde2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab1d11c09ffd978549bcddc",
           "name": "Arsenal W vs Køge",
           "labels": [
@@ -518,7 +218,7 @@
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1d11c09ffd978549bcddc.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -675,8 +375,8 @@
           ]
         },
         {
-          "id": "6ab1d11c09ffd978549bcdd5",
-          "name": "Depor FC vs Tigres FC",
+          "id": "6ab2bb3d09ffd97854b65dc9",
+          "name": "Ind. Yumbo vs Internacional Palmira",
           "labels": [
             {
               "position": "bottom-center",
@@ -686,19 +386,19 @@
             },
             {
               "position": "top-left",
-              "text": "Depor FC",
+              "text": "Ind. Yumbo",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Tigres FC",
+              "text": "Internaciona..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab1d11c09ffd978549bcdd5.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab2bb3d09ffd97854b65dc9.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -707,25 +407,25 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6ab1d11c09ffd978549bcdd5",
+              "id": "src-6ab2bb3d09ffd97854b65dc9",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6ab1d11c09ffd978549bcdd5",
-                  "name": "Depor FC vs Tigres FC",
+                  "id": "c-6ab2bb3d09ffd97854b65dc9",
+                  "name": "Ind. Yumbo vs Internacional Palmira",
                   "streams": [
                     {
-                      "id": "6ab1d11c09ffd978549bcdd5_0",
+                      "id": "6ab2bb3d09ffd97854b65dc9_0",
                       "name": "Trốc Tru - HD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdd5.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab2bb3d09ffd97854b65dc9.json"
                       }
                     },
                     {
-                      "id": "6ab1d11c09ffd978549bcdd5_1",
+                      "id": "6ab2bb3d09ffd97854b65dc9_1",
                       "name": "Trốc Tru - FULL HD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdd5.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab2bb3d09ffd97854b65dc9.json"
                       }
                     }
                   ]
