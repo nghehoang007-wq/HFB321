@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab2bb3d09ffd97854b65dc9",
-          "name": "Ind. Yumbo vs Internacional Palmira",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Ind. Yumbo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Internaciona..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab2bb3d09ffd97854b65dc9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab2bb3d09ffd97854b65dc9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab2bb3d09ffd97854b65dc9",
-                  "name": "Ind. Yumbo vs Internacional Palmira",
-                  "streams": [
-                    {
-                      "id": "6ab2bb3d09ffd97854b65dc9_0",
-                      "name": "Trốc Tru - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab2bb3d09ffd97854b65dc9.json"
-                      }
-                    },
-                    {
-                      "id": "6ab2bb3d09ffd97854b65dc9_1",
-                      "name": "Trốc Tru - FULL HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab2bb3d09ffd97854b65dc9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab1d11c09ffd978549bcdd6",
           "name": "Atlético Nacional vs Jaguares",
           "labels": [
@@ -116,14 +56,14 @@
                   "streams": [
                     {
                       "id": "6ab1d11c09ffd978549bcdd6_0",
-                      "name": "Chuối Kem - HD",
+                      "name": "Trốc Tru - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdd6.json"
                       }
                     },
                     {
                       "id": "6ab1d11c09ffd978549bcdd6_1",
-                      "name": "Chuối Kem - FHD",
+                      "name": "Trốc Tru - FULL HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab1d11c09ffd978549bcdd6.json"
                       }
