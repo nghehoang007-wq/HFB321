@@ -15,246 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab322a309ffd97854c1abed",
-          "name": "Malawi U20 vs Comoros U20",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "20h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Malawi U20",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Comoros U20",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab322a309ffd97854c1abed.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab322a309ffd97854c1abed",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab322a309ffd97854c1abed",
-                  "name": "Malawi U20 vs Comoros U20",
-                  "streams": [
-                    {
-                      "id": "6ab322a309ffd97854c1abed_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abed.json"
-                      }
-                    },
-                    {
-                      "id": "6ab322a309ffd97854c1abed_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abed.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab3d8ca7cbe717492ae8a2c",
-          "name": "Belgium vs Slovenia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Belgium",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Slovenia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab3d8ca7cbe717492ae8a2c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab3d8ca7cbe717492ae8a2c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab3d8ca7cbe717492ae8a2c",
-                  "name": "Belgium vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "6ab3d8ca7cbe717492ae8a2c_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3d8ca7cbe717492ae8a2c.json"
-                      }
-                    },
-                    {
-                      "id": "6ab3d8ca7cbe717492ae8a2c_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3d8ca7cbe717492ae8a2c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab3d9fe09ffd97854d4ab7a",
-          "name": "Iraq vs Oman",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Iraq",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Oman",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab3d9fe09ffd97854d4ab7a.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab3d9fe09ffd97854d4ab7a",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab3d9fe09ffd97854d4ab7a",
-                  "name": "Iraq vs Oman",
-                  "streams": [
-                    {
-                      "id": "6ab3d9fe09ffd97854d4ab7a_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3d9fe09ffd97854d4ab7a.json"
-                      }
-                    },
-                    {
-                      "id": "6ab3d9fe09ffd97854d4ab7a_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3d9fe09ffd97854d4ab7a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab322a309ffd97854c1abef",
-          "name": "Korea DPR U20 vs Colombia U20 W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Korea DPR U20",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Colombia U20..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab322a309ffd97854c1abef.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab322a309ffd97854c1abef",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab322a309ffd97854c1abef",
-                  "name": "Korea DPR U20 vs Colombia U20 W",
-                  "streams": [
-                    {
-                      "id": "6ab322a309ffd97854c1abef_0",
-                      "name": "A Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abef.json"
-                      }
-                    },
-                    {
-                      "id": "6ab322a309ffd97854c1abef_1",
-                      "name": "A Ngao - FULL HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abef.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab322a309ffd97854c1abe8",
           "name": "OH Leuven W vs Roma W",
           "labels": [
@@ -356,14 +116,14 @@
                   "streams": [
                     {
                       "id": "6ab322a309ffd97854c1abe9_0",
-                      "name": "Chuối Nhỏ - HD1",
+                      "name": "Chuối Nhỏ - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abe9.json"
                       }
                     },
                     {
                       "id": "6ab322a309ffd97854c1abe9_1",
-                      "name": "Chuối Nhỏ - FHD1",
+                      "name": "Chuối Nhỏ - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abe9.json"
                       }
@@ -555,8 +315,8 @@
           ]
         },
         {
-          "id": "6ab322a309ffd97854c1abea",
-          "name": "Turks and Caicos Islands vs Montserrat",
+          "id": "6ab3ed2af660ac4f3109af0a",
+          "name": "Italy vs Finland",
           "labels": [
             {
               "position": "bottom-center",
@@ -566,19 +326,19 @@
             },
             {
               "position": "top-left",
-              "text": "Turks and Ca..",
+              "text": "Italy",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Montserrat",
+              "text": "Finland",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab322a309ffd97854c1abea.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab3ed2af660ac4f3109af0a.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -587,25 +347,25 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6ab322a309ffd97854c1abea",
+              "id": "src-6ab3ed2af660ac4f3109af0a",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6ab322a309ffd97854c1abea",
-                  "name": "Turks and Caicos Islands vs Montserrat",
+                  "id": "c-6ab3ed2af660ac4f3109af0a",
+                  "name": "Italy vs Finland",
                   "streams": [
                     {
-                      "id": "6ab322a309ffd97854c1abea_0",
+                      "id": "6ab3ed2af660ac4f3109af0a_0",
                       "name": "Chuối Kem - HD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abea.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3ed2af660ac4f3109af0a.json"
                       }
                     },
                     {
-                      "id": "6ab322a309ffd97854c1abea_1",
+                      "id": "6ab3ed2af660ac4f3109af0a_1",
                       "name": "Chuối Kem - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab322a309ffd97854c1abea.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab3ed2af660ac4f3109af0a.json"
                       }
                     }
                   ]
