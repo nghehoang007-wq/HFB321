@@ -15,126 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab5328709ffd97854f8fc14",
-          "name": "Uzbekistan U23 vs Saudi Arabia U23",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Uzbekistan U..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Saudi Arabia..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5328709ffd97854f8fc14.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5328709ffd97854f8fc14",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5328709ffd97854f8fc14",
-                  "name": "Uzbekistan U23 vs Saudi Arabia U23",
-                  "streams": [
-                    {
-                      "id": "6ab5328709ffd97854f8fc14_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc14.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5328709ffd97854f8fc14_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc14.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab5328709ffd97854f8fc11",
-          "name": "China W vs Vietnam W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "China W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Vietnam W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5328709ffd97854f8fc11.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5328709ffd97854f8fc11",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5328709ffd97854f8fc11",
-                  "name": "China W vs Vietnam W",
-                  "streams": [
-                    {
-                      "id": "6ab5328709ffd97854f8fc11_0",
-                      "name": "Chuối Tây - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc11.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5328709ffd97854f8fc11_1",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc11.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab5328709ffd97854f8fc16",
           "name": "Bangladesh vs Malaysia",
           "labels": [
@@ -315,66 +195,6 @@
           ]
         },
         {
-          "id": "6ab5328709ffd97854f8fc12",
-          "name": "Japan W vs Philippines W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Japan W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Philippines W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5328709ffd97854f8fc12.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5328709ffd97854f8fc12",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5328709ffd97854f8fc12",
-                  "name": "Japan W vs Philippines W",
-                  "streams": [
-                    {
-                      "id": "6ab5328709ffd97854f8fc12_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc12.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5328709ffd97854f8fc12_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc12.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab5328709ffd97854f8fc15",
           "name": "U23 Hàn Quốc  vs U23 Vietnam ",
           "labels": [
@@ -416,14 +236,14 @@
                   "streams": [
                     {
                       "id": "6ab5328709ffd97854f8fc15_0",
-                      "name": "Chuối Ngao - HD",
+                      "name": "Chuối To - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc15.json"
                       }
                     },
                     {
                       "id": "6ab5328709ffd97854f8fc15_1",
-                      "name": "Chuối Ngao - FHD",
+                      "name": "Chuối To - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc15.json"
                       }
