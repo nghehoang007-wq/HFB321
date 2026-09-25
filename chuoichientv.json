@@ -15,126 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab47ab209ffd97854e5dca8",
-          "name": "Atletico Nacional vs Millonarios",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Atletico Nac..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Millonarios",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab47ab209ffd97854e5dca8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab47ab209ffd97854e5dca8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab47ab209ffd97854e5dca8",
-                  "name": "Atletico Nacional vs Millonarios",
-                  "streams": [
-                    {
-                      "id": "6ab47ab209ffd97854e5dca8_0",
-                      "name": "Chuối Sấy - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab47ab209ffd97854e5dca8.json"
-                      }
-                    },
-                    {
-                      "id": "6ab47ab209ffd97854e5dca8_1",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab47ab209ffd97854e5dca8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab47ab209ffd97854e5dcaf",
-          "name": "Costa Rica vs Curaçao",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Costa Rica",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Curaçao",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab47ab209ffd97854e5dcaf.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab47ab209ffd97854e5dcaf",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab47ab209ffd97854e5dcaf",
-                  "name": "Costa Rica vs Curaçao",
-                  "streams": [
-                    {
-                      "id": "6ab47ab209ffd97854e5dcaf_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab47ab209ffd97854e5dcaf.json"
-                      }
-                    },
-                    {
-                      "id": "6ab47ab209ffd97854e5dcaf_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab47ab209ffd97854e5dcaf.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab5328709ffd97854f8fc14",
           "name": "Uzbekistan U23 vs Saudi Arabia U23",
           "labels": [
@@ -735,6 +615,66 @@
           ]
         },
         {
+          "id": "6ab5fe122986c6a7738b454f",
+          "name": "Slovakia W vs Poland",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Slovakia W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Poland",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5fe122986c6a7738b454f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ab5fe122986c6a7738b454f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ab5fe122986c6a7738b454f",
+                  "name": "Slovakia W vs Poland",
+                  "streams": [
+                    {
+                      "id": "6ab5fe122986c6a7738b454f_0",
+                      "name": "Chuối Tây - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5fe122986c6a7738b454f.json"
+                      }
+                    },
+                    {
+                      "id": "6ab5fe122986c6a7738b454f_1",
+                      "name": "Chuối Tây - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5fe122986c6a7738b454f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6ab5328709ffd97854f8fc06",
           "name": "Georgia vs Northern Ireland",
           "labels": [
@@ -776,14 +716,14 @@
                   "streams": [
                     {
                       "id": "6ab5328709ffd97854f8fc06_0",
-                      "name": "Chuối Tây - HD",
+                      "name": "Chuối Sấy - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc06.json"
                       }
                     },
                     {
                       "id": "6ab5328709ffd97854f8fc06_1",
-                      "name": "Chuối Tây - FHD",
+                      "name": "Chuối Sấy - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc06.json"
                       }
@@ -1155,66 +1095,6 @@
           ]
         },
         {
-          "id": "6ab5344709ffd97854f92e1c",
-          "name": "Egypt vs Angola",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Egypt",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Angola",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5344709ffd97854f92e1c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5344709ffd97854f92e1c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5344709ffd97854f92e1c",
-                  "name": "Egypt vs Angola",
-                  "streams": [
-                    {
-                      "id": "6ab5344709ffd97854f92e1c_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5344709ffd97854f92e1c.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5344709ffd97854f92e1c_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5344709ffd97854f92e1c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab5344709ffd97854f92e1d",
           "name": "Morocco vs Gabon",
           "labels": [
@@ -1266,6 +1146,66 @@
                       "name": "Chuối To - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5344709ffd97854f92e1d.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ab5fe70c42f6f76b6a3351d",
+          "name": "Finland vs France",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Finland",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "France",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5fe70c42f6f76b6a3351d.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ab5fe70c42f6f76b6a3351d",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ab5fe70c42f6f76b6a3351d",
+                  "name": "Finland vs France",
+                  "streams": [
+                    {
+                      "id": "6ab5fe70c42f6f76b6a3351d_0",
+                      "name": "Chuối Kem - HD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5fe70c42f6f76b6a3351d.json"
+                      }
+                    },
+                    {
+                      "id": "6ab5fe70c42f6f76b6a3351d_1",
+                      "name": "Chuối Kem - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5fe70c42f6f76b6a3351d.json"
                       }
                     }
                   ]
