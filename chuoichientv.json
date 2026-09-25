@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab5328709ffd97854f8fc0d",
-          "name": "Armenia vs Latvia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Armenia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Latvia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5328709ffd97854f8fc0d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5328709ffd97854f8fc0d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5328709ffd97854f8fc0d",
-                  "name": "Armenia vs Latvia",
-                  "streams": [
-                    {
-                      "id": "6ab5328709ffd97854f8fc0d_0",
-                      "name": "Chuối Sấy - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc0d.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5328709ffd97854f8fc0d_1",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc0d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ab5328709ffd97854f8fc07",
           "name": "Türkiye vs France",
           "labels": [
@@ -116,14 +56,14 @@
                   "streams": [
                     {
                       "id": "6ab5328709ffd97854f8fc07_0",
-                      "name": "Chuối Nhỏ - HD",
+                      "name": "Chuối Ngao - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc07.json"
                       }
                     },
                     {
                       "id": "6ab5328709ffd97854f8fc07_1",
-                      "name": "Chuối Nhỏ - FHD",
+                      "name": "Chuối Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc07.json"
                       }
@@ -306,66 +246,6 @@
                       "name": "Chuối Lá - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc0a.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab5328709ffd97854f8fc0b",
-          "name": "Sweden vs Romania",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "01h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sweden",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Romania",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab5328709ffd97854f8fc0b.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab5328709ffd97854f8fc0b",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab5328709ffd97854f8fc0b",
-                  "name": "Sweden vs Romania",
-                  "streams": [
-                    {
-                      "id": "6ab5328709ffd97854f8fc0b_0",
-                      "name": "Chuối Ngao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc0b.json"
-                      }
-                    },
-                    {
-                      "id": "6ab5328709ffd97854f8fc0b_1",
-                      "name": "Chuối Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab5328709ffd97854f8fc0b.json"
                       }
                     }
                   ]
