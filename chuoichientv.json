@@ -15,133 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6abbc9d409ffd97854c92ba5",
-          "name": "Iceland U21 vs Switzerland U21",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Iceland U21",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Switzerland ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abbc9d409ffd97854c92ba5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abbc9d409ffd97854c92ba5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abbc9d409ffd97854c92ba5",
-                  "name": "Iceland U21 vs Switzerland U21",
-                  "streams": [
-                    {
-                      "id": "6abbc9d409ffd97854c92ba5_0",
-                      "name": "Chuối Lá - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abbc9d409ffd97854c92ba5.json"
-                      }
-                    },
-                    {
-                      "id": "6abbc9d409ffd97854c92ba5_1",
-                      "name": "Chuối Lá - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abbc9d409ffd97854c92ba5.json"
-                      }
-                    },
-                    {
-                      "id": "6abbc9d409ffd97854c92ba5_2",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abbc9d409ffd97854c92ba5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6abb0b2309ffd97854ae903c",
-          "name": "Finland vs Belarus",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Finland",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Belarus",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abb0b2309ffd97854ae903c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abb0b2309ffd97854ae903c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abb0b2309ffd97854ae903c",
-                  "name": "Finland vs Belarus",
-                  "streams": [
-                    {
-                      "id": "6abb0b2309ffd97854ae903c_0",
-                      "name": "Chuối Nhỏ - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903c.json"
-                      }
-                    },
-                    {
-                      "id": "6abb0b2309ffd97854ae903c_1",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6abb0b2309ffd97854ae903a",
           "name": "Spain vs Croatia",
           "labels": [
@@ -183,13 +56,20 @@
                   "streams": [
                     {
                       "id": "6abb0b2309ffd97854ae903a_0",
-                      "name": "Chuối Ngao - HD",
+                      "name": "Chuối Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903a.json"
                       }
                     },
                     {
                       "id": "6abb0b2309ffd97854ae903a_1",
+                      "name": "Chuối Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903a.json"
+                      }
+                    },
+                    {
+                      "id": "6abb0b2309ffd97854ae903a_2",
                       "name": "Chuối Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903a.json"
@@ -243,13 +123,20 @@
                   "streams": [
                     {
                       "id": "6abb0b2309ffd97854ae903b_0",
-                      "name": "Chuối Nhỏ - HD",
+                      "name": "Chuối Nhỏ - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903b.json"
                       }
                     },
                     {
                       "id": "6abb0b2309ffd97854ae903b_1",
+                      "name": "Chuối Nhỏ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903b.json"
+                      }
+                    },
+                    {
+                      "id": "6abb0b2309ffd97854ae903b_2",
                       "name": "Chuối Nhỏ - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903b.json"
@@ -329,73 +216,6 @@
           ]
         },
         {
-          "id": "6abb0b2309ffd97854ae903e",
-          "name": "Deportivo Pereira vs Santa Fe",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Deportivo Pe..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Santa Fe",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abb0b2309ffd97854ae903e.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abb0b2309ffd97854ae903e",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abb0b2309ffd97854ae903e",
-                  "name": "Deportivo Pereira vs Santa Fe",
-                  "streams": [
-                    {
-                      "id": "6abb0b2309ffd97854ae903e_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903e.json"
-                      }
-                    },
-                    {
-                      "id": "6abb0b2309ffd97854ae903e_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903e.json"
-                      }
-                    },
-                    {
-                      "id": "6abb0b2309ffd97854ae903e_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae903e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6abb0b2309ffd97854ae9037",
           "name": "Botafogo SP vs Ponte Preta",
           "labels": [
@@ -437,13 +257,20 @@
                   "streams": [
                     {
                       "id": "6abb0b2309ffd97854ae9037_0",
-                      "name": "Trốc Tru - HD",
+                      "name": "Trốc Tru - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9037.json"
                       }
                     },
                     {
                       "id": "6abb0b2309ffd97854ae9037_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9037.json"
+                      }
+                    },
+                    {
+                      "id": "6abb0b2309ffd97854ae9037_2",
                       "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9037.json"
@@ -497,13 +324,20 @@
                   "streams": [
                     {
                       "id": "6abb0b2309ffd97854ae9041_0",
-                      "name": "Chuối Ngao - HD",
+                      "name": "Chuối Ngao - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9041.json"
                       }
                     },
                     {
                       "id": "6abb0b2309ffd97854ae9041_1",
+                      "name": "Chuối Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9041.json"
+                      }
+                    },
+                    {
+                      "id": "6abb0b2309ffd97854ae9041_2",
                       "name": "Chuối Ngao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9041.json"
