@@ -15,186 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ab9bb173c665e05ce5d24c1",
-          "name": "Hong Kong vs Việt Nam",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hong Kong",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Việt Nam",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab9bb173c665e05ce5d24c1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab9bb173c665e05ce5d24c1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab9bb173c665e05ce5d24c1",
-                  "name": "Hong Kong vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "6ab9bb173c665e05ce5d24c1_0",
-                      "name": "Chuối Kem - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab9bb173c665e05ce5d24c1.json"
-                      }
-                    },
-                    {
-                      "id": "6ab9bb173c665e05ce5d24c1_1",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab9bb173c665e05ce5d24c1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ab9bb2be10d9d63c6c6a5ac",
-          "name": "Philippines vs Chinese Taipei",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Philippines",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Chinese Taip..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ab9bb2be10d9d63c6c6a5ac.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ab9bb2be10d9d63c6c6a5ac",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ab9bb2be10d9d63c6c6a5ac",
-                  "name": "Philippines vs Chinese Taipei",
-                  "streams": [
-                    {
-                      "id": "6ab9bb2be10d9d63c6c6a5ac_0",
-                      "name": "Chuối Sấy - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab9bb2be10d9d63c6c6a5ac.json"
-                      }
-                    },
-                    {
-                      "id": "6ab9bb2be10d9d63c6c6a5ac_1",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ab9bb2be10d9d63c6c6a5ac.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6abb0b2309ffd97854ae9045",
-          "name": "Korea DPR vs China W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Korea DPR",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "China W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abb0b2309ffd97854ae9045.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abb0b2309ffd97854ae9045",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abb0b2309ffd97854ae9045",
-                  "name": "Korea DPR vs China W",
-                  "streams": [
-                    {
-                      "id": "6abb0b2309ffd97854ae9045_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9045.json"
-                      }
-                    },
-                    {
-                      "id": "6abb0b2309ffd97854ae9045_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9045.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6abb0cfae10d9d63c6e887a3",
           "name": "Iran vs Indonesia",
           "labels": [
@@ -296,14 +116,14 @@
                   "streams": [
                     {
                       "id": "6abb0b2309ffd97854ae9042_0",
-                      "name": "Chuối Sấy - HD",
+                      "name": "Chuối Chao - HD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9042.json"
                       }
                     },
                     {
                       "id": "6abb0b2309ffd97854ae9042_1",
-                      "name": "Chuối Sấy - FHD",
+                      "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9042.json"
                       }
@@ -486,66 +306,6 @@
                       "name": "Chuối Tây - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0d33a9ca717b90480d86.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6abb0b2309ffd97854ae9046",
-          "name": "Japan W vs South Korea W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Japan W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "South Korea W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abb0b2309ffd97854ae9046.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abb0b2309ffd97854ae9046",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abb0b2309ffd97854ae9046",
-                  "name": "Japan W vs South Korea W",
-                  "streams": [
-                    {
-                      "id": "6abb0b2309ffd97854ae9046_0",
-                      "name": "Chuối Chao - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9046.json"
-                      }
-                    },
-                    {
-                      "id": "6abb0b2309ffd97854ae9046_1",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb0b2309ffd97854ae9046.json"
                       }
                     }
                   ]
