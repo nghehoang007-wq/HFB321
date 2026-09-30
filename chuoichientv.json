@@ -15,133 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6abc5afb09ffd97854d96c90",
-          "name": "U23 Hàn Quốc  vs China PR U23",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "U23 Hàn Quốc",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "China PR U23",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abc5afb09ffd97854d96c90.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abc5afb09ffd97854d96c90",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abc5afb09ffd97854d96c90",
-                  "name": "U23 Hàn Quốc  vs China PR U23",
-                  "streams": [
-                    {
-                      "id": "6abc5afb09ffd97854d96c90_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5afb09ffd97854d96c90.json"
-                      }
-                    },
-                    {
-                      "id": "6abc5afb09ffd97854d96c90_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5afb09ffd97854d96c90.json"
-                      }
-                    },
-                    {
-                      "id": "6abc5afb09ffd97854d96c90_2",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5afb09ffd97854d96c90.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6abb8d8409ffd97854bc9ea4",
-          "name": "Timor-Leste vs Cambodia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "16h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Timor-Leste",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Cambodia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abb8d8409ffd97854bc9ea4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abb8d8409ffd97854bc9ea4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abb8d8409ffd97854bc9ea4",
-                  "name": "Timor-Leste vs Cambodia",
-                  "streams": [
-                    {
-                      "id": "6abb8d8409ffd97854bc9ea4_0",
-                      "name": "Chuối Sấy - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb8d8409ffd97854bc9ea4.json"
-                      }
-                    },
-                    {
-                      "id": "6abb8d8409ffd97854bc9ea4_1",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb8d8409ffd97854bc9ea4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6abc5afb09ffd97854d96c91",
           "name": "Uzbekistan U23 vs Japan U23",
           "labels": [
@@ -786,13 +659,20 @@
                   "streams": [
                     {
                       "id": "6abb8d8409ffd97854bc9ea0_0",
-                      "name": "Chuối Sấy - HD",
+                      "name": "Chuối Sấy - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb8d8409ffd97854bc9ea0.json"
                       }
                     },
                     {
                       "id": "6abb8d8409ffd97854bc9ea0_1",
+                      "name": "Chuối Sấy - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb8d8409ffd97854bc9ea0.json"
+                      }
+                    },
+                    {
+                      "id": "6abb8d8409ffd97854bc9ea0_2",
                       "name": "Chuối Sấy - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abb8d8409ffd97854bc9ea0.json"
@@ -1114,13 +994,20 @@
                   "streams": [
                     {
                       "id": "6abc5befad19d495b2f4c3c1_0",
-                      "name": "Chuối Sấy - HD",
+                      "name": "Chuối Sấy - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5befad19d495b2f4c3c1.json"
                       }
                     },
                     {
                       "id": "6abc5befad19d495b2f4c3c1_1",
+                      "name": "Chuối Sấy - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5befad19d495b2f4c3c1.json"
+                      }
+                    },
+                    {
+                      "id": "6abc5befad19d495b2f4c3c1_2",
                       "name": "Chuối Sấy - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abc5befad19d495b2f4c3c1.json"
