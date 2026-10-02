@@ -15,73 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6abcd59e09ffd97854e60a66",
-          "name": "Curaçao vs Trinidad and Tobago",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "05h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Curaçao",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Trinidad and..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abcd59e09ffd97854e60a66.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6abcd59e09ffd97854e60a66",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6abcd59e09ffd97854e60a66",
-                  "name": "Curaçao vs Trinidad and Tobago",
-                  "streams": [
-                    {
-                      "id": "6abcd59e09ffd97854e60a66_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abcd59e09ffd97854e60a66.json"
-                      }
-                    },
-                    {
-                      "id": "6abcd59e09ffd97854e60a66_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abcd59e09ffd97854e60a66.json"
-                      }
-                    },
-                    {
-                      "id": "6abcd59e09ffd97854e60a66_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abcd59e09ffd97854e60a66.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6abeae3429359ae22f492365",
           "name": "India vs South Korea",
           "labels": [
@@ -810,6 +743,542 @@
                       "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a3.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be99e",
+          "name": "France vs Italy",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "France",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Italy",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be99e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be99e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be99e",
+                  "name": "France vs Italy",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be99e_0",
+                      "name": "Chuối Ngao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99e.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be99e_1",
+                      "name": "Chuối Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99e.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be99e_2",
+                      "name": "Chuối Ngao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99e.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be99f",
+          "name": "Belgium vs Türkiye",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Belgium",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Türkiye",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be99f.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be99f",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be99f",
+                  "name": "Belgium vs Türkiye",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be99f_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99f.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be99f_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99f.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be99f_2",
+                      "name": "Chuối Chao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be99f.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a0",
+          "name": "Hungary vs Georgia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Hungary",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Georgia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a0.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a0",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a0",
+                  "name": "Hungary vs Georgia",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a0_0",
+                      "name": "Chuối Nhỏ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a0.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a0_1",
+                      "name": "Chuối Nhỏ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a0.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a0_2",
+                      "name": "Chuối Nhỏ - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a0.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a1",
+          "name": "Bosnia & Herzegovina vs Sweden",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Bosnia & Her..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Sweden",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a1.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a1",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a1",
+                  "name": "Bosnia & Herzegovina vs Sweden",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a1_0",
+                      "name": "Chuối Lá - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a1.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a1_1",
+                      "name": "Chuối Lá - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a1.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a1_2",
+                      "name": "Chuối Lá - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a1.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a8",
+          "name": "St. Kitts and Nevis vs Cuba",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "04h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "St. Kitts an..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Cuba",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a8.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a8",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a8",
+                  "name": "St. Kitts and Nevis vs Cuba",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a8_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a8.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a8_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a8.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a8_2",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a8.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a4",
+          "name": "Santos Laguna W vs Puebla W",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "06h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Santos Lagun..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Puebla W",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a4.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a4",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a4",
+                  "name": "Santos Laguna W vs Puebla W",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a4_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a4.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a4_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a4.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a4_2",
+                      "name": "Chuối Tây - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a4.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a7",
+          "name": "Colombia vs Paraguay",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "07h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Colombia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Paraguay",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a7.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a7",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a7",
+                  "name": "Colombia vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a7_0",
+                      "name": "Chuối Kem - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a7.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a7_1",
+                      "name": "Chuối Kem - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a7.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a7_2",
+                      "name": "Chuối Kem - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a7.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6abe347009ffd978540be9a9",
+          "name": "El Salvador vs Jamaica",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "09h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "El Salvador",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Jamaica",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6abe347009ffd978540be9a9.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6abe347009ffd978540be9a9",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6abe347009ffd978540be9a9",
+                  "name": "El Salvador vs Jamaica",
+                  "streams": [
+                    {
+                      "id": "6abe347009ffd978540be9a9_0",
+                      "name": "Chuối Sấy - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a9.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a9_1",
+                      "name": "Chuối Sấy - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a9.json"
+                      }
+                    },
+                    {
+                      "id": "6abe347009ffd978540be9a9_2",
+                      "name": "Chuối Sấy - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6abe347009ffd978540be9a9.json"
                       }
                     }
                   ]
