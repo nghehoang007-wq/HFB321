@@ -15,140 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ac2268909ffd97854887e42",
-          "name": "Guatemala vs Suriname",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Guatemala",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Suriname",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac2268909ffd97854887e42.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ac2268909ffd97854887e42",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ac2268909ffd97854887e42",
-                  "name": "Guatemala vs Suriname",
-                  "streams": [
-                    {
-                      "id": "6ac2268909ffd97854887e42_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e42.json"
-                      }
-                    },
-                    {
-                      "id": "6ac2268909ffd97854887e42_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e42.json"
-                      }
-                    },
-                    {
-                      "id": "6ac2268909ffd97854887e42_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e42.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ac2268909ffd97854887e43",
-          "name": "Honduras vs Jamaica",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Honduras",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Jamaica",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac2268909ffd97854887e43.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ac2268909ffd97854887e43",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ac2268909ffd97854887e43",
-                  "name": "Honduras vs Jamaica",
-                  "streams": [
-                    {
-                      "id": "6ac2268909ffd97854887e43_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e43.json"
-                      }
-                    },
-                    {
-                      "id": "6ac2268909ffd97854887e43_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e43.json"
-                      }
-                    },
-                    {
-                      "id": "6ac2268909ffd97854887e43_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac2268909ffd97854887e43.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ac230dc09ffd9785489c6f5",
           "name": "Lam Dong vs Song Lam Nghe An",
           "labels": [
@@ -819,6 +685,140 @@
           ]
         },
         {
+          "id": "6ac341b609ffd97854aa16f8",
+          "name": "Switzerland vs FYR Macedonia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Switzerland",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "FYR Macedonia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac341b609ffd97854aa16f8.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac341b609ffd97854aa16f8",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac341b609ffd97854aa16f8",
+                  "name": "Switzerland vs FYR Macedonia",
+                  "streams": [
+                    {
+                      "id": "6ac341b609ffd97854aa16f8_0",
+                      "name": "Chuối Ngao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f8.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16f8_1",
+                      "name": "Chuối Ngao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f8.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16f8_2",
+                      "name": "Chuối Ngao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f8.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ac341b609ffd97854aa16f9",
+          "name": "Scotland vs Slovenia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "01h45",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Scotland",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Slovenia",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac341b609ffd97854aa16f9.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac341b609ffd97854aa16f9",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac341b609ffd97854aa16f9",
+                  "name": "Scotland vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "6ac341b609ffd97854aa16f9_0",
+                      "name": "Chuối Nhỏ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f9.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16f9_1",
+                      "name": "Chuối Nhỏ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f9.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16f9_2",
+                      "name": "Chuối Nhỏ - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16f9.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6ac37c6809ffd97854b58916",
           "name": "England vs Czech Republic",
           "labels": [
@@ -877,6 +877,274 @@
                       "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac37c6809ffd97854b58916.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ac37c6809ffd97854b58917",
+          "name": "St. Vincent / Grenadines vs Sint Maarten",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "04h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "St. Vincent ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Sint Maarten",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac37c6809ffd97854b58917.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac37c6809ffd97854b58917",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac37c6809ffd97854b58917",
+                  "name": "St. Vincent / Grenadines vs Sint Maarten",
+                  "streams": [
+                    {
+                      "id": "6ac37c6809ffd97854b58917_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac37c6809ffd97854b58917.json"
+                      }
+                    },
+                    {
+                      "id": "6ac37c6809ffd97854b58917_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac37c6809ffd97854b58917.json"
+                      }
+                    },
+                    {
+                      "id": "6ac37c6809ffd97854b58917_2",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac37c6809ffd97854b58917.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ac341b609ffd97854aa16fd",
+          "name": "Argentina vs Benin",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "06h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Argentina",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Benin",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac341b609ffd97854aa16fd.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac341b609ffd97854aa16fd",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac341b609ffd97854aa16fd",
+                  "name": "Argentina vs Benin",
+                  "streams": [
+                    {
+                      "id": "6ac341b609ffd97854aa16fd_0",
+                      "name": "Chuối Chao - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16fd.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16fd_1",
+                      "name": "Chuối Chao - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16fd.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341b609ffd97854aa16fd_2",
+                      "name": "Chuối Chao - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341b609ffd97854aa16fd.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ac341d209ffd97854aa19fd",
+          "name": "USA vs Canada",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "07h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "USA",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Canada",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac341d209ffd97854aa19fd.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac341d209ffd97854aa19fd",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac341d209ffd97854aa19fd",
+                  "name": "USA vs Canada",
+                  "streams": [
+                    {
+                      "id": "6ac341d209ffd97854aa19fd_0",
+                      "name": "Chuối Kem - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fd.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341d209ffd97854aa19fd_1",
+                      "name": "Chuối Kem - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fd.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341d209ffd97854aa19fd_2",
+                      "name": "Chuối Kem - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fd.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ac341d209ffd97854aa19fc",
+          "name": "Mexico vs Chile",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "09h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Mexico",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Chile",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac341d209ffd97854aa19fc.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ac341d209ffd97854aa19fc",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ac341d209ffd97854aa19fc",
+                  "name": "Mexico vs Chile",
+                  "streams": [
+                    {
+                      "id": "6ac341d209ffd97854aa19fc_0",
+                      "name": "Chuối Sấy - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fc.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341d209ffd97854aa19fc_1",
+                      "name": "Chuối Sấy - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fc.json"
+                      }
+                    },
+                    {
+                      "id": "6ac341d209ffd97854aa19fc_2",
+                      "name": "Chuối Sấy - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac341d209ffd97854aa19fc.json"
                       }
                     }
                   ]
