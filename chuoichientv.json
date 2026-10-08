@@ -15,30 +15,30 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ac65b9b09ffd9785407cc5e",
-          "name": "Al Ittihad vs Wadi Degla",
+          "id": "6ac7ca5a09ffd978542e797e",
+          "name": "Atletico Grau vs Cultural Santa Rosa",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "21h00",
+              "text": "03h30",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Al Ittihad",
+              "text": "Atletico Grau",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Wadi Degla",
+              "text": "Cultural San..",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac65b9b09ffd9785407cc5e.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac7ca5a09ffd978542e797e.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -47,233 +47,32 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6ac65b9b09ffd9785407cc5e",
+              "id": "src-6ac7ca5a09ffd978542e797e",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6ac65b9b09ffd9785407cc5e",
-                  "name": "Al Ittihad vs Wadi Degla",
+                  "id": "c-6ac7ca5a09ffd978542e797e",
+                  "name": "Atletico Grau vs Cultural Santa Rosa",
                   "streams": [
                     {
-                      "id": "6ac65b9b09ffd9785407cc5e_0",
-                      "name": "Chuối Ngao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5e.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5e_1",
-                      "name": "Chuối Ngao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5e.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5e_2",
-                      "name": "Chuối Ngao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5e.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ac65b9b09ffd9785407cc5d",
-          "name": "KuPS vs AC Oulu",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "KuPS",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "AC Oulu",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac65b9b09ffd9785407cc5d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ac65b9b09ffd9785407cc5d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ac65b9b09ffd9785407cc5d",
-                  "name": "KuPS vs AC Oulu",
-                  "streams": [
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5d_0",
-                      "name": "Chuối Lá - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5d.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5d_1",
-                      "name": "Chuối Lá - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5d.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5d_2",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ac65b9b09ffd9785407cc5f",
-          "name": "Orduspor 1967 vs Karadeniz Ereğli BSK",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Orduspor 1967",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Karadeniz Er..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac65b9b09ffd9785407cc5f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ac65b9b09ffd9785407cc5f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ac65b9b09ffd9785407cc5f",
-                  "name": "Orduspor 1967 vs Karadeniz Ereğli BSK",
-                  "streams": [
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5f_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5f.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5f_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5f.json"
-                      }
-                    },
-                    {
-                      "id": "6ac65b9b09ffd9785407cc5f_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac65b9b09ffd9785407cc5f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ac6d86309ffd9785414d395",
-          "name": "CFR Cluj vs Universitatea Cluj",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "00h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "CFR Cluj",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Universitate..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ac6d86309ffd9785414d395.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ac6d86309ffd9785414d395",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ac6d86309ffd9785414d395",
-                  "name": "CFR Cluj vs Universitatea Cluj",
-                  "streams": [
-                    {
-                      "id": "6ac6d86309ffd9785414d395_0",
+                      "id": "6ac7ca5a09ffd978542e797e_0",
                       "name": "Trốc Tru - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac6d86309ffd9785414d395.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac7ca5a09ffd978542e797e.json"
                       }
                     },
                     {
-                      "id": "6ac6d86309ffd9785414d395_1",
+                      "id": "6ac7ca5a09ffd978542e797e_1",
                       "name": "Trốc Tru - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac6d86309ffd9785414d395.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac7ca5a09ffd978542e797e.json"
                       }
                     },
                     {
-                      "id": "6ac6d86309ffd9785414d395_2",
+                      "id": "6ac7ca5a09ffd978542e797e_2",
                       "name": "Trốc Tru - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac6d86309ffd9785414d395.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ac7ca5a09ffd978542e797e.json"
                       }
                     }
                   ]
