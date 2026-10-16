@@ -15,73 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ad23c3509ffd97854684bd8",
-          "name": "Holstein Kiel vs Hertha BSC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Holstein Kiel",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hertha BSC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad23c3509ffd97854684bd8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad23c3509ffd97854684bd8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad23c3509ffd97854684bd8",
-                  "name": "Holstein Kiel vs Hertha BSC",
-                  "streams": [
-                    {
-                      "id": "6ad23c3509ffd97854684bd8_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad23c3509ffd97854684bd8.json"
-                      }
-                    },
-                    {
-                      "id": "6ad23c3509ffd97854684bd8_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad23c3509ffd97854684bd8.json"
-                      }
-                    },
-                    {
-                      "id": "6ad23c3509ffd97854684bd8_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad23c3509ffd97854684bd8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ad081fb09ffd9785438d196",
           "name": "Eintracht Frankfurt vs 1.FC Köln",
           "labels": [
@@ -123,21 +56,21 @@
                   "streams": [
                     {
                       "id": "6ad081fb09ffd9785438d196_0",
-                      "name": "Chuối Chao - HD1",
+                      "name": "Trốc Tru - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d196.json"
                       }
                     },
                     {
                       "id": "6ad081fb09ffd9785438d196_1",
-                      "name": "Chuối Chao - HD2",
+                      "name": "Trốc Tru - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d196.json"
                       }
                     },
                     {
                       "id": "6ad081fb09ffd9785438d196_2",
-                      "name": "Chuối Chao - FHD",
+                      "name": "Trốc Tru - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d196.json"
                       }
@@ -274,73 +207,6 @@
                       "name": "Chuối Nhỏ - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d194.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad081fb09ffd9785438d195",
-          "name": "Deportivo La Coruna vs Levante",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Deportivo La..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Levante",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad081fb09ffd9785438d195.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad081fb09ffd9785438d195",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad081fb09ffd9785438d195",
-                  "name": "Deportivo La Coruna vs Levante",
-                  "streams": [
-                    {
-                      "id": "6ad081fb09ffd9785438d195_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d195.json"
-                      }
-                    },
-                    {
-                      "id": "6ad081fb09ffd9785438d195_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d195.json"
-                      }
-                    },
-                    {
-                      "id": "6ad081fb09ffd9785438d195_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad081fb09ffd9785438d195.json"
                       }
                     }
                   ]
@@ -1692,7 +1558,7 @@
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad1722a09ffd9785452f715.png",
             "height": 360,
             "width": 640,
             "display": "cover"
