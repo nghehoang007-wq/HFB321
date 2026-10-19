@@ -15,66 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ad1731809ffd97854531104",
-          "name": "Bahia vs Flamengo",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "04h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bahia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Flamengo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad1731809ffd97854531104.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad1731809ffd97854531104",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad1731809ffd97854531104",
-                  "name": "Bahia vs Flamengo",
-                  "streams": [
-                    {
-                      "id": "6ad1731809ffd97854531104_0",
-                      "name": "Chuối To - HD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad1731809ffd97854531104.json"
-                      }
-                    },
-                    {
-                      "id": "6ad1731809ffd97854531104_1",
-                      "name": "Chuối To - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad1731809ffd97854531104.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ad1731809ffd97854531106",
           "name": "Llaneros vs Santa Fe",
           "labels": [
