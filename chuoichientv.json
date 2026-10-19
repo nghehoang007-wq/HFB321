@@ -15,274 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ad4dcc809ffd97854c773b5",
-          "name": "FarDu vs Metalourg",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FarDu",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Metalourg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad4dcc809ffd97854c773b5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad4dcc809ffd97854c773b5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad4dcc809ffd97854c773b5",
-                  "name": "FarDu vs Metalourg",
-                  "streams": [
-                    {
-                      "id": "6ad4dcc809ffd97854c773b5_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773b5.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773b5_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773b5.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773b5_2",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773b5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad4dcc809ffd97854c773be",
-          "name": "TP. Hồ Chí Minh vs Viettel",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "TP. Hồ Chí M..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Viettel",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad4dcc809ffd97854c773be.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad4dcc809ffd97854c773be",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad4dcc809ffd97854c773be",
-                  "name": "TP. Hồ Chí Minh vs Viettel",
-                  "streams": [
-                    {
-                      "id": "6ad4dcc809ffd97854c773be_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773be.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773be_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773be.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773be_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773be.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad4dcc809ffd97854c773ba",
-          "name": "Manisa BBSK vs Muğlaspor",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Manisa BBSK",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Muğlaspor",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad4dcc809ffd97854c773ba.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad4dcc809ffd97854c773ba",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad4dcc809ffd97854c773ba",
-                  "name": "Manisa BBSK vs Muğlaspor",
-                  "streams": [
-                    {
-                      "id": "6ad4dcc809ffd97854c773ba_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773ba.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773ba_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773ba.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773ba_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773ba.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad4dcc809ffd97854c773bd",
-          "name": "El Gouna FC vs Smouha SC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "El Gouna FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Smouha SC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad4dcc809ffd97854c773bd.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad4dcc809ffd97854c773bd",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad4dcc809ffd97854c773bd",
-                  "name": "El Gouna FC vs Smouha SC",
-                  "streams": [
-                    {
-                      "id": "6ad4dcc809ffd97854c773bd_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773bd.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773bd_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773bd.json"
-                      }
-                    },
-                    {
-                      "id": "6ad4dcc809ffd97854c773bd_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad4dcc809ffd97854c773bd.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ad4dcc809ffd97854c773bb",
           "name": "Al-Fayha vs Al-Ahli Jeddah",
           "labels": [
@@ -902,7 +634,7 @@
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad4dcfd09ffd97854c77edf.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/HFB/Thump/nguonphat5.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -1884,30 +1616,30 @@
           ]
         },
         {
-          "id": "6ad5eb2d09ffd97854e611bf",
-          "name": "Guadalajara W vs Necaxa W",
+          "id": "6ad5eb2d09ffd97854e611be",
+          "name": "Tigres UANL vs Leon",
           "labels": [
             {
               "position": "bottom-center",
-              "text": "10h07",
+              "text": "10h00",
               "color": "#FF0000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Guadalajara W",
+              "text": "Tigres UANL",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "Necaxa W",
+              "text": "Leon",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad5eb2d09ffd97854e611bf.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad5eb2d09ffd97854e611be.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -1916,32 +1648,32 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6ad5eb2d09ffd97854e611bf",
+              "id": "src-6ad5eb2d09ffd97854e611be",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6ad5eb2d09ffd97854e611bf",
-                  "name": "Guadalajara W vs Necaxa W",
+                  "id": "c-6ad5eb2d09ffd97854e611be",
+                  "name": "Tigres UANL vs Leon",
                   "streams": [
                     {
-                      "id": "6ad5eb2d09ffd97854e611bf_0",
+                      "id": "6ad5eb2d09ffd97854e611be_0",
                       "name": "Chuối Kem - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611bf.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611be.json"
                       }
                     },
                     {
-                      "id": "6ad5eb2d09ffd97854e611bf_1",
+                      "id": "6ad5eb2d09ffd97854e611be_1",
                       "name": "Chuối Kem - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611bf.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611be.json"
                       }
                     },
                     {
-                      "id": "6ad5eb2d09ffd97854e611bf_2",
+                      "id": "6ad5eb2d09ffd97854e611be_2",
                       "name": "Chuối Kem - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611bf.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad5eb2d09ffd97854e611be.json"
                       }
                     }
                   ]
