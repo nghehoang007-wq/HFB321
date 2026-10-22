@@ -15,408 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ad95a7509ffd978544660e3",
-          "name": "Juventus vs Rennes",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "23h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Juventus",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Rennes",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660e3.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660e3",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660e3",
-                  "name": "Juventus vs Rennes",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660e3_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e3.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e3_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e3.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e3_2",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e3.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad95a7509ffd978544660e1",
-          "name": "Besiktas vs Crystal Palace",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Besiktas",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Crystal Pala..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660e1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660e1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660e1",
-                  "name": "Besiktas vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660e1_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e1.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e1_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e1.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e1_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad95a7509ffd978544660e2",
-          "name": "Bournemouth vs AC Milan",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Bournemouth",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "AC Milan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660e2.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660e2",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660e2",
-                  "name": "Bournemouth vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660e2_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e2.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e2_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e2.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e2_2",
-                      "name": "Chuối Già - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e2.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad95a7509ffd978544660e5",
-          "name": "Omonia Nicosia vs Benfica",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Omonia Nicos..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Benfica",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660e5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660e5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660e5",
-                  "name": "Omonia Nicosia vs Benfica",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660e5_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e5.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e5_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e5.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660e5_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660e5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad95a7509ffd978544660ea",
-          "name": "Monaco vs SC Freiburg",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Monaco",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SC Freiburg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660ea.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660ea",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660ea",
-                  "name": "Monaco vs SC Freiburg",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660ea_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660ea.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660ea_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660ea.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660ea_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660ea.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ad95a7509ffd978544660d8",
-          "name": "Fort Lauderdale United W vs Carolina Ascent W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Fort Lauderd..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Carolina Asc..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ad95a7509ffd978544660d8.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ad95a7509ffd978544660d8",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ad95a7509ffd978544660d8",
-                  "name": "Fort Lauderdale United W vs Carolina Ascent W",
-                  "streams": [
-                    {
-                      "id": "6ad95a7509ffd978544660d8_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660d8.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660d8_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660d8.json"
-                      }
-                    },
-                    {
-                      "id": "6ad95a7509ffd978544660d8_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660d8.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ad95a7509ffd978544660eb",
           "name": "Flamengo vs Estudiantes L.P.",
           "labels": [
@@ -475,6 +73,73 @@
                       "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ad95a7509ffd978544660eb.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ada73de09ffd9785464c954",
+          "name": "Atletico Nacional vs Deportivo Pasto",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "08h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Atletico Nac..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Deportivo Pa..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ada73de09ffd9785464c954.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ada73de09ffd9785464c954",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ada73de09ffd9785464c954",
+                  "name": "Atletico Nacional vs Deportivo Pasto",
+                  "streams": [
+                    {
+                      "id": "6ada73de09ffd9785464c954_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ada73de09ffd9785464c954.json"
+                      }
+                    },
+                    {
+                      "id": "6ada73de09ffd9785464c954_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ada73de09ffd9785464c954.json"
+                      }
+                    },
+                    {
+                      "id": "6ada73de09ffd9785464c954_2",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ada73de09ffd9785464c954.json"
                       }
                     }
                   ]
