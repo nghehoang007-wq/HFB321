@@ -15,140 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6addd5de09ffd97854d1d1cd",
-          "name": "Lochin vs FarDu",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "17h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lochin",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "FarDu",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6addd5de09ffd97854d1d1cd.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6addd5de09ffd97854d1d1cd",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6addd5de09ffd97854d1d1cd",
-                  "name": "Lochin vs FarDu",
-                  "streams": [
-                    {
-                      "id": "6addd5de09ffd97854d1d1cd_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1cd.json"
-                      }
-                    },
-                    {
-                      "id": "6addd5de09ffd97854d1d1cd_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1cd.json"
-                      }
-                    },
-                    {
-                      "id": "6addd5de09ffd97854d1d1cd_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1cd.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6addd5de09ffd97854d1d1d1",
-          "name": "Geylang International vs Hougang United",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "18h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Geylang Inte..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hougang Unit..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6addd5de09ffd97854d1d1d1.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6addd5de09ffd97854d1d1d1",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6addd5de09ffd97854d1d1d1",
-                  "name": "Geylang International vs Hougang United",
-                  "streams": [
-                    {
-                      "id": "6addd5de09ffd97854d1d1d1_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1d1.json"
-                      }
-                    },
-                    {
-                      "id": "6addd5de09ffd97854d1d1d1_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1d1.json"
-                      }
-                    },
-                    {
-                      "id": "6addd5de09ffd97854d1d1d1_2",
-                      "name": "Chuối Già - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd5de09ffd97854d1d1d1.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6addd5de09ffd97854d1d1d3",
           "name": "Persija vs Persik Kediri",
           "labels": [
@@ -676,6 +542,73 @@
                       "name": "Chuối Sấy - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6addd960d1ce9547321463a5.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6adf3e4009ffd9785400cc4e",
+          "name": "Paris Saint Germain vs Lyon",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "02h30",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Paris Saint ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Lyon",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6adf3e4009ffd9785400cc4e.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6adf3e4009ffd9785400cc4e",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6adf3e4009ffd9785400cc4e",
+                  "name": "Paris Saint Germain vs Lyon",
+                  "streams": [
+                    {
+                      "id": "6adf3e4009ffd9785400cc4e_0",
+                      "name": "Chuối Già - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6adf3e4009ffd9785400cc4e.json"
+                      }
+                    },
+                    {
+                      "id": "6adf3e4009ffd9785400cc4e_1",
+                      "name": "Chuối Già - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6adf3e4009ffd9785400cc4e.json"
+                      }
+                    },
+                    {
+                      "id": "6adf3e4009ffd9785400cc4e_2",
+                      "name": "Chuối Già - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6adf3e4009ffd9785400cc4e.json"
                       }
                     }
                   ]
