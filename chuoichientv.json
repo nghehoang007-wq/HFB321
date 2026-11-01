@@ -15,207 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6ae489ff09ffd97854ea1491",
-          "name": "AC Milan vs Inter",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "AC Milan",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Inter",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ae489ff09ffd97854ea1491.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ae489ff09ffd97854ea1491",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ae489ff09ffd97854ea1491",
-                  "name": "AC Milan vs Inter",
-                  "streams": [
-                    {
-                      "id": "6ae489ff09ffd97854ea1491_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1491.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1491_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1491.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1491_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1491.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ae489ff09ffd97854ea1493",
-          "name": "Aston Villa vs Fulham",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Aston Villa",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Fulham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ae489ff09ffd97854ea1493.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ae489ff09ffd97854ea1493",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ae489ff09ffd97854ea1493",
-                  "name": "Aston Villa vs Fulham",
-                  "streams": [
-                    {
-                      "id": "6ae489ff09ffd97854ea1493_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1493.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1493_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1493.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1493_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1493.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ae489ff09ffd97854ea1499",
-          "name": "Barcelona vs Alaves",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "03h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Barca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Alaves",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ae489ff09ffd97854ea1499.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ae489ff09ffd97854ea1499",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ae489ff09ffd97854ea1499",
-                  "name": "Barcelona vs Alaves",
-                  "streams": [
-                    {
-                      "id": "6ae489ff09ffd97854ea1499_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1499.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1499_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1499.json"
-                      }
-                    },
-                    {
-                      "id": "6ae489ff09ffd97854ea1499_2",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae489ff09ffd97854ea1499.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6ae489ff09ffd97854ea1490",
           "name": "Llaneros vs Junior",
           "labels": [
@@ -551,6 +350,73 @@
           ]
         },
         {
+          "id": "6ae681ff09ffd9785456dee6",
+          "name": "Bình Minh Sài Gòn vs Hung Yen",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "17h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Bình Minh Sà..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Hung Yen",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ae681ff09ffd9785456dee6.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6ae681ff09ffd9785456dee6",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6ae681ff09ffd9785456dee6",
+                  "name": "Bình Minh Sài Gòn vs Hung Yen",
+                  "streams": [
+                    {
+                      "id": "6ae681ff09ffd9785456dee6_0",
+                      "name": "Chuối Tây - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae681ff09ffd9785456dee6.json"
+                      }
+                    },
+                    {
+                      "id": "6ae681ff09ffd9785456dee6_1",
+                      "name": "Chuối Tây - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae681ff09ffd9785456dee6.json"
+                      }
+                    },
+                    {
+                      "id": "6ae681ff09ffd9785456dee6_2",
+                      "name": "Chuối Tây - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae681ff09ffd9785456dee6.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "6ae5aec909ffd9785425e337",
           "name": "TP. Hồ Chí Minh vs Da Nang",
           "labels": [
@@ -592,21 +458,21 @@
                   "streams": [
                     {
                       "id": "6ae5aec909ffd9785425e337_0",
-                      "name": "Chuối Sấy - HD1",
+                      "name": "Chuối Già - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e337.json"
                       }
                     },
                     {
                       "id": "6ae5aec909ffd9785425e337_1",
-                      "name": "Chuối Sấy - HD2",
+                      "name": "Chuối Già - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e337.json"
                       }
                     },
                     {
                       "id": "6ae5aec909ffd9785425e337_2",
-                      "name": "Chuối Sấy - FHD",
+                      "name": "Chuối Già - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e337.json"
                       }
@@ -659,90 +525,23 @@
                   "streams": [
                     {
                       "id": "6ae5aec909ffd9785425e335_0",
-                      "name": "Chuối Lá - HD1",
+                      "name": "Chuối Sấy - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e335.json"
                       }
                     },
                     {
                       "id": "6ae5aec909ffd9785425e335_1",
-                      "name": "Chuối Lá - HD2",
+                      "name": "Chuối Sấy - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e335.json"
                       }
                     },
                     {
                       "id": "6ae5aec909ffd9785425e335_2",
-                      "name": "Chuối Lá - FHD",
+                      "name": "Chuối Sấy - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5aec909ffd9785425e335.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6ae5bbc12df952d4131ec48c",
-          "name": "Hà Nội vs Ninh Binh",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hà Nội",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Ninh Binh",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6ae5bbc12df952d4131ec48c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6ae5bbc12df952d4131ec48c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6ae5bbc12df952d4131ec48c",
-                  "name": "Hà Nội vs Ninh Binh",
-                  "streams": [
-                    {
-                      "id": "6ae5bbc12df952d4131ec48c_0",
-                      "name": "Chuối Già - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5bbc12df952d4131ec48c.json"
-                      }
-                    },
-                    {
-                      "id": "6ae5bbc12df952d4131ec48c_1",
-                      "name": "Chuối Già - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5bbc12df952d4131ec48c.json"
-                      }
-                    },
-                    {
-                      "id": "6ae5bbc12df952d4131ec48c_2",
-                      "name": "Chuối Già - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5bbc12df952d4131ec48c.json"
                       }
                     }
                   ]
@@ -793,21 +592,21 @@
                   "streams": [
                     {
                       "id": "6ae5afd909ffd9785426168f_0",
-                      "name": "Chuối Tây - HD1",
+                      "name": "Chuối Lá - HD1",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5afd909ffd9785426168f.json"
                       }
                     },
                     {
                       "id": "6ae5afd909ffd9785426168f_1",
-                      "name": "Chuối Tây - HD2",
+                      "name": "Chuối Lá - HD2",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5afd909ffd9785426168f.json"
                       }
                     },
                     {
                       "id": "6ae5afd909ffd9785426168f_2",
-                      "name": "Chuối Tây - FHD",
+                      "name": "Chuối Lá - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6ae5afd909ffd9785426168f.json"
                       }
