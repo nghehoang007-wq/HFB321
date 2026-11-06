@@ -15,207 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aeae55409ffd978542a997c",
-          "name": "Cruzeiro vs Bahia",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Cruzeiro",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bahia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aeae55409ffd978542a997c.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aeae55409ffd978542a997c",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aeae55409ffd978542a997c",
-                  "name": "Cruzeiro vs Bahia",
-                  "streams": [
-                    {
-                      "id": "6aeae55409ffd978542a997c_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997c.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a997c_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997c.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a997c_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997c.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aeae55409ffd978542a997f",
-          "name": "Cancun FC vs Piratas FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h06",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Cancun FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Piratas FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aeae55409ffd978542a997f.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aeae55409ffd978542a997f",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aeae55409ffd978542a997f",
-                  "name": "Cancun FC vs Piratas FC",
-                  "streams": [
-                    {
-                      "id": "6aeae55409ffd978542a997f_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997f.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a997f_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997f.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a997f_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a997f.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aeae55409ffd978542a9980",
-          "name": "Santos Laguna W vs Tijuana W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "10h10",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Santos Lagun..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Tijuana W",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aeae55409ffd978542a9980.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aeae55409ffd978542a9980",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aeae55409ffd978542a9980",
-                  "name": "Santos Laguna W vs Tijuana W",
-                  "streams": [
-                    {
-                      "id": "6aeae55409ffd978542a9980_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a9980.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a9980_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a9980.json"
-                      }
-                    },
-                    {
-                      "id": "6aeae55409ffd978542a9980_2",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aeae55409ffd978542a9980.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aec635109ffd978545a6d7f",
           "name": "PSIM Yogyakarta vs Dewa United",
           "labels": [
@@ -551,73 +350,6 @@
           ]
         },
         {
-          "id": "6aec635109ffd978545a6d7d",
-          "name": "Lamphun Warrior vs Sukhothai FC",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Lamphun Warr..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Sukhothai FC",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aec635109ffd978545a6d7d.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aec635109ffd978545a6d7d",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aec635109ffd978545a6d7d",
-                  "name": "Lamphun Warrior vs Sukhothai FC",
-                  "streams": [
-                    {
-                      "id": "6aec635109ffd978545a6d7d_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aec635109ffd978545a6d7d.json"
-                      }
-                    },
-                    {
-                      "id": "6aec635109ffd978545a6d7d_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aec635109ffd978545a6d7d.json"
-                      }
-                    },
-                    {
-                      "id": "6aec635109ffd978545a6d7d_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aec635109ffd978545a6d7d.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aec635109ffd978545a6d80",
           "name": "Persepam Madura Utd vs Arema FC",
           "labels": [
@@ -743,6 +475,73 @@
                       "name": "Chuối Lá - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aec635109ffd978545a6d7e.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6aed8c9c09ffd978547a5f26",
+          "name": "Septemvri Sofia vs Lokomotiv Sofia",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "22h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Septemvri So..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Lokomotiv So..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aed8c9c09ffd978547a5f26.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6aed8c9c09ffd978547a5f26",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6aed8c9c09ffd978547a5f26",
+                  "name": "Septemvri Sofia vs Lokomotiv Sofia",
+                  "streams": [
+                    {
+                      "id": "6aed8c9c09ffd978547a5f26_0",
+                      "name": "Chuối Nhỏ - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aed8c9c09ffd978547a5f26.json"
+                      }
+                    },
+                    {
+                      "id": "6aed8c9c09ffd978547a5f26_1",
+                      "name": "Chuối Nhỏ - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aed8c9c09ffd978547a5f26.json"
+                      }
+                    },
+                    {
+                      "id": "6aed8c9c09ffd978547a5f26_2",
+                      "name": "Chuối Nhỏ - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aed8c9c09ffd978547a5f26.json"
                       }
                     }
                   ]
