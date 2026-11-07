@@ -15,408 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6aedc54309ffd9785480bffa",
-          "name": "Công An Hà Nội vs TP. Hồ Chí Minh",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h15",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Công An Hà N..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "TP. Hồ Chí M..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bffa.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bffa",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bffa",
-                  "name": "Công An Hà Nội vs TP. Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bffa_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bffa.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bffa_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bffa.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bffa_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bffa.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aedc54309ffd9785480bff0",
-          "name": "Leeds vs Tottenham",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "19h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Leeds",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Tottenham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bff0.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bff0",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bff0",
-                  "name": "Leeds vs Tottenham",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bff0_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff0.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff0_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff0.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff0_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff0.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aedc54309ffd9785480bff4",
-          "name": "Borussia Dortmund vs SV Elversberg",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Borussia Dor..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "SV Elversberg",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bff4.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bff4",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bff4",
-                  "name": "Borussia Dortmund vs SV Elversberg",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bff4_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff4.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff4_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff4.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff4_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff4.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aedc54309ffd9785480bff5",
-          "name": "FSV Mainz 05 vs Bayern München",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "21h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "FSV Mainz 05",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Bayern Münch..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bff5.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bff5",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bff5",
-                  "name": "FSV Mainz 05 vs Bayern München",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bff5_0",
-                      "name": "Chuối Lá - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff5.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff5_1",
-                      "name": "Chuối Lá - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff5.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bff5_2",
-                      "name": "Chuối Lá - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff5.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aedc54309ffd9785480bfee",
-          "name": "Arsenal vs Hull City",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Arsenal",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Hull City",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bfee.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bfee",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bfee",
-                  "name": "Arsenal vs Hull City",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bfee_0",
-                      "name": "Chuối Nhỏ - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfee.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfee_1",
-                      "name": "Chuối Nhỏ - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfee.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfee_2",
-                      "name": "Chuối Nhỏ - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfee.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6aedc54309ffd9785480bfef",
-          "name": "Fulham vs Newcastle",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "22h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Fulham",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Newcastle",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bfef.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bfef",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bfef",
-                  "name": "Fulham vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bfef_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfef.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfef_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfef.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfef_2",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfef.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aedc54309ffd9785480bfeb",
           "name": "Parma vs Bologna",
           "labels": [
@@ -685,73 +283,6 @@
           ]
         },
         {
-          "id": "6aedc54309ffd9785480bfed",
-          "name": "Paris Saint Germain vs Estac Troyes",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "02h45",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Paris Saint ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Estac Troyes",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bfed.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6aedc54309ffd9785480bfed",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6aedc54309ffd9785480bfed",
-                  "name": "Paris Saint Germain vs Estac Troyes",
-                  "streams": [
-                    {
-                      "id": "6aedc54309ffd9785480bfed_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfed_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
-                      }
-                    },
-                    {
-                      "id": "6aedc54309ffd9785480bfed_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6aedc54309ffd9785480bff3",
           "name": "Valencia vs Real Madrid",
           "labels": [
@@ -810,6 +341,73 @@
                       "name": "Chuối Lá - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bff3.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6aedc54309ffd9785480bfed",
+          "name": "Paris Saint Germain vs Estac Troyes",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "03h05",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Paris Saint ..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Estac Troyes",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6aedc54309ffd9785480bfed.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6aedc54309ffd9785480bfed",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6aedc54309ffd9785480bfed",
+                  "name": "Paris Saint Germain vs Estac Troyes",
+                  "streams": [
+                    {
+                      "id": "6aedc54309ffd9785480bfed_0",
+                      "name": "Trốc Tru - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
+                      }
+                    },
+                    {
+                      "id": "6aedc54309ffd9785480bfed_1",
+                      "name": "Trốc Tru - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
+                      }
+                    },
+                    {
+                      "id": "6aedc54309ffd9785480bfed_2",
+                      "name": "Trốc Tru - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6aedc54309ffd9785480bfed.json"
                       }
                     }
                   ]
