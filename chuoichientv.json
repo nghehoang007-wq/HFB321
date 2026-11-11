@@ -15,140 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6af26b1609ffd978541593cb",
-          "name": "Inter Bogotá vs America de Cali",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Inter Bogotá",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "America de C..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af26b1609ffd978541593cb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af26b1609ffd978541593cb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af26b1609ffd978541593cb",
-                  "name": "Inter Bogotá vs America de Cali",
-                  "streams": [
-                    {
-                      "id": "6af26b1609ffd978541593cb_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cb.json"
-                      }
-                    },
-                    {
-                      "id": "6af26b1609ffd978541593cb_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cb.json"
-                      }
-                    },
-                    {
-                      "id": "6af26b1609ffd978541593cb_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af26b1609ffd978541593cc",
-          "name": "Once Caldas vs Atletico Nacional",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h30",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Once Caldas",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Atletico Nac..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af26b1609ffd978541593cc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af26b1609ffd978541593cc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af26b1609ffd978541593cc",
-                  "name": "Once Caldas vs Atletico Nacional",
-                  "streams": [
-                    {
-                      "id": "6af26b1609ffd978541593cc_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cc.json"
-                      }
-                    },
-                    {
-                      "id": "6af26b1609ffd978541593cc_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cc.json"
-                      }
-                    },
-                    {
-                      "id": "6af26b1609ffd978541593cc_2",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af26b1609ffd978541593cc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6af33eb409ffd978542be115",
           "name": "Guam U17 vs Palestine U17",
           "labels": [
@@ -1145,6 +1011,140 @@
                       "name": "Chuối Chao - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af2f97909ffd9785423ee92.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6af2f97909ffd9785423ee94",
+          "name": "Real Soacha vs Real Cartagena",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "06h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Real Soacha",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Real Cartage..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af2f97909ffd9785423ee94.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6af2f97909ffd9785423ee94",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6af2f97909ffd9785423ee94",
+                  "name": "Real Soacha vs Real Cartagena",
+                  "streams": [
+                    {
+                      "id": "6af2f97909ffd9785423ee94_0",
+                      "name": "Chuối Lửa - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af2f97909ffd9785423ee94.json"
+                      }
+                    },
+                    {
+                      "id": "6af2f97909ffd9785423ee94_1",
+                      "name": "Chuối Lửa - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af2f97909ffd9785423ee94.json"
+                      }
+                    },
+                    {
+                      "id": "6af2f97909ffd9785423ee94_2",
+                      "name": "Chuối Lửa - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af2f97909ffd9785423ee94.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6af3c46c09ffd978543a1e3c",
+          "name": "Quindio vs Tigres FC",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "08h10",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Quindio",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Tigres FC",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af3c46c09ffd978543a1e3c.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6af3c46c09ffd978543a1e3c",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6af3c46c09ffd978543a1e3c",
+                  "name": "Quindio vs Tigres FC",
+                  "streams": [
+                    {
+                      "id": "6af3c46c09ffd978543a1e3c_0",
+                      "name": "Chuối Kem - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af3c46c09ffd978543a1e3c.json"
+                      }
+                    },
+                    {
+                      "id": "6af3c46c09ffd978543a1e3c_1",
+                      "name": "Chuối Kem - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af3c46c09ffd978543a1e3c.json"
+                      }
+                    },
+                    {
+                      "id": "6af3c46c09ffd978543a1e3c_2",
+                      "name": "Chuối Kem - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af3c46c09ffd978543a1e3c.json"
                       }
                     }
                   ]
