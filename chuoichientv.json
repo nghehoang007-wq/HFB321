@@ -15,408 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6af7680309ffd97854a09afc",
-          "name": "Colombia vs Chile",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "07h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Colombia",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Chile",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af7680309ffd97854a09afc.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af7680309ffd97854a09afc",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af7680309ffd97854a09afc",
-                  "name": "Colombia vs Chile",
-                  "streams": [
-                    {
-                      "id": "6af7680309ffd97854a09afc_0",
-                      "name": "Trốc Tru - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7680309ffd97854a09afc.json"
-                      }
-                    },
-                    {
-                      "id": "6af7680309ffd97854a09afc_1",
-                      "name": "Trốc Tru - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7680309ffd97854a09afc.json"
-                      }
-                    },
-                    {
-                      "id": "6af7680309ffd97854a09afc_2",
-                      "name": "Trốc Tru - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7680309ffd97854a09afc.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af575a609ffd9785468a095",
-          "name": "Guatemala vs Canada",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "09h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Guatemala",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Canada",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af575a609ffd9785468a095.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af575a609ffd9785468a095",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af575a609ffd9785468a095",
-                  "name": "Guatemala vs Canada",
-                  "streams": [
-                    {
-                      "id": "6af575a609ffd9785468a095_0",
-                      "name": "Chuối Tây - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af575a609ffd9785468a095.json"
-                      }
-                    },
-                    {
-                      "id": "6af575a609ffd9785468a095_1",
-                      "name": "Chuối Tây - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af575a609ffd9785468a095.json"
-                      }
-                    },
-                    {
-                      "id": "6af575a609ffd9785468a095_2",
-                      "name": "Chuối Tây - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af575a609ffd9785468a095.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af666f909ffd978548466eb",
-          "name": "Melbourne Victory W vs Adelaide United W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Melbourne Vi..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Adelaide Uni..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af666f909ffd978548466eb.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af666f909ffd978548466eb",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af666f909ffd978548466eb",
-                  "name": "Melbourne Victory W vs Adelaide United W",
-                  "streams": [
-                    {
-                      "id": "6af666f909ffd978548466eb_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af666f909ffd978548466eb.json"
-                      }
-                    },
-                    {
-                      "id": "6af666f909ffd978548466eb_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af666f909ffd978548466eb.json"
-                      }
-                    },
-                    {
-                      "id": "6af666f909ffd978548466eb_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af666f909ffd978548466eb.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af6671e37860d5ebcaca864",
-          "name": "Hisamitsu Springs W vs PFU Blue Cats W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "11h05",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Hisamitsu Sp..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "PFU Blue Cat..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af6671e37860d5ebcaca864.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af6671e37860d5ebcaca864",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af6671e37860d5ebcaca864",
-                  "name": "Hisamitsu Springs W vs PFU Blue Cats W",
-                  "streams": [
-                    {
-                      "id": "6af6671e37860d5ebcaca864_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6671e37860d5ebcaca864.json"
-                      }
-                    },
-                    {
-                      "id": "6af6671e37860d5ebcaca864_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6671e37860d5ebcaca864.json"
-                      }
-                    },
-                    {
-                      "id": "6af6671e37860d5ebcaca864_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6671e37860d5ebcaca864.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af6673ee464e461e1cb59b9",
-          "name": "Okayama Seagulls W vs NEC Red Rockets W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "12h05",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Okayama Seag..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "NEC Red Rock..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af6673ee464e461e1cb59b9.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af6673ee464e461e1cb59b9",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af6673ee464e461e1cb59b9",
-                  "name": "Okayama Seagulls W vs NEC Red Rockets W",
-                  "streams": [
-                    {
-                      "id": "6af6673ee464e461e1cb59b9_0",
-                      "name": "Chuối Lửa - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6673ee464e461e1cb59b9.json"
-                      }
-                    },
-                    {
-                      "id": "6af6673ee464e461e1cb59b9_1",
-                      "name": "Chuối Lửa - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6673ee464e461e1cb59b9.json"
-                      }
-                    },
-                    {
-                      "id": "6af6673ee464e461e1cb59b9_2",
-                      "name": "Chuối Lửa - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6673ee464e461e1cb59b9.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6af6ca7409ffd978548e8a01",
-          "name": "Central Coast Mariners W vs Perth Glory FC W",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "13h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Central Coas..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Perth Glory ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af6ca7409ffd978548e8a01.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6af6ca7409ffd978548e8a01",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6af6ca7409ffd978548e8a01",
-                  "name": "Central Coast Mariners W vs Perth Glory FC W",
-                  "streams": [
-                    {
-                      "id": "6af6ca7409ffd978548e8a01_0",
-                      "name": "Chuối Chao - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6ca7409ffd978548e8a01.json"
-                      }
-                    },
-                    {
-                      "id": "6af6ca7409ffd978548e8a01_1",
-                      "name": "Chuối Chao - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6ca7409ffd978548e8a01.json"
-                      }
-                    },
-                    {
-                      "id": "6af6ca7409ffd978548e8a01_2",
-                      "name": "Chuối Chao - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af6ca7409ffd978548e8a01.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6af6ca7409ffd978548e8a04",
           "name": "India U17 vs Guam U17",
           "labels": [
@@ -618,8 +216,8 @@
           ]
         },
         {
-          "id": "6af7b64e353ed2a8b75ddd6b",
-          "name": "Việt Nam vs South Korea",
+          "id": "6af81b2e09ffd97854b6107c",
+          "name": "Indonesia U17 vs Cambodia U17",
           "labels": [
             {
               "position": "bottom-center",
@@ -629,19 +227,19 @@
             },
             {
               "position": "top-left",
-              "text": "Việt Nam",
+              "text": "Indonesia U17",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-right",
-              "text": "South Korea",
+              "text": "Cambodia U17",
               "color": "#80000000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af7b64e353ed2a8b75ddd6b.png",
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6af81b2e09ffd97854b6107c.png",
             "height": 360,
             "width": 640,
             "display": "cover"
@@ -650,32 +248,32 @@
           "display": "thumbnail-only",
           "sources": [
             {
-              "id": "src-6af7b64e353ed2a8b75ddd6b",
+              "id": "src-6af81b2e09ffd97854b6107c",
               "name": "Chuối Chiên",
               "contents": [
                 {
-                  "id": "c-6af7b64e353ed2a8b75ddd6b",
-                  "name": "Việt Nam vs South Korea",
+                  "id": "c-6af81b2e09ffd97854b6107c",
+                  "name": "Indonesia U17 vs Cambodia U17",
                   "streams": [
                     {
-                      "id": "6af7b64e353ed2a8b75ddd6b_0",
+                      "id": "6af81b2e09ffd97854b6107c_0",
                       "name": "Chuối Tây - HD1",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7b64e353ed2a8b75ddd6b.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af81b2e09ffd97854b6107c.json"
                       }
                     },
                     {
-                      "id": "6af7b64e353ed2a8b75ddd6b_1",
+                      "id": "6af81b2e09ffd97854b6107c_1",
                       "name": "Chuối Tây - HD2",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7b64e353ed2a8b75ddd6b.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af81b2e09ffd97854b6107c.json"
                       }
                     },
                     {
-                      "id": "6af7b64e353ed2a8b75ddd6b_2",
+                      "id": "6af81b2e09ffd97854b6107c_2",
                       "name": "Chuối Tây - FHD",
                       "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af7b64e353ed2a8b75ddd6b.json"
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6af81b2e09ffd97854b6107c.json"
                       }
                     }
                   ]
