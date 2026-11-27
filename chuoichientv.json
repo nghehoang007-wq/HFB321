@@ -15,140 +15,6 @@
       "grid_number": 2,
       "channels": [
         {
-          "id": "6b06af8309ffd97854847619",
-          "name": "Sao Paulo vs remo",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "06h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sao Paulo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "remo",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6b06af8309ffd97854847619.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6b06af8309ffd97854847619",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6b06af8309ffd97854847619",
-                  "name": "Sao Paulo vs remo",
-                  "streams": [
-                    {
-                      "id": "6b06af8309ffd97854847619_0",
-                      "name": "Chuối Sấy - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06af8309ffd97854847619.json"
-                      }
-                    },
-                    {
-                      "id": "6b06af8309ffd97854847619_1",
-                      "name": "Chuối Sấy - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06af8309ffd97854847619.json"
-                      }
-                    },
-                    {
-                      "id": "6b06af8309ffd97854847619_2",
-                      "name": "Chuối Sấy - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06af8309ffd97854847619.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "6b088dd409ffd97854c3f469",
-          "name": "Pachuca vs Guadalajara Chivas",
-          "labels": [
-            {
-              "position": "bottom-center",
-              "text": "08h00",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Pachuca",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-right",
-              "text": "Guadalajara ..",
-              "color": "#80000000",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6b088dd409ffd97854c3f469.png",
-            "height": 360,
-            "width": 640,
-            "display": "cover"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "src-6b088dd409ffd97854c3f469",
-              "name": "Chuối Chiên",
-              "contents": [
-                {
-                  "id": "c-6b088dd409ffd97854c3f469",
-                  "name": "Pachuca vs Guadalajara Chivas",
-                  "streams": [
-                    {
-                      "id": "6b088dd409ffd97854c3f469_0",
-                      "name": "Chuối Kem - HD1",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b088dd409ffd97854c3f469.json"
-                      }
-                    },
-                    {
-                      "id": "6b088dd409ffd97854c3f469_1",
-                      "name": "Chuối Kem - HD2",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b088dd409ffd97854c3f469.json"
-                      }
-                    },
-                    {
-                      "id": "6b088dd409ffd97854c3f469_2",
-                      "name": "Chuối Kem - FHD",
-                      "remote_data": {
-                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b088dd409ffd97854c3f469.json"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "6b088dd409ffd97854c3f468",
           "name": "Leon vs Cruz Azul",
           "labels": [
@@ -1078,6 +944,73 @@
                       "name": "Chuối Kem - FHD",
                       "remote_data": {
                         "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b07419909ffd97854969924.json"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6b06b25a09ffd9785484c65a",
+          "name": "Real Salt Lake vs Vancouver Whitecaps",
+          "labels": [
+            {
+              "position": "bottom-center",
+              "text": "10h00",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "Real Salt La..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-right",
+              "text": "Vancouver Wh..",
+              "color": "#80000000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/thumbs/6b06b25a09ffd9785484c65a.png",
+            "height": 360,
+            "width": 640,
+            "display": "cover"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "src-6b06b25a09ffd9785484c65a",
+              "name": "Chuối Chiên",
+              "contents": [
+                {
+                  "id": "c-6b06b25a09ffd9785484c65a",
+                  "name": "Real Salt Lake vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "6b06b25a09ffd9785484c65a_0",
+                      "name": "Chuối Già - HD1",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06b25a09ffd9785484c65a.json"
+                      }
+                    },
+                    {
+                      "id": "6b06b25a09ffd9785484c65a_1",
+                      "name": "Chuối Già - HD2",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06b25a09ffd9785484c65a.json"
+                      }
+                    },
+                    {
+                      "id": "6b06b25a09ffd9785484c65a_2",
+                      "name": "Chuối Già - FHD",
+                      "remote_data": {
+                        "url": "https://raw.githubusercontent.com/nghehoang007-wq/HFB321/main/stream/6b06b25a09ffd9785484c65a.json"
                       }
                     }
                   ]
